@@ -1393,24 +1393,718 @@ let entrees = [
     },
 ]
 
-
-//Special cases:
-///Crudités (not all veggies)
-///Grilled Vegetables (not all veggies)
-///Sushi (not salmon)
-
-/*
-
-{
-        "name": "",
-        "ingredientOne" : "",
+//Desserts
+let desserts = [
+    {
+        "name": "'My Hero' Cookie",
+        "ingredientOne" : "Wheat",
+        "ingredientTwo" : "Butter",
+        "ingredientThree" : "Any sweet",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 294, 
+        "energy": 679
+    },
+    {
+        "name": "Apple Pie",
+        "ingredientOne" : "Apple",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Butter",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 303, 
+        "energy": 1137
+    },
+    {
+        "name": "Apple Sorbet",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Apple",
+        "ingredientThree" : "Sugarcane",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 271, 
+        "energy": 1077
+    },
+    {
+        "name": "Aurora's Cake",
+        "ingredientOne" : "Wheat",
+        "ingredientTwo" : "Sugarcane",
+        "ingredientThree" : "Egg",
+        "ingredientFour" : "Any fruit",
+        "ingredientFive" : "Milk",
+        "stars" : 5,
+        "sellPrice" : 786, 
+        "energy": 2030
+    },
+    {
+        "name": "Banana Ice Cream",
+        "ingredientOne" : "Ice Slush",
+        "ingredientTwo" : "Banana",
+        "ingredientThree" : "Milk",
+        "ingredientFour" : "Sugarcane",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 641, 
+        "energy": 1884
+    },
+    {
+        "name": "Banana Pie",
+        "ingredientOne" : "Banana",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Butter",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 308, 
+        "energy": 1227
+    },
+    {
+        "name": "Banana Split",
+        "ingredientOne" : "Ice Slush",
+        "ingredientTwo" : "Banana",
+        "ingredientThree" : "Milk",
+        "ingredientFour" : "Sugarcane",
+        "ingredientFive" : "Any sweet",
+        "stars" : 5,
+        "sellPrice" : 714, 
+        "energy": 2074
+    },
+    {
+        "name": "Beignets",
+        "ingredientOne" : "Canola",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Egg",
+        "ingredientFour" : "Sugarcane",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 524, 
+        "energy": 912
+    },
+    {
+        "name": "Berry Salad",
+        "ingredientOne" : "Raspberry",
+        "ingredientTwo" : "Blueberry",
+        "ingredientThree" : "Gooseberry",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 139, 
+        "energy": 2210
+    },
+    {
+        "name": "Birthday Cake",
+        "ingredientOne" : "Cocoa Bean",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Sugarcane",
+        "ingredientFour" : "Egg",
+        "ingredientFive" : "Butter",
+        "stars" : 5,
+        "sellPrice" : 749, 
+        "energy": 2310
+    },
+    {
+        "name": "Biscuits",
+        "ingredientOne" : "Wheat",
+        "ingredientTwo" : "Sugarcane",
+        "ingredientThree" : "Butter",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 294, 
+        "energy": 679
+    },
+    {
+        "name": "Blueberry Pie",
+        "ingredientOne" : "Blueberry",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Butter",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 308, 
+        "energy": 1227
+    },
+    {
+        "name": "Boba Tea",
+        "ingredientOne" : "Sugarcane",
+        "ingredientTwo" : "Milk",
+        "ingredientThree" : "",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 2,
+        "sellPrice" : 323, 
+        "energy": 714
+    },
+    {
+        "name": "Candy",
+        "ingredientOne" : "Any sweet",
         "ingredientTwo" : "",
         "ingredientThree" : "",
         "ingredientFour" : "",
         "ingredientFive" : "",
         "stars" : 1,
-        "sellPrice" : 1, 
-        "energy": 1
+        "sellPrice" : 22, 
+        "energy": 123
+    },
+    {
+        "name": "Caramel Apples",
+        "ingredientOne" : "Sugarcane",
+        "ingredientTwo" : "Apple",
+        "ingredientThree" : "",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 2,
+        "sellPrice" : 56, 
+        "energy": 638
+    },
+    {
+        "name": "Carrot Cake",
+        "ingredientOne" : "Carrot",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Egg",
+        "ingredientFour" : "Sugarcane",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 427, 
+        "energy": 908
+    },
+    {
+        "name": "Cheesecake",
+        "ingredientOne" : "Cheese",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Sugarcane",
+        "ingredientFour" : "Any fruit",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 332, 
+        "energy": 1161
+    },
+    {
+        "name": "Cherry Pie",
+        "ingredientOne" : "Cherry",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Butter",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 326, 
+        "energy": 1497
+    },
+    {
+        "name": "Chocolate Chip Cookies",
+        "ingredientOne" : "Cocoa Bean",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Sugarcane",
+        "ingredientFour" : "Butter",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 373, 
+        "energy": 1569
+    },
+    {
+        "name": "Chocolate Ice Cream",
+        "ingredientOne" : "Cocoa Bean",
+        "ingredientTwo" : "Sugarcane",
+        "ingredientThree" : "Milk ",
+        "ingredientFour" : "Slush Ice",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 655, 
+        "energy": 2074
+    },
+    {
+        "name": "Chocolate Waffles",
+        "ingredientOne" : "Cocoa Bean",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Egg",
+        "ingredientFour" : "Milk",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 735, 
+        "energy": 2223
+    },
+    {
+        "name": "Coconut Boba Tea",
+        "ingredientOne" : "Sugarcane",
+        "ingredientTwo" : "Milk",
+        "ingredientThree" : "Coconut",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 406, 
+        "energy": 1653
+    },
+    {
+        "name": "Coconut Cake",
+        "ingredientOne" : "Coconut",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Egg",
+        "ingredientFour" : "Sugarcane",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 424, 
+        "energy": 1750
+    },
+    {
+        "name": "Coconut Ice Cream",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Milk",
+        "ingredientThree" : "Sugarcane",
+        "ingredientFour" : "Coconut",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 661, 
+        "energy": 2169
+    },
+    {
+        "name": "Crepe",
+        "ingredientOne" : "Wheat",
+        "ingredientTwo" : "Egg",
+        "ingredientThree" : "Milk",
+        "ingredientFour" : "Vanilla",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 768, 
+        "energy": 1624
+    },
+    {
+        "name": "Dream Ice Cream",
+        "ingredientOne" : "Dreamlight Fruit",
+        "ingredientTwo" : "Milk",
+        "ingredientThree" : "Slush Ice",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 588, 
+        "energy": 1976
+    },
+    {
+        "name": "Fruit Salad",
+        "ingredientOne" : "Any fruit",
+        "ingredientTwo" : "",
+        "ingredientThree" : "",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 1,
+        "sellPrice" : 25, 
+        "energy": 450
+    },
+    {
+        "name": "Fruit Sorbet",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Any fruit",
+        "ingredientThree" : "",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 2,
+        "sellPrice" : 222, 
+        "energy": 857
+    },
+    {
+        "name": "Fruitcake",
+        "ingredientOne" : "Wheat",
+        "ingredientTwo" : "Any fruit",
+        "ingredientThree" : "Any fruit",
+        "ingredientFour" : "Any fruit",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 96, 
+        "energy": 1511
+    },
+    {
+        "name": "Gingerbread House",
+        "ingredientOne" : "Wheat",
+        "ingredientTwo" : "Ginger",
+        "ingredientThree" : "Sugarcane",
+        "ingredientFour" : "Vanilla",
+        "ingredientFive" : "Egg",
+        "stars" : 5,
+        "sellPrice" : 641, 
+        "energy": 1460
+    },
+    {
+        "name": "Gooseberry Boba Tea",
+        "ingredientOne" : "Sugarcane",
+        "ingredientTwo" : "Milk",
+        "ingredientThree" : "Gooseberry",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 418, 
+        "energy": 1833
+    },
+    {
+        "name": "Gray Stuff",
+        "ingredientOne" : "Any dairy",
+        "ingredientTwo" : "Sugarcane",
+        "ingredientThree" : "Cocoa Bean",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 114, 
+        "energy": 1046
+    },
+    {
+        "name": "Hot Cocoa",
+        "ingredientOne" : "Sugarcane",
+        "ingredientTwo" : "Milk",
+        "ingredientThree" : "Cocoa",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 401, 
+        "energy": 1563
+    },
+    {
+        "name": "Ice Cream",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Milk",
+        "ingredientThree" : "Sugarcane",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 558, 
+        "energy": 1158
+    },
+    {
+        "name": "Jam Waffles",
+        "ingredientOne" : "Any fruit",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Egg",
+        "ingredientFour" : "Milk",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 709, 
+        "energy": 1843
+    },
+    {
+        "name": "Lemon Sorbet",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Lemon",
+        "ingredientThree" : "",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 2,
+        "sellPrice" : 237, 
+        "energy": 1112
+    },
+    {
+        "name": "Meringue Pie",
+        "ingredientOne" : "Lemon",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Egg",
+        "ingredientFour" : "Butter",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 667, 
+        "energy": 2014
+    },
+    {
+        "name": "Minnie's Gingerbread Cookies",
+        "ingredientOne" : "Wheat",
+        "ingredientTwo" : "Ginger",
+        "ingredientThree" : "",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 2,
+        "sellPrice" : 132, 
+        "energy": 379
+    },
+    {
+        "name": "Mint Boba Tea",
+        "ingredientOne" : "Sugarcane",
+        "ingredientTwo" : "Milk",
+        "ingredientThree" : "Mint",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 460, 
+        "energy": 1032
+    },
+    {
+        "name": "Mint Candy",
+        "ingredientOne" : "Mint",
+        "ingredientTwo" : "Sugarcane",
+        "ingredientThree" : "",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 2,
+        "sellPrice" : 128, 
+        "energy": 391
+    },
+    {
+        "name": "Mint Chocolate",
+        "ingredientOne" : "Mint",
+        "ingredientTwo" : "Sugarcane",
+        "ingredientThree" : "Butter",
+        "ingredientFour" : "Cocoa",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 490, 
+        "energy": 1827
+    },
+    {
+        "name": "Mint Sorbet",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Mint",
+        "ingredientThree" : "",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 2,
+        "sellPrice" : 299, 
+        "energy": 695
+    },
+    {
+        "name": "Pastry Cream and Fruits",
+        "ingredientOne" : "Any fruit",
+        "ingredientTwo" : "Any fruit",
+        "ingredientThree" : "Any fruit",
+        "ingredientFour" : "Milk",
+        "ingredientFive" : "Sugarcane",
+        "stars" : 5,
+        "sellPrice" : 497, 
+        "energy": 2332
+    },
+    {
+        "name": "Pawpsicle",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Sugarcane",
+        "ingredientThree" : "Any fruit",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 265, 
+        "energy": 987
+    },
+    {
+        "name": "Peanut Butter Waffles",
+        "ingredientOne" : "Peanut",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Egg",
+        "ingredientFour" : "Milk",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 978, 
+        "energy": 1938
+    },
+    {
+        "name": "Plain Snow Cones",
+        "ingredientOne" : "Any ice",
+        "ingredientTwo" : "",
+        "ingredientThree" : "",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 1,
+        "sellPrice" : 180, 
+        "energy": 410
+    },
+    {
+        "name": "Raspberry Boba Tea",
+        "ingredientOne" : "Sugarcane",
+        "ingredientTwo" : "Milk",
+        "ingredientThree" : "Raspberry",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 377, 
+        "energy": 1203
+    },
+    {
+        "name": "Red Fruit Pie",
+        "ingredientOne" : "Any fruit",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Butter",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 297, 
+        "energy": 1047
+    },
+    {
+        "name": "Red Fruit Sorbet",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Raspberry",
+        "ingredientThree" : "Gooseberry",
+        "ingredientFour" : "Sugarcane",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 359, 
+        "energy": 2179
+    },
+    {
+        "name": "Root Beer",
+        "ingredientOne" : "Ginger",
+        "ingredientTwo" : "Sugarcane",
+        "ingredientThree" : "Vanilla",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 250, 
+        "energy": 690
+    },
+    {
+        "name": "Shake",
+        "ingredientOne" : "Any dairy",
+        "ingredientTwo" : "",
+        "ingredientThree" : "",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 1,
+        "sellPrice" : 30, 
+        "energy": 142
+    },
+    {
+        "name": "Snow White's Gooseberry Pie",
+        "ingredientOne" : "Gooseberry",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Butter",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 338, 
+        "energy": 1677
+    },
+    {
+        "name": "Sour Snow Cones",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Lemon",
+        "ingredientThree" : "Sugarcane",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 282, 
+        "energy": 1257
+    },
+    {
+        "name": "Spring Chocolate",
+        "ingredientOne" : "Spring V-EGG-etable",
+        "ingredientTwo" : "Sugarcane",
+        "ingredientThree" : "Cocoa Bean",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 254, 
+        "energy": 1392
+    },
+    {
+        "name": "Spring Egg Bowl",
+        "ingredientOne" : "Egg-cellent Fruit",
+        "ingredientTwo" : "Spring V-EGG-etable",
+        "ingredientThree" : "Wild Spring Egg",
+        "ingredientFour" : "Cocoa Bean",
+        "ingredientFive" : "Sugarcane",
+        "stars" : 5,
+        "sellPrice" : 370, 
+        "energy": 1942
     },
 
-*/
+    {
+        "name": "Spring Mimosa Eggs",
+        "ingredientOne" : "Spring V-EGG-etable",
+        "ingredientTwo" : "Wild Spring Egg",
+        "ingredientThree" : "Egg-cellent Fruit",
+        "ingredientFour" : "Basil",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 298, 
+        "energy": 1095
+    },
+    {
+        "name": "Sweet Slush",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Any sweet",
+        "ingredientThree" : "",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 2,
+        "sellPrice" : 219, 
+        "energy": 510
+    },
+    {
+        "name": "Tropical Pop",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Any fruit",
+        "ingredientThree" : "Sugarcane",
+        "ingredientFour" : "Coconut",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 347, 
+        "energy": 1989
+    },
+    {
+        "name": "Vanilla Ice Cream",
+        "ingredientOne" : "Slush Ice",
+        "ingredientTwo" : "Milk",
+        "ingredientThree" : "Sugarcane",
+        "ingredientFour" : "Vanilla",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 688, 
+        "energy": 1475
+    },
+    {
+        "name": "Waffles",
+        "ingredientOne" : "Wheat",
+        "ingredientTwo" : "Milk",
+        "ingredientThree" : "Egg",
+        "ingredientFour" : "Any sweet",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 706, 
+        "energy": 1455
+    },
+    {
+        "name": "Wedding Cake",
+        "ingredientOne" : "Butter",
+        "ingredientTwo" : "Sugarcane",
+        "ingredientThree" : "Vanilla",
+        "ingredientFour" : "Egg",
+        "ingredientFive" : "Wheat",
+        "stars" : 5,
+        "sellPrice" : 785, 
+        "energy": 1680
+    },
+    {
+        "name": "Whimsical Pie",
+        "ingredientOne" : "Dreamlight Fruit",
+        "ingredientTwo" : "Wheat",
+        "ingredientThree" : "Butter",
+        "ingredientFour" : "",
+        "ingredientFive" : "",
+        "stars" : 3,
+        "sellPrice" : 324, 
+        "energy": 1497
+    },
+    {
+        "name": "Wonderland Cookies",
+        "ingredientOne" : "Butter",
+        "ingredientTwo" : "Sugarcane",
+        "ingredientThree" : "Vanilla",
+        "ingredientFour" : "Wheat",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 406, 
+        "energy": 970
+    },
+    {
+        "name": "Yule Log",
+        "ingredientOne" : "Wheat",
+        "ingredientTwo" : "Cocoa Bean",
+        "ingredientThree" : "Vanilla",
+        "ingredientFour" : "Cherry",
+        "ingredientFive" : "",
+        "stars" : 4,
+        "sellPrice" : 213, 
+        "energy": 2147
+    }
+]
+
+//Special cases:
+///Crudités (not all veggies)
+///Grilled Vegetables (not all veggies)
+///Sushi (not salmon)
+///Red Fruit Pie (not all fruits)
+//Shake (not egg or cheese)
