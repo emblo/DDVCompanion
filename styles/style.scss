@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+//Image path
+$imgPath: "/styles/images";
+//Font 
+$fontStack: 'Josefin Sans', sans-serif;
+$fontColor: #FFF;
+$hoverColor: #9A3C7A;
+$footerColor: #E990D2;
+//Icons
+$iconColor: #9A3C7A;
+$iconHover: #CC6EAC;
+$iconSize: 28px;
+//Content
+$primaryColor: #9A3C7A;
+$border: 2px solid white;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $primaryColor;
+}
+
+header {
+    background-image: url(#{$imgPath}/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    border-bottom: $border;
+    h1 {
+        color: $fontColor;
+        font-family: $fontStack;
+    }
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $footerColor;
+    text-align: center;
+    color: $fontColor;
+    font-family: $fontStack;
+    padding: 10px;
+    font-size: 20px;
+    border-top: $border;
+    a {
+        text-decoration: none;
+        color: $fontColor;
+
+        &:hover {
+            color: $hoverColor;
+        }
+    }
+    .socials {
+        padding: 10px 0px 10px 0px;
+    }
+    .socialMediaIcon {
+        color: $iconColor;
+        font-size: $iconSize;
+        &:hover {
+            color: $iconHover;
+        }
+    }
+}
