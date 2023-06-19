@@ -182,4 +182,11 @@ let characters = [
         "imgSrc": "https://dreamlightvalleywiki.com/images/3/3c/Mirabel.png",
         "quote": "'Even in our darkest moments there's light where you least expect it.'",
     },
+    {
+        "name": "The Forgotten",
+        "movie": "Disney Dreamlight Valley",
+        "info": "The Forgotten were responsible for the Forgetting but also helps the Player end the Forgetting. They offer no quests or friendship rewards, but can be found wandering the valley or in their home, the Dark Castle.",
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0c/The_Forgotten.png",
+        "quote": "'If we were always perfect, we could never grow.'",
+    }
 ]
