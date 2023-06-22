@@ -10,7 +10,8 @@ let appetizers = [
         "ingredientFive" : "Any spice",
         "stars" : 5,
         "sellPrice" : 556, 
-        "energy": 2102
+        "energy": 2102,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/c/c5/Arendellian_Pickled_Herring.png"
     },
     {
         "name": "Bell Pepper Puffs",
@@ -21,7 +22,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 606, 
-        "energy": 1272
+        "energy": 1272,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/f/ff/Bell_Pepper_Puffs.png"
     },
     {
         "name": "Buñuelos",
@@ -32,7 +34,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 948, 
-        "energy": 1881
+        "energy": 1881,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/66/Bu%C3%B1uelos.png"
     },
     {
         "name": "Cheese Platter",
@@ -43,7 +46,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 216, 
-        "energy": 482
+        "energy": 482,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8f/Cheese_Platter.png"
     },
     {
         "name": "Chili Pepper Puffs",
@@ -54,7 +58,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 669, 
-        "energy": 1382
+        "energy": 1382,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/b5/Chili_Pepper_Puffs.png"
     },
     {
         "name": "Coffee",
@@ -65,7 +70,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 43, 
-        "energy": 730
+        "energy": 730,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e9/Coffee.png"
     },
     {
         "name": "Crackers",
@@ -76,7 +82,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 2, 
-        "energy": 80
+        "energy": 80,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/d4/Crackers.png"
     },
     {
         "name": "Creamy Soup",
@@ -87,7 +94,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 576, 
-        "energy": 1138
+        "energy": 1138,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/51/Creamy_Soup.png"
     },
     {
         "name": "Crudités",
@@ -98,7 +106,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 26, 
-        "energy": 83
+        "energy": 83,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/26/Crudit%C3%A9s.png"
     },
     {
         "name": "Dream Fizz",
@@ -109,7 +118,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 316, 
-        "energy": 1550
+        "energy": 1550,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1a/Dream_Fizz.png"
     },
     {
         "name": "Eggplant Puffs",
@@ -120,7 +130,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 991, 
-        "energy": 1941
+        "energy": 1941,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/c/c1/Eggplant_Puffs.png"
     },
     {
         "name": "French Fries",
@@ -131,7 +142,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 304, 
-        "energy": 342
+        "energy": 342,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8e/French_Fries.png"
     },
     {
         "name": "Gazpacho",
@@ -142,7 +154,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 556, 
-        "energy": 821
+        "energy": 821,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0f/Gazpacho.png"
     },
     {
         "name": "Green Salad",
@@ -153,7 +166,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 20, 
-        "energy": 180
+        "energy": 180,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/7/7a/Green_Salad.png"
     },
     {
         "name": "Grilled Vegetables",
@@ -164,7 +178,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 9, 
-        "energy": 83
+        "energy": 83,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/c/cc/Grilled_Vegetables.png"
     },
     {
         "name": "Grilled Veggie Platter",
@@ -175,7 +190,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 33, 
-        "energy": 161
+        "energy": 161,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/9/92/Grilled_Veggie_Platter.png"
     },
     {
         "name": "Hard-Boiled Eggs",
@@ -186,7 +202,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 264, 
-        "energy": 578
+        "energy": 578,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2b/Hard-Boiled_Eggs.png"
     },
     {
         "name": "Large Seafood Platter",
@@ -197,7 +214,8 @@ let appetizers = [
         "ingredientFive" : "Lemon",
         "stars" : 5,
         "sellPrice" : 56, 
-        "energy": 1810
+        "energy": 1810,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8f/Large_Seafood_Platter.png"
     },
     {
         "name": "Latte",
@@ -208,7 +226,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 345, 
-        "energy": 1358
+        "energy": 1358,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2c/Latte.png"
     },
     {
         "name": "Marinated Herring",
@@ -219,7 +238,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 305, 
-        "energy": 723
+        "energy": 723,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/67/Marinated_Herring.png"
     },
     {
         "name": "Mocha",
@@ -230,7 +250,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 425, 
-        "energy": 2246
+        "energy": 2246,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/4/48/Mocha.png"
     },
     {
         "name": "Okra Soup",
@@ -241,7 +262,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 136, 
-        "energy": 99
+        "energy": 99,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8b/Okra_Soup.png"
     },
     {
         "name": "Onion Puffs",
@@ -252,7 +274,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 798, 
-        "energy": 1392
+        "energy": 1392,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/66/Onion_Puffs.png"
     },
     {
         "name": "Oyster Platter",
@@ -263,7 +286,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 367, 
-        "energy": 1155
+        "energy": 1155,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e1/Oyster_Platter.png"
     },
     {
         "name": "Peppermint Tea",
@@ -274,7 +298,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 146, 
-        "energy": 993
+        "energy": 993,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/38/Peppermint_Tea.png"
     },
     {
         "name": "Pickled Herring",
@@ -285,7 +310,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 431, 
-        "energy": 1742
+        "energy": 1742,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/84/Pickled_Herring.png"
     },
     {
         "name": "Potato Leek Soup",
@@ -296,7 +322,8 @@ let appetizers = [
         "ingredientFive" : "Garlic",
         "stars" : 5,
         "sellPrice" : 1400, 
-        "energy": 1984
+        "energy": 1984,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/f/fe/Potato_Leek_Soup.png"
     },
     {
         "name": "Potato Puffs",
@@ -307,7 +334,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 736, 
-        "energy": 1333
+        "energy": 1333,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/33/Potato_Puffs.png"
     },
     {
         "name": "Pottage",
@@ -318,7 +346,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 215, 
-        "energy": 461
+        "energy": 461,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/65/Pottage.png"
     },
     {
         "name": "Pumpkin Puffs",
@@ -329,7 +358,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 1400, 
-        "energy": 1466
+        "energy": 1466,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0e/Pumpkin_Puffs.png"
     },
     {
         "name": "Pumpkin Soup",
@@ -340,7 +370,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 1500, 
-        "energy": 1431
+        "energy": 1431,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/59/Pumpkin_Soup.png"
     },
     {
         "name": "Purée",
@@ -351,7 +382,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 151, 
-        "energy": 230
+        "energy": 230,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/de/Pur%C3%A9e.png"
     },
     {
         "name": "Roasted Asparagus",
@@ -362,7 +394,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 313, 
-        "energy": 221
+        "energy": 221,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/17/Roasted_Asparagus.png"
     },
     {
         "name": "Salad",
@@ -373,7 +406,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 9, 
-        "energy": 139
+        "energy": 139,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/7/7e/Salad.png"
     },
     {
         "name": "Sautéed Mushrooms",
@@ -384,7 +418,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 286, 
-        "energy": 712
+        "energy": 712,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/a/ab/Saut%C3%A9ed_Mushrooms.png"
     },
     {
         "name": "Seafood Appetizer",
@@ -395,7 +430,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 1, 
-        "energy": 242
+        "energy": 242,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f0/Seafood_Appetizer.png"
     },
     {
         "name": "Seafood Platter",
@@ -406,7 +442,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 2, 
-        "energy": 458
+        "energy": 458,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/4/48/Seafood_Platter.png"
     },
     {
         "name": "Soufflé",
@@ -417,7 +454,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 1200, 
-        "energy": 2386
+        "energy": 2386,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e0/Souffl%C3%A9.png"
     },
     {
         "name": "Tomato Soup",
@@ -428,7 +466,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 26, 
-        "energy": 83
+        "energy": 83,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/dc/Tomato_Soup.png"
     },
     {
         "name": "Vegetable Soup",
@@ -439,7 +478,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 20, 
-        "energy": 120
+        "energy": 120,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/c/cd/Vegetable_Soup.png"
     },
     {
         "name": "Zucchini Puffs",
@@ -450,7 +490,8 @@ let appetizers = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 632, 
-        "energy": 1216
+        "energy": 1216,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/61/Zucchini_Puffs.png"
     }
 ]
 
@@ -465,7 +506,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 271, 
-        "energy": 1572
+        "energy": 1572,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/3b/Apple-Cider-Glazed_Salmon.png"
     },
     {
         "name": "Baked Carp",
@@ -476,7 +518,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 767, 
-        "energy": 1894
+        "energy": 1894,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/34/Baked_Carp.png"
     },
     {
         "name": "Basil Omelet",
@@ -487,7 +530,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 982, 
-        "energy": 2035
+        "energy": 2035,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/09/Basil_Omelet.png"
     },
     {
         "name": "Bouillabaisse",
@@ -498,7 +542,8 @@ let entrees = [
         "ingredientFive" : "Any vegetable",
         "stars" : 5,
         "sellPrice" : 529, 
-        "energy": 2114
+        "energy": 2114,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/9/9d/Bouillabaisse.png"
     },
     {
         "name": "Carp Salad",
@@ -509,7 +554,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 617, 
-        "energy": 2310
+        "energy": 2310,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a1/Carp_Salad.png"
     },
     {
         "name": "Cheesy Crispy Baked Cod",
@@ -520,7 +566,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 303, 
-        "energy": 840
+        "energy": 840,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/63/Cheesy_Crispy_Baked_Cod.png"
     },
     {
         "name": "Chowder",
@@ -531,7 +578,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 547, 
-        "energy": 1186
+        "energy": 1186,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/9/95/Chowder.png"
     },
     {
         "name": "Creamy Garlic Scallops",
@@ -542,7 +590,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 499, 
-        "energy": 1844
+        "energy": 1844,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/16/Creamy_Garlic_Scallops.png"
     },
     {
         "name": "Crispy Baked Cod",
@@ -553,7 +602,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 47, 
-        "energy": 337
+        "energy": 337,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1d/Crispy_Baked_Cod.png"
     },
     {
         "name": "Fish Creole",
@@ -564,7 +614,8 @@ let entrees = [
         "ingredientFive" : "Tomato",
         "stars" : 5,
         "sellPrice" : 241, 
-        "energy": 822
+        "energy": 822,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/c/cc/Fish_Creole.png"
     },
     {
         "name": "Fish 'n' Chips",
@@ -575,7 +626,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 356, 
-        "energy": 697
+        "energy": 697,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/4/4f/Fish_%27n%27_Chips.png"
     },
     {
         "name": "Fish Pasta",
@@ -586,7 +638,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 439, 
-        "energy": 1282
+        "energy": 1282,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/08/Fish_Pasta.png"
     },
     {
         "name": "Fish Pie",
@@ -597,7 +650,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 269, 
-        "energy": 867
+        "energy": 867,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/ec/Fish_Pie.png"
     },
     {
         "name": "Fish Risotto",
@@ -608,7 +662,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 352, 
-        "energy": 939
+        "energy": 939,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2b/Fish_Risotto.png"
     },
     {
         "name": "Fish Salad",
@@ -619,7 +674,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 58, 
-        "energy": 1140
+        "energy": 1140,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8e/Fish_Salad.png"
     },
     {
         "name": "Fish Sandwiches",
@@ -630,7 +686,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 3, 
-        "energy": 337
+        "energy": 337,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/53/Fish_Sandwiches.png"
     },
     {
         "name": "Fish Soup",
@@ -641,7 +698,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 334, 
-        "energy": 978
+        "energy": 978,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/be/Fish_Soup.png"
     },
     {
         "name": "Fish Steak",
@@ -652,7 +710,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 66, 
-        "energy": 537
+        "energy": 537,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a1/Fish_Steak.png"
     },
     {
         "name": "Fish Tacos",
@@ -663,7 +722,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 412, 
-        "energy": 1171
+        "energy": 1171,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/a/af/Fish_Tacos.png"
     },
     {
         "name": "Fugu Sushi",
@@ -674,7 +734,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 1300, 
-        "energy": 3261
+        "energy": 3261,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0e/Fugu_Sushi.png"
     },
     {
         "name": "Ghostly Fish Steak",
@@ -685,7 +746,8 @@ let entrees = [
         "ingredientFive" : "Oregano",
         "stars" : 5,
         "sellPrice" : 3500, 
-        "energy": 3282
+        "energy": 3282,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/c/c8/Ghostly_Fish_Steak.png"
     },
     {
         "name": "Greek Pizza",
@@ -696,7 +758,8 @@ let entrees = [
         "ingredientFive" : "Wheat",
         "stars" : 5,
         "sellPrice" : 630, 
-        "energy": 1152
+        "energy": 1152,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/38/Greek_Pizza.png"
     },
     {
         "name": "Grilled Fish",
@@ -707,7 +770,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 1, 
-        "energy": 290
+        "energy": 290,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/dd/Grilled_Fish.png"
     },
     {
         "name": "Grilled Fish Entree",
@@ -718,7 +782,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 11, 
-        "energy": 340
+        "energy": 340,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a5/Grilled_Fish_Entree.png"
     },
     {
         "name": "Gumbo",
@@ -729,7 +794,8 @@ let entrees = [
         "ingredientFive" : "Onion",
         "stars" : 5,
         "sellPrice" : 1000, 
-        "energy": 2226
+        "energy": 2226,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/10/Gumbo.png"
     },
     {
         "name": "Hearty Salad",
@@ -740,7 +806,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 33, 
-        "energy": 224
+        "energy": 224,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1a/Hearty_Salad.png"
     },
     {
         "name": "Hors d'Oeuvres",
@@ -751,7 +818,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 24, 
-        "energy": 202
+        "energy": 202,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/9/92/Hors_d%27Oeuvres.png"
     },
     {
         "name": "Kappa Maki",
@@ -762,7 +830,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 335, 
-        "energy": 462
+        "energy": 462,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/29/Kappa_Maki.png"
     },
     {
         "name": "Kronk's Spinach Puffs",
@@ -773,7 +842,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 461, 
-        "energy": 750
+        "energy": 750,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e6/Kronk%27s_Spinach_Puffs.png"
     },
     {
         "name": "Lancetfish Paella",
@@ -784,7 +854,8 @@ let entrees = [
         "ingredientFive" : "Rice",
         "stars" : 5,
         "sellPrice" : 1600, 
-        "energy": 4550
+        "energy": 4550,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/80/Lancetfish_Paella.png"
     },
     {
         "name": "Leek Soup",
@@ -795,7 +866,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 370, 
-        "energy": 414
+        "energy": 414,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/39/Leek_Soup.png"
     },
     {
         "name": "Lemon Garlic Swordfish",
@@ -806,7 +878,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 1100, 
-        "energy": 3713
+        "energy": 3713,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/33/Lemon_Garlic_Swordfish.png"
     },
     {
         "name": "Lioness Feast",
@@ -817,7 +890,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 3100, 
-        "energy": 2368
+        "energy": 2368,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/7/79/Lioness_Feast.png"
     },
     {
         "name": "Lobster Roll",
@@ -828,7 +902,8 @@ let entrees = [
         "ingredientFive" : "Garlic",
         "stars" : 5,
         "sellPrice" : 1900, 
-        "energy": 4928
+        "energy": 4928,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/63/Lobster_Roll.png"
     },
     {
         "name": "Maguro Sushi",
@@ -839,7 +914,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 413, 
-        "energy": 1206
+        "energy": 1206,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2f/Maguro_Sushi.png"
     },
     {
         "name": "Maki",
@@ -850,7 +926,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 114, 
-        "energy": 471
+        "energy": 471,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/21/Maki.png"
     },
     {
         "name": "Margherita Pizza",
@@ -861,7 +938,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 336, 
-        "energy": 818
+        "energy": 818,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1b/Margherita_Pizza.png"
     },
     {
         "name": "Marvelous Jam",
@@ -872,7 +950,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 54, 
-        "energy": 932
+        "energy": 932,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/50/Marvelous_Jam.png"
     },
     {
         "name": "Mediterranean Salad",
@@ -883,7 +962,8 @@ let entrees = [
         "ingredientFive" : "Any spice",
         "stars" : 5,
         "sellPrice" : 605, 
-        "energy": 976
+        "energy": 976,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/7/73/Mediterranean_Salad.png"
     },
     {
         "name": "Mushroom Pizza",
@@ -894,7 +974,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 351, 
-        "energy": 837
+        "energy": 837,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e9/Mushroom_Pizza.png"
     },
     {
         "name": "Mushu's Congee",
@@ -905,7 +986,8 @@ let entrees = [
         "ingredientFive" : "Ginger",
         "stars" : 5,
         "sellPrice" : 753, 
-        "energy": 1658
+        "energy": 1658,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0d/Mushu%27s_Congee.png"
     },
     {
         "name": "Omelet",
@@ -916,7 +998,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 882, 
-        "energy": 1751
+        "energy": 1751,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/12/Omelet.png"
     },
     {
         "name": "Pan-Fried Angler Fish",
@@ -927,7 +1010,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 2500, 
-        "energy": 4194
+        "energy": 4194,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2e/Pan-Fried_Angler_Fish.png"
     },
     {
         "name": "Pan-Seared Bass & Vegetables",
@@ -938,7 +1022,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 57, 
-        "energy": 394
+        "energy": 394,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/dc/Pan-Seared_Bass_%26_Vegetables.png"
     },
     {
         "name": "Pan-Seared Tilapia & Vegetables",
@@ -949,7 +1034,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 862, 
-        "energy": 2194
+        "energy": 2194,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a0/Pan-Seared_Tilapia_%26_Vegetables.png"
     },
     {
         "name": "Pasta",
@@ -960,7 +1046,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 30, 
-        "energy": 117
+        "energy": 117,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/d8/Pasta.png"
     },
     {
         "name": "Peanut Butter Sandwich",
@@ -971,7 +1058,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 262, 
-        "energy": 592
+        "energy": 592,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/a/af/Peanut_Butter_Sandwich.png"
     },
     {
         "name": "Pizza",
@@ -982,7 +1070,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 284, 
-        "energy": 607
+        "energy": 607,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f4/Pizza.png"
     },
     {
         "name": "Poached Basil-Butter Sturgeon",
@@ -993,7 +1082,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 2200, 
-        "energy": 4961
+        "energy": 4961,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/4/43/Poached_Basil-Butter_Sturgeon.png"
     },
     {
         "name": "Porridge",
@@ -1004,7 +1094,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 301, 
-        "energy": 668
+        "energy": 668,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/5d/Porridge.png"
     },
     {
         "name": "Porridge with Fruits",
@@ -1015,7 +1106,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 353, 
-        "energy": 1155
+        "energy": 1155,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/84/Porridge_with_Fruits.png"
     },
     {
         "name": "Ranch Salad",
@@ -1026,7 +1118,8 @@ let entrees = [
         "ingredientFive" : "Onion",
         "stars" : 5,
         "sellPrice" : 396, 
-        "energy": 714
+        "energy": 714,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/6c/Ranch_Salad.png"
     },
     {
         "name": "Ratatouille",
@@ -1037,7 +1130,8 @@ let entrees = [
         "ingredientFive" : "Any spice",
         "stars" : 5,
         "sellPrice" : 914, 
-        "energy": 1572
+        "energy": 1572,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/b0/Ratatouille.png"
     },
     {
         "name": "Sake Maki",
@@ -1048,7 +1142,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 323, 
-        "energy": 1101
+        "energy": 1101,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1a/Sake_Maki.png"
     },
     {
         "name": "Sake Sushi",
@@ -1059,7 +1154,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 274, 
-        "energy": 1000
+        "energy": 1000,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f0/Sake_Sushi.png"
     },
     {
         "name": "Savory Fish",
@@ -1070,7 +1166,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 43, 
-        "energy": 985
+        "energy": 985,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0e/Savory_Fish.png"
     },
     {
         "name": "Scrambled Egg",
@@ -1081,7 +1178,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 520, 
-        "energy": 1070
+        "energy": 1070,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8b/Scrambled_Egg.png"
     },
     {
         "name": "Seafood Pasta",
@@ -1092,7 +1190,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 325, 
-        "energy": 921
+        "energy": 921,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1a/Seafood_Pasta.png"
     },
     {
         "name": "Seafood Pie",
@@ -1103,7 +1202,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 269, 
-        "energy": 813
+        "energy": 813,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/9/98/Seafood_Pie.png"
     },
     {
         "name": "Seafood Salad",
@@ -1114,7 +1214,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 11, 
-        "energy": 349
+        "energy": 349,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/69/Seafood_Salad.png"
     },
     {
         "name": "Seafood Soup",
@@ -1125,7 +1226,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 23, 
-        "energy": 340
+        "energy": 340,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/b3/Seafood_Soup.png"
     },
     {
         "name": "Seared Rainbow Trout",
@@ -1136,7 +1238,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 338, 
-        "energy": 889
+        "energy": 889,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/20/Seared_Rainbow_Trout.png"
     },
     {
         "name": "Simple Fried Perch",
@@ -1147,7 +1250,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 380, 
-        "energy": 1317
+        "energy": 1317,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/b3/Simple_Fried_Perch.png"
     },
     {
         "name": "Smoked Peanuts and Anglerfish",
@@ -1158,7 +1262,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 2200, 
-        "energy": 3960
+        "energy": 3960,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e2/Smoked_Peanuts_and_Anglerfish.png"
     },
     {
         "name": "Sole Meunière",
@@ -1169,7 +1274,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 637, 
-        "energy": 2337
+        "energy": 2337,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2e/Sole_Meuni%C3%A8re.png"
     },
     {
         "name": "Spaghetti Arrabbiata",
@@ -1180,7 +1286,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 141, 
-        "energy": 373
+        "energy": 373,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/4/4d/Spaghetti_Arrabbiata.png"
     },
     {
         "name": "Spicy Baked Bream",
@@ -1191,7 +1298,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 767, 
-        "energy": 2075
+        "energy": 2075,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f6/Spicy_Baked_Bream.png"
     },
     {
         "name": "Steamed Fugu",
@@ -1202,7 +1310,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 1400, 
-        "energy": 3668
+        "energy": 3668,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/bb/Steamed_Fugu.png"
     },
     {
         "name": "Sushi",
@@ -1213,7 +1322,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 80, 
-        "energy": 405
+        "energy": 405,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/6d/Sushi.png"
     },
     {
         "name": "Sweet & Sour Kingfish Steak",
@@ -1224,7 +1334,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 702, 
-        "energy": 2292
+        "energy": 2292,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/bb/Sweet_%26_Sour_Kingfish_Steak.png"
     },
     {
         "name": "Sweet Udon",
@@ -1235,7 +1346,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 180, 
-        "energy": 1427
+        "energy": 1427,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a6/Sweet_Udon.png"
     },
     {
         "name": "Tamagoyaki",
@@ -1246,7 +1358,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 310, 
-        "energy": 689
+        "energy": 689,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/22/Tamagoyaki.png"
     },
     {
         "name": "Tasty Salad",
@@ -1257,7 +1370,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 292, 
-        "energy": 650
+        "energy": 650,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/84/Tasty_Salad.png"
     },
     {
         "name": "Tasty Veggies",
@@ -1268,7 +1382,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 36, 
-        "energy": 246
+        "energy": 246,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/87/Tasty_Veggies.png"
     },
     {
         "name": "Tekka Maki",
@@ -1279,7 +1394,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 366, 
-        "energy": 984
+        "energy": 984,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e6/Tekka_Maki.png"
     },
     {
         "name": "Teriyaki Salmon",
@@ -1290,7 +1406,8 @@ let entrees = [
         "ingredientFive" : "Ginger",
         "stars" : 5,
         "sellPrice" : 637, 
-        "energy": 1726
+        "energy": 1726,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/61/Teriyaki_Salmon.png"
     },
     {
         "name": "Tuna Burger",
@@ -1301,7 +1418,8 @@ let entrees = [
         "ingredientFive" : "Any vegetable",
         "stars" : 5,
         "sellPrice" : 491, 
-        "energy": 1922
+        "energy": 1922,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/00/Tuna_Burger.png"
     },
     {
         "name": "Vegetarian Pizza",
@@ -1312,7 +1430,8 @@ let entrees = [
         "ingredientFive" : "Wheat",
         "stars" : 5,
         "sellPrice" : 350, 
-        "energy": 754
+        "energy": 754,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/83/Vegetarian_Pizza.png"
     },
     {
         "name": "Vegetarian Stew",
@@ -1323,7 +1442,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 475, 
-        "energy": 617
+        "energy": 617,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/36/Vegetarian_Stew.png"
     },
     {
         "name": "Vegetarian Taco",
@@ -1334,7 +1454,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 423, 
-        "energy": 925
+        "energy": 925,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/9/90/Vegetarian_Taco.png"
     },
     {
         "name": "Veggie Casserole",
@@ -1345,7 +1466,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 324, 
-        "energy": 821
+        "energy": 821,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/a/ad/Veggie_Casserole.png"
     },
     {
         "name": "Veggie Pasta",
@@ -1356,7 +1478,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 43, 
-        "energy": 158
+        "energy": 158,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/4/4c/Veggie_Pasta.png"
     },
     {
         "name": "Veggie Pasta",
@@ -1367,7 +1490,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 279, 
-        "energy": 634
+        "energy": 634,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/4/48/Veggie_Pie.png"
     },
     {
         "name": "Veggie Skewers",
@@ -1378,7 +1502,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 427, 
-        "energy": 767
+        "energy": 767,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/db/Veggie_Skewers.png"
     },
     {
         "name": "Walleye en Papillote",
@@ -1389,7 +1514,8 @@ let entrees = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 1700, 
-        "energy": 3689
+        "energy": 3689,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2a/Walleye_en_Papillote.png"
     },
 ]
 
@@ -1404,7 +1530,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 294, 
-        "energy": 679
+        "energy": 679,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/05/%22My_Hero%22_Cookie.png"
     },
     {
         "name": "Apple Pie",
@@ -1415,7 +1542,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 303, 
-        "energy": 1137
+        "energy": 1137,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/f/fb/Apple_Pie.png"
     },
     {
         "name": "Apple Sorbet",
@@ -1426,7 +1554,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 271, 
-        "energy": 1077
+        "energy": 1077,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/5b/Apple_Sorbet.png"
     },
     {
         "name": "Aurora's Cake",
@@ -1437,7 +1566,8 @@ let desserts = [
         "ingredientFive" : "Milk",
         "stars" : 5,
         "sellPrice" : 786, 
-        "energy": 2030
+        "energy": 2030,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f5/Aurora%27s_Cake.png"
     },
     {
         "name": "Banana Ice Cream",
@@ -1448,7 +1578,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 641, 
-        "energy": 1884
+        "energy": 1884,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/7/79/Banana_Ice_Cream.png"
     },
     {
         "name": "Banana Pie",
@@ -1459,7 +1590,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 308, 
-        "energy": 1227
+        "energy": 1227,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/7/75/Banana_Pie.png"
     },
     {
         "name": "Banana Split",
@@ -1470,7 +1602,8 @@ let desserts = [
         "ingredientFive" : "Any sweet",
         "stars" : 5,
         "sellPrice" : 714, 
-        "energy": 2074
+        "energy": 2074,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/bd/Banana_Split.png"
     },
     {
         "name": "Beignets",
@@ -1481,7 +1614,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 524, 
-        "energy": 912
+        "energy": 912,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/4/4f/Beignets.png"
     },
     {
         "name": "Berry Salad",
@@ -1492,7 +1626,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 139, 
-        "energy": 2210
+        "energy": 2210,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8d/Berry_Salad.png"
     },
     {
         "name": "Birthday Cake",
@@ -1503,7 +1638,8 @@ let desserts = [
         "ingredientFive" : "Butter",
         "stars" : 5,
         "sellPrice" : 749, 
-        "energy": 2310
+        "energy": 2310,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e3/Birthday_Cake.png"
     },
     {
         "name": "Biscuits",
@@ -1514,7 +1650,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 294, 
-        "energy": 679
+        "energy": 679,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f5/Biscuits.png"
     },
     {
         "name": "Blueberry Pie",
@@ -1525,7 +1662,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 308, 
-        "energy": 1227
+        "energy": 1227,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/32/Blueberry_Pie.png"
     },
     {
         "name": "Boba Tea",
@@ -1536,7 +1674,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 323, 
-        "energy": 714
+        "energy": 714,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0a/Boba_Tea.png"
     },
     {
         "name": "Candy",
@@ -1547,7 +1686,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 22, 
-        "energy": 123
+        "energy": 123,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1c/Candy.png"
     },
     {
         "name": "Caramel Apples",
@@ -1558,7 +1698,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 56, 
-        "energy": 638
+        "energy": 638,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/c/c6/Caramel_Apples.png"
     },
     {
         "name": "Carrot Cake",
@@ -1569,7 +1710,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 427, 
-        "energy": 908
+        "energy": 908,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/dd/Carrot_Cake.png"
     },
     {
         "name": "Cheesecake",
@@ -1580,7 +1722,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 332, 
-        "energy": 1161
+        "energy": 1161,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2d/Cheesecake.png"
     },
     {
         "name": "Cherry Pie",
@@ -1591,7 +1734,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 326, 
-        "energy": 1497
+        "energy": 1497,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/7/70/Cherry_Pie.png"
     },
     {
         "name": "Chocolate Chip Cookies",
@@ -1602,7 +1746,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 373, 
-        "energy": 1569
+        "energy": 1569,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/6f/Chocolate_Chip_Cookies.png"
     },
     {
         "name": "Chocolate Ice Cream",
@@ -1613,7 +1758,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 655, 
-        "energy": 2074
+        "energy": 2074,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/4/41/Chocolate_Ice_Cream.png"
     },
     {
         "name": "Chocolate Waffles",
@@ -1624,7 +1770,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 735, 
-        "energy": 2223
+        "energy": 2223,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/4/4d/Chocolate_Waffles.png"
     },
     {
         "name": "Coconut Boba Tea",
@@ -1635,7 +1782,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 406, 
-        "energy": 1653
+        "energy": 1653,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/50/Coconut_Boba_Tea.png"
     },
     {
         "name": "Coconut Cake",
@@ -1646,7 +1794,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 424, 
-        "energy": 1750
+        "energy": 1750,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/5c/Coconut_Cake.png"
     },
     {
         "name": "Coconut Ice Cream",
@@ -1657,7 +1806,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 661, 
-        "energy": 2169
+        "energy": 2169,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/d9/Coconut_Ice_Cream.png"
     },
     {
         "name": "Crepe",
@@ -1668,7 +1818,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 768, 
-        "energy": 1624
+        "energy": 1624,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/62/Crepe.png"
     },
     {
         "name": "Dream Ice Cream",
@@ -1679,7 +1830,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 588, 
-        "energy": 1976
+        "energy": 1976,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/c/c9/Dream_Ice_Cream.png"
     },
     {
         "name": "Fruit Salad",
@@ -1690,7 +1842,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 25, 
-        "energy": 450
+        "energy": 450,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/9/9e/Fruit_Salad.png"
     },
     {
         "name": "Fruit Sorbet",
@@ -1701,7 +1854,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 222, 
-        "energy": 857
+        "energy": 857,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/b9/Fruit_Sorbet.png"
     },
     {
         "name": "Fruitcake",
@@ -1712,7 +1866,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 96, 
-        "energy": 1511
+        "energy": 1511,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/9/91/Fruitcake.png"
     },
     {
         "name": "Gingerbread House",
@@ -1723,7 +1878,8 @@ let desserts = [
         "ingredientFive" : "Egg",
         "stars" : 5,
         "sellPrice" : 641, 
-        "energy": 1460
+        "energy": 1460,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1d/Gingerbread_House.png"
     },
     {
         "name": "Gooseberry Boba Tea",
@@ -1734,7 +1890,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 418, 
-        "energy": 1833
+        "energy": 1833,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/df/Gooseberry_Boba_Tea.png"
     },
     {
         "name": "Gray Stuff",
@@ -1745,7 +1902,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 114, 
-        "energy": 1046
+        "energy": 1046,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/17/Gray_Stuff.png"
     },
     {
         "name": "Hot Cocoa",
@@ -1756,7 +1914,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 401, 
-        "energy": 1563
+        "energy": 1563,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/7/7c/Hot_Cocoa.png"
     },
     {
         "name": "Ice Cream",
@@ -1767,7 +1926,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 558, 
-        "energy": 1158
+        "energy": 1158,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/5d/Ice_Cream.png"
     },
     {
         "name": "Jam Waffles",
@@ -1778,7 +1938,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 709, 
-        "energy": 1843
+        "energy": 1843,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/53/Jam_Waffles.png"
     },
     {
         "name": "Lemon Sorbet",
@@ -1789,7 +1950,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 237, 
-        "energy": 1112
+        "energy": 1112,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/d8/Lemon_Sorbet.png"
     },
     {
         "name": "Meringue Pie",
@@ -1800,7 +1962,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 667, 
-        "energy": 2014
+        "energy": 2014,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/54/Meringue_Pie.png"
     },
     {
         "name": "Minnie's Gingerbread Cookies",
@@ -1811,7 +1974,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 132, 
-        "energy": 379
+        "energy": 379,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/a/ac/Minnie%27s_Gingerbread_Cookies.png"
     },
     {
         "name": "Mint Boba Tea",
@@ -1822,7 +1986,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 460, 
-        "energy": 1032
+        "energy": 1032,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/37/Mint_Boba_Tea.png"
     },
     {
         "name": "Mint Candy",
@@ -1833,7 +1998,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 128, 
-        "energy": 391
+        "energy": 391,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/7/7a/Mint_Candy.png"
     },
     {
         "name": "Mint Chocolate",
@@ -1844,7 +2010,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 490, 
-        "energy": 1827
+        "energy": 1827,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/3f/Mint_Chocolate.png"
     },
     {
         "name": "Mint Sorbet",
@@ -1855,7 +2022,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 299, 
-        "energy": 695
+        "energy": 695,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0b/Mint_Sorbet.png"
     },
     {
         "name": "Pastry Cream and Fruits",
@@ -1866,7 +2034,8 @@ let desserts = [
         "ingredientFive" : "Sugarcane",
         "stars" : 5,
         "sellPrice" : 497, 
-        "energy": 2332
+        "energy": 2332,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/ef/Pastry_Cream_and_Fruits.png"
     },
     {
         "name": "Pawpsicle",
@@ -1877,7 +2046,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 265, 
-        "energy": 987
+        "energy": 987,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/de/Pawpsicle.png"
     },
     {
         "name": "Peanut Butter Waffles",
@@ -1888,7 +2058,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 978, 
-        "energy": 1938
+        "energy": 1938,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/ba/Peanut_Butter_Waffles.png"
     },
     {
         "name": "Plain Snow Cones",
@@ -1899,7 +2070,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 180, 
-        "energy": 410
+        "energy": 410,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/16/Plain_Snow_Cones.png"
     },
     {
         "name": "Raspberry Boba Tea",
@@ -1910,7 +2082,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 377, 
-        "energy": 1203
+        "energy": 1203,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/bd/Raspberry_Boba_Tea.png"
     },
     {
         "name": "Red Fruit Pie",
@@ -1921,7 +2094,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 297, 
-        "energy": 1047
+        "energy": 1047,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/f/fd/Red_Fruit_Pie.png"
     },
     {
         "name": "Red Fruit Sorbet",
@@ -1932,7 +2106,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 359, 
-        "energy": 2179
+        "energy": 2179,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/07/Red_Fruit_Sorbet.png"
     },
     {
         "name": "Root Beer",
@@ -1943,7 +2118,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 250, 
-        "energy": 690
+        "energy": 690,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/0/01/Root_Beer.png"
     },
     {
         "name": "Shake",
@@ -1954,7 +2130,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 1,
         "sellPrice" : 30, 
-        "energy": 142
+        "energy": 142,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/7/71/Shake.png"
     },
     {
         "name": "Snow White's Gooseberry Pie",
@@ -1965,7 +2142,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 338, 
-        "energy": 1677
+        "energy": 1677,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/10/Snow_White%27s_Gooseberry_Pie.png"
     },
     {
         "name": "Sour Snow Cones",
@@ -1976,7 +2154,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 282, 
-        "energy": 1257
+        "energy": 1257,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/b/be/Sour_Snow_Cones.png"
     },
     {
         "name": "Spring Chocolate",
@@ -1987,7 +2166,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 254, 
-        "energy": 1392
+        "energy": 1392,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/5/56/Spring_Chocolate.png"
     },
     {
         "name": "Spring Egg Bowl",
@@ -1998,7 +2178,8 @@ let desserts = [
         "ingredientFive" : "Sugarcane",
         "stars" : 5,
         "sellPrice" : 370, 
-        "energy": 1942
+        "energy": 1942,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8a/Spring_Egg_Bowl.png"
     },
 
     {
@@ -2010,7 +2191,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 298, 
-        "energy": 1095
+        "energy": 1095,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/ec/Spring_Mimosa_Eggs.png"
     },
     {
         "name": "Sweet Slush",
@@ -2021,7 +2203,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 2,
         "sellPrice" : 219, 
-        "energy": 510
+        "energy": 510,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a4/Sweet_Slush.png"
     },
     {
         "name": "Tropical Pop",
@@ -2032,7 +2215,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 347, 
-        "energy": 1989
+        "energy": 1989,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/8/85/Tropical_Pop.png"
     },
     {
         "name": "Vanilla Ice Cream",
@@ -2043,7 +2227,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 688, 
-        "energy": 1475
+        "energy": 1475,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/1/15/Vanilla_Ice_Cream.png"
     },
     {
         "name": "Waffles",
@@ -2054,7 +2239,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 706, 
-        "energy": 1455
+        "energy": 1455,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e8/Waffles.png"
     },
     {
         "name": "Wedding Cake",
@@ -2065,7 +2251,8 @@ let desserts = [
         "ingredientFive" : "Wheat",
         "stars" : 5,
         "sellPrice" : 785, 
-        "energy": 1680
+        "energy": 1680,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/6/6f/Wedding_Cake.png"
     },
     {
         "name": "Whimsical Pie",
@@ -2076,7 +2263,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 3,
         "sellPrice" : 324, 
-        "energy": 1497
+        "energy": 1497,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/4/46/Whimsical_Pie.png"
     },
     {
         "name": "Wonderland Cookies",
@@ -2087,7 +2275,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 406, 
-        "energy": 970
+        "energy": 970,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/3/37/Wonderland_Cookies.png"
     },
     {
         "name": "Yule Log",
@@ -2098,7 +2287,8 @@ let desserts = [
         "ingredientFive" : "",
         "stars" : 4,
         "sellPrice" : 213, 
-        "energy": 2147
+        "energy": 2147,
+        "imgSrc": "https://dreamlightvalleywiki.com/images/d/dd/Yule_Log.png"
     }
 ]
 
