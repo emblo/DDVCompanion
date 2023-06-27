@@ -939,287 +939,273 @@ let fences = [
     }
 ]
 
-//Functional items
-let functionalItems = [
+//Chests
+let chests = [
+    //Small Chests
     {
-        name: "Black Flat-Top Stove",
-        materials: [
-            {
-                name: "Iron Ingot",
-                amount: 2
-            },
-            {
-                name: "Glass",
-                amount: 3
-            },
-            {
-                name: "Black Passion Lily",
-                amount: 1
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Black_Flat-Top_Stove.png"
-    },
-    {
-        name: "Black Gas Stove",
-        materials: [
-            {
-                name: "Iron Ingot",
-                amount: 12
-            },
-            {
-                name: "Glass",
-                amount: 2
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a6/Black_Gas_Stove.png"
-    },
-    {
-        name: "Black Retro Portable Radio",
+        name: "Small Chest",
         materials: [
             {
                 name: "Softwood",
-                amount: 5
+                amount: 25
             },
             {
-                name: "Iron Ingot",
-                amount: 2
+                name: "Stone",
+                amount: 25
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6e/Black_Retro_Portable_Radio.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/02/Small_Chest.png"
     },
     {
-        name: "Blue Retro Portable Radio",
+        name: "Small Blue Chest",
         materials: [
             {
                 name: "Softwood",
+                amount: 25
+            },
+            {
+                name: "Stone",
+                amount: 25
+            },
+            {
+                name: "Blue Falling Penstemon",
+                amount: 6
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Small_Blue_Chest.png"
+    },
+    {
+        name: "Small Green Chest",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 25
+            },
+            {
+                name: "Stone",
+                amount: 25
+            },
+            {
+                name: "Green Rising Penstemon",
                 amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/74/Small_Green_Chest.png"
+    },
+    {
+        name: "Small Red Chest",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 25
+            },
+            {
+                name: "Stone",
+                amount: 25
+            },
+            {
+                name: "Red Falling Penstemon",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Small_Red_Chest.png"
+    },
+    {
+        name: "Small White Chest",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 25
+            },
+            {
+                name: "Stone",
+                amount: 25
+            },
+            {
+                name: "White Daisy",
+                amount: 6
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c2/Small_White_Chest.png"
+    },
+    {
+        name: "Small Yellow Chest",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 25
+            },
+            {
+                name: "Stone",
+                amount: 25
+            },
+            {
+                name: "Dandelion",
+                amount: 6
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d2/Small_Yellow_Chest.png"
+    },
+    //Medium Chests
+    {
+        name: "Medium Chest",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 25
             },
             {
                 name: "Iron Ingot",
-                amount: 1
+                amount: 5
+            },
+            {
+                name: "Dreamlight",
+                amount: 1000
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d4/Medium_Chest.png"
+    },
+    {
+        name: "Medium Blue Chest",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 25
+            },
+            {
+                name: "Iron Ingot",
+                amount: 5
+            },
+            {
+                name: "Dreamlight",
+                amount: 1000
             },
             {
                 name: "Blue Star Lily",
-                amount: 1
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Blue_Retro_Portable_Radio.png"
-    },
-    {
-        name: "Brown Retro Portable Radio",
-        materials: [
-            {
-                name: "Softwood",
-                amount: 10
-            },
-            {
-                name: "Iron Ingot",
-                amount: 1
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d7/Brown_Retro_Portable_Radio.png"
-    },
-    {
-        name: "Campfire",
-        materials: [
-            {
-                name: "Iron Ingot",
-                amount: 10
-            },
-            {
-                name: "Dry Wood",
-                amount: 7
-            },
-            {
-                name: "Coal Ore",
                 amount: 3
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/01/Campfire.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fa/Medium_Blue_Chest.png"
     },
     {
-        name: "Cozy Companion Home",
+        name: "Medium Green Chest",
         materials: [
             {
-                name: "Softwood",
-                amount: 15
+                name: "Hardwood",
+                amount: 25
+            },
+            {
+                name: "Iron Ingot",
+                amount: 5
+            },
+            {
+                name: "Dreamlight",
+                amount: 1000
+            },
+            {
+                name: "Green Rising Penstemon",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6d/Medium_Green_Chest.png"
+    },
+    {
+        name: "Medium Red Chest",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 25
+            },
+            {
+                name: "Iron Ingot",
+                amount: 5
+            },
+            {
+                name: "Dreamlight",
+                amount: 1000
+            },
+            {
+                name: "Red Bell Flower",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/14/Medium_Red_Chest.png"
+    },
+    {
+        name: "Medium White Chest",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 25
+            },
+            {
+                name: "Iron Ingot",
+                amount: 5
+            },
+            {
+                name: "Dreamlight",
+                amount: 1000
+            },
+            {
+                name: "White Marsh Milkweed",
+                amount: 6
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cc/Medium_White_Chest.png"
+    },
+    {
+        name: "Medium Yellow Chest",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 25
+            },
+            {
+                name: "Iron Ingot",
+                amount: 5
+            },
+            {
+                name: "Dreamlight",
+                amount: 1000
             },
             {
                 name: "Sunflower",
+                amount: 6
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f2/Medium_Yellow_Chest.png"
+    },
+    //Large Chests
+    {
+        name: "Large Chest",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 25
+            },
+            {
+                name: "Gold Ingot",
                 amount: 5
             },
             {
-                name: "White & Red Hydrangea",
-                amount: 5
-            },
-            {
-                name: "Topaz",
-                amount: 1
+                name: "Dreamlight",
+                amount: 5000
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/93/Cozy_Companion_Home.png"
-    },
-    {
-        name: "Custom Signpost",
-        materials: [
-            {
-                name: "Softwood",
-                amount: 10
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c6/Custom_Signpost.png"
-    },
-    {
-        name: "Delicious Gift",
-        materials: [
-            {
-                name: "Festive Wrapping Paper",
-                amount: 1
-            },
-            {
-                name: "Minnie's Gingerbread Cookies",
-                amount: 1
-            },
-            {
-                name: "Hot Cocoa",
-                amount: 1
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Delicious_Gift.png"
-    },
-    {
-        name: "Flying Companion Feeder",
-        materials: [
-            {
-                name: "Softwood",
-                amount: 5
-            },
-            {
-                name: "Clay",
-                amount: 5
-            },
-            {
-                name: "Wheat",
-                amount: 5
-            },
-            {
-                name: "Red Bell Flower",
-                amount: 2
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ab/Flying_Companion_Feeder.png"
-    },
-    {
-        name: "Fuzzy Friend Companion Dish",
-        materials: [
-            {
-                name: "Clay",
-                amount: 5
-            },
-            {
-                name: "Wheat",
-                amount: 5
-            },
-            {
-                name: "Red Bell Flower",
-                amount: 2
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d9/Fuzzy_Friend_Companion_Dish.png"
-    },
-    {
-        name: "Gray Flat-Top Stove",
-        materials: [
-            {
-                name: "Iron Ingot",
-                amount: 10
-            },
-            {
-                name: "Glass",
-                amount: 3
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Gray_Flat-Top_Stove.png"
-    },
-    {
-        name: "Gray Gas Stove",
-        materials: [
-            {
-                name: "Iron Ingot",
-                amount: 12
-            },
-            {
-                name: "Glass",
-                amount: 2
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1c/Gray_Gas_Stove.png"
-    },
-    {
-        name: "Gray Mailbox",
-        materials: [
-            {
-                name: "Iron Ingot",
-                amount: 2
-            },
-            {
-                name: "Hardwood",
-                amount: 10
-            },
-            {
-                name: "White Bell Flower",
-                amount: 1
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/65/Gray_Mailbox.png"
-    },
-    {
-        name: "Handcrafted Gift",
-        materials: [
-            {
-                name: "Festive Wrapping Paper",
-                amount: 1
-            },
-            {
-                name: "Holiday Feast Chair",
-                amount: 1
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Handcrafted_Gift.png"
-    },
-    {
-        name: "Iron Crafting Station",
-        materials: [
-            {
-                name: "Iron Ingot",
-                amount: 10
-            },
-            {
-                name: "Hardwood",
-                amount: 10
-            },
-            {
-                name: "Topaz",
-                amount: 10
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a0/Iron_Crafting_Station.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/62/Large_Chest.png"
     },
     {
         name: "Large Blue Chest",
@@ -1243,25 +1229,6 @@ let functionalItems = [
         ],
         sellPrice: 0,
         imgSrc: "https://dreamlightvalleywiki.com/images/0/08/Large_Blue_Chest.png"
-    },
-    {
-        name: "Large Chest",
-        materials: [
-            {
-                name: "Dark Wood",
-                amount: 25
-            },
-            {
-                name: "Gold Ingot",
-                amount: 5
-            },
-            {
-                name: "Dreamlight",
-                amount: 5000
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/62/Large_Chest.png"
     },
     {
         name: "Large Green Chest",
@@ -1332,7 +1299,56 @@ let functionalItems = [
         sellPrice: 0,
         imgSrc: "https://dreamlightvalleywiki.com/images/6/65/Large_White_Chest.png"
     },
+    {
+        name: "Large Yellow Chest",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 25
+            },
+            {
+                name: "Gold Ingot",
+                amount: 5
+            },
+            {
+                name: "Dreamlight",
+                amount: 5000
+            },
+            {
+                name: "Yellow Nasturtium",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Large_Yellow_Chest.png"
+    },
 ]
+
+//Stoves
+
+//Mannequins
+
+//Companions
+
+//Functional Items
+
+//Furniture
+
+//Touch of Magic Furniture 
+
+//Fall Event Furniture
+
+//Winter Event Furniture
+
+//Spring Event Furniture
+
+//Flowers
+
+//Lamps
+
+//Signs
+
+//Mailboxes
 
 /*
 
