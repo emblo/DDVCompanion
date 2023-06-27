@@ -824,6 +824,110 @@ let paving = [
     }
 ]
 
+//Fences
+let fences = [
+    {
+        name: "Dark Wire Mesh Fence -- Base",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5a/Dark_Wire_Mesh_Fence.png"
+    },
+    {
+        name: "Dark Wood Fence -- Base",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/ba/Dark_Wood_Fence.png"
+    },
+    {
+        name: "Green Bamboo Fence -- Base",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 5
+            },
+            {
+                name: "Fiber",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Green_Bamboo_Fence.png"
+    },
+    {
+        name: "Iron Spike and Brick Fence -- Base",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 2
+            },
+            {
+                name: "Brick",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Iron_Spike_and_Brick_Fence.png"
+    },
+    {
+        name: "Metal Spike Fence -- Base",
+        materials: [
+            {
+                name: "Brick",
+                amount: 2
+            },
+            {
+                name: "Iron Ingot",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e7/Metal_Spike_Fence.png"
+    },
+    {
+        name: "White Bamboo Fence -- Base",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b4/White_Bamboo_Fence.png"
+    },
+    {
+        name: "White Picket Fence -- Base",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/White_Picket_Fence_-_Base.png"
+    },
+    {
+        name: "Wire Mesh Fence -- Base",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c0/Wire_Mesh_Fence.png"
+    }
+]
+
 /*
 
     {
