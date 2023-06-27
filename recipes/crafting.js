@@ -148,9 +148,10 @@ let refinedMaterials = [
         ],
         sellPrice: 170,
         imgSrc: "https://dreamlightvalleywiki.com/images/f/fe/Tinkering_Parts.png"
-    },
+    }
 ]
 
+//Enchantments
 let enchantments = [
     {
         name: "Digging Training Manual",
@@ -434,7 +435,393 @@ let enchantments = [
         ],
         sellPrice: 70,
         imgSrc: "https://dreamlightvalleywiki.com/images/e/e5/Purified_Night_Shard.png"
+    }
+]
+
+//Paving
+let paving = [
+    {
+        name: "Asphalt",
+        materials: [
+            {
+                name: "Sand",
+                amount: 1,
+            },
+            {
+                name: "Pebbles",
+                amount: 1
+            },
+            {
+                name: "Coal Ore",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/d/d7/Asphalt.png/150px-Asphalt.png"
     },
+    {
+        name: "Asphalt with Border",
+        materials: [
+            {
+                name: "Sand",
+                amount: 1,
+            },
+            {
+                name: "Pebbles",
+                amount: 1
+            },
+            {
+                name: "Coal Ore",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/47/Asphalt_with_Border.png/150px-Asphalt_with_Border.png"
+    },
+    {
+        name: "Brick Road",
+        materials: [
+            {
+                name: "Stone",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/9/92/Brick_Road.png/150px-Brick_Road.png"
+    },
+    {
+        name: "Brick Road with Border",
+        materials: [
+            {
+                name: "Stone",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/3/3d/Brick_Road_with_Border.png/150px-Brick_Road_with_Border.png"
+    },
+    {
+        name: "Deluxe Sugar Cookie Pavement",
+        materials: [
+            {
+                name: "Candy",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/4b/Deluxe_Sugar_Cookie_Pavement.png/150px-Deluxe_Sugar_Cookie_Pavement.png"
+    },
+    {
+        name: "Gem & Opal Road",
+        materials: [
+            {
+                name: "Stone",
+                amount: 1
+            },
+            {
+                name: "Aquamarine",
+                amount: 1
+            },
+            {
+                name: "Tourmaline",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/d/d5/Gem_%26_Opal_Road.png/150px-Gem_%26_Opal_Road.png"
+    },
+    {
+        name: "Gem & Opal Road with Border",
+        materials: [
+            {
+                name: "Stone",
+                amount: 1
+            },
+            {
+                name: "Aquamarine",
+                amount: 1
+            },
+            {
+                name: "Tourmaline",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/4e/Gem_%26_Opal_Road_with_Border.png/150px-Gem_%26_Opal_Road_with_Border.png"
+    },
+    {
+        name: "Gold & Opal Road",
+        materials: [
+            {
+                name: "Stone",
+                amount: 1,
+            },
+            {
+                name: "Gold Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/45/Gold_%26_Opal_Road.png/150px-Gold_%26_Opal_Road.png"
+    },
+    {
+        name: "Gold & Opal Road with Border",
+        materials: [
+            {
+                name: "Stone",
+                amount: 1
+            },
+            {
+                name: "Gold Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/c/ce/Gold_%26_Opal_Road_with_Border.png/150px-Gold_%26_Opal_Road_with_Border.png"
+    },
+    {
+        name: "Golden Brick Road",
+        materials: [
+            {
+                name: "Gold Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/21/Golden_Brick_Road.png/150px-Golden_Brick_Road.png"
+    },
+    {
+        name: "Golden Brick Road with Border",
+        materials: [
+            {
+                name: "Gold Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/f/f4/Golden_Brick_Road_with_Border.png/150px-Golden_Brick_Road_with_Border.png"
+    },
+    {
+        name: "Leaf-Strewn Path",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 1
+            },
+            {
+                name: "Soil",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/f/f2/Leaf-Strewn_Path.png/150px-Leaf-Strewn_Path.png"
+    },
+    {
+        name: "Leaf-Strewn Path with Border",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 1
+            },
+            {
+                name: "Soil",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/2b/Leaf-Strewn_Path_with_Border.png/150px-Leaf-Strewn_Path_with_Border.png"
+    },
+    {
+        name: "Loose Gravel Path",
+        materials: [
+            {
+                name: "Soil",
+                amount: 1
+            },
+            {
+                name: "Pebbles",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/d/d4/Loose_Gravel_Path.png/150px-Loose_Gravel_Path.png"
+    },
+    {
+        name: "Loose Gravel Path with Border",
+        materials: [
+            {
+                name: "Soil",
+                amount: 1
+            },
+            {
+                name: "Pebbles",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/8/82/Loose_Gravel_Path_with_Border.png/150px-Loose_Gravel_Path_with_Border.png"
+    },
+    {
+        name: "Muddy Path",
+        materials: [
+            {
+                name: "Soil",
+                amount: 1
+            },
+            {
+                name: "Hardwood",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/e/e6/Muddy_Path.png/150px-Muddy_Path.png"
+    },
+    {
+        name: "Muddy Path with Border",
+        materials: [
+            {
+                name: "Soil",
+                amount: 1
+            },
+            {
+                name: "Hardwood",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/45/Muddy_Path_with_Border.png/150px-Muddy_Path_with_Border.png"
+    },
+    {
+        name: "Natural Rock Path",
+        materials: [
+            {
+                name: "Pebbles",
+                amount: 1
+            },
+            {
+                name: "Sand",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/28/Natural_Rock_Path.png/150px-Natural_Rock_Path.png"
+    },
+    {
+        name: "Natural Rock Path with Border",
+        materials: [
+            {
+                name: "Pebbles",
+                amount: 1
+            },
+            {
+                name: "Sand",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/2e/Natural_Rock_Path_with_Border.png/150px-Natural_Rock_Path_with_Border.png"
+    },
+    {
+        name: "Sinister Brick Road",
+        materials: [
+            {
+                name: "Stone",
+                amount: 1
+            },
+            {
+                name: "Soil",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/1/19/Sinister_Brick_Road.png/150px-Sinister_Brick_Road.png"
+    },
+    {
+        name: "Sinister Brick Road with Border",
+        materials: [
+            {
+                name: "Stone",
+                amount: 1
+            },
+            {
+                name: "Soil",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/b/b4/Sinister_Brick_Road_with_Border.png/150px-Sinister_Brick_Road_with_Border.png"
+    },
+    {
+        name: "Snowy Brick Road",
+        materials: [
+            {
+                name: "Stone",
+                amount: 1
+            },
+            {
+                name: "Snowball",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/9/96/Snowy_Brick_Road.png/150px-Snowy_Brick_Road.png"
+    },
+    {
+        name: "Snowy Brick Road with Border",
+        materials: [
+            {
+                name: "Stone",
+                amount: 1
+            },
+            {
+                name: "Snowball",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/8/84/Snowy_Brick_Road_with_Border.png/150px-Snowy_Brick_Road_with_Border.png"
+    },
+    {
+        name: "Sugar Cookie Pavement",
+        materials: [
+            {
+                name: "Candy",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/0/05/Sugar_Cookie_Pavement.png/150px-Sugar_Cookie_Pavement.png"
+    },
+    {
+        name: "Sun-Baked Earthen Road",
+        materials: [
+            {
+                name: "Soil",
+                amount: 1
+            },
+            {
+                name: "Clay",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/c/c1/Sun-Baked_Earthen_Road.png/150px-Sun-Baked_Earthen_Road.png"
+    },
+    {
+        name: "Sun-Baked Earthen Road with Border",
+        materials: [
+            {
+                name: "Soil",
+                amount: 1
+            },
+            {
+                name: "Clay",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/0/0f/Sun-Baked_Earthen_Road_with_Border.png/150px-Sun-Baked_Earthen_Road_with_Border.png"
+    }
 ]
 
 /*
@@ -444,10 +831,10 @@ let enchantments = [
         materials: [
             {
                 name: "",
-                amount: 1,
+                amount: 0
             }
         ],
-        sellPrice: 1,
+        sellPrice: 0,
         imgSrc: ""
     },
 
