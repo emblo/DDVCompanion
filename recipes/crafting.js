@@ -1700,6 +1700,213 @@ let companions = [
 //Furniture
 
 //Touch of Magic Furniture 
+let touchOfMagic = [
+    {
+        name: "Basic Armchair",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 10
+            },
+            {
+                name: "Fiber",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c6/Basic_Armchair.png"
+    },
+    {
+        name: "Basic Beach Chair",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 10
+            },
+            {
+                name: "Fiber",
+                amount: 10
+            },
+            {
+                name: "Sand",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0a/Basic_Beach_Chair.png"
+    },
+    {
+        name: "Basic Chair",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/Basic_Chair.png"
+    },
+    {
+        name: "Basic Couch",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 20
+            },
+            {
+                name: "Fiber",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Basic_Couch.png"
+    },
+    {
+        name: "Basic Desk",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2f/Basic_Desk.png"
+    },
+    {
+        name: "Basic Double Bed",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 20
+            },
+            {
+                name: "Fabric",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1e/Basic_Double_Bed.png"
+    },
+    {
+        name: "Basic Dresser",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 25
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Basic_Dresser_%282%29.png"
+    },
+    {
+        name: "Basic Fridge",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Snowball",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/76/Basic_Fridge.png"
+    },
+    {
+        name: "Basic Lamp",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 10
+            },
+            {
+                name: "Fabric",
+                amount: 3
+            },
+            {
+                name: "Glass",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Basic_Lamp.png"
+    },
+    {
+        name: "Basic Large Table",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Basic_Large_Table.png"
+    },
+    {
+        name: "Basic Parasol and Towel",
+        materials: [
+            {
+                name: "Fiber",
+                amount: 10
+            },
+            {
+                name: "Sand",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dc/Basic_Parasol_and_Towel.png"
+    },
+    {
+        name: "Basic Picnic Table",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 10
+            },
+            {
+                name: "Hardwood",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Basic_Picnic_Table.png"
+    },
+    {
+        name: "Basic Rug",
+        materials: [
+            {
+                name: "Fiber",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/68/Basic_Rug.png"
+    },
+    {
+        name: "Basic Side Table",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ae/Basic_Side_Table.png"
+    },
+    {
+        name: "Basic Wardrobe",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 30
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Basic_Wardrobe.png"
+    }
+]
 
 //Fall Event Furniture
 
