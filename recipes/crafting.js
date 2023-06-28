@@ -1964,7 +1964,65 @@ let signs = [
 ]
 
 //Mailboxes
-
+let mailboxes = [
+    {
+        name: "Gray Mailbox",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 2
+            },
+            {
+                name: "Hardwood",
+                amount: 10
+            },
+            {
+                name: "White Bell Flower",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/65/Gray_Mailbox.png"
+    },
+    {
+        name: "Red Mailbox",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 2
+            },
+            {
+                name: "Hardwood",
+                amount: 10
+            },
+            {
+                name: "Red Bromeliad",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f5/Red_Mailbox.png"
+    },
+    {
+        name: "Mailbox",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 4
+            },
+            {
+                name: "Stone",
+                amount: 2
+            },
+            {
+                name: "Iron Ingot",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Mailbox.png"
+    },
+]
 
 /*
 
