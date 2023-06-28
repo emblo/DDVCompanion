@@ -1909,6 +1909,107 @@ let touchOfMagic = [
 ]
 
 //Fall Event Furniture
+let fallEvent = [
+    {
+        name: "Playful Pumpkin Scarecrow",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 10
+            },
+            {
+                name: "Fabric",
+                amount: 10
+            },
+            {
+                name: "Wheat",
+                amount: 20
+            },
+            {
+                name: "Pumpkin",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Playful_Pumpkin_Scarecrow.png"
+    },
+    {
+        name: "Pampas Grass Jug",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 2
+            },
+            {
+                name: "Soil",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/76/Pampas_Grass_Jug.png"
+    },
+    {
+        name: "Bountiful Marigold Basket",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 1
+            },
+            {
+                name: "Soil",
+                amount: 10
+            },
+            {
+                name: "Hardwood",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/31/Bountiful_Marigold_Basket.png"
+    },
+    {
+        name: "Autumn Wreath",
+        materials: [
+            {
+                name: "Sunflower",
+                amount: 2
+            },
+            {
+                name: "Rope",
+                amount: 1
+            },
+            {
+                name: "Soil",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Autumn_Wreath.png"
+    },
+    {
+        name: "Autumn Harvest Pennants",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 10
+            },
+            {
+                name: "Fabric",
+                amount: 5
+            },
+            {
+                name: "Corn",
+                amount: 10
+            },
+            {
+                name: "Pumpkin",
+                amount: 4
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ee/Autumn_Harvest_Pennants.png"
+    }
+]
 
 //Winter Event Furniture
 
