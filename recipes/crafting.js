@@ -2012,12 +2012,193 @@ let fallEvent = [
 ]
 
 //Winter Event Furniture
+let winterEvent = [
+    {
+        name: "Holiday Feast Chair",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 3
+            },
+            {
+                name: "Fabric",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/44/Holiday_Feast_Chair.png"
+    },
+    {
+        name: "Holiday Feast Plate and Cutlery",
+        materials: [
+            {
+                name: "Clay",
+                amount: 5
+            },
+            {
+                name: "Gold Ingot",
+                amount: 1
+            },
+            {
+                name: "Fabric",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Holiday_Feast_Plate_and_Cutlery.png"
+    },
+    {
+        name: "Kinara",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 3
+            },
+            {
+                name: "Soya",
+                amount: 7
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Kinara.png"
+    },
+    {
+        name: "Menorah",
+        materials: [
+            {
+                name: "Gold Ingot",
+                amount: 1
+            },
+            {
+                name: "Soya",
+                amount: 9
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/80/Menorah.png"
+    },
+    {
+        name: "Tree of Holiday Cheer",
+        materials: [
+            {
+                name: "Glass",
+                amount: 15
+            },
+            {
+                name: "Fabric",
+                amount: 10
+            },
+            {
+                name: "Sugarcane",
+                amount: 25
+            },
+            {
+                name: "Topaz",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Tree_of_Holiday_Cheer.png"
+    },
+    {
+        name: "Yule Goat",
+        materials: [
+            {
+                name: "Wheat",
+                amount: 50
+            },
+            {
+                name: "Fabric",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3b/Yule_Goat.png"
+    },
+    {
+        name: "Snow Hut",
+        materials: [
+            {
+                name: "Snowball",
+                amount: 100
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c4/Snow_Hut.png"
+    },
+    {
+        name: "Shiny Gift",
+        materials: [
+            {
+                name: "Festive Wrapping Paper",
+                amount: 1
+            },
+            {
+                name: "Shiny Ruby",
+                amount: 1
+            },
+            {
+                name: "Shiny Emerald",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Shiny_Gift.png"
+    },
+    {
+        name: "Naughty Gift",
+        materials: [
+            {
+                name: "Festive Wrapping Paper",
+                amount: 1
+            },
+            {
+                name: "Coal Ore",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/aa/Naughty_Gift.png"
+    },
+    {
+        name: "Handcrafted Gift",
+        materials: [
+            {
+                name: "Festive Wrapping Paper",
+                amount: 1
+            },
+            {
+                name: "Holiday Feast Chair",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Handcrafted_Gift.png"
+    },
+    {
+        name: "Delicious Gift",
+        materials: [
+            {
+                name: "Festive Wrapping Paper",
+                amount: 1
+            },
+            {
+                name: "Hot Cocoa",
+                amount: 1
+            },
+            {
+                name: "Minnie's Gingerbread Cookies",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Delicious_Gift.png"
+    }
+]
 
 //Spring Event Furniture
 
 //Flowers
-
-//Gifts
 
 //Lamps
 let lamps = [
