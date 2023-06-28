@@ -1692,7 +1692,7 @@ let companions = [
         ],
         sellPrice: 0,
         imgSrc: "https://dreamlightvalleywiki.com/images/b/bc/Playful_Companion_Pinwheel.png"
-    },
+    }
 ]
 
 //Functional Items
@@ -1919,6 +1919,49 @@ let touchOfMagic = [
 //Lamps
 
 //Signs
+let signs = [
+    {
+        name: "Custom Signpost",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c6/Custom_Signpost.png"
+    },
+    {
+        name: "Left Signpost",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 5
+            },
+            {
+                name: "Iron Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/93/Left_Signpost.png"
+    },
+    {
+        name: "Right Signpost",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 5
+            },
+            {
+                name: "Iron Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/31/Right_Signpost.png"
+    }
+]
 
 //Mailboxes
 
