@@ -1325,8 +1325,268 @@ let chests = [
 ]
 
 //Stoves
+let stoves = [
+    {
+        name: "Black Flat-Top Stove",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Glass",
+                amount: 3
+            },
+            {
+                name: "Black Passion Lily",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Black_Flat-Top_Stove.png"
+    },
+    {
+        name: "Black Gas Stove",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 12
+            },
+            {
+                name: "Glass",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a6/Black_Gas_Stove.png"
+    },
+    {
+        name: "Gray Flat-Top Stove",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Glass",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Gray_Flat-Top_Stove.png"
+    },
+    {
+        name: "Gray Gas Stove",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 12
+            },
+            {
+                name: "Glass",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1c/Gray_Gas_Stove.png"
+    },
+    {
+        name: "Pale Gray Flat-Top Stove",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Glass",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1e/Pale_Gray_Flat-Top_Stove.png"
+    },
+    {
+        name: "Pale Gray Gas Stove",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 12
+            },
+            {
+                name: "Glass",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Pale_Gray_Gas_Stove.png"
+    },
+    {
+        name: "Pink Flat-Top Stove",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Glass",
+                amount: 3
+            },
+            {
+                name: "Pink Houseleek",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cf/Pink_Flat-Top_Stove.png"
+    },
+    {
+        name: "Pink Gas Stove",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 12
+            },
+            {
+                name: "Glass",
+                amount: 2
+            },
+            {
+                name: "Pink Houseleek",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Pink_Gas_Stove.png"
+    },
+    {
+        name: "White Flat-Top Stove",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Glass",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/04/White_Flat-Top_Stove.png"
+    },
+    {
+        name: "White Gas Stove",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 12
+            },
+            {
+                name: "Glass",
+                amount: 2
+            },
+            {
+                name: "Black Passion Lily",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f4/White_Gas_Stove.png"
+    },
+]
 
 //Mannequins
+let mannequins = [
+    {
+        name: "Thoughtful Black Mannequin",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 15
+            },
+            {
+                name: "Fiber",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Thoughtful_Black_Mannequin.png"
+    },
+    {
+        name: "Relaxed Black Mannequin",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 15
+            },
+            {
+                name: "Fiber",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ed/Relaxed_Black_Mannequin.png"
+    },
+    {
+        name: "Hand on Hip Black Mannequin",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 15
+            },
+            {
+                name: "Fiber",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ea/Hand_on_Hip_Black_Mannequin.png"
+    },
+    {
+        name: "Hesitant White Mannequin",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 15
+            },
+            {
+                name: "Fiber",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/09/Hesitant_White_Mannequin.png"
+    },
+    {
+        name: "Relaxed White Mannequin",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 15
+            },
+            {
+                name: "Fiber",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4c/Relaxed_White_Mannequin.png"
+    },
+    {
+        name: "Chin Up White Mannequin",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 15
+            },
+            {
+                name: "Fiber",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fa/Chin_Up_White_Mannequin.png"
+    },
+]
 
 //Companions
 
@@ -1349,6 +1609,7 @@ let chests = [
 //Signs
 
 //Mailboxes
+
 
 /*
 
