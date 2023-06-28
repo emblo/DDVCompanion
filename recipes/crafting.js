@@ -1,6 +1,6 @@
 //Array of objects holding information for crafting recipes
 //Refined materials
-let refinedMaterials = [
+const refinedMaterials = [
     {
         name: "Brick",
         materials: [
@@ -152,7 +152,7 @@ let refinedMaterials = [
 ]
 
 //Enchantments
-let enchantments = [
+const enchantments = [
     {
         name: "Dreamlight",
         materials: [
@@ -450,7 +450,7 @@ let enchantments = [
 ]
 
 //Paving
-let paving = [
+const paving = [
     {
         name: "Asphalt",
         materials: [
@@ -836,7 +836,7 @@ let paving = [
 ]
 
 //Fences
-let fences = [
+const fences = [
     {
         name: "Dark Wire Mesh Fence -- Base",
         materials: [
@@ -940,7 +940,7 @@ let fences = [
 ]
 
 //Chests
-let chests = [
+const chests = [
     //Small Chests
     {
         name: "Small Chest",
@@ -1325,7 +1325,7 @@ let chests = [
 ]
 
 //Stoves
-let stoves = [
+const stoves = [
     {
         name: "Black Flat-Top Stove",
         materials: [
@@ -1495,7 +1495,7 @@ let stoves = [
 ]
 
 //Mannequins
-let mannequins = [
+const mannequins = [
     {
         name: "Thoughtful Black Mannequin",
         materials: [
@@ -1589,7 +1589,7 @@ let mannequins = [
 ]
 
 //Companions
-let companions = [
+const companions = [
     {
         name: "Cozy Companion Home",
         materials: [
@@ -1700,7 +1700,7 @@ let companions = [
 //Furniture
 
 //Touch of Magic Furniture 
-let touchOfMagic = [
+const touchOfMagic = [
     {
         name: "Basic Armchair",
         materials: [
@@ -1909,7 +1909,7 @@ let touchOfMagic = [
 ]
 
 //Fall Event Furniture
-let fallEvent = [
+const fallEvent = [
     {
         name: "Playful Pumpkin Scarecrow",
         materials: [
@@ -2012,7 +2012,7 @@ let fallEvent = [
 ]
 
 //Winter Event Furniture
-let winterEvent = [
+const winterEvent = [
     {
         name: "Holiday Feast Chair",
         materials: [
@@ -2197,7 +2197,7 @@ let winterEvent = [
 ]
 
 //Spring Event Furniture
-let springEvent = [
+const springEvent = [
     {
         name: "'Don't Put 'Em All in One Basket' Basket",
         materials: [
@@ -2308,7 +2308,7 @@ let springEvent = [
 ]
 
 //Floral
-let floral = [
+const floral = [
     {
         name: "Jubilant Topiary",
         materials: [
@@ -2884,7 +2884,7 @@ let floral = [
 ]
 
 //Lamps
-let lamps = [
+const lamps = [
     {
         name: "Black Wrought Iron Streetlamp",
         materials: [
@@ -3468,7 +3468,7 @@ let lamps = [
 ]
 
 //Signs
-let signs = [
+const signs = [
     {
         name: "Custom Signpost",
         materials: [
@@ -3513,7 +3513,7 @@ let signs = [
 ]
 
 //Mailboxes
-let mailboxes = [
+const mailboxes = [
     {
         name: "Gray Mailbox",
         materials: [
