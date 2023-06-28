@@ -154,6 +154,17 @@ let refinedMaterials = [
 //Enchantments
 let enchantments = [
     {
+        name: "Dreamlight",
+        materials: [
+            {
+                name: "Dream Shard",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5e/Dreamlight_large.png"
+    },
+    {
         name: "Digging Training Manual",
         materials: [
             {
@@ -175,82 +186,6 @@ let enchantments = [
         ],
         sellPrice: 0,
         imgSrc: "https://dreamlightvalleywiki.com/images/5/58/Digging_Training_Manual.png"
-    },
-    {
-        name: "Even More Miraculous Fishing Bait",
-        materials: [
-            {
-                name: "Vitalys Crystal",
-                amount: 20,
-            },
-            {
-                name: "Red Algae",
-                amount: 10
-            },
-            {
-                name: "Dreamlight",
-                amount: 1000
-            }
-        ],
-        sellPrice: 3500,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Even_More_Miraculous_Fishing_Bait.png"
-    },
-    {
-        name: "Even More Miraculous Growth Elixir",
-        materials: [
-            {
-                name: "Vitalys Crystal",
-                amount: 20,
-            },
-            {
-                name: "Rich Soil",
-                amount: 20
-            },
-            {
-                name: "Dreamlight",
-                amount: 1000
-            }
-        ],
-        sellPrice: 1300,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/90/Even_More_Miraculous_Growth_Elixir.png"
-    },
-    {
-        name: "Even More Miraculous Pickaxe Polish",
-        materials: [
-            {
-                name: "Vitalys Crystal",
-                amount: 20,
-            },
-            {
-                name: "Onyx",
-                amount: 10
-            },
-            {
-                name: "Dreamlight",
-                amount: 1000
-            }
-        ],
-        sellPrice: 5700,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Even_More_Miraculous_Pickaxe_Polish.png"
-    },
-    {
-        name: "Even More Miraculous Shovel Varnish",
-        materials: [
-            {
-                name: "Vitalys Crystal",
-                amount: 20,
-            },
-            {
-                name: "Dry Wood",
-                amount: 20
-            },
-            {
-                name: "Dreamlight",
-                amount: 1000
-            }
-        ],
-        sellPrice: 2900,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1f/Even_More_Miraculous_Shovel_Varnish.png"
     },
     {
         name: "Fishing Training Manual",
@@ -422,6 +357,82 @@ let enchantments = [
         imgSrc: "https://dreamlightvalleywiki.com/images/6/6f/Miracle_Shovel_Varnish.png"
     },
     {
+        name: "Even More Miraculous Fishing Bait",
+        materials: [
+            {
+                name: "Vitalys Crystal",
+                amount: 20,
+            },
+            {
+                name: "Red Algae",
+                amount: 10
+            },
+            {
+                name: "Dreamlight",
+                amount: 1000
+            }
+        ],
+        sellPrice: 3500,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Even_More_Miraculous_Fishing_Bait.png"
+    },
+    {
+        name: "Even More Miraculous Growth Elixir",
+        materials: [
+            {
+                name: "Vitalys Crystal",
+                amount: 20,
+            },
+            {
+                name: "Rich Soil",
+                amount: 20
+            },
+            {
+                name: "Dreamlight",
+                amount: 1000
+            }
+        ],
+        sellPrice: 1300,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/90/Even_More_Miraculous_Growth_Elixir.png"
+    },
+    {
+        name: "Even More Miraculous Pickaxe Polish",
+        materials: [
+            {
+                name: "Vitalys Crystal",
+                amount: 20,
+            },
+            {
+                name: "Onyx",
+                amount: 10
+            },
+            {
+                name: "Dreamlight",
+                amount: 1000
+            }
+        ],
+        sellPrice: 5700,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Even_More_Miraculous_Pickaxe_Polish.png"
+    },
+    {
+        name: "Even More Miraculous Shovel Varnish",
+        materials: [
+            {
+                name: "Vitalys Crystal",
+                amount: 20,
+            },
+            {
+                name: "Dry Wood",
+                amount: 20
+            },
+            {
+                name: "Dreamlight",
+                amount: 1000
+            }
+        ],
+        sellPrice: 2900,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1f/Even_More_Miraculous_Shovel_Varnish.png"
+    },
+    {
         name: "Purified Night Shard",
         materials: [
             {
@@ -435,17 +446,6 @@ let enchantments = [
         ],
         sellPrice: 70,
         imgSrc: "https://dreamlightvalleywiki.com/images/e/e5/Purified_Night_Shard.png"
-    },
-    {
-        name: "Dreamlight",
-        materials: [
-            {
-                name: "Dream Shard",
-                amount: 10
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/5e/Dreamlight_large.png"
     }
 ]
 
