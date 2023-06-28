@@ -2307,7 +2307,581 @@ let springEvent = [
     }
 ]
 
-//Flowers
+//Floral
+let floral = [
+    {
+        name: "Jubilant Topiary",
+        materials: [
+            {
+                name: "Clay",
+                amount: 5
+            },
+            {
+                name: "Soil",
+                amount: 5
+            },
+            {
+                name: "Pink Houseleek",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/25/Jubilant_Topiary.png"
+    },
+    {
+        name: "Flower Boxes",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 6
+            },
+            {
+                name: "Dandelion",
+                amount: 2,
+            },
+            {
+                name: "Pink Hydrangea",
+                amount: 2
+            },
+            {
+                name: "Blue Marsh Milkweed",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/02/Flower_Boxes.png"
+    },
+    {
+        name: "Flower Pots",
+        materials: [
+            {
+                name: "Clay",
+                amount: 6
+            },
+            {
+                name: "Soil",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fd/Flower_Pots.png"
+    },
+    {
+        name: "Sunflower and Daisy Pot",
+        materials: [
+            {
+                name: "Flower Pots",
+                amount: 1
+            },
+            {
+                name: "Yellow Daisy",
+                amount: 2
+            },
+            {
+                name: "Sunflower",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/39/Sunflower_and_Daisy_Pot.png"
+    },
+    {
+        name: "Star Lily and Falling Penstemon Pot",
+        materials: [
+            {
+                name: "Flower Pots",
+                amount: 1
+            },
+            {
+                name: "Blue Star Lily",
+                amount: 1
+            },
+            {
+                name: "White & Pink Falling Penstemon",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Star_Lily_and_Falling_Penstemon_Pot.png"
+    },
+    {
+        name: "Red and Black Passion Lily Pot",
+        materials: [
+            {
+                name: "Flower Pots",
+                amount: 1
+            },
+            {
+                name: "Red Passion Lily",
+                amount: 1
+            },
+            {
+                name: "Black Passion Lily",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5b/Red_and_Black_Passion_Lily_Pot.png"
+    },
+    {
+        name: "Passion Lily and Houseleek Pot",
+        materials: [
+            {
+                name: "Flower Pots",
+                amount: 1
+            },
+            {
+                name: "Orange Houseleek",
+                amount: 1
+            },
+            {
+                name: "White Passion Lily",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c5/Passion_Lily_and_Houseleek_Pot.png"
+    },
+    {
+        name: "Nasturtium and Marsh Milkweed Pot",
+        materials: [
+            {
+                name: "Flower Pots",
+                amount: 1
+            },
+            {
+                name: "Yellow Nasturtium",
+                amount: 1
+            },
+            {
+                name: "Purple Marsh Milkweed",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Nasturtium_and_Marsh_Milkweed_Pot.png"
+    },
+    {
+        name: "Impatiens and Bromeliad Pot",
+        materials: [
+            {
+                name: "Flower Pots",
+                amount: 1
+            },
+            {
+                name: "Purple Impatiens",
+                amount: 1
+            },
+            {
+                name: "Yellow Bromeliad",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3a/Impatiens_and_Bromeliad_Pot.png"
+    },
+    {
+        name: "Hydrangea and Bell Flower Pot",
+        materials: [
+            {
+                name: "Flower Pots",
+                amount: 1
+            },
+            {
+                name: "Blue Hydrangea",
+                amount: 1
+            },
+            {
+                name: "Purple Bell Flower",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9f/Hydrangea_and_Bell_Flower_Pot.png"
+    },
+    {
+        name: "Falling Penstemon and Bell Flower Pot",
+        materials: [
+            {
+                name: "Flower Pots",
+                amount: 1
+            },
+            {
+                name: "Blue Falling Penstemon",
+                amount: 1
+            },
+            {
+                name: "White Bell Flower",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Falling_Penstemon_and_Bell_Flower_Pot.png"
+    },
+    {
+        name: "Dandelion and Rising Penstemon Pot",
+        materials: [
+            {
+                name: "Flower Pots",
+                amount: 1
+            },
+            {
+                name: "Dandelion",
+                amount: 1
+            },
+            {
+                name: "Purple Rising Penstemon",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Dandelion_and_Rising_Penstemon_Pot.png"
+    },
+    {
+        name: "Daisy and Marsh Milkweed Pot",
+        materials: [
+            {
+                name: "Flower Pots",
+                amount: 1
+            },
+            {
+                name: "Red Daisy",
+                amount: 1
+            },
+            {
+                name: "White Marsh Milkweed",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Daisy_and_Marsh_Milkweed_Pot.png"
+    },
+    {
+        name: "Bromeliad and Marsh Milkweed Pot",
+        materials: [
+            {
+                name: "Flower Pots",
+                amount: 1
+            },
+            {
+                name: "Pink Bromeliad",
+                amount: 3
+            },
+            {
+                name: "White Marsh Milkweed",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Bromeliad_and_Marsh_Milkweed_Pot.png"
+    },
+    {
+        name: "Round Soil Area",
+        materials: [
+            {
+                name: "Stone",
+                amount: 5
+            },
+            {
+                name: "Soil",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3f/Round_Soil_Area.png"
+    },
+    {
+        name: "Pink and Blue Flower Disk",
+        materials: [
+            {
+                name: "Round Soil Area",
+                amount: 1
+            },
+            {
+                name: "Purple Impatiens",
+                amount: 2
+            },
+            {
+                name: "Blue Star Lily",
+                amount: 2
+            },
+            {
+                name: "Pink Bromeliad",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Pink_and_Blue_Flower_Disk.png"
+    },
+    {
+        name: "Pink, Yellow and Black Flower Disk",
+        materials: [
+            {
+                name: "Round Soil Area",
+                amount: 1
+            },
+            {
+                name: "Pink Houseleek",
+                amount: 1
+            },
+            {
+                name: "Orange Star Lily",
+                amount: 2
+            },
+            {
+                name: "Red Nasturtium",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Pink%2C_Yellow_and_Black_Flower_Disk.png"
+    },
+    {
+        name: "Purple, Pink and Yellow Flower Disk",
+        materials: [
+            {
+                name: "Round Soil Area",
+                amount: 1
+            },
+            {
+                name: "Pink Hydrangea",
+                amount: 2
+            },
+            {
+                name: "Purple Bell Flower",
+                amount: 2
+            },
+            {
+                name: "Yellow Daisy",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/73/Purple%2C_Pink_and_Yellow_Flower_Disk.png"
+    },
+    {
+        name: "Red and Yellow Flower Disk",
+        materials: [
+            {
+                name: "Round Soil Area",
+                amount: 1
+            },
+            {
+                name: "Dandelion",
+                amount: 2
+            },
+            {
+                name: "White Daisy",
+                amount: 1
+            },
+            {
+                name: "Red Falling Penstemon",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e8/Red_and_Yellow_Flower_Disk.png"
+    },
+    {
+        name: "White, Red and Purple Flower Disk",
+        materials: [
+            {
+                name: "Round Soil Area",
+                amount: 1
+            },
+            {
+                name: "White Impatiens",
+                amount: 2
+            },
+            {
+                name: "Purple Rising Penstemon",
+                amount: 2
+            },
+            {
+                name: "Orange & Red Marsh Milkweed",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c5/White%2C_Red_and_Purple_Flower_Disk.png"
+    },
+    {
+        name: "Yellow, Red and Blue Flower Disk",
+        materials: [
+            {
+                name: "Round Soil Area",
+                amount: 1
+            },
+            {
+                name: "Blue Passion Lily",
+                amount: 4
+            },
+            {
+                name: "Red Bell Flower",
+                amount: 2
+            },
+            {
+                name: "Sunflower",
+                amount: 4
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e8/Yellow%2C_Red_and_Blue_Flower_Disk.png"
+    },
+    {
+        name: "Rectangular Soil Area",
+        materials: [
+            {
+                name: "Stone",
+                amount: 8
+            },
+            {
+                name: "Soil",
+                amount: 8
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c8/Rectangular_Soil_Area.png"
+    },
+    {
+        name: "Pink, Blue and Purple Flower Rectangle",
+        materials: [
+            {
+                name: "Rectangular Soil Area",
+                amount: 1
+            },
+            {
+                name: "Pink Houseleek",
+                amount: 1
+            },
+            {
+                name: "Blue Marsh Milkweed",
+                amount: 2
+            },
+            {
+                name: "Purple Impatiens",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/81/Pink%2C_Blue_and_Purple_Flower_Rectangle.png"
+    },
+    {
+        name: "Pink, Red and Purple Flower Rectangle",
+        materials: [
+            {
+                name: "Rectangular Soil Area",
+                amount: 1
+            },
+            {
+                name: "Purple Hydrangea",
+                amount: 2
+            },
+            {
+                name: "Orange Marsh Milkweed",
+                amount: 3
+            },
+            {
+                name: "Red Bell Flower",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2c/Pink%2C_Red_and_Purple_Flower_Rectangle.png"
+    },
+    {
+        name: "Red, Blue and Green Flower Rectangle",
+        materials: [
+            {
+                name: "Rectangular Soil Area",
+                amount: 1
+            },
+            {
+                name: "Green Passion Lily",
+                amount: 2
+            },
+            {
+                name: "Blue Falling Penstemon",
+                amount: 2
+            },
+            {
+                name: "Orange Nasturtium",
+                amount: 4
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Red%2C_Blue_and_Green_Flower_Rectangle.png"
+    },
+    {
+        name: "Red, White and Purple Flower Rectangle",
+        materials: [
+            {
+                name: "Rectangular Soil Area",
+                amount: 1
+            },
+            {
+                name: "Red Bromeliad",
+                amount: 2
+            },
+            {
+                name: "White Impatiens",
+                amount: 2
+            },
+            {
+                name: "Purple Rising Penstemon",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Red%2C_White_and_Purple_Flower_Rectangle.png"
+    },
+    {
+        name: "Yellow and White Flower Rectangle",
+        materials: [
+            {
+                name: "Rectangular Soil Area",
+                amount: 1
+            },
+            {
+                name: "White Daisy",
+                amount: 2
+            },
+            {
+                name: "Yellow Bromeliad",
+                amount: 1
+            },
+            {
+                name: "Orange Star Lily",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Yellow_and_White_Flower_Rectangle.png"
+    },
+    {
+        name: "Yellow, Green and Purple Flower Rectangle",
+        materials: [
+            {
+                name: "Rectangular Soil Area",
+                amount: 1
+            },
+            {
+                name: "Purple Falling Penstemon",
+                amount: 2
+            },
+            {
+                name: "Dandelion",
+                amount: 2
+            },
+            {
+                name: "Green Rising Penstemon",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fb/Yellow%2C_Green_and_Purple_Flower_Rectangle.png"
+    }
+]
 
 //Lamps
 let lamps = [
