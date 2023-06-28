@@ -1589,6 +1589,111 @@ let mannequins = [
 ]
 
 //Companions
+let companions = [
+    {
+        name: "Cozy Companion Home",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 15
+            },
+            {
+                name: "Sunflower",
+                amount: 5
+            },
+            {
+                name: "White & Red Hydrangea",
+                amount: 5
+            },
+            {
+                name: "Topaz",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/93/Cozy_Companion_Home.png"
+    },
+    {
+        name: "Flying Companion Feeder",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 5
+            },
+            {
+                name: "Clay",
+                amount: 5
+            },
+            {
+                name: "Wheat",
+                amount: 5
+            },
+            {
+                name: "Red Bell Flower",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ab/Flying_Companion_Feeder.png"
+    },
+    {
+        name: "Fuzzy Friend Companion Dish",
+        materials: [
+            {
+                name: "Clay",
+                amount: 5
+            },
+            {
+                name: "Wheat",
+                amount: 5
+            },
+            {
+                name: "Red Bell Flower",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d9/Fuzzy_Friend_Companion_Dish.png"
+    },
+    {
+        name: "Pixar Companion Ball",
+        materials: [
+            {
+                name: "Red Bell Flower",
+                amount: 3
+            },
+            {
+                name: "Yellow Daisy",
+                amount: 5
+            },
+            {
+                name: "Blue Hydrangea",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6b/Pixar_Companion_Ball.png"
+    },
+    {
+        name: "Playful Companion Pinwheel",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 5
+            },
+            {
+                name: "Fiber",
+                amount: 5
+            },
+            {
+                name: "Pink Hydrangea",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bc/Playful_Companion_Pinwheel.png"
+    },
+]
 
 //Functional Items
 
