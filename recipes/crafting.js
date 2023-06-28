@@ -2197,6 +2197,115 @@ let winterEvent = [
 ]
 
 //Spring Event Furniture
+let springEvent = [
+    {
+        name: "'Don't Put 'Em All in One Basket' Basket",
+        materials: [
+            {
+                name: "Wild Spring Egg",
+                amount: 10
+            },
+            {
+                name: "Egg-cellent Fruit",
+                amount: 10
+            },
+            {
+                name: "Spring V-EGG-etable",
+                amount: 5
+            },
+            {
+                name: "Fiber",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bd/%22Don%27t_Put_%27Em_All_in_One_Basket%22_Basket.png"
+    },
+    {
+        name: "Over Easy Chair",
+        materials: [
+            {
+                name: "Wild Spring Egg",
+                amount: 5
+            },
+            {
+                name: "Egg-cellent Fruit",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5c/Over_Easy_Chair.png"
+    },
+    {
+        name: "Spring Egg Bounty",
+        materials: [
+            {
+                name: "Wild Spring Egg",
+                amount: 15
+            },
+            {
+                name: "Egg-cellent Fruit",
+                amount: 15
+            },
+            {
+                name: "Spring V-EGG-etable",
+                amount: 15
+            },
+            {
+                name: "Stone",
+                amount: 50
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/49/Spring_Egg_Bounty.png"
+    },
+    {
+        name: "Spring Stall",
+        materials: [
+            {
+                name: "Wild Spring Egg",
+                amount: 10
+            },
+            {
+                name: "Egg-cellent Fruit",
+                amount: 10
+            },
+            {
+                name: "Spring V-EGG-etable",
+                amount: 10
+            },
+            {
+                name: "Hardwood",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7b/Spring_Stall.png"
+    },
+    {
+        name: "Sunny Side Up Arch",
+        materials: [
+            {
+                name: "Wild Spring Egg",
+                amount: 25
+            },
+            {
+                name: "Egg-cellent Fruit",
+                amount: 25
+            },
+            {
+                name: "Spring V-EGG-etable",
+                amount: 25
+            },
+            {
+                name: "Iron Ingot",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Sunny_Side_Up_Arch.png"
+    }
+]
 
 //Flowers
 
