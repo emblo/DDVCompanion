@@ -1696,6 +1696,19 @@ const companions = [
 ]
 
 //Functional Items
+const functionalItems = [
+    {
+        name: "",
+        materials: [
+            {
+                name: "",
+                amount: 0
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: ""
+    },
+]
 
 //Furniture
 
