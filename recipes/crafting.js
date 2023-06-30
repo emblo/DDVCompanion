@@ -1837,6 +1837,1292 @@ const functionalItems = [
 ]
 
 //Furniture
+const furniture = [
+    {
+        name: "Barrel Part",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 5
+            },
+            {
+                name: "Iron Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Barrel_Part.png"
+    },
+    {
+        name: "Half-Barrel",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 5
+            },
+            {
+                name: "Iron Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Half-Barrel.png"
+    },
+    {
+        name: "Old Barrel",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 5
+            },
+            {
+                name: "Iron Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ed/Old_Barrel.png"
+    },
+    {
+        name: "Basket",
+        materials: [
+            {
+                name: "Fiber",
+                amount: 6
+            },
+            {
+                name: "Pink Hydrangea",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e4/Basket.png"
+    },
+    {
+        name: "Bench",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 5
+            },
+            {
+                name: "Iron Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f7/Bench.png"
+    },
+    {
+        name: "Broken Carved Pillar Base",
+        materials: [
+            {
+                name: "Soil",
+                amount: 25
+            },
+            {
+                name: "Stone",
+                amount: 50
+            },
+            {
+                name: "Clay",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Broken_Carved_Pillar_Base.png"
+    },
+    {
+        name: "Broken Pillar Base",
+        materials: [
+            {
+                name: "Soil",
+                amount: 25
+            },
+            {
+                name: "Stone",
+                amount: 50
+            },
+            {
+                name: "Clay",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Broken_Pillar_Base.png"
+    },
+    {
+        name: "Mossy Base",
+        materials: [
+            {
+                name: "Soil",
+                amount: 25
+            },
+            {
+                name: "Stone",
+                amount: 50
+            },
+            {
+                name: "Clay",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Mossy_Base.png"
+    },
+    {
+        name: "Mossy Circle-Carving Stone",
+        materials: [
+            {
+                name: "Soil",
+                amount: 25
+            },
+            {
+                name: "Stone",
+                amount: 50
+            },
+            {
+                name: "Clay",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Mossy_Circle-Carving_Stone.png"
+    },
+    {
+        name: "Mossy Eye-Carving Stone",
+        materials: [
+            {
+                name: "Soil",
+                amount: 25
+            },
+            {
+                name: "Stone",
+                amount: 50
+            },
+            {
+                name: "Clay",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8c/Mossy_Eye-Carving_Stone.png"
+    },
+    {
+        name: "Low Sculpted Pillar",
+        materials: [
+            {
+                name: "Soil",
+                amount: 25
+            },
+            {
+                name: "Stone",
+                amount: 50
+            },
+            {
+                name: "Clay",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/19/Low_Sculpted_Pillar.png"
+    },
+    {
+        name: "Bunny Cutout",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 6
+            },
+            {
+                name: "White Impatiens",
+                amount: 2
+            },
+            {
+                name: "Red Bromeliad",
+                amount: 2
+            },
+            {
+                name: "Orange Marsh Milkweed",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/73/Bunny_Cutout.png"
+    },
+    {
+        name: "Fox Cutout",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 6
+            },
+            {
+                name: "Orange Marsh Milkweed",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fd/Fox_Cutout.png"
+    },
+    {
+        name: "Log Cutout",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 4
+            },
+            {
+                name: "White Impatiens",
+                amount: 2
+            },
+            {
+                name: "Orange & Red Marsh Milkweed",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/19/Log_Cutout.png"
+    },
+    {
+        name: "Moss-Covered Rock Cutout",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 4
+            },
+            {
+                name: "White Impatiens",
+                amount: 2
+            },
+            {
+                name: "Green Passion Lily",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f1/Moss-Covered_Rock_Cutout.png"
+    },
+    {
+        name: "Oak Tree Cutout",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 4
+            },
+            {
+                name: "Orange & Red Marsh Milkweed",
+                amount: 2
+            },
+            {
+                name: "Green Passion Lily",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/52/Oak_Tree_Cutout.png"
+    },
+    {
+        name: "Pine Tree Cutout",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 4
+            },
+            {
+                name: "Orange & Red Marsh Milkwood",
+                amount: 1
+            },
+            {
+                name: "Green Passion Lily",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a0/Pine_Tree_Cutout.png"
+    },
+    {
+        name: "Poplar Tree Cutout",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 4
+            },
+            {
+                name: "White Impatiens",
+                amount: 3
+            },
+            {
+                name: "Green Passion Lily",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b5/Poplar_Tree_Cutout.png"
+    },
+    {
+        name: "Raccoon Cutout",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 6
+            },
+            {
+                name: "White Impatiens",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a9/Raccoon_Cutout.png"
+    },
+    {
+        name: "Rock and Ferns Cutout",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 4
+            },
+            {
+                name: "Green Passion Lily",
+                amount: 3
+            },
+            {
+                name: "White Impatiens",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4c/Rock_and_Ferns_Cutout.png"
+    },
+    {
+        name: "Rock Cutout",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 4
+            },
+            {
+                name: "White Impatiens",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f0/Rock_Cutout.png"
+    },
+    {
+        name: "Squirrel Cutout",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 6
+            },
+            {
+                name: "Orange Marsh Milkweed",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Squirrel_Cutout.png"
+    },
+    {
+        name: "Burlap Bags",
+        materials: [
+            {
+                name: "Soil",
+                amount: 10
+            },
+            {
+                name: "Fiber",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c4/Burlap_Bags.png"
+    },
+    {
+        name: "Cart",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 20
+            },
+            {
+                name: "Iron Ingot",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Cart.png"
+    },
+    {
+        name: "Crate",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Crate.png"
+    },
+    {
+        name: "Elegant Gazebo",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 200
+            },
+            {
+                name: "Glass",
+                amount: 50
+            },
+            {
+                name: "Diamond",
+                amount: "10"
+            },
+            {
+                name: "Crystal",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/85/Elegant_Gazebo.png"
+    },
+    {
+        name: "Elegant Town Square Clock",
+        materials: [
+            {
+                name: "Stone",
+                amount: 200
+            },
+            {
+                name: "Hardwood",
+                amount: 100
+            },
+            {
+                name: "Gold Ingot",
+                amount: 30
+            },
+            {
+                name: "Blue Passion Lily",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/95/Elegant_Town_Square_Clock.png"
+    },
+    {
+        name: "Rustic Clock Tower",
+        materials: [
+            {
+                name: "Stone",
+                amount: 100
+            },
+            {
+                name: "Hardwood",
+                amount: 100
+            },
+            {
+                name: "Iron Ingot",
+                amount: 30
+            },
+            {
+                name: "Clay",
+                amount: 200
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d7/Rustic_Clock_Tower.png"
+    },
+    {
+        name: "Festive Pennants",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 5
+            },
+            {
+                name: "Fiber",
+                amount: 5
+            },
+            {
+                name: "Fabric",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Festive_Pennants.png"
+    },
+    {
+        name: "Wrought Iron Arch",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Fabric",
+                amount: 4
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Wrought_Iron_Arch.png"
+    },
+    {
+        name: "Fishing Trap",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/64/Fishing_Trap.png"
+    },
+    {
+        name: "Fountain",
+        materials: [
+            {
+                name: "Stone",
+                amount: 50
+            },
+            {
+                name: "Pebbles",
+                amount: 20
+            },
+            {
+                name: "Gold Ingot",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/89/Fountain.png"
+    },
+    {
+        name: "Compass Ottoman",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 8
+            },
+            {
+                name: "Iron Ingot",
+                amount: 8
+            },
+            {
+                name: "Fabric",
+                amount: 12
+            },
+            {
+                name: "Tinkering Parts",
+                amount: 15
+            },
+            {
+                name: "Rope",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9b/Compass_Ottoman.png"
+    },
+    {
+        name: "Nautical-Themed-Couch",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 10
+            },
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Rope",
+                amount: 2
+            },
+            {
+                name: "Tinkering Parts",
+                amount: 15
+            },
+            {
+                name: "Fabric",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/62/Nautical-Themed_Couch.png"
+    },
+    {
+        name: "Ship Coffee Table",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 10
+            },
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Tinkering Parts",
+                amount: 15
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Ship_Coffee_Table.png"
+    },
+    {
+        name: "Charter Rug",
+        materials: [
+            {
+                name: "Fabric",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c3/Charter_Rug.png"
+    },
+    {
+        name: "Helm Bookshelf",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 25
+            },
+            {
+                name: "Iron Ingot",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f3/Helm_Bookshelf.png"
+    },
+    {
+        name: "Pirate Map on the Wall",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 2
+            },
+            {
+                name: "Gold Nugget",
+                amount: 2
+            },
+            {
+                name: "Fabric",
+                amount: 8
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Pirate_Map_on_the_Wall.png"
+    },
+    {
+        name: "Refreshment Chest",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 15
+            },
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Gold Nugget",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/55/Refreshment_Chest.png"
+    },
+    {
+        name: "Wide Arched Window",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 20
+            },
+            {
+                name: "Glass",
+                amount: 12
+            },
+            {
+                name: "Gold Nugget",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/12/Wide_Arched_Window.png"
+    },
+    {
+        name: "Classic Snowman",
+        materials: [
+            {
+                name: "Snowball",
+                amount: 10
+            },
+            {
+                name: "Carrot",
+                amount: 1
+            },
+            {
+                name: "Fabric",
+                amount: 2
+            },
+            {
+                name: "Pebbles",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/87/Classic_Snowman.png"
+    },
+    {
+        name: "Haughty Snowman",
+        materials: [
+            {
+                name: "Snowball",
+                amount: 10
+            },
+            {
+                name: "Crystal",
+                amount: 1
+            },
+            {
+                name: "Fabric",
+                amount: 2
+            },
+            {
+                name: "Ruby",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3c/Haughty_Snowman.png"
+    },
+    {
+        name: "Snow Kid",
+        materials: [
+            {
+                name: "Snowball",
+                amount: 8
+            },
+            {
+                name: "Carrot",
+                amount: 1
+            },
+            {
+                name: "Fabric",
+                amount: 2
+            },
+            {
+                name: "Pebbles",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/58/Snow_Kid.png"
+    },
+    {
+        name: "Snow Lady",
+        materials: [
+            {
+                name: "Snowball",
+                amount: 10
+            },
+            {
+                name: "Carrot",
+                amount: 1
+            },
+            {
+                name: "Fabric",
+                amount: 2
+            },
+            {
+                name: "Pebbles",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Snow_Lady.png"
+    },
+    {
+        name: "DJ Booth Rig",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 100
+            },
+            {
+                name: "Topaz",
+                amount: 6
+            },
+            {
+                name: "Aquamarine",
+                amount: 6
+            },
+            {
+                name: "Tourmaline",
+                amount: 6
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/55/DJ_Booth_Rig.png"
+    },
+    {
+        name: "Stellar Blue DJ Booth",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 100
+            },
+            {
+                name: "Iron Ingot",
+                amount: 50
+            },
+            {
+                name: "Blue Hydrangea",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/24/Stellar_Blue_DJ_Booth.png"
+    },
+    {
+        name: "Stellar Pink DJ Booth",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 100
+            },
+            {
+                name: "Iron Ingot",
+                amount: 50
+            },
+            {
+                name: "Pink Hydrangea",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fb/Stellar_Pink_DJ_Booth.png"
+    },
+    {
+        name: "Granite Fire Bowl",
+        materials: [
+            {
+                name: "Sand",
+                amount: 20
+            },
+            {
+                name: "Stone",
+                amount: 25
+            },
+            {
+                name: "Coal Ore",
+                amount: 10
+            },
+            {
+                name: "Red Falling Penstemon",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Granite_Fire_Bowl.png"
+    },
+    {
+        name: "Hay Bale",
+        materials: [
+            {
+                name: "Fiber",
+                amount: 10
+            },
+            {
+                name: "Wheat",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Hay_Bale.png"
+    },
+    {
+        name: "Hay Bales",
+        materials: [
+            {
+                name: "Fiber",
+                amount: 10
+            },
+            {
+                name: "Wheat",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/77/Hay_Bales.png"
+    },
+    {
+        name: "Heavy Wooden Table",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Heavy_Wooden_Table.png"
+    },
+    {
+        name: "Wooden Table",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 20
+            },
+            {
+                name: "Fabric",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f4/Wooden_Table.png"
+    },
+    {
+        name: "Painted Wood Table",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 10
+            },
+            {
+                name: "Blue Passion Lily",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9b/Painted_Wood_Table.png"
+    },
+    {
+        name: "Sturdy Chair",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/41/Sturdy_Chair.png"
+    },
+    {
+        name: "Mickey Mouse Water Tower",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 100
+            },
+            {
+                name: "Topaz",
+                amount: 10
+            },
+            {
+                name: "White Bell Flower",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/23/Mickey_Mouse_Water_Tower.png"
+    },
+    {
+        name: "Outhouse",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 20
+            },
+            {
+                name: "Hardwood",
+                amount: 20
+            },
+            {
+                name: "Soil",
+                amount: 10
+            },
+            {
+                name: "Iron Ingot",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f1/Outhouse.png"
+    },
+    {
+        name: "Photo Backdrop",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 20
+            },
+            {
+                name: "Tinkering Parts",
+                amount: 9
+            },
+            {
+                name: "Fabric",
+                amount: 10
+            },
+            {
+                name: "Glass",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/07/Photo_Backdrop.png"
+    },
+    {
+        name: "Rustic Wooden Case",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Rustic_Wooden_Case.png"
+    },
+    {
+        name: "Sack",
+        materials: [
+            {
+                name: "Fiber",
+                amount: 15
+            },
+            {
+                name: "Soil",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/61/Sack.png"
+    },
+    {
+        name: "Tall Birdhouse",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 8
+            },
+            {
+                name: "Blue Falling Penstemon",
+                amount: 3
+            },
+            {
+                name: "White Daisy",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7b/Tall_Birdhouse.png"
+    },
+    {
+        name: "Short Birdhouse",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 8
+            },
+            {
+                name: "Yellow Bromeliad",
+                amount: 3
+            },
+            {
+                name: "Pink Hydrangea",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fc/Short_Birdhouse.png"
+    },
+    {
+        name: "Stack of Firewood",
+        materials: [
+            {
+                name: "Dry Wood",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Stack_of_Firewood.png"
+    },
+    {
+        name: "Stall",
+        materials: [
+            {
+                name: "Hardwood",
+                amount: 20
+            },
+            {
+                name: "Iron Ingot",
+                amount: 3
+            },
+            {
+                name: "Fabric",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Stall.png"
+    },
+    {
+        name: "Stone Well",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 20
+            },
+            {
+                name: "Stone",
+                amount: 50
+            },
+            {
+                name: "Fiber",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/86/Stone_Well.png"
+    },
+    {
+        name: "Stitch's Television",
+        materials: [
+            {
+                name: "Tinkering Parts",
+                amount: 12
+            },
+            {
+                name: "Gold Ingot",
+                amount: 5
+            },
+            {
+                name: "Glass",
+                amount: 5
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Stitch%27s_Television.png"
+    },
+    {
+        name: "Swimming Pool",
+        materials: [
+            {
+                name: "Stone",
+                amount: 300
+            },
+            {
+                name: "Softwood",
+                amount: 50
+            },
+            {
+                name: "White Daisy",
+                amount: 10
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Swimming_Pool.png"
+    },
+    {
+        name: "Tool Rack",
+        materials: [
+            {
+                name: "Dark Wood",
+                amount: 10
+            },
+            {
+                name: "Iron Ingot",
+                amount: 4
+            },
+            {
+                name: "Soil",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e6/Tool_Rack.png"
+    },
+    {
+        name: "Trellis",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 15
+            },
+            {
+                name: "Soil",
+                amount: 3
+            },
+            {
+                name: "White & Pink Falling Penstemon",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e1/Trellis.png"
+    },
+    {
+        name: "Trellis Arch",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 15
+            },
+            {
+                name: "Soil",
+                amount: 3
+            },
+            {
+                name: "White & Pink Falling Penstemon",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Trellis_Arch.png"
+    },
+    {
+        name: "Wooden Bucket",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 3
+            },
+            {
+                name: "Iron Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c1/Wooden_Bucket.png"
+    },
+    {
+        name: "Zen Garden",
+        materials: [
+            {
+                name: "Stone",
+                amount: 100
+            },
+            {
+                name: "Pebbles",
+                amount: 100
+            },
+            {
+                name: "Sand",
+                amount: 200
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/21/Zen_Garden.png"
+    }
+]
+
+//Balloons
+
 
 //Touch of Magic Furniture 
 const touchOfMagic = [
