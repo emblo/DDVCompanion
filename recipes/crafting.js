@@ -3122,7 +3122,238 @@ const furniture = [
 ]
 
 //Balloons
-
+const balloons = [
+    {
+        name: "Blue and Silver Balloon Cluster",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 5
+            },
+            {
+                name: "Blue Falling Penstemon",
+                amount: 8
+            },
+            {
+                name: "Blue Star Lily",
+                amount: 8
+            },
+            {
+                name: "Blue Marsh Milkweed",
+                amount: 8
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ac/Blue_and_Silver_Balloon_Cluster.png"
+    },
+    {
+        name: "Blue and Silver Balloon Arch",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Blue Falling Penstemon",
+                amount: 20
+            },
+            {
+                name: "Blue Star Lily",
+                amount: 20
+            },
+            {
+                name: "Blue Marsh Milkweed",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/27/Blue_and_Silver_Balloon_Arch.png"
+    },
+    {
+        name: "Blue, Yellow and Pink Balloon Cluster",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 5
+            },
+            {
+                name: "Pink Bromeliad",
+                amount: 8
+            },
+            {
+                name: "Blue Falling Penstemon",
+                amount: 8
+            },
+            {
+                name: "Yellow Bromeliad",
+                amount: 8
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Blue%2C_Yellow_and_Pink_Balloon_Cluster.png"
+    },
+    {
+        name: "Blue, Yellow and Pink Balloon Arch",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Pink Bromeliad",
+                amount: 20
+            },
+            {
+                name: "Blue Falling Penstemon",
+                amount: 20
+            },
+            {
+                name: "Yellow Bromeliad",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c8/Blue%2C_Yellow_and_Pink_Balloon_Arch.png"
+    },
+    {
+        name: "Green, Yellow and White Balloon Cluster",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 5
+            },
+            {
+                name: "Green Rising Penstemon",
+                amount: 8
+            },
+            {
+                name: "Dandelion",
+                amount: 8
+            },
+            {
+                name: "White Daisy",
+                amount: 8
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Green%2C_Yellow_and_White_Balloon_Cluster.png"
+    },
+    {
+        name: "Green, Yellow and White Balloon Arch",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Green Rising Penstemon",
+                amount: 20
+            },
+            {
+                name: "Dandelion",
+                amount: 20
+            },
+            {
+                name: "White Daisy",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5e/Green%2C_Yellow_and_White_Balloon_Arch.png"
+    },
+    {
+        name: "Red, Black and Yellow Balloon Cluster",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 5
+            },
+            {
+                name: "Red Nasturtium",
+                amount: 8
+            },
+            {
+                name: "Yellow Nasturtium",
+                amount: 8
+            },
+            {
+                name: "Black Passion Lily",
+                amount: 8
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/43/Red%2C_Black%2C_and_Yellow_Balloon_Cluster.png"
+    },
+    {
+        name: "Yellow, Red and Black Balloon Arch",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Red Nasturtium",
+                amount: 20
+            },
+            {
+                name: "Yellow Nasturtium",
+                amount: 20
+            },
+            {
+                name: "Black Passion Lily",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/98/Yellow%2C_Red_and_Black_Balloon_Arch.png"
+    },
+    {
+        name: "White, Yellow and Black Balloon Cluster",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 5
+            },
+            {
+                name: "Sunflower",
+                amount: 8
+            },
+            {
+                name: "Black Passion Lily",
+                amount: 8
+            },
+            {
+                name: "White Marsh Milkweed",
+                amount: 8
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/White%2C_Yellow_and_Black_Balloon_Cluster.png"
+    },
+    {
+        name: "White, Yellow and Black Balloon Arch",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Sunflower",
+                amount: 20
+            },
+            {
+                name: "Black Passion Lily",
+                amount: 20
+            },
+            {
+                name: "White Marsh Milkweed",
+                amount: 20
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/90/White%2C_Yellow_and_Black_Balloon_Arch.png"
+    }
+]
 
 //Touch of Magic Furniture 
 const touchOfMagic = [
