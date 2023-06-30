@@ -1321,7 +1321,7 @@ const chests = [
         ],
         sellPrice: 0,
         imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Large_Yellow_Chest.png"
-    },
+    }
 ]
 
 //Stoves
@@ -1491,7 +1491,7 @@ const stoves = [
         ],
         sellPrice: 0,
         imgSrc: "https://dreamlightvalleywiki.com/images/f/f4/White_Gas_Stove.png"
-    },
+    }
 ]
 
 //Mannequins
@@ -1585,7 +1585,7 @@ const mannequins = [
         ],
         sellPrice: 0,
         imgSrc: "https://dreamlightvalleywiki.com/images/f/fa/Chin_Up_White_Mannequin.png"
-    },
+    }
 ]
 
 //Companions
@@ -5226,21 +5226,5 @@ const mailboxes = [
         ],
         sellPrice: 0,
         imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Mailbox.png"
-    },
+    }
 ]
-
-/*
-
-    {
-        name: "",
-        materials: [
-            {
-                name: "",
-                amount: 0
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: ""
-    },
-
-*/
