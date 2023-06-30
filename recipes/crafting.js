@@ -1698,16 +1698,142 @@ const companions = [
 //Functional Items
 const functionalItems = [
     {
-        name: "",
+        name: "Ariel's Crafting Station",
         materials: [
             {
-                name: "",
-                amount: 0
+                name: "Sand",
+                amount: 40
+            },
+            {
+                name: "Scallop",
+                amount: 10
+            },
+            {
+                name: "Aquamarine",
+                amount: 3
+            },
+            {
+                name: "Gold Ingot",
+                amount: 10
+            },
+            {
+                name: "Hardwood",
+                amount: 20
             }
         ],
         sellPrice: 0,
-        imgSrc: ""
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Ariel%27s_Crafting_Station.png"
     },
+    {
+        name: "Iron Crafting Station",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Hardwood",
+                amount: 10
+            },
+            {
+                name: "Topaz",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a0/Iron_Crafting_Station.png"
+    },
+    {
+        name: "Wooden Crafting Station",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Hardwood",
+                amount: 10
+            },
+            {
+                name: "Topaz",
+                amount: 1
+            },
+            {
+                name: "Red Falling Penstemon",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Wooden_Crafting_Station.png"
+    },
+    {
+        name: "Black Retro Portable Radio",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 5
+            },
+            {
+                name: "Iron Ingot",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6e/Black_Retro_Portable_Radio.png"
+    },
+    {
+        name: "Blue Retro Portable Radio",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 5
+            },
+            {
+                name: "Iron Ingot",
+                amount: 1
+            },
+            {
+                name: "Blue Star Lily",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Blue_Retro_Portable_Radio.png"
+    },
+    {
+        name: "Brown Retro Portable Radio",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 10
+            },
+            {
+                name: "Iron Ingot",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d7/Brown_Retro_Portable_Radio.png"
+    },
+    {
+        name: "Campfire",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 10
+            },
+            {
+                name: "Dry Wood",
+                amount: 7
+            },
+            {
+                name: "Coal Ore",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/01/Campfire.png"
+    }
 ]
 
 //Furniture
