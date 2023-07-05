@@ -1,6 +1,6 @@
 //Array of objects containing DDV recipes
 //Appetizers
-let appetizers = [
+const appetizers = [
     {
         "name": "Arendellian Pickled Herring",
         "ingredientOne" : "Herring",
@@ -496,7 +496,7 @@ let appetizers = [
 ]
 
 //Entrées 
-let entrees = [
+const entrees = [
     {
         "name": "Apple-Cider-Glazed Salmon",
         "ingredientOne" : "Salmon",
@@ -1520,7 +1520,7 @@ let entrees = [
 ]
 
 //Desserts
-let desserts = [
+const desserts = [
     {
         "name": "'My Hero' Cookie",
         "ingredientOne" : "Wheat",
@@ -2291,6 +2291,24 @@ let desserts = [
         "imgSrc": "https://dreamlightvalleywiki.com/images/d/dd/Yule_Log.png"
     }
 ]
+
+/*
+
+{
+        name: "",
+        ingredients: [
+            {
+                name: "",
+                amount: 0
+            }
+        ],
+        stars: 0,
+        sellPrice: 0,
+        energy: 0,
+        imgSrc: ""
+    },
+
+*/
 
 //Special cases:
 ///Crudités (not all veggies)
