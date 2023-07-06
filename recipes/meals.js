@@ -2,496 +2,685 @@
 //Appetizers
 const appetizers = [
     {
-        "name": "Arendellian Pickled Herring",
-        "ingredientOne" : "Herring",
-        "ingredientTwo" : "Lemon",
-        "ingredientThree" : "Onion",
-        "ingredientFour" : "Garlic",
-        "ingredientFive" : "Any spice",
-        "stars" : 5,
-        "sellPrice" : 556, 
-        "energy": 2102,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/c/c5/Arendellian_Pickled_Herring.png"
+        name: "Arendellian Pickled Herring",
+        ingredients: [
+            {
+                name: "Herring"
+            },
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Onion"
+            },
+            {
+                name: "Garlic"
+            },
+            {
+                name: "Any Spice"
+            }
+        ],
+        stars: 5,
+        sellPrice: 556,
+        energy: 2102,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c5/Arendellian_Pickled_Herring.png"
     },
     {
-        "name": "Bell Pepper Puffs",
-        "ingredientOne" : "Bell Pepper",
-        "ingredientTwo" : "Egg",
-        "ingredientThree" : "Cheese",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 606, 
-        "energy": 1272,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/f/ff/Bell_Pepper_Puffs.png"
+        name: "Bell Pepper Puffs",
+        ingredients: [
+            {
+                name: "Bell Pepper"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 3,
+        sellPrice: 606,
+        energy: 1272,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/ff/Bell_Pepper_Puffs.png"
     },
     {
-        "name": "Buñuelos",
-        "ingredientOne" : "Wheat",
-        "ingredientTwo" : "Cheese",
-        "ingredientThree" : "Milk",
-        "ingredientFour" : "Egg",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 948, 
-        "energy": 1881,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/66/Bu%C3%B1uelos.png"
+        name: "Buñuelos",
+        ingredients: [
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Egg"
+            }
+        ],
+        stars: 4,
+        sellPrice: 948,
+        energy: 1881,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/66/Bu%C3%B1uelos.png"
     },
     {
-        "name": "Cheese Platter",
-        "ingredientOne" : "Cheese",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 216, 
-        "energy": 482,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8f/Cheese_Platter.png"
+        name: "Cheese Platter",
+        ingredients: [
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 1,
+        sellPrice: 216,
+        energy: 482,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Cheese_Platter.png"
     },
     {
-        "name": "Chili Pepper Puffs",
-        "ingredientOne" : "Chili Pepper",
-        "ingredientTwo" : "Egg",
-        "ingredientThree" : "Milk",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 669, 
-        "energy": 1382,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/b5/Chili_Pepper_Puffs.png"
+        name: "Chili Pepper Puffs",
+        ingredients: [
+            {
+                name: "Chili Pepper"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 3,
+        sellPrice: 669,
+        energy: 1382,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b5/Chili_Pepper_Puffs.png"
     },
     {
-        "name": "Coffee",
-        "ingredientOne" : "Coffee Bean",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 43, 
-        "energy": 730,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e9/Coffee.png"
+        name: "Coffee",
+        ingredients: [
+            {
+                name: "Coffee Bean"
+            }
+        ],
+        stars: 1,
+        sellPrice: 43,
+        energy: 730,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Coffee.png"
     },
     {
-        "name": "Crackers",
-        "ingredientOne" : "Any grain",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 2, 
-        "energy": 80,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/d4/Crackers.png"
+        name: "Crackers",
+        ingredients: [
+            {
+                name: "Any Grain"
+            }
+        ],
+        stars: 1,
+        sellPrice: 2,
+        energy: 80,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d4/Crackers.png"
     },
     {
-        "name": "Creamy Soup",
-        "ingredientOne" : "Any spice",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Potato",
-        "ingredientFour" : "Any vegetable",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 576, 
-        "energy": 1138,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/51/Creamy_Soup.png"
+        name: "Creamy Soup",
+        ingredients: [
+            {
+                name: "Any Spice"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Potato"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 4,
+        sellPrice: 576,
+        energy: 1138,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/51/Creamy_Soup.png"
     },
     {
-        "name": "Crudités",
-        "ingredientOne" : "Any vegetable",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 26, 
-        "energy": 83,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/26/Crudit%C3%A9s.png"
+        name: "Crudités",
+        ingredients: [
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 1,
+        sellPrice: 26,
+        energy: 83,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Crudit%C3%A9s.png"
     },
     {
-        "name": "Dream Fizz",
-        "ingredientOne" : "Dreamlight Fruit",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Wheat",
-        "ingredientFour" : "Slush Ice",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 316, 
-        "energy": 1550,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1a/Dream_Fizz.png"
+        name: "Dream Fizz",
+        ingredients: [
+            {
+                name: "Dreamlight Fruit"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Slush Ice"
+            }
+        ],
+        stars: 4,
+        sellPrice: 316,
+        energy: 1550,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Dream_Fizz.png"
     },
     {
-        "name": "Eggplant Puffs",
-        "ingredientOne" : "Eggplant",
-        "ingredientTwo" : "Egg",
-        "ingredientThree" : "Cheese",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 991, 
-        "energy": 1941,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/c/c1/Eggplant_Puffs.png"
+        name: "Eggplant Puffs",
+        ingredients: [
+            {
+                name: "Eggplant"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 3,
+        sellPrice: 991,
+        energy: 1941,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c1/Eggplant_Puffs.png"
     },
     {
-        "name": "French Fries",
-        "ingredientOne" : "Canola",
-        "ingredientTwo" : "Potato",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 304, 
-        "energy": 342,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8e/French_Fries.png"
+        name: "French Fries",
+        ingredients: [
+            {
+                name: "Canola"
+            },
+            {
+                name: "Potato"
+            }
+        ],
+        stars: 2,
+        sellPrice: 304,
+        energy: 342,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8e/French_Fries.png"
     },
     {
-        "name": "Gazpacho",
-        "ingredientOne" : "Cucumber",
-        "ingredientTwo" : "Tomato",
-        "ingredientThree" : "Onion",
-        "ingredientFour" : "Any spice",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 556, 
-        "energy": 821,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0f/Gazpacho.png"
+        name: "Gazpacho",
+        ingredients: [
+            {
+                name: "Cucumber"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Onion"
+            },
+            {
+                name: "Any Spice"
+            }
+        ],
+        stars: 4,
+        sellPrice: 556,
+        energy: 821,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0f/Gazpacho.png"
     },
     {
-        "name": "Green Salad",
-        "ingredientOne" : "Any vegetable",
-        "ingredientTwo" : "Lettuce",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 20, 
-        "energy": 180,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/7/7a/Green_Salad.png"
+        name: "Green Salad",
+        ingredients: [
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Lettuce"
+            }
+        ],
+        stars: 2,
+        sellPrice: 20,
+        energy: 180,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Green_Salad.png"
     },
     {
-        "name": "Grilled Vegetables",
-        "ingredientOne" : "Any vegetable",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 9, 
-        "energy": 83,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/c/cc/Grilled_Vegetables.png"
+        name: "Grilled Vegetables",
+        ingredients: [
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 1,
+        sellPrice: 9,
+        energy: 83,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cc/Grilled_Vegetables.png"
     },
     {
-        "name": "Grilled Veggie Platter",
-        "ingredientOne" : "Any vegetable",
-        "ingredientTwo" : "Any vegetable",
-        "ingredientThree" : "Any vegetable",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 33, 
-        "energy": 161,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/9/92/Grilled_Veggie_Platter.png"
+        name: "Grilled Veggie Platter",
+        ingredients: [
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 3,
+        sellPrice: 33,
+        energy: 161,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Grilled_Veggie_Platter.png"
     },
     {
-        "name": "Hard-Boiled Eggs",
-        "ingredientOne" : "Egg",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 264, 
-        "energy": 578,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2b/Hard-Boiled_Eggs.png"
+        name: "Hard-Boiled Eggs",
+        ingredients: [
+            {
+                name: "Egg"
+            }
+        ],
+        stars: 1,
+        sellPrice: 264,
+        energy: 578,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Hard-Boiled_Eggs.png"
     },
     {
-        "name": "Large Seafood Platter",
-        "ingredientOne" : "Any seafood",
-        "ingredientTwo" : "Any seafood",
-        "ingredientThree" : "Any seafood",
-        "ingredientFour" : "Any seafood",
-        "ingredientFive" : "Lemon",
-        "stars" : 5,
-        "sellPrice" : 56, 
-        "energy": 1810,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8f/Large_Seafood_Platter.png"
+        name: "Large Seafood Platter",
+        ingredients: [
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Lemon"
+            }
+        ],
+        stars: 5,
+        sellPrice: 56,
+        energy: 1810,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Large_Seafood_Platter.png"
     },
     {
-        "name": "Latte",
-        "ingredientOne" : "Coffee Bean",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 345, 
-        "energy": 1358,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2c/Latte.png"
+        name: "Latte",
+        ingredients: [
+            {
+                name: "Coffee Bean"
+            },
+            {
+                name: "Milk"
+            }
+        ],
+        stars: 2,
+        sellPrice: 345,
+        energy: 1358,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2c/Latte.png"
     },
     {
-        "name": "Marinated Herring",
-        "ingredientOne" : "Herring",
-        "ingredientTwo" : "Onion",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 305, 
-        "energy": 723,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/67/Marinated_Herring.png"
+        name: "Marinated Herring",
+        ingredients: [
+            {
+                name: "Herring"
+            },
+            {
+                name: "Onion"
+            }
+        ],
+        stars: 2,
+        sellPrice: 305,
+        energy: 723,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/67/Marinated_Herring.png"
     },
     {
-        "name": "Mocha",
-        "ingredientOne" : "Coffee Bean",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Cocoa Bean",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 425, 
-        "energy": 2246,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/4/48/Mocha.png"
+        name: "Mocha",
+        ingredients: [
+            {
+                name: "Coffee Bean"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Cocoa Bean"
+            }
+        ],
+        stars: 3,
+        sellPrice: 425,
+        energy: 2246,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/48/Mocha.png"
     },
     {
-        "name": "Okra Soup",
-        "ingredientOne" : "Okra",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 136, 
-        "energy": 99,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8b/Okra_Soup.png"
+        name: "Okra Soup",
+        ingredients: [
+            {
+                name: "Okra"
+            }
+        ],
+        stars: 1,
+        sellPrice: 136,
+        energy: 99,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8b/Okra_Soup.png"
+    }, 
+    {
+        name: "Onion Puffs",
+        ingredients: [
+            {
+                name: "Onion"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 3,
+        sellPrice: 798,
+        energy: 1392,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/66/Onion_Puffs.png"
     },
     {
-        "name": "Onion Puffs",
-        "ingredientOne" : "Onion",
-        "ingredientTwo" : "Egg",
-        "ingredientThree" : "Cheese",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 798, 
-        "energy": 1392,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/66/Onion_Puffs.png"
+        name: "Oyster Platter",
+        ingredients: [
+            {
+                name: "Oyster"
+            },
+            {
+                name: "Lemon"
+            }
+        ],
+        stars: 2,
+        sellPrice: 367,
+        energy: 1155,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e1/Oyster_Platter.png"
     },
     {
-        "name": "Oyster Platter",
-        "ingredientOne" : "Oyster",
-        "ingredientTwo" : "Lemon",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 367, 
-        "energy": 1155,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e1/Oyster_Platter.png"
+        name: "Peppermint Tea",
+        ingredients: [
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Mint"
+            }
+        ],
+        stars: 2,
+        sellPrice: 146,
+        energy: 993,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/38/Peppermint_Tea.png"
     },
     {
-        "name": "Peppermint Tea",
-        "ingredientOne" : "Lemon",
-        "ingredientTwo" : "Mint",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 146, 
-        "energy": 993,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/38/Peppermint_Tea.png"
+        name: "Pickled Herring",
+        ingredients: [
+            {
+                name: "Herring"
+            },
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Onion"
+            },
+            {
+                name: "Any Spice"
+            }
+        ],
+        stars: 4,
+        sellPrice: 431,
+        energy: 1742,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Pickled_Herring.png"
     },
     {
-        "name": "Pickled Herring",
-        "ingredientOne" : "Herring",
-        "ingredientTwo" : "Lemon",
-        "ingredientThree" : "Onion",
-        "ingredientFour" : "Any spice",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 431, 
-        "energy": 1742,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/84/Pickled_Herring.png"
+        name: "Potato Leek Soup",
+        ingredients: [
+            {
+                name: "Leek"
+            },
+            {
+                name: "Potato"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Onion"
+            },
+            {
+                name: "Garlic"
+            }
+        ],
+        stars: 5,
+        sellPrice: 1431,
+        energy: 1984,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fe/Potato_Leek_Soup.png"
     },
     {
-        "name": "Potato Leek Soup",
-        "ingredientOne" : "Leek",
-        "ingredientTwo" : "Potato",
-        "ingredientThree" : "Milk",
-        "ingredientFour" : "Onion",
-        "ingredientFive" : "Garlic",
-        "stars" : 5,
-        "sellPrice" : 1400, 
-        "energy": 1984,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/f/fe/Potato_Leek_Soup.png"
+        name: "Potato Puffs",
+        ingredients: [
+            {
+                name: "Potato"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 3,
+        sellPrice: 736,
+        energy: 1333,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/33/Potato_Puffs.png"
     },
     {
-        "name": "Potato Puffs",
-        "ingredientOne" : "Potato",
-        "ingredientTwo" : "Egg",
-        "ingredientThree" : "Cheese",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 736, 
-        "energy": 1333,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/33/Potato_Puffs.png"
+        name: "Pottage",
+        ingredients: [
+            {
+                name: "Potato"
+            },
+            {
+                name: "Any Spice"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 3,
+        sellPrice: 215,
+        energy: 461,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/65/Pottage.png"
     },
     {
-        "name": "Pottage",
-        "ingredientOne" : "Potato",
-        "ingredientTwo" : "Any spice",
-        "ingredientThree" : "Any vegetable",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 215, 
-        "energy": 461,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/65/Pottage.png"
+        name: "Pumpkin Puffs",
+        ingredients: [
+            {
+                name: "Pumpkin"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 3,
+        sellPrice: 1489,
+        energy: 1466,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0e/Pumpkin_Puffs.png"
     },
     {
-        "name": "Pumpkin Puffs",
-        "ingredientOne" : "Pumpkin",
-        "ingredientTwo" : "Egg",
-        "ingredientThree" : "Cheese",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 1400, 
-        "energy": 1466,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0e/Pumpkin_Puffs.png"
+        name: "Pumpkin Soup",
+        ingredients: [
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Ginger"
+            },
+            {
+                name: "Pumpkin"
+            }
+        ],
+        stars: 4,
+        sellPrice: 1498,
+        energy: 1431,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/59/Pumpkin_Soup.png"
     },
     {
-        "name": "Pumpkin Soup",
-        "ingredientOne" : "Any vegetable",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Ginger",
-        "ingredientFour" : "Pumpkin",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 1500, 
-        "energy": 1431,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/59/Pumpkin_Soup.png"
+        name: "Purée",
+        ingredients: [
+            {
+                name: "Potato"
+            }
+        ],
+        stars: 1,
+        sellPrice: 151,
+        energy: 230,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/de/Pur%C3%A9e.png"
     },
     {
-        "name": "Purée",
-        "ingredientOne" : "Potato",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 151, 
-        "energy": 230,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/de/Pur%C3%A9e.png"
+        name: "Roasted Asparagus",
+        ingredients: [
+            {
+                name: "Asparagus"
+            },
+            {
+                name: "Canola"
+            }
+        ],
+        stars: 2,
+        sellPrice: 313,
+        energy: 221,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/17/Roasted_Asparagus.png"
     },
     {
-        "name": "Roasted Asparagus",
-        "ingredientOne" : "Asparagus",
-        "ingredientTwo" : "Canola",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 313, 
-        "energy": 221,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/17/Roasted_Asparagus.png"
+        name: "Salad",
+        ingredients: [
+            {
+                name: "Lettuce"
+            }
+        ],
+        stars: 1,
+        sellPrice: 9,
+        energy: 139,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7e/Salad.png"
     },
     {
-        "name": "Salad",
-        "ingredientOne" : "Lettuce",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 9, 
-        "energy": 139,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/7/7e/Salad.png"
+        name: "Sautéed Mushrooms",
+        ingredients: [
+            {
+                name: "Mushroom"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 2,
+        sellPrice: 286,
+        energy: 712,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ab/Saut%C3%A9ed_Mushrooms.png"
     },
     {
-        "name": "Sautéed Mushrooms",
-        "ingredientOne" : "Mushroom",
-        "ingredientTwo" : "Butter",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 286, 
-        "energy": 712,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/a/ab/Saut%C3%A9ed_Mushrooms.png"
+        name: "Seafood Appetizer",
+        ingredients: [
+            {
+                name: "Any Seafood"
+            }
+        ],
+        stars: 1,
+        sellPrice: 54,
+        energy: 242,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f0/Seafood_Appetizer.png"
     },
     {
-        "name": "Seafood Appetizer",
-        "ingredientOne" : "Any seafood",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 1, 
-        "energy": 242,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f0/Seafood_Appetizer.png"
+        name: "Seafood Platter",
+        ingredients: [
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Any Seafood"
+            }
+        ],
+        stars: 2,
+        sellPrice: 116,
+        energy: 458,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/48/Seafood_Platter.png"
     },
     {
-        "name": "Seafood Platter",
-        "ingredientOne" : "Any seafood",
-        "ingredientTwo" : "Any seafood",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 2, 
-        "energy": 458,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/4/48/Seafood_Platter.png"
+        name: "Soufflé",
+        ingredients: [
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 4,
+        sellPrice: 1230,
+        energy: 2386,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e0/Souffl%C3%A9.png"
     },
     {
-        "name": "Soufflé",
-        "ingredientOne" : "Cheese",
-        "ingredientTwo" : "Egg",
-        "ingredientThree" : "Milk",
-        "ingredientFour" : "Butter",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 1200, 
-        "energy": 2386,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e0/Souffl%C3%A9.png"
+        name: "Tomato Soup",
+        ingredients: [
+            {
+                name: "Tomato"
+            }
+        ],
+        stars: 1,
+        sellPrice: 26,
+        energy: 83,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dc/Tomato_Soup.png"
     },
     {
-        "name": "Tomato Soup",
-        "ingredientOne" : "Tomato",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 26, 
-        "energy": 83,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/dc/Tomato_Soup.png"
+        name: "Vegetable Soup",
+        ingredients: [
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 2,
+        sellPrice: 20,
+        energy: 120,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cd/Vegetable_Soup.png"
     },
     {
-        "name": "Vegetable Soup",
-        "ingredientOne" : "Any vegetable",
-        "ingredientTwo" : "Any vegetable",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 20, 
-        "energy": 120,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/c/cd/Vegetable_Soup.png"
-    },
-    {
-        "name": "Zucchini Puffs",
-        "ingredientOne" : "Zucchini",
-        "ingredientTwo" : "Egg",
-        "ingredientThree" : "Cheese",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 632, 
-        "energy": 1216,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/61/Zucchini_Puffs.png"
+        name: "Zucchini Puffs",
+        ingredients: [
+            {
+                name: "Zucchini"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 3,
+        sellPrice: 632,
+        energy: 1216,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/61/Zucchini_Puffs.png"
     }
 ]
 
@@ -2298,8 +2487,7 @@ const desserts = [
         name: "",
         ingredients: [
             {
-                name: "",
-                amount: 0
+                name: ""
             }
         ],
         stars: 0,
