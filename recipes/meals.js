@@ -2299,792 +2299,1218 @@ const entrees = [
 //Desserts
 const desserts = [
     {
-        "name": "'My Hero' Cookie",
-        "ingredientOne" : "Wheat",
-        "ingredientTwo" : "Butter",
-        "ingredientThree" : "Any sweet",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 294, 
-        "energy": 679,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/05/%22My_Hero%22_Cookie.png"
-    },
-    {
-        "name": "Apple Pie",
-        "ingredientOne" : "Apple",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 303, 
-        "energy": 1137,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/f/fb/Apple_Pie.png"
-    },
-    {
-        "name": "Apple Sorbet",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Apple",
-        "ingredientThree" : "Sugarcane",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 271, 
-        "energy": 1077,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/5b/Apple_Sorbet.png"
-    },
-    {
-        "name": "Aurora's Cake",
-        "ingredientOne" : "Wheat",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Egg",
-        "ingredientFour" : "Any fruit",
-        "ingredientFive" : "Milk",
-        "stars" : 5,
-        "sellPrice" : 786, 
-        "energy": 2030,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f5/Aurora%27s_Cake.png"
-    },
-    {
-        "name": "Banana Ice Cream",
-        "ingredientOne" : "Ice Slush",
-        "ingredientTwo" : "Banana",
-        "ingredientThree" : "Milk",
-        "ingredientFour" : "Sugarcane",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 641, 
-        "energy": 1884,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/7/79/Banana_Ice_Cream.png"
-    },
-    {
-        "name": "Banana Pie",
-        "ingredientOne" : "Banana",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 308, 
-        "energy": 1227,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/7/75/Banana_Pie.png"
-    },
-    {
-        "name": "Banana Split",
-        "ingredientOne" : "Ice Slush",
-        "ingredientTwo" : "Banana",
-        "ingredientThree" : "Milk",
-        "ingredientFour" : "Sugarcane",
-        "ingredientFive" : "Any sweet",
-        "stars" : 5,
-        "sellPrice" : 714, 
-        "energy": 2074,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/bd/Banana_Split.png"
-    },
-    {
-        "name": "Beignets",
-        "ingredientOne" : "Canola",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Egg",
-        "ingredientFour" : "Sugarcane",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 524, 
-        "energy": 912,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/4/4f/Beignets.png"
-    },
-    {
-        "name": "Berry Salad",
-        "ingredientOne" : "Raspberry",
-        "ingredientTwo" : "Blueberry",
-        "ingredientThree" : "Gooseberry",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 139, 
-        "energy": 2210,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8d/Berry_Salad.png"
-    },
-    {
-        "name": "Birthday Cake",
-        "ingredientOne" : "Cocoa Bean",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Sugarcane",
-        "ingredientFour" : "Egg",
-        "ingredientFive" : "Butter",
-        "stars" : 5,
-        "sellPrice" : 749, 
-        "energy": 2310,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e3/Birthday_Cake.png"
-    },
-    {
-        "name": "Biscuits",
-        "ingredientOne" : "Wheat",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 294, 
-        "energy": 679,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f5/Biscuits.png"
-    },
-    {
-        "name": "Blueberry Pie",
-        "ingredientOne" : "Blueberry",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 308, 
-        "energy": 1227,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/32/Blueberry_Pie.png"
-    },
-    {
-        "name": "Boba Tea",
-        "ingredientOne" : "Sugarcane",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 323, 
-        "energy": 714,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0a/Boba_Tea.png"
-    },
-    {
-        "name": "Candy",
-        "ingredientOne" : "Any sweet",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 22, 
-        "energy": 123,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1c/Candy.png"
-    },
-    {
-        "name": "Caramel Apples",
-        "ingredientOne" : "Sugarcane",
-        "ingredientTwo" : "Apple",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 56, 
-        "energy": 638,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/c/c6/Caramel_Apples.png"
-    },
-    {
-        "name": "Carrot Cake",
-        "ingredientOne" : "Carrot",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Egg",
-        "ingredientFour" : "Sugarcane",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 427, 
-        "energy": 908,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/dd/Carrot_Cake.png"
-    },
-    {
-        "name": "Cheesecake",
-        "ingredientOne" : "Cheese",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Sugarcane",
-        "ingredientFour" : "Any fruit",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 332, 
-        "energy": 1161,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2d/Cheesecake.png"
-    },
-    {
-        "name": "Cherry Pie",
-        "ingredientOne" : "Cherry",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 326, 
-        "energy": 1497,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/7/70/Cherry_Pie.png"
-    },
-    {
-        "name": "Chocolate Chip Cookies",
-        "ingredientOne" : "Cocoa Bean",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Sugarcane",
-        "ingredientFour" : "Butter",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 373, 
-        "energy": 1569,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/6f/Chocolate_Chip_Cookies.png"
-    },
-    {
-        "name": "Chocolate Ice Cream",
-        "ingredientOne" : "Cocoa Bean",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Milk ",
-        "ingredientFour" : "Slush Ice",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 655, 
-        "energy": 2074,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/4/41/Chocolate_Ice_Cream.png"
-    },
-    {
-        "name": "Chocolate Waffles",
-        "ingredientOne" : "Cocoa Bean",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Egg",
-        "ingredientFour" : "Milk",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 735, 
-        "energy": 2223,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/4/4d/Chocolate_Waffles.png"
-    },
-    {
-        "name": "Coconut Boba Tea",
-        "ingredientOne" : "Sugarcane",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Coconut",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 406, 
-        "energy": 1653,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/50/Coconut_Boba_Tea.png"
-    },
-    {
-        "name": "Coconut Cake",
-        "ingredientOne" : "Coconut",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Egg",
-        "ingredientFour" : "Sugarcane",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 424, 
-        "energy": 1750,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/5c/Coconut_Cake.png"
-    },
-    {
-        "name": "Coconut Ice Cream",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Sugarcane",
-        "ingredientFour" : "Coconut",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 661, 
-        "energy": 2169,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/d9/Coconut_Ice_Cream.png"
-    },
-    {
-        "name": "Crepe",
-        "ingredientOne" : "Wheat",
-        "ingredientTwo" : "Egg",
-        "ingredientThree" : "Milk",
-        "ingredientFour" : "Vanilla",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 768, 
-        "energy": 1624,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/62/Crepe.png"
-    },
-    {
-        "name": "Dream Ice Cream",
-        "ingredientOne" : "Dreamlight Fruit",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Slush Ice",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 588, 
-        "energy": 1976,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/c/c9/Dream_Ice_Cream.png"
-    },
-    {
-        "name": "Fruit Salad",
-        "ingredientOne" : "Any fruit",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 25, 
-        "energy": 450,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/9/9e/Fruit_Salad.png"
-    },
-    {
-        "name": "Fruit Sorbet",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Any fruit",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 222, 
-        "energy": 857,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/b9/Fruit_Sorbet.png"
-    },
-    {
-        "name": "Fruitcake",
-        "ingredientOne" : "Wheat",
-        "ingredientTwo" : "Any fruit",
-        "ingredientThree" : "Any fruit",
-        "ingredientFour" : "Any fruit",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 96, 
-        "energy": 1511,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/9/91/Fruitcake.png"
-    },
-    {
-        "name": "Gingerbread House",
-        "ingredientOne" : "Wheat",
-        "ingredientTwo" : "Ginger",
-        "ingredientThree" : "Sugarcane",
-        "ingredientFour" : "Vanilla",
-        "ingredientFive" : "Egg",
-        "stars" : 5,
-        "sellPrice" : 641, 
-        "energy": 1460,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1d/Gingerbread_House.png"
-    },
-    {
-        "name": "Gooseberry Boba Tea",
-        "ingredientOne" : "Sugarcane",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Gooseberry",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 418, 
-        "energy": 1833,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/df/Gooseberry_Boba_Tea.png"
-    },
-    {
-        "name": "Gray Stuff",
-        "ingredientOne" : "Any dairy",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Cocoa Bean",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 114, 
-        "energy": 1046,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/17/Gray_Stuff.png"
-    },
-    {
-        "name": "Hot Cocoa",
-        "ingredientOne" : "Sugarcane",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Cocoa",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 401, 
-        "energy": 1563,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/7/7c/Hot_Cocoa.png"
-    },
-    {
-        "name": "Ice Cream",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Sugarcane",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 558, 
-        "energy": 1158,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/5d/Ice_Cream.png"
-    },
-    {
-        "name": "Jam Waffles",
-        "ingredientOne" : "Any fruit",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Egg",
-        "ingredientFour" : "Milk",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 709, 
-        "energy": 1843,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/53/Jam_Waffles.png"
-    },
-    {
-        "name": "Lemon Sorbet",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Lemon",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 237, 
-        "energy": 1112,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/d8/Lemon_Sorbet.png"
-    },
-    {
-        "name": "Meringue Pie",
-        "ingredientOne" : "Lemon",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Egg",
-        "ingredientFour" : "Butter",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 667, 
-        "energy": 2014,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/54/Meringue_Pie.png"
-    },
-    {
-        "name": "Minnie's Gingerbread Cookies",
-        "ingredientOne" : "Wheat",
-        "ingredientTwo" : "Ginger",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 132, 
-        "energy": 379,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/a/ac/Minnie%27s_Gingerbread_Cookies.png"
-    },
-    {
-        "name": "Mint Boba Tea",
-        "ingredientOne" : "Sugarcane",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Mint",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 460, 
-        "energy": 1032,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/37/Mint_Boba_Tea.png"
-    },
-    {
-        "name": "Mint Candy",
-        "ingredientOne" : "Mint",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 128, 
-        "energy": 391,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/7/7a/Mint_Candy.png"
-    },
-    {
-        "name": "Mint Chocolate",
-        "ingredientOne" : "Mint",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "Cocoa",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 490, 
-        "energy": 1827,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/3f/Mint_Chocolate.png"
-    },
-    {
-        "name": "Mint Sorbet",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Mint",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 299, 
-        "energy": 695,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0b/Mint_Sorbet.png"
-    },
-    {
-        "name": "Pastry Cream and Fruits",
-        "ingredientOne" : "Any fruit",
-        "ingredientTwo" : "Any fruit",
-        "ingredientThree" : "Any fruit",
-        "ingredientFour" : "Milk",
-        "ingredientFive" : "Sugarcane",
-        "stars" : 5,
-        "sellPrice" : 497, 
-        "energy": 2332,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/ef/Pastry_Cream_and_Fruits.png"
-    },
-    {
-        "name": "Pawpsicle",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Any fruit",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 265, 
-        "energy": 987,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/de/Pawpsicle.png"
-    },
-    {
-        "name": "Peanut Butter Waffles",
-        "ingredientOne" : "Peanut",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Egg",
-        "ingredientFour" : "Milk",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 978, 
-        "energy": 1938,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/ba/Peanut_Butter_Waffles.png"
-    },
-    {
-        "name": "Plain Snow Cones",
-        "ingredientOne" : "Any ice",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 180, 
-        "energy": 410,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/16/Plain_Snow_Cones.png"
-    },
-    {
-        "name": "Raspberry Boba Tea",
-        "ingredientOne" : "Sugarcane",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Raspberry",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 377, 
-        "energy": 1203,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/bd/Raspberry_Boba_Tea.png"
-    },
-    {
-        "name": "Red Fruit Pie",
-        "ingredientOne" : "Any fruit",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 297, 
-        "energy": 1047,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/f/fd/Red_Fruit_Pie.png"
-    },
-    {
-        "name": "Red Fruit Sorbet",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Raspberry",
-        "ingredientThree" : "Gooseberry",
-        "ingredientFour" : "Sugarcane",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 359, 
-        "energy": 2179,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/07/Red_Fruit_Sorbet.png"
-    },
-    {
-        "name": "Root Beer",
-        "ingredientOne" : "Ginger",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Vanilla",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 250, 
-        "energy": 690,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/01/Root_Beer.png"
-    },
-    {
-        "name": "Shake",
-        "ingredientOne" : "Any dairy",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 30, 
-        "energy": 142,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/7/71/Shake.png"
-    },
-    {
-        "name": "Snow White's Gooseberry Pie",
-        "ingredientOne" : "Gooseberry",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 338, 
-        "energy": 1677,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/10/Snow_White%27s_Gooseberry_Pie.png"
-    },
-    {
-        "name": "Sour Snow Cones",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Lemon",
-        "ingredientThree" : "Sugarcane",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 282, 
-        "energy": 1257,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/be/Sour_Snow_Cones.png"
-    },
-    {
-        "name": "Spring Chocolate",
-        "ingredientOne" : "Spring V-EGG-etable",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Cocoa Bean",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 254, 
-        "energy": 1392,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/56/Spring_Chocolate.png"
-    },
-    {
-        "name": "Spring Egg Bowl",
-        "ingredientOne" : "Egg-cellent Fruit",
-        "ingredientTwo" : "Spring V-EGG-etable",
-        "ingredientThree" : "Wild Spring Egg",
-        "ingredientFour" : "Cocoa Bean",
-        "ingredientFive" : "Sugarcane",
-        "stars" : 5,
-        "sellPrice" : 370, 
-        "energy": 1942,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8a/Spring_Egg_Bowl.png"
-    },
-
-    {
-        "name": "Spring Mimosa Eggs",
-        "ingredientOne" : "Spring V-EGG-etable",
-        "ingredientTwo" : "Wild Spring Egg",
-        "ingredientThree" : "Egg-cellent Fruit",
-        "ingredientFour" : "Basil",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 298, 
-        "energy": 1095,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/ec/Spring_Mimosa_Eggs.png"
-    },
-    {
-        "name": "Sweet Slush",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Any sweet",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 219, 
-        "energy": 510,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a4/Sweet_Slush.png"
-    },
-    {
-        "name": "Tropical Pop",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Any fruit",
-        "ingredientThree" : "Sugarcane",
-        "ingredientFour" : "Coconut",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 347, 
-        "energy": 1989,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/85/Tropical_Pop.png"
-    },
-    {
-        "name": "Vanilla Ice Cream",
-        "ingredientOne" : "Slush Ice",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Sugarcane",
-        "ingredientFour" : "Vanilla",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 688, 
-        "energy": 1475,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/15/Vanilla_Ice_Cream.png"
-    },
-    {
-        "name": "Waffles",
-        "ingredientOne" : "Wheat",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Egg",
-        "ingredientFour" : "Any sweet",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 706, 
-        "energy": 1455,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e8/Waffles.png"
-    },
-    {
-        "name": "Wedding Cake",
-        "ingredientOne" : "Butter",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Vanilla",
-        "ingredientFour" : "Egg",
-        "ingredientFive" : "Wheat",
-        "stars" : 5,
-        "sellPrice" : 785, 
-        "energy": 1680,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/6f/Wedding_Cake.png"
-    },
-    {
-        "name": "Whimsical Pie",
-        "ingredientOne" : "Dreamlight Fruit",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 324, 
-        "energy": 1497,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/4/46/Whimsical_Pie.png"
-    },
-    {
-        "name": "Wonderland Cookies",
-        "ingredientOne" : "Butter",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Vanilla",
-        "ingredientFour" : "Wheat",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 406, 
-        "energy": 970,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/37/Wonderland_Cookies.png"
-    },
-    {
-        "name": "Yule Log",
-        "ingredientOne" : "Wheat",
-        "ingredientTwo" : "Cocoa Bean",
-        "ingredientThree" : "Vanilla",
-        "ingredientFour" : "Cherry",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 213, 
-        "energy": 2147,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/dd/Yule_Log.png"
-    }
-]
-
-/*
-
-{
-        name: "",
+        name: "'My Hero' Cookie",
         ingredients: [
             {
-                name: ""
+                name: "Wheat"
+            },
+            {
+                name: "Butter"
+            },
+            {
+                name: "Any Sweet"
             }
         ],
-        stars: 0,
-        sellPrice: 0,
-        energy: 0,
-        imgSrc: ""
+        stars: 3,
+        sellPrice: 294,
+        energy: 679,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/05/%22My_Hero%22_Cookie.png"
     },
-
-*/
+    {
+        name: "Apple Pie",
+        ingredients: [
+            {
+                name: "Apple"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 303,
+        energy: 1137,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fb/Apple_Pie.png"
+    },
+    {
+        name: "Apple Sorbet",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Apple"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 3,
+        sellPrice: 271,
+        energy: 1077,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5b/Apple_Sorbet.png"
+    },
+    {
+        name: "Aurora's Cake",
+        ingredients: [
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Any Fruit"
+            },
+            {
+                name: "Milk"
+            }
+        ],
+        stars: 5,
+        sellPrice: 786,
+        energy: 2030,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f5/Aurora%27s_Cake.png"
+    },
+    {
+        name: "Banana Ice Cream",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Banana"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 4,
+        sellPrice: 641,
+        energy: 1884,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/79/Banana_Ice_Cream.png"
+    },
+    {
+        name: "Banana Pie",
+        ingredients: [
+            {
+                name: "Banana"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 308,
+        energy: 1227,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/75/Banana_Pie.png"
+    },
+    {
+        name: "Banana Split",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Banana"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Any Sweet"
+            }
+        ],
+        stars: 5,
+        sellPrice: 714,
+        energy: 2074,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bd/Banana_Split.png"
+    },
+    {
+        name: "Beignets",
+        ingredients: [
+            {
+                name: "Canola"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 4,
+        sellPrice: 524,
+        energy: 912,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Beignets.png"
+    },
+    {
+        name: "Berry Salad",
+        ingredients: [
+            {
+                name: "Raspberry"
+            },
+            {
+                name: "Blueberry"
+            },
+            {
+                name: "Gooseberry"
+            }
+        ],
+        stars: 3,
+        sellPrice: 139,
+        energy: 2210,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8d/Berry_Salad.png"
+    },
+    {
+        name: "Birthday Cake",
+        ingredients: [
+            {
+                name: "Cocoa Bean"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 5,
+        sellPrice: 749,
+        energy: 2310,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e3/Birthday_Cake.png"
+    },
+    {
+        name: "Biscuits",
+        ingredients: [
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 294,
+        energy: 679,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f5/Biscuits.png"
+    },
+    {
+        name: "Blueberry Pie",
+        ingredients: [
+            {
+                name: "Blueberry"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 308,
+        energy: 1227,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/32/Blueberry_Pie.png"
+    },
+    {
+        name: "Boba Tea",
+        ingredients: [
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Milk"
+            }
+        ],
+        stars: 2,
+        sellPrice: 323,
+        energy: 714,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0a/Boba_Tea.png"
+    },
+    {
+        name: "Candy",
+        ingredients: [
+            {
+                name: "Any Sweet"
+            }
+        ],
+        stars: 1,
+        sellPrice: 22,
+        energy: 123,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1c/Candy.png"
+    },
+    {
+        name: "Caramel Apples",
+        ingredients: [
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Apple"
+            }
+        ],
+        stars: 2,
+        sellPrice: 56,
+        energy: 638,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c6/Caramel_Apples.png"
+    },
+    {
+        name: "Carrot Cake",
+        ingredients: [
+            {
+                name: "Carrot"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 4,
+        sellPrice: 427,
+        energy: 908,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Carrot_Cake.png"
+    },
+    {
+        name: "Cheesecake",
+        ingredients: [
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Any Fruit"
+            }
+        ],
+        stars: 4,
+        sellPrice: 332,
+        energy: 1161,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2d/Cheesecake.png"
+    },
+    {
+        name: "Cherry Pie",
+        ingredients: [
+            {
+                name: "Cherry"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 326,
+        energy: 1497,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/70/Cherry_Pie.png"
+    },
+    {
+        name: "Chocolate Chip Cookies",
+        ingredients: [
+            {
+                name: "Cocoa Bean"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 4,
+        sellPrice: 373,
+        energy: 1569,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6f/Chocolate_Chip_Cookies.png"
+    },
+    {
+        name: "Chocolate Ice Cream",
+        ingredients: [
+            {
+                name: "Cocoa Bean"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Slush Ice"
+            }
+        ],
+        stars: 4,
+        sellPrice: 655,
+        energy: 2074,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/41/Chocolate_Ice_Cream.png"
+    },
+    {
+        name: "Chocolate Waffles",
+        ingredients: [
+            {
+                name: "Cocoa Bean"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Milk"
+            }
+        ],
+        stars: 4,
+        sellPrice: 735,
+        energy: 2223,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4d/Chocolate_Waffles.png"
+    },
+    {
+        name: "Coconut Boba Tea",
+        ingredients: [
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Coconut"
+            }
+        ],
+        stars: 3,
+        sellPrice: 406,
+        energy: 1653,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/Coconut_Boba_Tea.png"
+    },
+    {
+        name: "Coconut Cake",
+        ingredients: [
+            {
+                name: "Coconut"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 4,
+        sellPrice: 424,
+        energy: 1750,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5c/Coconut_Cake.png"
+    },
+    {
+        name: "Coconut Ice Cream",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Coconut"
+            }
+        ],
+        stars: 4,
+        sellPrice: 661,
+        energy: 2169,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d9/Coconut_Ice_Cream.png"
+    },
+    {
+        name: "Crepe",
+        ingredients: [
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Vanilla"
+            }
+        ],
+        stars: 4,
+        sellPrice: 768,
+        energy: 1624,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/62/Crepe.png"
+    },
+    {
+        name: "Dream Ice Cream",
+        ingredients: [
+            {
+                name: "Dreamlight Fruit"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Slush Ice"
+            }
+        ],
+        stars: 3,
+        sellPrice: 588,
+        energy: 1976,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c9/Dream_Ice_Cream.png"
+    },
+    {
+        name: "Fruit Salad",
+        ingredients: [
+            {
+                name: "Any Fruit"
+            }
+        ],
+        stars: 1,
+        sellPrice: 25,
+        energy: 450,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Fruit_Salad.png"
+    },
+    {
+        name: "Fruit Sorbet",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Any Fruit"
+            }
+        ],
+        stars: 2,
+        sellPrice: 222,
+        energy: 857,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Fruit_Sorbet.png"
+    },
+    {
+        name: "Fruitcake",
+        ingredients: [
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Any Fruit"
+            },
+            {
+                name: "Any Fruit"
+            },
+            {
+                name: "Any Fruit"
+            }
+        ],
+        stars: 4,
+        sellPrice: 96,
+        energy: 1511,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Fruitcake.png"
+    },
+    {
+        name: "Gingerbread House",
+        ingredients: [
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Ginger"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Vanilla"
+            },
+            {
+                name: "Egg"
+            }
+        ],
+        stars: 5,
+        sellPrice: 641,
+        energy: 1460,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Gingerbread_House.png"
+    },
+    {
+        name: "Gooseberry Boba Tea",
+        ingredients: [
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Gooseberry"
+            }
+        ],
+        stars: 3,
+        sellPrice: 418,
+        energy: 1833,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/df/Gooseberry_Boba_Tea.png"
+    },
+    {
+        name: "Gray Stuff",
+        ingredients: [
+            {
+                name: "Any Dairy or Oil"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Cocoa Bean"
+            }
+        ],
+        stars: 3,
+        sellPrice: 114,
+        energy: 1046,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/17/Gray_Stuff.png"
+    },
+    {
+        name: "Hot Cocoa",
+        ingredients: [
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Cocoa Bean"
+            }
+        ],
+        stars: 3,
+        sellPrice: 401,
+        energy: 1563,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7c/Hot_Cocoa.png"
+    },
+    {
+        name: "Ice Cream",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 3,
+        sellPrice: 558,
+        energy: 1158,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5d/Ice_Cream.png"
+    },
+    {
+        name: "Jam Waffles",
+        ingredients: [
+            {
+                name: "Any Fruit"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Milk"
+            }
+        ],
+        stars: 4,
+        sellPrice: 709,
+        energy: 1843,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/53/Jam_Waffles.png"
+    },
+    {
+        name: "Lemon Sorbet",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Lemon"
+            }
+        ],
+        stars: 2,
+        sellPrice: 237,
+        energy: 1112,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d8/Lemon_Sorbet.png"
+    },
+    {
+        name: "Meringue Pie",
+        ingredients: [
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 4,
+        sellPrice: 667,
+        energy: 2014,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Meringue_Pie.png"
+    },
+    {
+        name: "Minnie's Gingerbread Cookies",
+        ingredients: [
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Ginger"
+            }
+        ],
+        stars: 2,
+        sellPrice: 132,
+        energy: 379,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ac/Minnie%27s_Gingerbread_Cookies.png"
+    },
+    {
+        name: "Mint Boba Tea",
+        ingredients: [
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Mint"
+            }
+        ],
+        stars: 3,
+        sellPrice: 460,
+        energy: 1032,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Mint_Boba_Tea.png"
+    },
+    {
+        name: "Mint Candy",
+        ingredients: [
+            {
+                name: "Mint"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 2,
+        sellPrice: 128,
+        energy: 391,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Mint_Candy.png"
+    },
+    {
+        name: "Mint Chocolate",
+        ingredients: [
+            {
+                name: "Mint"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Butter"
+            },
+            {
+                name: "Cocoa Bean"
+            }
+        ],
+        stars: 4,
+        sellPrice: 490,
+        energy: 1827,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3f/Mint_Chocolate.png"
+    },
+    {
+        name: "Mint Sorbet",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Mint"
+            }
+        ],
+        stars: 2,
+        sellPrice: 299,
+        energy: 695,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0b/Mint_Sorbet.png"
+    },
+    {
+        name: "Pastry Cream and Fruits",
+        ingredients: [
+            {
+                name: "Any Fruit"
+            },
+            {
+                name: "Any Fruit"
+            },
+            {
+                name: "Any Fruit"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 5,
+        sellPrice: 497,
+        energy: 2332,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ef/Pastry_Cream_and_Fruits.png"
+    },
+    {
+        name: "Pawpsicle",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Any Fruit"
+            }
+        ],
+        stars: 3,
+        sellPrice: 265,
+        energy: 987,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/de/Pawpsicle.png"
+    },
+    {
+        name: "Peanut Butter Waffles",
+        ingredients: [
+            {
+                name: "Peanut"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Milk"
+            }
+        ],
+        stars: 4,
+        sellPrice: 978,
+        energy: 1938,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/ba/Peanut_Butter_Waffles.png"
+    },
+    {
+        name: "Plain Snow Cones",
+        ingredients: [
+            {
+                name: "Any Ice"
+            }
+        ],
+        stars: 1,
+        sellPrice: 180,
+        energy: 410,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/16/Plain_Snow_Cones.png"
+    },
+    {
+        name: "Raspberry Boba Tea",
+        ingredients: [
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Raspberry"
+            }
+        ],
+        stars: 3,
+        sellPrice: 377,
+        energy: 1203,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bd/Raspberry_Boba_Tea.png"
+    },
+    {
+        name: "Red Fruit Pie",
+        ingredients: [
+            {
+                name: "Any Fruit"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 297,
+        energy: 1047,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fd/Red_Fruit_Pie.png"
+    },
+    {
+        name: "Red Fruit Sorbet",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Raspberry"
+            },
+            {
+                name: "Gooseberry"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 4,
+        sellPrice: 359,
+        energy: 2179,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/07/Red_Fruit_Sorbet.png"
+    },
+    {
+        name: "Root Beer",
+        ingredients: [
+            {
+                name: "Ginger"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Vanilla"
+            }
+        ],
+        stars: 3,
+        sellPrice: 250,
+        energy: 690,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/01/Root_Beer.png"
+    },
+    {
+        name: "Shake",
+        ingredients: [
+            {
+                name: "Any Dairy or Oil"
+            }
+        ],
+        stars: 1,
+        sellPrice: 30,
+        energy: 142,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/71/Shake.png"
+    },
+    {
+        name: "Snow White's Gooseberry Pie",
+        ingredients: [
+            {
+                name: "Gooseberry"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 338,
+        energy: 1677,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Snow_White%27s_Gooseberry_Pie.png"
+    },
+    {
+        name: "Sour Snow Cones",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 3,
+        sellPrice: 282,
+        energy: 1257,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/be/Sour_Snow_Cones.png"
+    },
+    {
+        name: "Spring Chocolate",
+        ingredients: [
+            {
+                name: "Spring V-EGG-etable"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Cocoa Bean"
+            }
+        ],
+        stars: 3,
+        sellPrice: 254,
+        energy: 1392,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/56/Spring_Chocolate.png"
+    },
+    {
+        name: "Spring Egg Bowl",
+        ingredients: [
+            {
+                name: "Egg-cellent Fruit"
+            },
+            {
+                name: "Spring V-EGG-etable"
+            },
+            {
+                name: "Wild Spring Egg"
+            },
+            {
+                name: "Cocoa Bean"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 5,
+        sellPrice: 370,
+        energy: 1942,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8a/Spring_Egg_Bowl.png"
+    },
+    {
+        name: "Spring Mimosa Eggs",
+        ingredients: [
+            {
+                name: "Spring V-EGG-etable"
+            },
+            {
+                name: "Wild Spring Egg"
+            },
+            {
+                name: "Egg-cellent Fruit"
+            },
+            {
+                name: "Basil"
+            }
+        ],
+        stars: 4,
+        sellPrice: 298,
+        energy: 1095,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Spring_Mimosa_Eggs.png"
+    },
+    {
+        name: "Sweet Slush",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Any Sweet"
+            }
+        ],
+        stars: 2,
+        sellPrice: 219,
+        energy: 510,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a4/Sweet_Slush.png"
+    },
+    {
+        name: "Tropical Pop",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Any Fruit"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Coconut"
+            }
+        ],
+        stars: 4,
+        sellPrice: 347,
+        energy: 1989,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/85/Tropical_Pop.png"
+    },
+    {
+        name: "Vanilla Ice Cream",
+        ingredients: [
+            {
+                name: "Slush Ice"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Vanilla"
+            }
+        ],
+        stars: 4,
+        sellPrice: 688,
+        energy: 1475,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/15/Vanilla_Ice_Cream.png"
+    },
+    {
+        name: "Waffles",
+        ingredients: [
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 4,
+        sellPrice: 706,
+        energy: 1455,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e8/Waffles.png"
+    },
+    {
+        name: "Wedding Cake",
+        ingredients: [
+            {
+                name: "Butter"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Vanilla"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 5,
+        sellPrice: 785,
+        energy: 1680,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6f/Wedding_Cake.png"
+    },
+    {
+        name: "Whimsical Pie",
+        ingredients: [
+            {
+                name: "Dreamlight Fruit"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 324,
+        energy: 1497,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/46/Whimsical_Pie.png"
+    },
+    {
+        name: "Wonderland Cookies",
+        ingredients: [
+            {
+                name: "Butter"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Vanilla"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 4,
+        sellPrice: 406,
+        energy: 970,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Wonderland_Cookies.png"
+    },
+    {
+        name: "Yule Log",
+        ingredients: [
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Cocoa Bean"
+            },
+            {
+                name: "Vanilla"
+            },
+            {
+                name: "Cherry"
+            }
+        ],
+        stars: 4,
+        sellPrice: 213,
+        energy: 2147,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Yule_Log.png"
+    }
+]
 
 //Special cases:
 ///Crudités (not all veggies)
@@ -3092,3 +3518,5 @@ const desserts = [
 ///Sushi (not salmon)
 ///Red Fruit Pie (not all fruits)
 //Shake (not egg or cheese)
+//My Hero Cookie (no sugarcane)
+//Waffles (only Sugarcane)
