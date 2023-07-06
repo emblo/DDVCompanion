@@ -687,1025 +687,1613 @@ const appetizers = [
 //Entrées 
 const entrees = [
     {
-        "name": "Apple-Cider-Glazed Salmon",
-        "ingredientOne" : "Salmon",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Apple",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 271, 
-        "energy": 1572,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/3b/Apple-Cider-Glazed_Salmon.png"
-    },
-    {
-        "name": "Baked Carp",
-        "ingredientOne" : "Carp",
-        "ingredientTwo" : "Butter",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 767, 
-        "energy": 1894,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/34/Baked_Carp.png"
-    },
-    {
-        "name": "Basil Omelet",
-        "ingredientOne" : "Basil",
-        "ingredientTwo" : "Egg",
-        "ingredientThree" : "Cheese",
-        "ingredientFour" : "Milk",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 982, 
-        "energy": 2035,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/09/Basil_Omelet.png"
-    },
-    {
-        "name": "Bouillabaisse",
-        "ingredientOne" : "Any seafood",
-        "ingredientTwo" : "Any seafood",
-        "ingredientThree" : "Shrimp",
-        "ingredientFour" : "Tomato",
-        "ingredientFive" : "Any vegetable",
-        "stars" : 5,
-        "sellPrice" : 529, 
-        "energy": 2114,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/9/9d/Bouillabaisse.png"
-    },
-    {
-        "name": "Carp Salad",
-        "ingredientOne" : "Carp",
-        "ingredientTwo" : "Lemon",
-        "ingredientThree" : "Lettuce",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 617, 
-        "energy": 2310,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a1/Carp_Salad.png"
-    },
-    {
-        "name": "Cheesy Crispy Baked Cod",
-        "ingredientOne" : "Cod",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Cheese",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 303, 
-        "energy": 840,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/63/Cheesy_Crispy_Baked_Cod.png"
-    },
-    {
-        "name": "Chowder",
-        "ingredientOne" : "Any seafood",
-        "ingredientTwo" : "Milk",
-        "ingredientThree" : "Potato",
-        "ingredientFour" : "Any vegetable",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 547, 
-        "energy": 1186,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/9/95/Chowder.png"
-    },
-    {
-        "name": "Creamy Garlic Scallops",
-        "ingredientOne" : "Scallop",
-        "ingredientTwo" : "Lemon",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "Garlic",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 499, 
-        "energy": 1844,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/16/Creamy_Garlic_Scallops.png"
-    },
-    {
-        "name": "Crispy Baked Cod",
-        "ingredientOne" : "Cod",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 47, 
-        "energy": 337,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1d/Crispy_Baked_Cod.png"
-    },
-    {
-        "name": "Fish Creole",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Any vegetable",
-        "ingredientThree" : "Garlic",
-        "ingredientFour" : "Rice",
-        "ingredientFive" : "Tomato",
-        "stars" : 5,
-        "sellPrice" : 241, 
-        "energy": 822,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/c/cc/Fish_Creole.png"
-    },
-    {
-        "name": "Fish 'n' Chips",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Canola",
-        "ingredientFour" : "Potato",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 356, 
-        "energy": 697,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/4/4f/Fish_%27n%27_Chips.png"
-    },
-    {
-        "name": "Fish Pasta",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Garlic",
-        "ingredientThree" : "Wheat",
-        "ingredientFour" : "Milk",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 439, 
-        "energy": 1282,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/08/Fish_Pasta.png"
-    },
-    {
-        "name": "Fish Pie",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 269, 
-        "energy": 867,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/ec/Fish_Pie.png"
-    },
-    {
-        "name": "Fish Risotto",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Rice",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 352, 
-        "energy": 939,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2b/Fish_Risotto.png"
-    },
-    {
-        "name": "Fish Salad",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Lemon",
-        "ingredientThree" : "Lettuce",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 58, 
-        "energy": 1140,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8e/Fish_Salad.png"
-    },
-    {
-        "name": "Fish Sandwiches",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 3, 
-        "energy": 337,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/53/Fish_Sandwiches.png"
-    },
-    {
-        "name": "Fish Soup",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Any vegetable",
-        "ingredientThree" : "Milk",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 334, 
-        "energy": 978,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/be/Fish_Soup.png"
-    },
-    {
-        "name": "Fish Steak",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Tomato",
-        "ingredientThree" : "Basil",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 66, 
-        "energy": 537,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a1/Fish_Steak.png"
-    },
-    {
-        "name": "Fish Tacos",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Corn",
-        "ingredientThree" : "Chili Pepper",
-        "ingredientFour" : "Cheese",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 412, 
-        "energy": 1171,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/a/af/Fish_Tacos.png"
-    },
-    {
-        "name": "Fugu Sushi",
-        "ingredientOne" : "Fugu",
-        "ingredientTwo" : "Rice",
-        "ingredientThree" : "Seaweed",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 1300, 
-        "energy": 3261,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0e/Fugu_Sushi.png"
-    },
-    {
-        "name": "Ghostly Fish Steak",
-        "ingredientOne" : "Here and There Fish",
-        "ingredientTwo" : "Lemon",
-        "ingredientThree" : "Asparagus",
-        "ingredientFour" : "Bell Pepper",
-        "ingredientFive" : "Oregano",
-        "stars" : 5,
-        "sellPrice" : 3500, 
-        "energy": 3282,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/c/c8/Ghostly_Fish_Steak.png"
-    },
-    {
-        "name": "Greek Pizza",
-        "ingredientOne" : "Any Spice",
-        "ingredientTwo" : "Tomato",
-        "ingredientThree" : "Onion",
-        "ingredientFour" : "Cheese",
-        "ingredientFive" : "Wheat",
-        "stars" : 5,
-        "sellPrice" : 630, 
-        "energy": 1152,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/38/Greek_Pizza.png"
-    },
-    {
-        "name": "Grilled Fish",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 1, 
-        "energy": 290,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/dd/Grilled_Fish.png"
-    },
-    {
-        "name": "Grilled Fish Entree",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Any vegetable",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 11, 
-        "energy": 340,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a5/Grilled_Fish_Entree.png"
-    },
-    {
-        "name": "Gumbo",
-        "ingredientOne" : "Okra",
-        "ingredientTwo" : "Shrimp",
-        "ingredientThree" : "Chili Pepper",
-        "ingredientFour" : "Tomato",
-        "ingredientFive" : "Onion",
-        "stars" : 5,
-        "sellPrice" : 1000, 
-        "energy": 2226,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/10/Gumbo.png"
-    },
-    {
-        "name": "Hearty Salad",
-        "ingredientOne" : "Any vegetable",
-        "ingredientTwo" : "Lettuce",
-        "ingredientThree" : "Any vegetable",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 33, 
-        "energy": 224,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1a/Hearty_Salad.png"
-    },
-    {
-        "name": "Hors d'Oeuvres",
-        "ingredientOne" : "Any spice",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 24, 
-        "energy": 202,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/9/92/Hors_d%27Oeuvres.png"
-    },
-    {
-        "name": "Kappa Maki",
-        "ingredientOne" : "Seaweed",
-        "ingredientTwo" : "Cucumber",
-        "ingredientThree" : "Rice",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 335, 
-        "energy": 462,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/29/Kappa_Maki.png"
-    },
-    {
-        "name": "Kronk's Spinach Puffs",
-        "ingredientOne" : "Spinach",
-        "ingredientTwo" : "Cheese",
-        "ingredientThree" : "Canola",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 461, 
-        "energy": 750,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e6/Kronk%27s_Spinach_Puffs.png"
-    },
-    {
-        "name": "Lancetfish Paella",
-        "ingredientOne" : "Lancetfish",
-        "ingredientTwo" : "Shrimp",
-        "ingredientThree" : "Any seafood",
-        "ingredientFour" : "Tomato",
-        "ingredientFive" : "Rice",
-        "stars" : 5,
-        "sellPrice" : 1600, 
-        "energy": 4550,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/80/Lancetfish_Paella.png"
-    },
-    {
-        "name": "Leek Soup",
-        "ingredientOne" : "Leek",
-        "ingredientTwo" : "",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 1,
-        "sellPrice" : 370, 
-        "energy": 414,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/39/Leek_Soup.png"
-    },
-    {
-        "name": "Lemon Garlic Swordfish",
-        "ingredientOne" : "Swordfish",
-        "ingredientTwo" : "Garlic",
-        "ingredientThree" : "Lemon",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 1100, 
-        "energy": 3713,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/33/Lemon_Garlic_Swordfish.png"
-    },
-    {
-        "name": "Lioness Feast",
-        "ingredientOne" : "Mushroom",
-        "ingredientTwo" : "Tomato",
-        "ingredientThree" : "Oregano",
-        "ingredientFour" : "Here and There Fish",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 3100, 
-        "energy": 2368,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/7/79/Lioness_Feast.png"
-    },
-    {
-        "name": "Lobster Roll",
-        "ingredientOne" : "Lobster",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Lemon",
-        "ingredientFour" : "Butter",
-        "ingredientFive" : "Garlic",
-        "stars" : 5,
-        "sellPrice" : 1900, 
-        "energy": 4928,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/63/Lobster_Roll.png"
-    },
-    {
-        "name": "Maguro Sushi",
-        "ingredientOne" : "Tuna",
-        "ingredientTwo" : "Seaweed",
-        "ingredientThree" : "Rice",
-        "ingredientFour" : "Ginger",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 413, 
-        "energy": 1206,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2f/Maguro_Sushi.png"
-    },
-    {
-        "name": "Maki",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Seaweed",
-        "ingredientThree" : "Rice",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 114, 
-        "energy": 471,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/21/Maki.png"
-    },
-    {
-        "name": "Margherita Pizza",
-        "ingredientOne" : "Any spice",
-        "ingredientTwo" : "Tomato",
-        "ingredientThree" : "Cheese",
-        "ingredientFour" : "Wheat",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 336, 
-        "energy": 818,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1b/Margherita_Pizza.png"
-    },
-    {
-        "name": "Marvelous Jam",
-        "ingredientOne" : "Dreamlight Fruit",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 54, 
-        "energy": 932,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/50/Marvelous_Jam.png"
-    },
-    {
-        "name": "Mediterranean Salad",
-        "ingredientOne" : "Cucumber",
-        "ingredientTwo" : "Tomato",
-        "ingredientThree" : "Onion",
-        "ingredientFour" : "Lettuce",
-        "ingredientFive" : "Any spice",
-        "stars" : 5,
-        "sellPrice" : 605, 
-        "energy": 976,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/7/73/Mediterranean_Salad.png"
-    },
-    {
-        "name": "Mushroom Pizza",
-        "ingredientOne" : "Mushroom",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Tomato",
-        "ingredientFour" : "Cheese",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 351, 
-        "energy": 837,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e9/Mushroom_Pizza.png"
-    },
-    {
-        "name": "Mushu's Congee",
-        "ingredientOne" : "Rice",
-        "ingredientTwo" : "Egg",
-        "ingredientThree" : "Mushroom",
-        "ingredientFour" : "Garlic",
-        "ingredientFive" : "Ginger",
-        "stars" : 5,
-        "sellPrice" : 753, 
-        "energy": 1658,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0d/Mushu%27s_Congee.png"
-    },
-    {
-        "name": "Omelet",
-        "ingredientOne" : "Egg",
-        "ingredientTwo" : "Cheese",
-        "ingredientThree" : "Milk",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 882, 
-        "energy": 1751,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/12/Omelet.png"
-    },
-    {
-        "name": "Pan-Fried Angler Fish",
-        "ingredientOne" : "Anglerfish",
-        "ingredientTwo" : "Tomato",
-        "ingredientThree" : "Zucchini",
-        "ingredientFour" : "Potato",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 2500, 
-        "energy": 4194,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2e/Pan-Fried_Angler_Fish.png"
-    },
-    {
-        "name": "Pan-Seared Bass & Vegetables",
-        "ingredientOne" : "Bass",
-        "ingredientTwo" : "Any vegetable",
-        "ingredientThree" : "Any vegetable",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 57, 
-        "energy": 394,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/dc/Pan-Seared_Bass_%26_Vegetables.png"
-    },
-    {
-        "name": "Pan-Seared Tilapia & Vegetables",
-        "ingredientOne" : "Tilapia",
-        "ingredientTwo" : "Any vegetable",
-        "ingredientThree" : "Any vegetable",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 862, 
-        "energy": 2194,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a0/Pan-Seared_Tilapia_%26_Vegetables.png"
-    },
-    {
-        "name": "Pasta",
-        "ingredientOne" : "Wheat",
-        "ingredientTwo" : "Tomato",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 30, 
-        "energy": 117,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/d8/Pasta.png"
-    },
-    {
-        "name": "Peanut Butter Sandwich",
-        "ingredientOne" : "Peanut",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 262, 
-        "energy": 592,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/a/af/Peanut_Butter_Sandwich.png"
-    },
-    {
-        "name": "Pizza",
-        "ingredientOne" : "Tomato",
-        "ingredientTwo" : "Cheese",
-        "ingredientThree" : "Wheat",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 284, 
-        "energy": 607,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f4/Pizza.png"
-    },
-    {
-        "name": "Poached Basil-Butter Sturgeon",
-        "ingredientOne" : "White Sturgeon",
-        "ingredientTwo" : "Basil",
-        "ingredientThree" : "Lemon",
-        "ingredientFour" : "Butter",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 2200, 
-        "energy": 4961,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/4/43/Poached_Basil-Butter_Sturgeon.png"
-    },
-    {
-        "name": "Porridge",
-        "ingredientOne" : "Milk",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 301, 
-        "energy": 668,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/5/5d/Porridge.png"
-    },
-    {
-        "name": "Porridge with Fruits",
-        "ingredientOne" : "Milk",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Any fruit",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 353, 
-        "energy": 1155,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/84/Porridge_with_Fruits.png"
-    },
-    {
-        "name": "Ranch Salad",
-        "ingredientOne" : "Lettuce",
-        "ingredientTwo" : "Bell Pepper",
-        "ingredientThree" : "Corn",
-        "ingredientFour" : "Tomato",
-        "ingredientFive" : "Onion",
-        "stars" : 5,
-        "sellPrice" : 396, 
-        "energy": 714,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/6c/Ranch_Salad.png"
-    },
-    {
-        "name": "Ratatouille",
-        "ingredientOne" : "Tomato",
-        "ingredientTwo" : "Eggplant",
-        "ingredientThree" : "Zucchini",
-        "ingredientFour" : "Onion",
-        "ingredientFive" : "Any spice",
-        "stars" : 5,
-        "sellPrice" : 914, 
-        "energy": 1572,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/b0/Ratatouille.png"
-    },
-    {
-        "name": "Sake Maki",
-        "ingredientOne" : "Rice",
-        "ingredientTwo" : "Seaweed",
-        "ingredientThree" : "Salmon",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 323, 
-        "energy": 1101,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1a/Sake_Maki.png"
-    },
-    {
-        "name": "Sake Sushi",
-        "ingredientOne" : "Salmon",
-        "ingredientTwo" : "Rice",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 274, 
-        "energy": 1000,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f0/Sake_Sushi.png"
-    },
-    {
-        "name": "Savory Fish",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Lemon",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 43, 
-        "energy": 985,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/0e/Savory_Fish.png"
-    },
-    {
-        "name": "Scrambled Egg",
-        "ingredientOne" : "Egg",
-        "ingredientTwo" : "Cheese",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 520, 
-        "energy": 1070,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/8b/Scrambled_Egg.png"
-    },
-    {
-        "name": "Seafood Pasta",
-        "ingredientOne" : "Any seafood",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Milk",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 325, 
-        "energy": 921,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/1/1a/Seafood_Pasta.png"
-    },
-    {
-        "name": "Seafood Pie",
-        "ingredientOne" : "Any seafood",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 269, 
-        "energy": 813,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/9/98/Seafood_Pie.png"
-    },
-    {
-        "name": "Seafood Salad",
-        "ingredientOne" : "Any seafood",
-        "ingredientTwo" : "Lettuce",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 11, 
-        "energy": 349,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/69/Seafood_Salad.png"
-    },
-    {
-        "name": "Seafood Soup",
-        "ingredientOne" : "Any seafood",
-        "ingredientTwo" : "Any vegetable",
-        "ingredientThree" : "Any vegetable",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 23, 
-        "energy": 340,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/b3/Seafood_Soup.png"
-    },
-    {
-        "name": "Seared Rainbow Trout",
-        "ingredientOne" : "Rainbow Trout",
-        "ingredientTwo" : "Tomato",
-        "ingredientThree" : "Onion",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 338, 
-        "energy": 889,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/20/Seared_Rainbow_Trout.png"
-    },
-    {
-        "name": "Simple Fried Perch",
-        "ingredientOne" : "Perch",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 380, 
-        "energy": 1317,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/b3/Simple_Fried_Perch.png"
-    },
-    {
-        "name": "Smoked Peanuts and Anglerfish",
-        "ingredientOne" : "Anglerfish",
-        "ingredientTwo" : "Peanut",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 2200, 
-        "energy": 3960,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e2/Smoked_Peanuts_and_Anglerfish.png"
-    },
-    {
-        "name": "Sole Meunière",
-        "ingredientOne" : "Sole",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "Lemon",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 637, 
-        "energy": 2337,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2e/Sole_Meuni%C3%A8re.png"
-    },
-    {
-        "name": "Spaghetti Arrabbiata",
-        "ingredientOne" : "Tomato",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Chili Pepper",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 141, 
-        "energy": 373,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/4/4d/Spaghetti_Arrabbiata.png"
-    },
-    {
-        "name": "Spicy Baked Bream",
-        "ingredientOne" : "Bream",
-        "ingredientTwo" : "Chili Pepper",
-        "ingredientThree" : "Butter",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 767, 
-        "energy": 2075,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/f/f6/Spicy_Baked_Bream.png"
-    },
-    {
-        "name": "Steamed Fugu",
-        "ingredientOne" : "Fugu",
-        "ingredientTwo" : "Ginger",
-        "ingredientThree" : "Garlic",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 1400, 
-        "energy": 3668,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/bb/Steamed_Fugu.png"
-    },
-    {
-        "name": "Sushi",
-        "ingredientOne" : "Any fish",
-        "ingredientTwo" : "Rice",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 80, 
-        "energy": 405,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/6d/Sushi.png"
-    },
-    {
-        "name": "Sweet & Sour Kingfish Steak",
-        "ingredientOne" : "Kingfish",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "Lemon",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 702, 
-        "energy": 2292,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/b/bb/Sweet_%26_Sour_Kingfish_Steak.png"
-    },
-    {
-        "name": "Sweet Udon",
-        "ingredientOne" : "Dreamlight Fruit",
-        "ingredientTwo" : "Rice",
-        "ingredientThree" : "Any seafood",
-        "ingredientFour" : "Any sweet",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 180, 
-        "energy": 1427,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/a/a6/Sweet_Udon.png"
-    },
-    {
-        "name": "Tamagoyaki",
-        "ingredientOne" : "Egg",
-        "ingredientTwo" : "Sugarcane",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 310, 
-        "energy": 689,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/22/Tamagoyaki.png"
-    },
-    {
-        "name": "Tasty Salad",
-        "ingredientOne" : "Lettuce",
-        "ingredientTwo" : "Cucumber",
-        "ingredientThree" : "Any vegetable",
-        "ingredientFour" : "Any spice",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 292, 
-        "energy": 650,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/84/Tasty_Salad.png"
-    },
-    {
-        "name": "Tasty Veggies",
-        "ingredientOne" : "Any vegetable",
-        "ingredientTwo" : "Any spice",
-        "ingredientThree" : "",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 2,
-        "sellPrice" : 36, 
-        "energy": 246,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/87/Tasty_Veggies.png"
-    },
-    {
-        "name": "Tekka Maki",
-        "ingredientOne" : "Tuna",
-        "ingredientTwo" : "Soya",
-        "ingredientThree" : "Seaweed",
-        "ingredientFour" : "Rice",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 366, 
-        "energy": 984,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/e/e6/Tekka_Maki.png"
-    },
-    {
-        "name": "Teriyaki Salmon",
-        "ingredientOne" : "Soya",
-        "ingredientTwo" : "Salmon",
-        "ingredientThree" : "Sugarcane",
-        "ingredientFour" : "Rice",
-        "ingredientFive" : "Ginger",
-        "stars" : 5,
-        "sellPrice" : 637, 
-        "energy": 1726,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/6/61/Teriyaki_Salmon.png"
-    },
-    {
-        "name": "Tuna Burger",
-        "ingredientOne" : "Tuna",
-        "ingredientTwo" : "Onion",
-        "ingredientThree" : "Lemon",
-        "ingredientFour" : "Wheat",
-        "ingredientFive" : "Any vegetable",
-        "stars" : 5,
-        "sellPrice" : 491, 
-        "energy": 1922,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/0/00/Tuna_Burger.png"
-    },
-    {
-        "name": "Vegetarian Pizza",
-        "ingredientOne" : "Any vegetable",
-        "ingredientTwo" : "Any vegetable",
-        "ingredientThree" : "Tomato",
-        "ingredientFour" : "Cheese",
-        "ingredientFive" : "Wheat",
-        "stars" : 5,
-        "sellPrice" : 350, 
-        "energy": 754,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/8/83/Vegetarian_Pizza.png"
-    },
-    {
-        "name": "Vegetarian Stew",
-        "ingredientOne" : "Potato",
-        "ingredientTwo" : "Carrot",
-        "ingredientThree" : "Onion",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 475, 
-        "energy": 617,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/3/36/Vegetarian_Stew.png"
-    },
-    {
-        "name": "Vegetarian Taco",
-        "ingredientOne" : "Corn",
-        "ingredientTwo" : "Chili Pepper",
-        "ingredientThree" : "Cheese",
-        "ingredientFour" : "Any vegetable",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 423, 
-        "energy": 925,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/9/90/Vegetarian_Taco.png"
-    },
-    {
-        "name": "Veggie Casserole",
-        "ingredientOne" : "Any vegetable",
-        "ingredientTwo" : "Any vegetable",
-        "ingredientThree" : "Cheese",
-        "ingredientFour" : "Any spice",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 324, 
-        "energy": 821,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/a/ad/Veggie_Casserole.png"
-    },
-    {
-        "name": "Veggie Pasta",
-        "ingredientOne" : "Tomato",
-        "ingredientTwo" : "Wheat",
-        "ingredientThree" : "Any vegetable",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 43, 
-        "energy": 158,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/4/4c/Veggie_Pasta.png"
-    },
-    {
-        "name": "Veggie Pasta",
-        "ingredientOne" : "Any vegetable",
-        "ingredientTwo" : "Butter",
-        "ingredientThree" : "Wheat",
-        "ingredientFour" : "",
-        "ingredientFive" : "",
-        "stars" : 3,
-        "sellPrice" : 279, 
-        "energy": 634,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/4/48/Veggie_Pie.png"
-    },
-    {
-        "name": "Veggie Skewers",
-        "ingredientOne" : "Mushroom",
-        "ingredientTwo" : "Zucchini",
-        "ingredientThree" : "Onion",
-        "ingredientFour" : "Bell Pepper",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 427, 
-        "energy": 767,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/d/db/Veggie_Skewers.png"
-    },
-    {
-        "name": "Walleye en Papillote",
-        "ingredientOne" : "Walleye",
-        "ingredientTwo" : "Basil",
-        "ingredientThree" : "Oregano",
-        "ingredientFour" : "Any vegetable",
-        "ingredientFive" : "",
-        "stars" : 4,
-        "sellPrice" : 1700, 
-        "energy": 3689,
-        "imgSrc": "https://dreamlightvalleywiki.com/images/2/2a/Walleye_en_Papillote.png"
-    },
+        name: "Apple-Cider-Glazed Salmon",
+        ingredients: [
+            {
+                name: "Salmon"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Apple"
+            }
+        ],
+        stars: 3,
+        sellPrice: 271,
+        energy: 1572,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3b/Apple-Cider-Glazed_Salmon.png"
+    },
+    {
+        name: "Baked Carp",
+        ingredients: [
+            {
+                name: "Carp"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 2,
+        sellPrice: 767,
+        energy: 1894,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/34/Baked_Carp.png"
+    },
+    {
+        name: "Basil Omelet",
+        ingredients: [
+            {
+                name: "Basil"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Milk"
+            }
+        ],
+        stars: 4,
+        sellPrice: 982,
+        energy: 2035,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/09/Basil_Omelet.png"
+    },
+    {
+        name: "Bouillabaisse",
+        ingredients: [
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Shrimp"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 5,
+        sellPrice: 529,
+        energy: 2114,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Bouillabaisse.png"
+    },
+    {
+        name: "Carp Salad",
+        ingredients: [
+            {
+                name: "Carp"
+            },
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Lettuce"
+            }
+        ],
+        stars: 3,
+        sellPrice: 617,
+        energy: 2310,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a1/Carp_Salad.png"
+    },
+    {
+        name: "Cheesy Crispy Baked Cod",
+        ingredients: [
+            {
+                name: "Cod"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 3,
+        sellPrice: 303,
+        energy: 840,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/63/Cheesy_Crispy_Baked_Cod.png"
+    },
+    {
+        name: "Chowder",
+        ingredients: [
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Milk"
+            },
+            {
+                name: "Potato"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 4,
+        sellPrice: 547,
+        energy: 1186,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/95/Chowder.png"
+    },
+    {
+        name: "Creamy Garlic Scallops",
+        ingredients: [
+            {
+                name: "Scallop"
+            },
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Butter"
+            },
+            {
+                name: "Garlic"
+            }
+        ],
+        stars: 4,
+        sellPrice: 499,
+        energy: 1844,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/16/Creamy_Garlic_Scallops.png"
+    },
+    {
+        name: "Crispy Baked Cod",
+        ingredients: [
+            {
+                name: "Cod"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 2,
+        sellPrice: 47,
+        energy: 337,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Crispy_Baked_Cod.png"
+    },
+    {
+        name: "Fish Creole",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Garlic"
+            },
+            {
+                name: "Rice"
+            },
+            {
+                name: "Tomato"
+            }
+        ],
+        stars: 5,
+        sellPrice: 241,
+        energy: 822,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cc/Fish_Creole.png"
+    },
+    {
+        name: "Fish 'n' Chips",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Canola"
+            },
+            {
+                name: "Potato"
+            }
+        ],
+        stars: 4,
+        sellPrice: 356,
+        energy: 697,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Fish_%27n%27_Chips.png"
+    },
+    {
+        name: "Fish Pasta",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Garlic"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Milk"
+            }
+        ],
+        stars: 4,
+        sellPrice: 439,
+        energy: 1282,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/08/Fish_Pasta.png"
+    },
+    {
+        name: "Fish Pie",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 269,
+        energy: 867,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Fish_Pie.png"
+    },
+    {
+        name: "Fish Risotto",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Rice"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 352,
+        energy: 939,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Fish_Risotto.png"
+    },
+    {
+        name: "Fish Salad",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Lettuce"
+            }
+        ],
+        stars: 3,
+        sellPrice: 58,
+        energy: 1140,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8e/Fish_Salad.png"
+    },
+    {
+        name: "Fish Sandwiches",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 2,
+        sellPrice: 3,
+        energy: 337,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/53/Fish_Sandwiches.png"
+    },
+    {
+        name: "Fish Soup",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Milk"
+            }
+        ],
+        stars: 3,
+        sellPrice: 334,
+        energy: 978,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/be/Fish_Soup.png"
+    },
+    {
+        name: "Fish Steak",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Basil"
+            }
+        ],
+        stars: 3,
+        sellPrice: 66,
+        energy: 537,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a1/Fish_Steak.png"
+    },
+    {
+        name: "Fish Tacos",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Corn"
+            },
+            {
+                name: "Chili Pepper"
+            },
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 4,
+        sellPrice: 412,
+        energy: 1171,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/af/Fish_Tacos.png"
+    },
+    {
+        name: "Fugu Sushi",
+        ingredients: [
+            {
+                name: "Fugu"
+            },
+            {
+                name: "Rice"
+            },
+            {
+                name: "Seaweed"
+            }
+        ],
+        stars: 3,
+        sellPrice: 1373,
+        energy: 3261,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0e/Fugu_Sushi.png"
+    },
+    {
+        name: "Ghostly Fish Steak",
+        ingredients: [
+            {
+                name: "Here and There Fish"
+            },
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Asparagus"
+            },
+            {
+                name: "Bell Pepper"
+            },
+            {
+                name: "Oregano"
+            }
+        ],
+        stars: 5,
+        sellPrice: 3548,
+        energy: 3282,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c8/Ghostly_Fish_Steak.png"
+    },
+    {
+        name: "Greek Pizza",
+        ingredients: [
+            {
+                name: "Any Spice"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Onion"
+            },
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 5,
+        sellPrice: 630,
+        energy: 1152,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/38/Greek_Pizza.png"
+    },
+    {
+        name: "Grilled Fish",
+        ingredients: [
+            {
+                name: "Any Fish"
+            }
+        ],
+        stars: 1,
+        sellPrice: 1,
+        energy: 290,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Grilled_Fish.png"
+    },
+    {
+        name: "Grilled Fish Entree",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 2,
+        sellPrice: 11,
+        energy: 340,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Grilled_Fish_Entree.png"
+    },
+    {
+        name: "Gumbo",
+        ingredients: [
+            {
+                name: "Okra"
+            },
+            {
+                name: "Shrimp"
+            },
+            {
+                name: "Chili Pepper"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Onion"
+            }
+        ],
+        stars: 5,
+        sellPrice: 1093,
+        energy: 2226,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Gumbo.png"
+    },
+    {
+        name: "Hearty Salad",
+        ingredients: [
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Lettuce"
+            }
+        ],
+        stars: 3,
+        sellPrice: 33,
+        energy: 224,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Hearty_Salad.png"
+    },
+    {
+        name: "Hors d'Oeuvres",
+        ingredients: [
+            {
+                name: "Any Spice"
+            }
+        ],
+        stars: 1,
+        sellPrice: 24,
+        energy: 202,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Hors_d%27Oeuvres.png"
+    },
+    {
+        name: "Kappa Maki",
+        ingredients: [
+            {
+                name: "Seaweed"
+            },
+            {
+                name: "Cucumber"
+            },
+            {
+                name: "Rice"
+            }
+        ],
+        stars: 3,
+        sellPrice: 335,
+        energy: 462,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/29/Kappa_Maki.png"
+    },
+    {
+        name: "Kronk's Spinach Puffs",
+        ingredients: [
+            {
+                name: "Spinach"
+            },
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Canola"
+            }
+        ],
+        stars: 3,
+        sellPrice: 461,
+        energy: 750,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e6/Kronk%27s_Spinach_Puffs.png"
+    },
+    {
+        name: "Lancetfish Paella",
+        ingredients: [
+            {
+                name: "Lancetfish"
+            },
+            {
+                name: "Shrimp"
+            },
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Rice"
+            }
+        ],
+        stars: 5,
+        sellPrice: 1653,
+        energy: 4550,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/80/Lancetfish_Paella.png"
+    },
+    {
+        name: "Leek Soup",
+        ingredients: [
+            {
+                name: "Leek"
+            }
+        ],
+        stars: 1,
+        sellPrice: 370,
+        energy: 414,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/39/Leek_Soup.png"
+    },
+    {
+        name: "Lemon Garlic Swordfish",
+        ingredients: [
+            {
+                name: "Swordfish"
+            },
+            {
+                name: "Garlic"
+            },
+            {
+                name: "Lemon"
+            }
+        ],
+        stars: 3,
+        sellPrice: 1110,
+        energy: 3713,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/33/Lemon_Garlic_Swordfish.png"
+    },
+    {
+        name: "Lioness Feast",
+        ingredients: [
+            {
+                name: "Mushroom"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Oregano"
+            },
+            {
+                name: "Here and There Fish"
+            }
+        ],
+        stars: 4,
+        sellPrice: 3108,
+        energy: 2368,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/79/Lioness_Feast.png"
+    },
+    {
+        name: "Lobster Roll",
+        ingredients: [
+            {
+                name: "Lobster"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Butter"
+            },
+            {
+                name: "Garlic"
+            }
+        ],
+        stars: 5,
+        sellPrice: 1975,
+        energy: 4928,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/63/Lobster_Roll.png"
+    },
+    {
+        name: "Maguro Sushi",
+        ingredients: [
+            {
+                name: "Tuna"
+            },
+            {
+                name: "Seaweed"
+            },
+            {
+                name: "Rice"
+            },
+            {
+                name: "Ginger"
+            }
+        ],
+        stars: 4,
+        sellPrice: 413,
+        energy: 1206,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2f/Maguro_Sushi.png"
+    },
+    {
+        name: "Maki",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Seaweed"
+            },
+            {
+                name: "Rice"
+            }
+        ],
+        stars: 3,
+        sellPrice: 114,
+        energy: 471,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/21/Maki.png"
+    },
+    {
+        name: "Margherita Pizza",
+        ingredients: [
+            {
+                name: "Any Spice"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 4,
+        sellPrice: 336,
+        energy: 818,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Margherita_Pizza.png"
+    },
+    {
+        name: "Marvelous Jam",
+        ingredients: [
+            {
+                name: "Dreamlight Fruit"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 2,
+        sellPrice: 54,
+        energy: 932,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/Marvelous_Jam.png"
+    },
+    {
+        name: "Mediterranean Salad",
+        ingredients: [
+            {
+                name: "Cucumber"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Onion"
+            },
+            {
+                name: "Lettuce"
+            },
+            {
+                name: "Any Spice"
+            }
+        ],
+        stars: 5,
+        sellPrice: 605,
+        energy: 976,
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/73/Mediterranean_Salad.png"
+    },
+    {
+        name: "Mushroom Pizza",
+        ingredients: [
+            {
+                name: "Mushroom"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 4,
+        sellPrice: 351,
+        energy: 837,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Mushroom_Pizza.png"
+    },
+    {
+        name: "Mushu's Congee",
+        ingredients: [
+            {
+                name: "Rice"
+            },
+            {
+                name: "Egg"
+            },
+            {
+                name: "Mushroom"
+            },
+            {
+                name: "Garlic"
+            },
+            {
+                name: "Ginger"
+            }
+        ],
+        stars: 5,
+        sellPrice: 753,
+        energy: 1658,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0d/Mushu%27s_Congee.png"
+    },
+    {
+        name: "Omelet",
+        ingredients: [
+            {
+                name: "Egg"
+            },
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Milk"
+            }
+        ],
+        stars: 3,
+        sellPrice: 882,
+        energy: 1751,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/12/Omelet.png"
+    },
+    {
+        name: "Pan-Fried Angler Fish",
+        ingredients: [
+            {
+                name: "Anglerfish"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Zucchini"
+            },
+            {
+                name: "Potato"
+            }
+        ],
+        stars: 4,
+        sellPrice: 2550,
+        energy: 4194,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2e/Pan-Fried_Angler_Fish.png"
+    },
+    {
+        name: "Pan-Seared Bass & Vegetables",
+        ingredients: [
+            {
+                name: "Bass"
+            },
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 3,
+        sellPrice: 57,
+        energy: 394,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dc/Pan-Seared_Bass_%26_Vegetables.png"
+    },
+    {
+        name: "Pan-Seared Tilapia & Vegetables",
+        ingredients: [
+            {
+                name: "Tilapia"
+            },
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 3,
+        sellPrice: 862,
+        energy: 2194,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a0/Pan-Seared_Tilapia_%26_Vegetables.png"
+    },
+    {
+        name: "Pasta",
+        ingredients: [
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Tomato"
+            }
+        ],
+        stars: 2,
+        sellPrice: 30,
+        energy: 117,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d8/Pasta.png"
+    },
+    {
+        name: "Peanut Butter Sandwich",
+        ingredients: [
+            {
+                name: "Peanut"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 2,
+        sellPrice: 262,
+        energy: 592,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/af/Peanut_Butter_Sandwich.png"
+    },
+    {
+        name: "Pizza",
+        ingredients: [
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 3,
+        sellPrice: 284,
+        energy: 607,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f4/Pizza.png"
+    },
+    {
+        name: "Poached Basil-Butter Sturgeon",
+        ingredients: [
+            {
+                name: "White Sturgeon"
+            },
+            {
+                name: "Basil"
+            },
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 4,
+        sellPrice: 2246,
+        energy: 4961,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/43/Poached_Basil-Butter_Sturgeon.png"
+    },
+    {
+        name: "Porridge",
+        ingredients: [
+            {
+                name: "Milk"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 2,
+        sellPrice: 301,
+        energy: 668,
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5d/Porridge.png"
+    },
+    {
+        name: "Porridge with Fruits",
+        ingredients: [
+            {
+                name: "Milk"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Any Fruit"
+            }
+        ],
+        stars: 3,
+        sellPrice: 353,
+        energy: 1155,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Porridge_with_Fruits.png"
+    },
+    {
+        name: "Ranch Salad",
+        ingredients: [
+            {
+                name: "Lettuce"
+            },
+            {
+                name: "Bell Pepper"
+            },
+            {
+                name: "Corn"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Onion"
+            }
+        ],
+        stars: 5,
+        sellPrice: 396,
+        energy: 714,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6c/Ranch_Salad.png"
+    },
+    {
+        name: "Ratatouille",
+        ingredients: [
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Eggplant"
+            },
+            {
+                name: "Onion"
+            },
+            {
+                name: "Zucchini"
+            },
+            {
+                name: "Any Spice"
+            }
+        ],
+        stars: 5,
+        sellPrice: 914,
+        energy: 572,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b0/Ratatouille.png"
+    },
+    {
+        name: "Sake Maki",
+        ingredients: [
+            {
+                name: "Rice"
+            },
+            {
+                name: "Seaweed"
+            },
+            {
+                name: "Salmon"
+            }
+        ],
+        stars: 3,
+        sellPrice: 323,
+        energy: 1101,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Sake_Maki.png"
+    },
+    {
+        name: "Sake Sushi",
+        ingredients: [
+            {
+                name: "Salmon"
+            },
+            {
+                name: "Rice"
+            }
+        ],
+        stars: 2,
+        sellPrice: 274,
+        energy: 1000,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f0/Sake_Sushi.png"
+    },
+    {
+        name: "Savory Fish",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Lemon"
+            }
+        ],
+        stars: 2,
+        sellPrice: 43,
+        energy: 985,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0e/Savory_Fish.png"
+    },
+    {
+        name: "Scrambled Egg",
+        ingredients: [
+            {
+                name: "Egg"
+            },
+            {
+                name: "Cheese"
+            }
+        ],
+        stars: 2,
+        sellPrice: 520,
+        energy: 1070,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8b/Scrambled_Egg.png"
+    },
+    {
+        name: "Seafood Pasta",
+        ingredients: [
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Milk"
+            }
+        ],
+        stars: 3,
+        sellPrice: 325,
+        energy: 921,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Seafood_Pasta.png"
+    },
+    {
+        name: "Seafood Pie",
+        ingredients: [
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 269,
+        energy: 813,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/98/Seafood_Pie.png"
+    },
+    {
+        name: "Seafood Salad",
+        ingredients: [
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Lettuce"
+            }
+        ],
+        stars: 2,
+        sellPrice: 68,
+        energy: 349,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/69/Seafood_Salad.png"
+    },
+    {
+        name: "Seafood Soup",
+        ingredients: [
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 3,
+        sellPrice: 85,
+        energy: 340,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Seafood_Soup.png"
+    },
+    {
+        name: "Seared Rainbow Trout",
+        ingredients: [
+            {
+                name: "Rainbow Trout"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Onion"
+            }
+        ],
+        stars: 3,
+        sellPrice: 338,
+        energy: 889,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/20/Seared_Rainbow_Trout.png"
+    },
+    {
+        name: "Simple Fried Perch",
+        ingredients: [
+            {
+                name: "Perch"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 380,
+        energy: 1317,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Simple_Fried_Perch.png"
+    },
+    {
+        name: "Smoked Peanuts and Anglerfish",
+        ingredients: [
+            {
+                name: "Anglerfish"
+            },
+            {
+                name: "Peanut"
+            }
+        ],
+        stars: 2,
+        sellPrice: 2210,
+        energy: 3960,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Smoked_Peanuts_and_Anglerfish.png"
+    },
+    {
+        name: "Sole Meunière",
+        ingredients: [
+            {
+                name: "Sole"
+            },
+            {
+                name: "WHeat"
+            },
+            {
+                name: "Butter"
+            },
+            {
+                name: "Lemon"
+            }
+        ],
+        stars: 4,
+        sellPrice: 637,
+        energy: 2337,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2e/Sole_Meuni%C3%A8re.png"
+    },
+    {
+        name: "Spaghetti Arrabbiata",
+        ingredients: [
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Chili Pepper"
+            }
+        ],
+        stars: 3,
+        sellPrice: 141,
+        energy: 373,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4d/Spaghetti_Arrabbiata.png"
+    },
+    {
+        name: "Spicy Baked Bream",
+        ingredients: [
+            {
+                name: "Bream"
+            },
+            {
+                name: "Chili Pepper"
+            },
+            {
+                name: "Butter"
+            }
+        ],
+        stars: 3,
+        sellPrice: 767,
+        energy: 2075,
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Spicy_Baked_Bream.png"
+    },
+    {
+        name: "Steamed Fugu",
+        ingredients: [
+            {
+                name: "Fugu"
+            },
+            {
+                name: "Ginger"
+            },
+            {
+                name: "Garlic"
+            }
+        ],
+        stars: 3,
+        sellPrice: 1484,
+        energy: 3668,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bb/Steamed_Fugu.png"
+    },
+    {
+        name: "Sushi",
+        ingredients: [
+            {
+                name: "Any Fish"
+            },
+            {
+                name: "Rice"
+            }
+        ],
+        stars: 2,
+        sellPrice: 80,
+        energy: 405,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6d/Sushi.png"
+    },
+    {
+        name: "Sweet & Sour Kingfish Steak",
+        ingredients: [
+            {
+                name: "Kingfish"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Lemon"
+            }
+        ],
+        stars: 3,
+        sellPrice: 702,
+        energy: 2292,
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bb/Sweet_%26_Sour_Kingfish_Steak.png"
+    },
+    {
+        name: "Sweet Udon",
+        ingredients: [
+            {
+                name: "Dreamlight Fruit"
+            },
+            {
+                name: "Rice"
+            },
+            {
+                name: "Any Seafood"
+            },
+            {
+                name: "Any Sweet"
+            }
+        ],
+        stars: 4,
+        sellPrice: 180,
+        energy: 1427,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a6/Sweet_Udon.png"
+    },
+    {
+        name: "Tamagoyaki",
+        ingredients: [
+            {
+                name: "Egg"
+            },
+            {
+                name: "Sugarcane"
+            }
+        ],
+        stars: 2,
+        sellPrice: 310,
+        energy: 689,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Tamagoyaki.png"
+    },
+    {
+        name: "Tasty Salad",
+        ingredients: [
+            {
+                name: "Lettuce"
+            },
+            {
+                name: "Cucumber"
+            },
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Any Spice"
+            }
+        ],
+        stars: 4,
+        sellPrice: 292,
+        energy: 650,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Tasty_Salad.png"
+    },
+    {
+        name: "Tasty Veggies",
+        ingredients: [
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Any Spice"
+            }
+        ],
+        stars: 2,
+        sellPrice: 36,
+        energy: 246,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/87/Tasty_Veggies.png"
+    },
+    {
+        name: "Tekka Maki",
+        ingredients: [
+            {
+                name: "Tuna"
+            },
+            {
+                name: "Soya"
+            },
+            {
+                name: "Seaweed"
+            },
+            {
+                name: "Rice"
+            }
+        ],
+        stars: 4,
+        sellPrice: 366,
+        energy: 984,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e6/Tekka_Maki.png"
+    },
+    {
+        name: "Teriyaki Salmon",
+        ingredients: [
+            {
+                name: "Soya"
+            },
+            {
+                name: "Salmon"
+            },
+            {
+                name: "Sugarcane"
+            },
+            {
+                name: "Rice"
+            },
+            {
+                name: "Ginger"
+            }
+        ],
+        stars: 5,
+        sellPrice: 637,
+        energy: 1726,
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/61/Teriyaki_Salmon.png"
+    },
+    {
+        name: "Tuna Burger",
+        ingredients: [
+            {
+                name: "Tuna"
+            },
+            {
+                name: "Onion"
+            },
+            {
+                name: "Lemon"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 5,
+        sellPrice: 491,
+        energy: 1922,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/00/Tuna_Burger.png"
+    },
+    {
+        name: "Vegetarian Pizza",
+        ingredients: [
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 5,
+        sellPrice: 350,
+        energy: 754,
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Vegetarian_Pizza.png"
+    },
+    {
+        name: "Vegetarian Stew",
+        ingredients: [
+            {
+                name: "Potato"
+            },
+            {
+                name: "Carrot"
+            },
+            {
+                name: "Onion"
+            }
+        ],
+        stars: 3,
+        sellPrice: 475,
+        energy: 617,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/36/Vegetarian_Stew.png"
+    },
+    {
+        name: "Vegetarian Taco",
+        ingredients: [
+            {
+                name: "Corn"
+            },
+            {
+                name: "Chili Pepper"
+            },
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 4,
+        sellPrice: 423,
+        energy: 925,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/90/Vegetarian_Taco.png"
+    },
+    {
+        name: "Veggie Casserole",
+        ingredients: [
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Cheese"
+            },
+            {
+                name: "Any Spice"
+            }
+        ],
+        stars: 4,
+        sellPrice: 324,
+        energy: 821,
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Veggie_Casserole.png"
+    },
+    {
+        name: "Veggie Pasta",
+        ingredients: [
+            {
+                name: "Tomato"
+            },
+            {
+                name: "Wheat"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 3,
+        sellPrice: 43,
+        energy: 158,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4c/Veggie_Pasta.png"
+    },
+    {
+        name: "Veggie Pie",
+        ingredients: [
+            {
+                name: "Any Vegetable"
+            },
+            {
+                name: "Butter"
+            },
+            {
+                name: "Wheat"
+            }
+        ],
+        stars: 3,
+        sellPrice: 279,
+        energy: 634,
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/48/Veggie_Pie.png"
+    },
+    {
+        name: "Veggie Skewers",
+        ingredients: [
+            {
+                name: "Mushroom"
+            },
+            {
+                name: "Zucchini"
+            },
+            {
+                name: "Onion"
+            },
+            {
+                name: "Bell Pepper"
+            }
+        ],
+        stars: 4,
+        sellPrice: 427,
+        energy: 767,
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/db/Veggie_Skewers.png"
+    },
+    {
+        name: "Walleye en Papillote",
+        ingredients: [
+            {
+                name: "Walleye"
+            },
+            {
+                name: "Basil"
+            },
+            {
+                name: "Oregano"
+            },
+            {
+                name: "Any Vegetable"
+            }
+        ],
+        stars: 4,
+        sellPrice: 1729,
+        energy: 3689,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2a/Walleye_en_Papillote.png"
+    }
 ]
 
 //Desserts
