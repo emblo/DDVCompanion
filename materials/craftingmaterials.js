@@ -106,7 +106,7 @@ const craftingmaterials = [
         location: "Can drop from digging in sparkling ground, clearing Night Thorns, or can be crafted with an Onyx at a crafting station.",
         sellPrice: 0,
         imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/e/ef/Night_Shard.png/revision/latest?cb=20220919010659"
-    },
+    }
 ]
 
 //Cotton moved to ingredients
