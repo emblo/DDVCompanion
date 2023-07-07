@@ -1,0 +1,191 @@
+const crops = [
+    {
+        name: "Asparagus",
+        growTime: "2h 15m",
+        yield: 3,
+        sellPrice: 133,
+        energy: 42,
+        seedLocation: "Frosted Heights",
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/45/Asparagus.png"
+    },
+    {
+        name: "Bell Pepper",
+        growTime: "15m",
+        yield: 1,
+        sellPrice: 33,
+        energy: 79,
+        seedLocation: "Forest of Valor",
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Bell_Pepper.png"
+    },
+    {
+        name: "Carrot",
+        growTime: "15m",
+        yield: 1,
+        sellPrice: 44,
+        energy: 57,
+        seedLocation: "Peaceful Meadow",
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c3/Carrot.png"
+    },
+    {
+        name: "Chili Pepper",
+        growTime: "45m",
+        yield: 1,
+        sellPrice: 78,
+        energy: 140,
+        seedLocation: "Sunlit Plateau",
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ab/Chili_Pepper.png"
+    },
+    {
+        name: "Cucumber",
+        growTime: "1h 15m",
+        yield: 1,
+        sellPrice: 159,
+        energy: 145,
+        seedLocation: "Frosted Heights",
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/59/Cucumber.png"
+    },
+    {
+        name: "Eggplant",
+        growTime: "3h",
+        yield: 1,
+        sellPrice: 308,
+        energy: 451,
+        seedLocation: "Frosted Heights",
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Eggplant.png"
+    },
+    {
+        name: "Leek",
+        growTime: "2h",
+        yield: 1,
+        sellPrice: 309,
+        energy: 228,
+        seedLocation: "Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/57/Leek.png"
+    },
+    {
+        name: "Lettuce",
+        growTime: "3m",
+        yield: 1,
+        sellPrice: 8,
+        energy: 56,
+        seedLocation: "Peaceful Meadow",
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/da/Lettuce.png"
+    },
+    {
+        name: "Okra",
+        growTime: "2h",
+        yield: 3,
+        sellPrice: 114,
+        energy: 31,
+        seedLocation: "Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e7/Okra.png"
+    },
+    {
+        name: "Onion",
+        growTime: "1h 15m",
+        yield: 1,
+        sellPrice: 170,
+        energy: 146,
+        seedLocation: "Forest of Valor",
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/51/Onion.png"
+    },
+    {
+        name: "Potato",
+        growTime: "35m",
+        yield: 1,
+        sellPrice: 126,
+        energy: 113,
+        seedLocation: "Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c2/Potato.png"
+    },
+    {
+        name: "Pumpkin",
+        growTime: "4h",
+        yield: 1,
+        sellPrice: 664,
+        energy: 187,
+        seedLocation: "Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/64/Pumpkin.png"
+    },
+    {
+        name: "Spinach",
+        growTime: "1h",
+        yield: 3,
+        sellPrice: 41,
+        energy: 60,
+        seedLocation: "Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/60/Spinach.png"
+    },
+    {
+        name: "Tomato",
+        growTime: "25m",
+        yield: 3,
+        sellPrice: 22,
+        energy: 21,
+        seedLocation: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Tomato.png"
+    },
+    {
+        name: "Zucchini",
+        growTime: "40m",
+        yield: 2,
+        sellPrice: 52,
+        energy: 48,
+        seedLocation: "Sunlit Plateau",
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Zucchini.png"
+    },
+    {
+        name: "Canola",
+        growTime: "35m",
+        yield: 1,
+        sellPrice: 109,
+        energy: 59,
+        seedLocation: "Forest of Valor",
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/79/Canola.png"
+    },
+    {
+        name: "Corn",
+        growTime: "12m",
+        yield: 2,
+        sellPrice: 16,
+        energy: 30,
+        seedLocation: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f8/Corn.png"
+    },
+    {
+        name: "Rice",
+        growTime: "50m",
+        yield: 2,
+        sellPrice: 61,
+        energy: 59,
+        seedLocation: "Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/da/Rice.png"
+    },
+    {
+        name: "Soya",
+        growTime: "1h 30m",
+        yield: 3,
+        sellPrice: 69,
+        energy: 58,
+        seedLocation: "Sunlit Plateau",
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/00/Soya.png"
+    },
+    {
+        name: "Sugarcane",
+        growTime: "7m",
+        yield: 1,
+        sellPrice: 19,
+        energy: 46,
+        seedLocation: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/03/Sugarcane.png"
+    },
+    {
+        name: "Wheat",
+        growTime: "1m",
+        yield: 2,
+        sellPrice: 2,
+        energy: 19,
+        seedLocation: "Peaceful Meadow",
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Wheat.png"
+    }
+]
