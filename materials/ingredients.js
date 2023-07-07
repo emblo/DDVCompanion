@@ -367,3 +367,48 @@ const seafood = [
         imgSrc: "https://dreamlightvalleywiki.com/images/c/cf/Scallop.png"
     }
 ]
+
+const remy = [
+    {
+        name: "Butter",
+        sellPrice: 190,
+        energy: 285,
+        location: "Chez Remy",
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f1/Butter.png"
+    },
+    {
+        name: "Cheese",
+        sellPrice: 180,
+        energy: 270,
+        location: "Chez Remy",
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Cheese.png"
+    },
+    {
+        name: "Egg",
+        sellPrice: 220,
+        energy: 330,
+        location: "Chez Remy",
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Egg.png"
+    },
+    {
+        name: "Milk",
+        sellPrice: 230,
+        energy: 345,
+        location: "Chez Remy",
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Milk.png"
+    },
+    {
+        name: "Peanut",
+        sellPrice: 200,
+        energy: 300,
+        location: "Chez Remy",
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Peanut.png"
+    },
+    {
+        name: "Slush Ice",
+        sellPrice: 150,
+        energy: 225,
+        location: "Chez Remy",
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c0/Slush_Ice.png"
+    }
+]
