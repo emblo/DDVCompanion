@@ -343,3 +343,27 @@ const spicesAndHerbs = [
         imgSrc: "https://dreamlightvalleywiki.com/images/d/d5/Vanilla.png"
     }
 ]
+
+const seafood = [
+    {
+        name: "Clam",
+        sellPrice: 45,
+        energy: 120,
+        location: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ed/Clam.png"
+    },
+    {
+        name: "Oyster",
+        sellPrice: 250,
+        energy: 250,
+        location: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Oyster.png"
+    },
+    {
+        name: "Scallop",
+        sellPrice: 50,
+        energy: 125,
+        location: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cf/Scallop.png"
+    }
+]
