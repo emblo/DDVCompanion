@@ -1,3 +1,5 @@
+//Ingredients of various categories in DDV
+//Harvestable crops
 const crops = [
     {
         name: "Asparagus",
@@ -190,6 +192,7 @@ const crops = [
     }
 ]
 
+//Fruit from bushes and trees
 const fruit = [
     {
         name: "Apple",
@@ -292,6 +295,7 @@ const fruit = [
     }
 ]
 
+//Spices and herbs that can be picked
 const spicesAndHerbs = [
     {
         name: "Oregano",
@@ -344,6 +348,7 @@ const spicesAndHerbs = [
     }
 ]
 
+//Seafood that is foraged
 const seafood = [
     {
         name: "Clam",
@@ -368,6 +373,7 @@ const seafood = [
     }
 ]
 
+//Ingredients that can be bought from Chez Remy
 const remy = [
     {
         name: "Butter",
