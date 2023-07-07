@@ -189,3 +189,105 @@ const crops = [
         imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Wheat.png"
     }
 ]
+
+const fruit = [
+    {
+        name: "Apple",
+        growTime: "20m",
+        yield: 3,
+        sellPrice: 25,
+        energy: 300,
+        location: "Plaza, Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7d/Apple.png"
+    },
+    {
+        name: "Banana",
+        growTime: "23m",
+        yield: 3,
+        sellPrice: 29,
+        energy: 350,
+        location: "Peaceful Meadow, Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/69/Banana.png"
+    },
+    {
+        name: "Blueberry",
+        growTime: "23m",
+        yield: 3,
+        sellPrice: 29,
+        energy: 350,
+        location: "Dazzle Beach, Forest of Valor",
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Blueberry.png"
+    },
+    {
+        name: "Cherry",
+        growTime: "33m",
+        yield: 3,
+        sellPrice: 42,
+        energy: 500,
+        location: "Frosted Heights, Sunlit Plateau",
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/20/Cherry.png"
+    },
+    {
+        name: "Cocoa Bean",
+        growTime: "30m",
+        yield: 3,
+        sellPrice: 38,
+        energy: 450,
+        location: "Glade of Trust, Sunlit Plateau",
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/24/Cocoa_Bean.png"
+    },
+    {
+        name: "Coconut",
+        growTime: "33m",
+        yield: 3,
+        sellPrice: 42,
+        energy: 500,
+        location: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2f/Coconut.png"
+    },
+    {
+        name: "Coffee Bean",
+        growTime: "40m",
+        yield: 3,
+        sellPrice: 36,
+        energy: 425,
+        location: "Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/33/Coffee_Bean.png"
+    },
+    {
+        name: "Dreamlight Fruit",
+        growTime: "24h",
+        yield: 3,
+        sellPrice: 40,
+        energy: 500,
+        location: "Sunlit Plateau, Glade of Trust, Frosted Heights, Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Dreamlight_Fruit.png"
+    },
+    {
+        name: "Gooseberry",
+        growTime: "40",
+        yield: 3,
+        sellPrice: 50,
+        energy: 600,
+        location: "Frosted Heights, Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d2/Gooseberry.png"
+    },
+    {
+        name: "Lemon",
+        growTime: "27m",
+        yield: 3,
+        sellPrice: 33,
+        energy: 400,
+        location: "Forest of Valor, Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/35/Lemon.png"
+    },
+    {
+        name: "Raspberry",
+        growTime: "17m",
+        yield: 3,
+        sellPrice: 21,
+        energy: 250,
+        location: "Plaza, Peaceful Meadow",
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1f/Raspberry.png"
+    }
+]
