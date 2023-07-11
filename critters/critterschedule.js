@@ -313,6 +313,111 @@ const wednesday = [
     }
 ]
 
+const thursday = [
+    {
+        name: "Black Squirrel",
+        time: "All day",
+        location: "Plaza",
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Black_Squirrel.png"
+    },
+    {
+        name: "Classic Squirrel",
+        time: "All day",
+        location: "Plaza",
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Classic_Squirrel.png"
+    },
+    {
+        name: "Classic Rabbit",
+        time: "All day",
+        location: "Peaceful Meadow",
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Classic_Rabbit.png"
+    },
+    {
+        name: "White Rabbit",
+        time: "All day",
+        location: "Peaceful Meadow",
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e6/White_Rabbit.png"
+    },
+    {
+        name: "Calico Rabbit",
+        time: "8AM - 2PM",
+        location: "Peaceful Meadow",
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/13/Calico_Rabbit.png"
+    },
+    {
+        name: "Classic Sea Turtle",
+        time: "All day",
+        location: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/69/Classic_Sea_Turtle.png"
+    },
+    {
+        name: "Purple Sea Turtle",
+        time: "All day",
+        location: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d0/Purple_Sea_Turtle.png"
+    },
+    {
+        name: "Classic Crocodile",
+        time: "All day",
+        location: "Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Classic_Crocodile.png"
+    },
+    {
+        name: "Golden Crocodile",
+        time: "All day",
+        location: "Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Golden_Crocodile.png"
+    },
+    {
+        name: "Classic Raccoon",
+        time: "All day",
+        location: "Forest of Valor",
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b4/Classic_Raccoon.png"
+    },
+    {
+        name: "White Raccoon",
+        time: "All day",
+        location: "Forest of Valor",
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/15/White_Raccoon.png"
+    },
+    {
+        name: "Golden Sunbird",
+        time: "All day",
+        location: "Sunlit Plateau",
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Golden_Sunbird.png"
+    },
+    {
+        name: "Red Sunbird",
+        time: "All day",
+        location: "Sunlit Plateau",
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fe/Red_Sunbird.png"
+    },
+    {
+        name: "Blue Raven",
+        time: "All day",
+        location: "Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c9/Blue_Raven.png"
+    },
+    {
+        name: "Classic Raven",
+        time: "All day",
+        location: "Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bd/Classic_Raven.png"
+    },
+    {
+        name: "Blue Fox",
+        time: "All day",
+        location: "Frosted Heights",
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9c/Blue_Fox.png"
+    },
+    {
+        name: "White Fox",
+        time: "All day",
+        location: "Frosted Heights",
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/00/White_Fox.png"
+    }
+]
+
 /*
 
 {
