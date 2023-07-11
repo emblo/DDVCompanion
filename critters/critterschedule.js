@@ -634,6 +634,213 @@ const saturday = [
     }
 ]
 
+const sunday = [
+    {
+        name: "Black Squirrel",
+        time: "12AM - 12 PM",
+        location: "Plaza",
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Black_Squirrel.png"
+    },
+    {
+        name: "Classic Squirrel",
+        time: "12PM - 12AM",
+        location: "Plaza",
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Classic_Squirrel.png"
+    },
+    {
+        name: "Gray Squirrel",
+        time: "12PM - 12AM",
+        location: "Plaza",
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/58/Gray_Squirrel.png"
+    },
+    {
+        name: "Red Squirrel",
+        time: "12AM - 12PM",
+        location: "Plaza",
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f9/Red_Squirrel.png"
+    },
+    {
+        name: "White Squirrel",
+        time: "12AM - 6AM",
+        location: "Plaza",
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/97/White_Squirrel.png"
+    },
+    {
+        name: "Black Rabbit",
+        time: "12AM - 12PM",
+        location: "Peaceful Meadow",
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2a/Black_Rabbit.png"
+    },
+    {
+        name: "Brown Rabbit",
+        time: "12PM - 12AM",
+        location: "Peaceful Meadow",
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/93/Brown_Rabbit.png"
+    },
+    {
+        name: "Classic Rabbit",
+        time: "12PM - 12AM",
+        location: "Peaceful Meadow",
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Classic_Rabbit.png"
+    },
+    {
+        name: "White Rabbit",
+        time: "12AM - 12PM",
+        location: "Peaceful Meadow",
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e6/White_Rabbit.png"
+    },
+    {
+        name: "Brown Sea Turtle",
+        time: "12AM - 12PM",
+        location: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f3/Brown_Sea_Turtle.png"
+    },
+    {
+        name: "Classic Sea Turtle",
+        time: "12PM - 12AM",
+        location: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/69/Classic_Sea_Turtle.png"
+    },
+    {
+        name: "Purple Sea Turtle",
+        time: "12AM - 12PM",
+        location: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d0/Purple_Sea_Turtle.png"
+    },
+    {
+        name: "White Sea Turtle",
+        time: "12PM - 12AM",
+        location: "Dazzle Beach",
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/67/White_Sea_Turtle.png"
+    },
+    {
+        name: "Blue Crocodile",
+        time: "12AM - 12PM",
+        location: "Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e1/Blue_Crocodile.png"
+    },
+    {
+        name: "Classic Crocodile",
+        time: "12PM - 12AM",
+        location: "Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Classic_Crocodile.png"
+    },
+    {
+        name: "Golden Crocodile",
+        time: "12AM - 12PM",
+        location: "Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Golden_Crocodile.png"
+    },
+    {
+        name: "Red Crocodile",
+        time: "12PM - 12AM",
+        location: "Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8b/Red_Crocodile.png"
+    },
+    {
+        name: "White Crocodile",
+        time: "6PM - 12AM",
+        location: "Glade of Trust",
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/48/White_Crocodile.png"
+    },
+    {
+        name: "Black Raccoon",
+        time: "12PM - 12AM",
+        location: "Forest of Valor",
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f7/Black_Raccoon.png"
+    },
+    {
+        name: "Classic Raccoon",
+        time: "12PM - 12AM",
+        location: "Forest of Valor",
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b4/Classic_Raccoon.png"
+    },
+    {
+        name: "Red Raccoon",
+        time: "12AM - 12PM",
+        location: "Forest of Valor",
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/31/Red_Raccoon.png"
+    },
+    {
+        name: "White Raccoon",
+        time: "12AM - 12PM",
+        location: "Forest of Valor",
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/15/White_Raccoon.png"
+    },
+    {
+        name: "Emerald Sunbird",
+        time: "12PM - 12AM",
+        location: "Sunlit Plateau",
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/75/Emerald_Sunbird.png"
+    },
+    {
+        name: "Golden Sunbird",
+        time: "12AM - 12PM",
+        location: "Sunlit Plateau",
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Golden_Sunbird.png"
+    },
+    {
+        name: "Red Sunbird",
+        time: "12PM - 12AM",
+        location: "Sunlit Plateau",
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fe/Red_Sunbird.png"
+    },
+    {
+        name: "Turquoise Sunbird",
+        time: "12AM - 12PM",
+        location: "Sunlit Plateau",
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/08/Turquoise_Sunbird.png"
+    },
+    {
+        name: "Blue Raven",
+        time: "12AM - 12PM",
+        location: "Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c9/Blue_Raven.png"
+    },
+    {
+        name: "Classic Raven",
+        time: "12PM - 12AM",
+        location: "Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bd/Classic_Raven.png"
+    },
+    {
+        name: "Red Raven",
+        time: "12AM - 12Pm",
+        location: "Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d4/Red_Raven.png"
+    },
+    {
+        name: "White Raven",
+        time: "12PM - 12AM",
+        location: "Forgotten Lands",
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2f/White_Raven.png"
+    },
+    {
+        name: "Black Fox",
+        time: "12PM - 12AM",
+        location: "Frosted Heights",
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/be/Black_Fox.png"
+    },
+    {
+        name: "Blue Fox",
+        time: "12AM - 12PM",
+        location: "Frosted Heights",
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9c/Blue_Fox.png"
+    },
+    {
+        name: "Classic Fox",
+        time: "12AM - 12PM",
+        location: "Frosted Heights",
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Classic_Fox.png"
+    },
+    {
+        name: "White Fox",
+        time: "12PM - 12AM",
+        location: "Frosted Heights",
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/00/White_Fox.png"
+    }
+]
+
 /*
 
 {
