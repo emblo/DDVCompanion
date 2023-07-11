@@ -4,8 +4,16 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #9A3C7A;
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100%;
 }
 
 header {
@@ -14,17 +22,49 @@ header {
   background-size: cover;
   padding: 40px;
   border-bottom: 2px solid white;
+  margin-bottom: 50px;
 }
 header h1 {
   color: #FFF;
   font-family: "Josefin Sans", sans-serif;
 }
 
+.container .centeredH2 {
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+.schedule {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 20px 10px 10px 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.critterBox {
+  padding-top: 20px;
+  text-align: center;
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  outline: 3px solid #FFF;
+  background-color: #BD66A0;
+}
+.critterBox img {
+  max-width: 50%;
+  max-height: 50%;
+  padding-top: 10px;
+}
+.critterBox h3, .critterBox p {
+  padding-bottom: 5px;
+}
+
 footer {
-  position: fixed;
-  left: 0;
+  position: absolute;
+  right: 0;
   bottom: 0;
-  width: 100%;
+  left: 0;
   background-color: #E990D2;
   text-align: center;
   color: #FFF;

@@ -1,3 +1,5 @@
+//Schedule days
+//Monday
 const monday = [
     {
         name: "Classic Squirrel",
@@ -102,7 +104,7 @@ const monday = [
         imgSrc: "https://dreamlightvalleywiki.com/images/0/00/White_Fox.png"
     }
 ]
-
+//Tuesday
 const tuesday = [
     {
         name: "Black Squirrel",
@@ -207,7 +209,7 @@ const tuesday = [
         imgSrc: "https://dreamlightvalleywiki.com/images/9/9c/Blue_Fox.png"
     }
 ]
-
+//Wednesday
 const wednesday = [
     {
         name: "Gray Squirrel",
@@ -312,7 +314,7 @@ const wednesday = [
         imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Classic_Fox.png"
     }
 ]
-
+//Thursday
 const thursday = [
     {
         name: "Black Squirrel",
@@ -417,7 +419,7 @@ const thursday = [
         imgSrc: "https://dreamlightvalleywiki.com/images/0/00/White_Fox.png"
     }
 ]
-
+//Friday
 const friday = [
     {
         name: "Black Squirrel",
@@ -522,7 +524,7 @@ const friday = [
         imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Classic_Fox.png"
     }
 ]
-
+//Saturday
 const saturday = [
     {
         name: "Classic Squirrel",
@@ -633,7 +635,7 @@ const saturday = [
         imgSrc: "https://dreamlightvalleywiki.com/images/0/00/White_Fox.png"
     }
 ]
-
+//Sunday
 const sunday = [
     {
         name: "Black Squirrel",
@@ -840,3 +842,60 @@ const sunday = [
         imgSrc: "https://dreamlightvalleywiki.com/images/0/00/White_Fox.png"
     }
 ]
+
+let date = new Date();
+let day = date.getDay();
+
+function critterSchedule(day) {
+    //Assignment variable
+    let active = [];
+
+    //Get current day and assign to active
+    switch(day){
+        case 0: 
+            active = sunday;
+            break;
+        case 1: 
+            active = monday;
+            break;
+        case 2:
+            active = tuesday;
+            break;
+        case 3:
+            active = wednesday;
+            break;
+        case 4:
+            active = thursday;
+            break;
+        case 5:
+            active = friday;
+            break;
+        case 6:
+            active = saturday;
+            break;
+    }
+
+    //Print objects of current active day
+    const schedule = document.querySelector(".schedule");
+
+    active.forEach(critter => {
+        const critterBox = document.createElement("div");
+        critterBox.className = "critterBox";
+        
+        const title = document.createElement("h3");
+        const time = document.createElement("p");
+        const location = document.createElement("p");
+        const img = document.createElement("img")
+        img.src = critter.imgSrc;
+
+        title.innerText = critter.name;
+        time.innerText = critter.time;
+        location.innerText = critter.location;
+        img.innerText = critter.img;
+        critterBox.append(title,time,location,img);
+
+        schedule.appendChild(critterBox);
+    })
+}
+
+critterSchedule(day);
