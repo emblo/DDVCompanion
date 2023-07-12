@@ -60,6 +60,10 @@ header {
         margin: 0 auto;
         padding: 0px 20px 20px 20px;
         width: 70%;
+        .img {
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
     } 
     .info p {
         font-size: $pSize;
@@ -68,6 +72,10 @@ header {
     .info h2 {
         font-size: $h2Size;
         padding-bottom: 10px;
+    }
+    .info img {
+        max-width: 50%;
+        max-height: 50%;
     }
 }
 
