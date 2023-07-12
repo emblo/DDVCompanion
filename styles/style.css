@@ -32,7 +32,21 @@ header h1 {
 .container .centeredH2 {
   color: #FFF;
   font-family: "Josefin Sans", sans-serif;
+  font-size: 38px;
   text-align: center;
+}
+.container .info {
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 auto;
+  padding: 0px 20px 20px 20px;
+  width: 70%;
+}
+.container .info p {
+  font-size: 28px;
+}
+.container .info h2 {
+  font-size: 38px;
 }
 
 .schedule {

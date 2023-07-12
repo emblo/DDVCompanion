@@ -5,6 +5,8 @@ $imgPath: "/styles/images";
 //Font 
 $fontStack: 'Josefin Sans', sans-serif;
 $fontColor: #FFF;
+$h2Size: 38px;
+$pSize: 28px;
 $hoverColor: #9A3C7A;
 $footerColor: #E990D2;
 //Icons
@@ -50,7 +52,21 @@ header {
     .centeredH2 {
         color: $fontColor;
         font-family: $fontStack;
+        font-size: $h2Size;
         text-align: center;
+    }
+    .info {
+        color: $fontColor;
+        font-family: $fontStack;
+        margin: 0 auto;
+        padding: 0px 20px 20px 20px;
+        width: 70%;
+    } 
+    .info p {
+        font-size: $pSize;
+    }
+    .info h2 {
+        font-size: $h2Size;
     }
 }
 
