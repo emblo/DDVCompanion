@@ -12,7 +12,6 @@ html {
 body {
   background-color: #9A3C7A;
   position: relative;
-  padding-bottom: 6rem;
   min-height: 100%;
 }
 
@@ -44,9 +43,11 @@ header h1 {
 }
 .container .info p {
   font-size: 28px;
+  line-height: 115%;
 }
 .container .info h2 {
   font-size: 38px;
+  padding-bottom: 10px;
 }
 
 .schedule {

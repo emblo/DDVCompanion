@@ -31,7 +31,6 @@ html {
 body {
     background-color: $primaryColor;
     position: relative;
-    padding-bottom: 6rem;
     min-height: 100%;
 }
 
@@ -64,9 +63,11 @@ header {
     } 
     .info p {
         font-size: $pSize;
+        line-height: 115%;
     }
     .info h2 {
         font-size: $h2Size;
+        padding-bottom: 10px;
     }
 }
 
