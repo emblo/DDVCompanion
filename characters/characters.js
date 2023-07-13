@@ -1,5 +1,5 @@
 //Array of objects holding character information for the characters currently in DDV
-let characters = [
+const characters = [
     {
         "name": "Merlin",
         "movie": "The Sword in the Stone",
