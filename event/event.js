@@ -259,7 +259,7 @@ const wonderOfPixar = [
     },
 ]
 
-//Print objects of current active day
+//Print event rewards
 const rewards = document.querySelector(".eventRewards");
 
 wonderOfPixar.forEach(reward => {
