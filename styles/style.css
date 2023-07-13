@@ -78,9 +78,16 @@ header h1 {
   max-width: 50%;
   max-height: 50%;
   padding-top: 10px;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
 }
 .critterBox h3, .critterBox p, .rewardBox h3, .rewardBox p {
   padding-bottom: 5px;
+}
+
+.objectText {
+  display: inline-block;
 }
 
 footer {

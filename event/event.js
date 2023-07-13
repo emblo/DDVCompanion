@@ -268,15 +268,25 @@ wonderOfPixar.forEach(reward => {
         
     const name = document.createElement("h3");
     const cost = document.createElement("p");
+    cost.className = "objectText";
+    const costText = document.createElement("p");
+    costText.className = "objectText";
     const page = document.createElement("p");
+    page.className = "objectText";
+    const pageText = document.createElement("p");
+    pageText.className = "objectText";
     const img = document.createElement("img")
     img.src = reward.imgSrc;
+    const lineBreak = document.createElement("br");
 
     name.innerText = reward.name;
     cost.innerText = reward.cost;
+    costText.innerText = "Cost:";
     page.innerText = reward.page;
+    pageText.innerText = "Page:";
     img.innerText = reward.img;
-    rewardBox.append(name,cost,page,img);
+
+    rewardBox.append(name,lineBreak,costText,cost,lineBreak,pageText,page,img);
 
     rewards.appendChild(rewardBox);
 })
