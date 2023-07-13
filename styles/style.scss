@@ -98,6 +98,15 @@ ul {
     }
 }
 
+table {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0px 30px 0px;
+}
+tr {
+    padding: 0px 5px 0px 5px;
+}
+
 .schedule, .eventRewards, .characters, .gallery {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
