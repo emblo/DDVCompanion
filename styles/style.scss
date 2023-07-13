@@ -6,6 +6,7 @@ $imgPath: "/styles/images";
 $fontStack: 'Josefin Sans', sans-serif;
 $fontColor: #FFF;
 $h2Size: 38px;
+$h3Size: 28px;
 $pSize: 28px;
 $hoverColor: #9A3C7A;
 $footerColor: #E990D2;
@@ -54,7 +55,13 @@ header {
         font-size: $h2Size;
         text-align: center;
     }
-    .info {
+    .centeredH3 {
+        color: $fontColor;
+        font-family: $fontStack;
+        font-size: $h3Size;
+        text-align: center;
+    }
+    .info, .critterInfo {
         color: $fontColor;
         font-family: $fontStack;
         margin: 0 auto;
@@ -65,7 +72,7 @@ header {
             text-align: center;
         }
     } 
-    .info p {
+    .info p, .critterInfo p {
         font-size: $pSize;
         line-height: 115%;
     }
@@ -73,13 +80,17 @@ header {
         font-size: $h2Size;
         padding-bottom: 10px;
     }
+    .critterInfo h3 {
+        font-size: $h3Size;
+        padding: 10px 0px 10px 0px;
+    }
     .info img {
         max-width: 50%;
         max-height: 50%;
     }
 }
 
-.schedule, .eventRewards, .characters {
+.schedule, .eventRewards, .characters, .gallery {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 20px 10px 10px 10px;
@@ -91,7 +102,7 @@ header {
     grid-template-columns: auto auto auto auto;
 }
 
-.critterBox, .rewardBox, .characterBox {
+.critterBox, .rewardBox, .characterBox, .galleryItem {
     padding: 20px 5px 0px 5px;
     text-align: center;
     color: $fontColor;

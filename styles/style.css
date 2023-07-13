@@ -34,18 +34,24 @@ header h1 {
   font-size: 38px;
   text-align: center;
 }
-.container .info {
+.container .centeredH3 {
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+.container .info, .container .critterInfo {
   color: #FFF;
   font-family: "Josefin Sans", sans-serif;
   margin: 0 auto;
   padding: 0px 20px 20px 20px;
   width: 70%;
 }
-.container .info .img {
+.container .info .img, .container .critterInfo .img {
   padding: 10px 0px 10px 0px;
   text-align: center;
 }
-.container .info p {
+.container .info p, .container .critterInfo p {
   font-size: 28px;
   line-height: 115%;
 }
@@ -53,12 +59,16 @@ header h1 {
   font-size: 38px;
   padding-bottom: 10px;
 }
+.container .critterInfo h3 {
+  font-size: 28px;
+  padding: 10px 0px 10px 0px;
+}
 .container .info img {
   max-width: 50%;
   max-height: 50%;
 }
 
-.schedule, .eventRewards, .characters {
+.schedule, .eventRewards, .characters, .gallery {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
   padding: 20px 10px 10px 10px;
@@ -70,7 +80,7 @@ header h1 {
   grid-template-columns: auto auto auto auto;
 }
 
-.critterBox, .rewardBox, .characterBox {
+.critterBox, .rewardBox, .characterBox, .galleryItem {
   padding: 20px 5px 0px 5px;
   text-align: center;
   color: #FFF;
@@ -78,7 +88,7 @@ header h1 {
   outline: 3px solid #FFF;
   background-color: #BD66A0;
 }
-.critterBox img, .rewardBox img, .characterBox img {
+.critterBox img, .rewardBox img, .characterBox img, .galleryItem img {
   max-width: 50%;
   max-height: 50%;
   padding-top: 10px;
@@ -86,10 +96,10 @@ header h1 {
   width: 50%;
   margin: 0 auto;
 }
-.critterBox h3, .critterBox p, .rewardBox h3, .rewardBox p, .characterBox h3, .characterBox p {
+.critterBox h3, .critterBox p, .rewardBox h3, .rewardBox p, .characterBox h3, .characterBox p, .galleryItem h3, .galleryItem p {
   padding-bottom: 5px;
 }
-.critterBox .quote, .rewardBox .quote, .characterBox .quote {
+.critterBox .quote, .rewardBox .quote, .characterBox .quote, .galleryItem .quote {
   font-style: italic;
 }
 
