@@ -258,3 +258,25 @@ const wonderOfPixar = [
         imgSrc: "https://dreamlightvalleywiki.com/images/thumb/b/b6/Moonstone.png/150px-Moonstone.png"
     },
 ]
+
+//Print objects of current active day
+const rewards = document.querySelector(".eventRewards");
+
+wonderOfPixar.forEach(reward => {
+    const rewardBox = document.createElement("div");
+    rewardBox.className = "rewardBox";
+        
+    const name = document.createElement("h3");
+    const cost = document.createElement("p");
+    const page = document.createElement("p");
+    const img = document.createElement("img")
+    img.src = reward.imgSrc;
+
+    name.innerText = reward.name;
+    cost.innerText = reward.cost;
+    page.innerText = reward.page;
+    img.innerText = reward.img;
+    rewardBox.append(name,cost,page,img);
+
+    rewards.appendChild(rewardBox);
+})

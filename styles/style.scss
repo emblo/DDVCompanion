@@ -79,7 +79,7 @@ header {
     }
 }
 
-.schedule {
+.schedule, .eventRewards {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 20px 10px 10px 10px;
@@ -87,7 +87,7 @@ header {
     margin: 0 auto;
 }
 
-.critterBox {
+.critterBox, .rewardBox {
     padding-top: 20px;
     text-align: center;
     color: $fontColor;
