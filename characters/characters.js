@@ -190,3 +190,38 @@ const characters = [
         "quote": "'If we were always perfect, we could never grow.'",
     }
 ]
+
+//Print characters
+const character = document.querySelector(".characters");
+
+characters.forEach(char => {
+    const characterBox = document.createElement("div");
+    characterBox.className = "characterBox";
+        
+    const name = document.createElement("h3");
+    const movie = document.createElement("p");
+    movie.className = "objectText";
+    const movieText = document.createElement("p");
+    movieText.className = "objectText";
+    const about = document.createElement("p");
+    about.className = "objectText";
+    const aboutText = document.createElement("p");
+    aboutText.className = "objectText";
+    const img = document.createElement("img")
+    const quote = document.createElement("p");
+    quote.className = "quote";
+    img.src = char.imgSrc;
+    const lineBreak = document.createElement("br");
+
+    name.innerText = char.name;
+    movie.innerText = char.movie;
+    movieText.innerText = "From:";
+    about.innerText = char.info;
+    aboutText.innerText = "About:";
+    quote.innerText = char.quote;
+    img.innerText = char.img;
+
+    characterBox.append(name,movieText,movie,about,img,lineBreak,quote);
+
+    character.appendChild(characterBox);
+})

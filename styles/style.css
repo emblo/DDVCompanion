@@ -58,7 +58,7 @@ header h1 {
   max-height: 50%;
 }
 
-.schedule, .eventRewards {
+.schedule, .eventRewards, .characters {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
   padding: 20px 10px 10px 10px;
@@ -66,15 +66,19 @@ header h1 {
   margin: 0 auto;
 }
 
-.critterBox, .rewardBox {
-  padding-top: 20px;
+.characters {
+  grid-template-columns: auto auto auto auto;
+}
+
+.critterBox, .rewardBox, .characterBox {
+  padding: 20px 5px 0px 5px;
   text-align: center;
   color: #FFF;
   font-family: "Josefin Sans", sans-serif;
   outline: 3px solid #FFF;
   background-color: #BD66A0;
 }
-.critterBox img, .rewardBox img {
+.critterBox img, .rewardBox img, .characterBox img {
   max-width: 50%;
   max-height: 50%;
   padding-top: 10px;
@@ -82,8 +86,11 @@ header h1 {
   width: 50%;
   margin: 0 auto;
 }
-.critterBox h3, .critterBox p, .rewardBox h3, .rewardBox p {
+.critterBox h3, .critterBox p, .rewardBox h3, .rewardBox p, .characterBox h3, .characterBox p {
   padding-bottom: 5px;
+}
+.critterBox .quote, .rewardBox .quote, .characterBox .quote {
+  font-style: italic;
 }
 
 .objectText {

@@ -79,7 +79,7 @@ header {
     }
 }
 
-.schedule, .eventRewards {
+.schedule, .eventRewards, .characters {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 20px 10px 10px 10px;
@@ -87,8 +87,12 @@ header {
     margin: 0 auto;
 }
 
-.critterBox, .rewardBox {
-    padding-top: 20px;
+.characters {
+    grid-template-columns: auto auto auto auto;
+}
+
+.critterBox, .rewardBox, .characterBox {
+    padding: 20px 5px 0px 5px;
     text-align: center;
     color: $fontColor;
     font-family: $fontStack;
@@ -104,6 +108,9 @@ header {
     }
     h3, p {
         padding-bottom: 5px;
+    }
+    .quote {
+        font-style: italic;
     }
 }
 
