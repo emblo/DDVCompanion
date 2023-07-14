@@ -3,7 +3,7 @@ const flowers = [
        name: "Blue Falling Penstemon",
        location: "Plaza",
        sellPrice: 23,
-       imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/4/4d/Blue_Falling_Penstemon.png/revision/latest/thumbnail/width/360/height/360?cb=20220917054117" 
+       imgSrc: "https://dreamlightvalleywiki.com/images/4/4d/Blue_Falling_Penstemon.png" 
     },
     {
         name: "Purple Falling Penstemon",
@@ -15,7 +15,7 @@ const flowers = [
         name: "Red Falling Penstemon",
         location: "Plaza",
         sellPrice: 18,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/3/3a/Red_Falling_Penstemon.png/revision/latest/thumbnail/width/360/height/360?cb=20220917053721" 
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3a/Red_Falling_Penstemon.png"
      },
      {
         name: "White & Pink Falling Penstemon",
@@ -27,7 +27,7 @@ const flowers = [
         name: "Dandelion",
         location: "Plaza",
         sellPrice: 23,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/b/b1/Dandelion.png/revision/latest/thumbnail/width/360/height/360?cb=20220917054033" 
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b1/Dandelion.png" 
      },
      {
         name: "Green Rising Penstemon",
@@ -63,13 +63,13 @@ const flowers = [
         name: "Blue Hydrangea",
         location: "Dazzle Beach",
         sellPrice: 28,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/4/49/Blue_Hydrangea.png/revision/latest/thumbnail/width/360/height/360?cb=20220917054110" 
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/2/26/HydrangeaBlue.png" 
      },
      {
         name: "Pink Hydrangea",
         location: "Dazzle Beach",
         sellPrice: 22,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/6/67/Pink_Hydrangea.png/revision/latest/thumbnail/width/360/height/360?cb=20220917053906" 
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/4/4c/HydrangeaPink.png" 
      },
      {
         name: "Purple Hydrangea",
@@ -172,25 +172,25 @@ const flowers = [
         name: "Red Bromeliad",
         location: "Sunlit Plateau",
         sellPrice: 27,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/0/04/Red_Bromeliad.png/revision/latest/thumbnail/width/360/height/360?cb=20220917053743" 
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/b/bd/BromeliaRed.png" 
      },
      {
         name: "Yellow Bromeliad",
         location: "Sunlit Plateau",
         sellPrice: 73,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/1/13/Yellow_Bromeliad.png/revision/latest/thumbnail/width/360/height/360?cb=20220917053532" 
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/f/f3/BromeliaYellow.png" 
      },
      {
         name: "Black Passion Lily",
         location: "Frosted Heights",
         sellPrice: 79,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/2/23/Black_Passion_Lily.png/revision/latest/thumbnail/width/360/height/360?cb=20220917054125" 
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/9/91/PassionLilyBlack.png" 
      },
      {
         name: "Blue Passion Lily",
         location: "Frosted Heights",
         sellPrice: 56,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/7/7a/Blue_Passion_Lily.png/revision/latest/thumbnail/width/360/height/360?cb=20220917054054" 
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/f/f2/PassionLilyBlue.png" 
      },
      {
         name: "Green Passion Lily",
@@ -242,3 +242,4 @@ const flowers = [
      }
 ]
 
+export {flowers};

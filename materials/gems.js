@@ -144,3 +144,5 @@ const gems = [
         imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/d/d5/Vitalys_Crystal.png/revision/latest?cb=20221019205432"
     }
 ]
+
+export {gems};

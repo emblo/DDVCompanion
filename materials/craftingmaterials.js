@@ -1,3 +1,5 @@
+//Cotton moved to ingredients
+//Array of objects containing crafting materials in DDV
 const craftingmaterials = [
     {
         name: "Clay",
@@ -109,4 +111,4 @@ const craftingmaterials = [
     }
 ]
 
-//Cotton moved to ingredients
+export {craftingmaterials};
