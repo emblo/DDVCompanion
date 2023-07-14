@@ -3,145 +3,145 @@ const gems = [
         name: "Amethyst",
         location: "Frosted Heights, Forgotten Lands",
         sellPrice: "500",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/2/2e/Amethyst.png/revision/latest?cb=20220907140503"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2e/Amethyst.png"
     },
     {
         name: "Shiny Amethyst",
         location: "Frosted Heights, Forgotten Lands",
         sellPrice: "2000",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/2/26/Shiny_Amethyst.png/revision/latest?cb=20220907140514"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Shiny_Amethyst.png"
     },
     {
         name: "Aquamarine",
         location: "Dazzle Beach, Forest of Valor",
         sellPrice: "250",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/a/a2/Aquamarine.png/revision/latest?cb=20220907140525"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a2/Aquamarine.png"
     },
     {
         name: "Shiny Aquamarine",
         location: "Dazzle Beach, Forest of Valor",
         sellPrice: "1000",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/b/b2/Shiny_Aquamarine.png/revision/latest?cb=20220907140536"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b2/Shiny_Aquamarine.png"
     },
     {
         name: "Citrine",
         location: "Glade of Trust, Sunlit Plateau",
         sellPrice: "380",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/f/f7/Citrine.png/revision/latest?cb=20220907140925"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f7/Citrine.png"
     },
     {
         name: "Shiny Citrine",
         location: "Glade of Trust, Sunlit Plateau",
         sellPrice: "1500",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/a/a8/Shiny_Citrine.png/revision/latest?cb=20220907141011"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a8/Shiny_Citrine.png"
     },
     {
         name: "Diamond",
         location: "Forgotten Lands",
         sellPrice: "600",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/e/ea/Diamond.png/revision/latest?cb=20220907140612"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ea/Diamond.png"
     },
     {
         name: "Shiny Diamond",
         location: "Forgotten Lands",
         sellPrice: "2400",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/e/ea/Shiny_Diamond.png/revision/latest?cb=20220907140643"
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/5/58/Gem_Location-Diamond_Shiny.png"
     },
     {
         name: "Emerald",
         location: "Forest of Valor, Glade of Trust",
         sellPrice: "325",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/6/6a/Emerald.png/revision/latest?cb=20220907140659"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Emerald.png"
     },
     {
         name: "Shiny Emerald",
         location: "Forest of Valor, Glade of Trust",
         sellPrice: "1300",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/b/bb/Shiny_Emerald.png/revision/latest?cb=20220907140723"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bb/Shiny_Emerald.png"
     },
     {
         name: "Garnet",
         location: "Plaza, Peaceful Meadow",
         sellPrice: "160",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/5/5a/Garnet.png/revision/latest?cb=20220907140735"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5a/Garnet.png"
     },
     {
         name: "Shiny Garnet",
         location: "Plaza, Peaceful Meadow",
         sellPrice: "640",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/f/f1/Shiny_Garnet.png/revision/latest?cb=20220907140748"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f1/Shiny_Garnet.png"
     },
     {
         name: "Onyx",
         location: "Can drop when mining any mining node",
         sellPrice: "300",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/f/fb/Onyx.png/revision/latest?cb=20221206223253"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fb/Onyx.png"
     },
     {
         name: "Peridot",
         location: "Peaceful Meadow, Dazzle Beach",
         sellPrice: "200",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/2/24/Peridot.png/revision/latest?cb=20220907140904"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/24/Peridot.png"
     },
     {
         name: "Shiny Peridot",
         location: "Peaceful Meadow, Dazzle Beach",
         sellPrice: "800",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/8/82/Shiny_Peridot.png/revision/latest?cb=20220907140946"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/82/Shiny_Peridot.png"
     },
     {
         name: "Ruby",
         location: "Vitalys Mines",
         sellPrice: "350",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/a/a9/Ruby.png/revision/latest?cb=20221018161945"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a9/Ruby.png"
     },
     {
         name: "Shiny Ruby",
         location: "Vitalys Mines",
         sellPrice: "1400",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/e/e3/Shiny_Ruby.png/revision/latest?cb=20221019205714"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e3/Shiny_Ruby.png"
     },
     {
         name: "Sapphire",
         location: "Vitalys Mines",
         sellPrice: "350",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/f/f7/Sapphire.png/revision/latest?cb=20221019205512"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f7/Sapphire.png"
     },
     {
         name: "Shiny Sapphire",
         location: "Vitalys Mines",
         sellPrice: "1400",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/7/74/Shiny_Sapphire.png/revision/latest?cb=20221019205731"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/74/Shiny_Sapphire.png"
     },
     {
         name: "Topaz",
         location: "Plaza",
         sellPrice: "240",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/a/a5/Topaz.png/revision/latest?cb=20220907141131"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Topaz.png"
     },
     {
         name: "Shiny Topaz",
         location: "Plaza",
         sellPrice: "960",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/f/fc/Shiny_Topaz.png/revision/latest?cb=20220907141144"
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/4/4a/Gem_Location-Topaze_Shiny.png"
     },
     {
         name: "Tourmaline",
         location: "Sunlit Plateau, Frosted Heights",
         sellPrice: "420",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/9/94/Tourmaline.png/revision/latest?cb=20220907141208"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/94/Tourmaline.png"
     },
     {
         name: "Shiny Tourmaline",
         location: "Sunlit Plateau, Frosted Heights",
         sellPrice: "1600",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/8/87/Shiny_Tourmaline.png/revision/latest?cb=20220907141240"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/87/Shiny_Tourmaline.png"
     },
     {
         name: "Vitalys Crystal",
         location: "Vitalys Mines",
         sellPrice: "12",
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/d/d5/Vitalys_Crystal.png/revision/latest?cb=20221019205432"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d5/Vitalys_Crystal.png"
     }
 ]
 
