@@ -8,10 +8,14 @@ function printCraftingMaterial(category) {
 
     category.forEach(material => {
         const materialBox = document.createElement("div");
+        let specifiedCategory = document.querySelector(".flowers");
+        
         if (category == craftingmaterials) {
             materialBox.className = "craftingBox";
+            specifiedCategory = document.querySelector(".craftingMaterial");
         } else if (category == gems) {
             materialBox.className = "gemBox";
+            specifiedCategory = document.querySelector(".gems");
         } else {
             materialBox.className = "flowerBox";
         }
@@ -28,7 +32,7 @@ function printCraftingMaterial(category) {
         img.innerText = material.img;
         materialBox.append(name,location,sellPrice,img);
 
-        materialCategory.appendChild(materialBox);
+        specifiedCategory.appendChild(materialBox)
     })
 }
 
