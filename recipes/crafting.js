@@ -5228,3 +5228,5 @@ const mailboxes = [
         imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Mailbox.png"
     }
 ]
+
+export {refinedMaterials,enchantments,paving,fences,chests,stoves,mannequins,companions,functionalItems,furniture,balloons,touchOfMagic,fallEvent,winterEvent,springEvent,floral,lamps,signs,mailboxes};
