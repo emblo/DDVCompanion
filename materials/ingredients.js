@@ -418,3 +418,5 @@ const remy = [
         imgSrc: "https://dreamlightvalleywiki.com/images/c/c0/Slush_Ice.png"
     }
 ]
+
+export {crops,fruit,spicesAndHerbs,seafood,remy};
