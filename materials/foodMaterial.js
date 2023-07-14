@@ -1,4 +1,5 @@
-import {} from "./ingredients.js";
+import { crops,fruit,spicesAndHerbs,seafood,remy } from "./ingredients.js";
+import { fish } from "./fish.js";
 
 function printCraftingMaterial(category) {
     //Print objects of specified category
