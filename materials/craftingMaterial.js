@@ -32,4 +32,6 @@ function printCraftingMaterial(category) {
     })
 }
 
+printCraftingMaterial(craftingmaterials);
+printCraftingMaterial(gems);
 printCraftingMaterial(flowers);
