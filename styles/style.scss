@@ -107,19 +107,20 @@ tr {
     padding: 0px 5px 0px 5px;
 }
 
-.schedule, .eventRewards, .characters, .gallery, .craftingMaterial, .gems, .flowers {
+.schedule, .eventRewards, .characters, .gallery, .craftingMaterial, .gems, .flowers, .crops, .fruit, .spices, .seafood, .fish, .remy  {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 20px 10px 10px 10px;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .characters {
     grid-template-columns: auto auto auto auto;
 }
 
-.critterBox, .rewardBox, .characterBox, .galleryItem, .craftingBox, .gemBox, .flowerBox {
+.critterBox, .rewardBox, .characterBox, .galleryItem, .craftingBox, .gemBox, .flowerBox, .cropsBox, .fruitBox, .spicesBox, .seafoodBox, .fishBox, .remyBox {
     padding: 20px 5px 0px 5px;
     text-align: center;
     color: $fontColor;

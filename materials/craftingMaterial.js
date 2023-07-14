@@ -4,8 +4,6 @@ import { flowers } from "./flowers.js";
 
 function printCraftingMaterial(category) {
     //Print objects of specified category
-    const materialCategory = document.querySelector(".materials");
-
     category.forEach(material => {
         const materialBox = document.createElement("div");
         let specifiedCategory = document.querySelector(".flowers");

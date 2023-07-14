@@ -86,19 +86,20 @@ tr {
   padding: 0px 5px 0px 5px;
 }
 
-.schedule, .eventRewards, .characters, .gallery, .craftingMaterial, .gems, .flowers {
+.schedule, .eventRewards, .characters, .gallery, .craftingMaterial, .gems, .flowers, .crops, .fruit, .spices, .seafood, .fish, .remy {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
   padding: 20px 10px 10px 10px;
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .characters {
   grid-template-columns: auto auto auto auto;
 }
 
-.critterBox, .rewardBox, .characterBox, .galleryItem, .craftingBox, .gemBox, .flowerBox {
+.critterBox, .rewardBox, .characterBox, .galleryItem, .craftingBox, .gemBox, .flowerBox, .cropsBox, .fruitBox, .spicesBox, .seafoodBox, .fishBox, .remyBox {
   padding: 20px 5px 0px 5px;
   text-align: center;
   color: #FFF;
@@ -106,7 +107,7 @@ tr {
   outline: 3px solid #FFF;
   background-color: #BD66A0;
 }
-.critterBox img, .rewardBox img, .characterBox img, .galleryItem img, .craftingBox img, .gemBox img, .flowerBox img {
+.critterBox img, .rewardBox img, .characterBox img, .galleryItem img, .craftingBox img, .gemBox img, .flowerBox img, .cropsBox img, .fruitBox img, .spicesBox img, .seafoodBox img, .fishBox img, .remyBox img {
   max-width: 50%;
   max-height: 50%;
   padding-top: 10px;
@@ -114,10 +115,10 @@ tr {
   width: 50%;
   margin: 0 auto;
 }
-.critterBox h3, .critterBox p, .rewardBox h3, .rewardBox p, .characterBox h3, .characterBox p, .galleryItem h3, .galleryItem p, .craftingBox h3, .craftingBox p, .gemBox h3, .gemBox p, .flowerBox h3, .flowerBox p {
+.critterBox h3, .critterBox p, .rewardBox h3, .rewardBox p, .characterBox h3, .characterBox p, .galleryItem h3, .galleryItem p, .craftingBox h3, .craftingBox p, .gemBox h3, .gemBox p, .flowerBox h3, .flowerBox p, .cropsBox h3, .cropsBox p, .fruitBox h3, .fruitBox p, .spicesBox h3, .spicesBox p, .seafoodBox h3, .seafoodBox p, .fishBox h3, .fishBox p, .remyBox h3, .remyBox p {
   padding-bottom: 5px;
 }
-.critterBox .quote, .rewardBox .quote, .characterBox .quote, .galleryItem .quote, .craftingBox .quote, .gemBox .quote, .flowerBox .quote {
+.critterBox .quote, .rewardBox .quote, .characterBox .quote, .galleryItem .quote, .craftingBox .quote, .gemBox .quote, .flowerBox .quote, .cropsBox .quote, .fruitBox .quote, .spicesBox .quote, .seafoodBox .quote, .fishBox .quote, .remyBox .quote {
   font-style: italic;
 }
 
