@@ -86,7 +86,7 @@ tr {
   padding: 0px 5px 0px 5px;
 }
 
-.schedule, .eventRewards, .characters, .gallery {
+.schedule, .eventRewards, .characters, .gallery, .materials {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
   padding: 20px 10px 10px 10px;
@@ -98,7 +98,7 @@ tr {
   grid-template-columns: auto auto auto auto;
 }
 
-.critterBox, .rewardBox, .characterBox, .galleryItem {
+.critterBox, .rewardBox, .characterBox, .galleryItem, .craftingBox, .gemBox, .flowerBox {
   padding: 20px 5px 0px 5px;
   text-align: center;
   color: #FFF;
@@ -106,7 +106,7 @@ tr {
   outline: 3px solid #FFF;
   background-color: #BD66A0;
 }
-.critterBox img, .rewardBox img, .characterBox img, .galleryItem img {
+.critterBox img, .rewardBox img, .characterBox img, .galleryItem img, .craftingBox img, .gemBox img, .flowerBox img {
   max-width: 50%;
   max-height: 50%;
   padding-top: 10px;
@@ -114,10 +114,10 @@ tr {
   width: 50%;
   margin: 0 auto;
 }
-.critterBox h3, .critterBox p, .rewardBox h3, .rewardBox p, .characterBox h3, .characterBox p, .galleryItem h3, .galleryItem p {
+.critterBox h3, .critterBox p, .rewardBox h3, .rewardBox p, .characterBox h3, .characterBox p, .galleryItem h3, .galleryItem p, .craftingBox h3, .craftingBox p, .gemBox h3, .gemBox p, .flowerBox h3, .flowerBox p {
   padding-bottom: 5px;
 }
-.critterBox .quote, .rewardBox .quote, .characterBox .quote, .galleryItem .quote {
+.critterBox .quote, .rewardBox .quote, .characterBox .quote, .galleryItem .quote, .craftingBox .quote, .gemBox .quote, .flowerBox .quote {
   font-style: italic;
 }
 

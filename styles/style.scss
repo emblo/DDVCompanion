@@ -107,7 +107,7 @@ tr {
     padding: 0px 5px 0px 5px;
 }
 
-.schedule, .eventRewards, .characters, .gallery {
+.schedule, .eventRewards, .characters, .gallery, .materials {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 20px 10px 10px 10px;
@@ -119,7 +119,7 @@ tr {
     grid-template-columns: auto auto auto auto;
 }
 
-.critterBox, .rewardBox, .characterBox, .galleryItem {
+.critterBox, .rewardBox, .characterBox, .galleryItem, .craftingBox, .gemBox, .flowerBox {
     padding: 20px 5px 0px 5px;
     text-align: center;
     color: $fontColor;
