@@ -241,4 +241,5 @@ const fish = [
     }
 ]
 
+export {fish};
 //Moved seaweed to crafting material
