@@ -1,3 +1,12 @@
+//Special cases:
+///Crudités (not all veggies)
+///Grilled Vegetables (not all veggies)
+///Sushi (not salmon)
+///Red Fruit Pie (not all fruits)
+//Shake (not egg or cheese)
+//My Hero Cookie (no sugarcane)
+//Waffles (only Sugarcane)
+
 //Array of objects containing DDV recipes
 //Appetizers
 const appetizers = [
@@ -3512,11 +3521,4 @@ const desserts = [
     }
 ]
 
-//Special cases:
-///Crudités (not all veggies)
-///Grilled Vegetables (not all veggies)
-///Sushi (not salmon)
-///Red Fruit Pie (not all fruits)
-//Shake (not egg or cheese)
-//My Hero Cookie (no sugarcane)
-//Waffles (only Sugarcane)
+export {appetizers,entrees,desserts};
