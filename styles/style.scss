@@ -107,7 +107,7 @@ tr {
     padding: 0px 5px 0px 5px;
 }
 
-.schedule, .eventRewards, .characters, .gallery, .craftingMaterial, .gems, .flowers, .crops, .fruit, .spices, .seafood, .fish, .remy  {
+.schedule, .eventRewards, .characters, .gallery, .craftingMaterial, .gems, .flowers, .crops, .fruit, .spices, .seafood, .fish, .remy, .refinedMaterials, .enchantments, .paving, .fences, .chests, .stoves, .mannequins, .companions, .functionalItems, .furniture, .balloons, .touchOfMagic, .fallEvent, .winterEvent, .springEvent, .floral, .lamps, .signs, .mailboxes {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 20px 10px 10px 10px;
@@ -120,7 +120,7 @@ tr {
     grid-template-columns: auto auto auto auto;
 }
 
-.critterBox, .rewardBox, .characterBox, .galleryItem, .craftingBox, .gemBox, .flowerBox, .cropsBox, .fruitBox, .spicesBox, .seafoodBox, .fishBox, .remyBox {
+.critterBox, .rewardBox, .characterBox, .galleryItem, .craftingBox, .gemBox, .flowerBox, .cropsBox, .fruitBox, .spicesBox, .seafoodBox, .fishBox, .remyBox, .recipeBox {
     padding: 20px 5px 0px 5px;
     text-align: center;
     color: $fontColor;
