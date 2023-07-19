@@ -29,10 +29,9 @@ function printMealRecipe(category) {
         } else if (category == desserts) {
             specifiedCategory = document.querySelector(".desserts");
         } 
-            
+
         const name = document.createElement("h3");
-        const materialName = document.createElement("p");
-        const materialAmount = document.createElement("p");
+
         const sellPrice = document.createElement("p");
         const img = document.createElement("img")
         img.src = object.imgSrc;
