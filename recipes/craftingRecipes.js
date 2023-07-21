@@ -5,25 +5,49 @@ function printCraftingRecipe(category) {
     let materials;
     let material;
 
-    // Iterate over the array
-    for (let i = 0; i < category.length; i++) {
-        object = category[i];
+    // Print objects of specified category
+    category.forEach((currentObject) => {
+        object = currentObject;
 
-        // Access the materials array
+        // Access the materials array inside of the current object
         materials = object.materials;
 
-        // Iterate over the materials array
+        // Create a container for the current object's details
+        const objectBox = document.createElement("div");
+        objectBox.className = "recipeBox";
+
+        const name = document.createElement("h3");
+        const img = document.createElement("img");
+        img.src = object.imgSrc;
+
+        name.innerText = object.name;
+        img.alt = object.name;
+        
+        // Append the name and image of the current object to its container
+        objectBox.append(name, img);
+
+        // Create a container for the materials of the current object
+        const materialsBox = document.createElement("div");
+        materialsBox.className = "recipeMaterials";
+
+        // Iterate over the materials array of the current object
         for (let j = 0; j < materials.length; j++) {
             material = materials[j];
+
+            // Create elements for material details
+            const recipeMaterials = document.createElement("p");
+
+            recipeMaterials.innerText = `${material.name} (${material.amount})`;
+
+            // Append material details to the materials container
+            materialsBox.append(recipeMaterials);
         }
-    }
 
-    //Print objects of specified category
-    category.forEach(object => {
-        const materialBox = document.createElement("div");
-        materialBox.className = "recipeBox";
-        let specifiedCategory = document.querySelector(".refinedMaterials");
+        // Append the materials container to the object container
+        objectBox.appendChild(materialsBox);
 
+        // Find the specified category container
+        let specifiedCategory;
         switch(category) {
             case refinedMaterials: 
                 specifiedCategory = document.querySelector(".refinedMaterials");
@@ -83,21 +107,10 @@ function printCraftingRecipe(category) {
                 specifiedCategory = document.querySelector(".mailboxes");
                 break;
         }
-            
-        const name = document.createElement("h3");
-        const materialName = document.createElement("p");
-        const materialAmount = document.createElement("p");
-        const sellPrice = document.createElement("p");
-        const img = document.createElement("img")
-        img.src = object.imgSrc;
-    
-        name.innerText = object.name;
-        sellPrice.innerText = object.sellPrice;
-        img.innerText = object.img;
-        materialBox.append(name,`${material.name}: ${material.amount}`,img);
-            
-        specifiedCategory.appendChild(materialBox)
-    })
+
+        // Append the object container to the specified category container
+        specifiedCategory.appendChild(objectBox);
+    });
 }
 
 printCraftingRecipe(refinedMaterials);
