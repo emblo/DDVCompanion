@@ -28,6 +28,9 @@ header h1 {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.container {
+  padding-bottom: 10rem;
+}
 .container .centeredH2 {
   color: #FFF;
   font-family: "Josefin Sans", sans-serif;
