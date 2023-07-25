@@ -334,49 +334,56 @@ const spicesAndHerbs = [
         sellPrice: 20,
         energy: 95,
         location: "Plaza",
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e3/Oregano.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e3/Oregano.png",
+        imgAlt: "Two sprigs of fresh oregano."
     },
     {
         name: "Basil",
         sellPrice: 25,
         energy: 100,
         location: "Peaceful Meadow",
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6e/Basil.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6e/Basil.png",
+        imgAlt: "A sprig of fresh basil."
     }, 
     {
         name: "Mint",
         sellPrice: 80,
         energy: 155,
         location: "Frosted Heights",
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/13/Mint.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/13/Mint.png",
+        imgAlt: "A sprig of fresh mint."
     },
     {
         name: "Mushroom",
         sellPrice: 30,
         energy: 105,
         location: "Glade of Trust, also drops when watering Mushroom Patches.",
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8c/Mushroom.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8c/Mushroom.png",
+        imgAlt: "A blue plastic container filled with white mushrooms."
     },
     {
         name: "Garlic",
         sellPrice: 60,
         energy: 135,
         location: "Forest of Valor",
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/cc/Garlic.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cc/Garlic.png",
+        imgAlt: "Three bulbs of garlic, all unpeeled."
     },
     {
         name: "Ginger",
         sellPrice: 100,
         energy: 175,
         location: "Forgotten Lands",
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/85/Ginger.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/85/Ginger.png",
+        imgAlt: "A knob of unpeeled ginger."
     },
     {
         name: "Vanilla",
         sellPrice: 60,
         energy: 135,
         location: "Sunlit Plateau",
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d5/Vanilla.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d5/Vanilla.png",
+        imgAlt: "A few vanilla stems held together with twine."
     }
 ]
 
