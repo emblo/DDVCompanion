@@ -394,21 +394,24 @@ const seafood = [
         sellPrice: 45,
         energy: 120,
         location: "Dazzle Beach",
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ed/Clam.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ed/Clam.png",
+        imgAlt: "A closed pink clam with very fine lines on the shell."
     },
     {
         name: "Oyster",
         sellPrice: 250,
         energy: 250,
         location: "Dazzle Beach",
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Oyster.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Oyster.png",
+        imgAlt: "A thick closed oyster, dark blue in color with very fine lines on the shell."
     },
     {
         name: "Scallop",
         sellPrice: 50,
         energy: 125,
         location: "Dazzle Beach",
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/cf/Scallop.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cf/Scallop.png",
+        imgAlt: "A closed bright blue clam with pronounced ridges that are darker in color on the shell."
     }
 ]
 
