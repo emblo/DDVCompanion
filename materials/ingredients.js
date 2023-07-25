@@ -222,7 +222,8 @@ const fruit = [
         sellPrice: 25,
         energy: 300,
         location: "Plaza, Forgotten Lands",
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/7d/Apple.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7d/Apple.png",
+        imgAlt: "A shiny red apple with the steam and a small green leaf."
     },
     {
         name: "Banana",
@@ -231,7 +232,8 @@ const fruit = [
         sellPrice: 29,
         energy: 350,
         location: "Peaceful Meadow, Dazzle Beach",
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/69/Banana.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/69/Banana.png",
+        imgAlt: "A single yellow banana with a small brown stem at the top."
     },
     {
         name: "Blueberry",
@@ -240,7 +242,8 @@ const fruit = [
         sellPrice: 29,
         energy: 350,
         location: "Dazzle Beach, Forest of Valor",
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Blueberry.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Blueberry.png",
+        imgAlt: "A small cardboard box of blueberries."
     },
     {
         name: "Cherry",
@@ -249,7 +252,8 @@ const fruit = [
         sellPrice: 42,
         energy: 500,
         location: "Frosted Heights, Sunlit Plateau",
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/20/Cherry.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/20/Cherry.png",
+        imgAlt: "A bunch of seven red cherries held together by their stems."
     },
     {
         name: "Cocoa Bean",
@@ -258,7 +262,8 @@ const fruit = [
         sellPrice: 38,
         energy: 450,
         location: "Glade of Trust, Sunlit Plateau",
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/24/Cocoa_Bean.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/24/Cocoa_Bean.png",
+        imgAlt: "A big brown unopened cocoa bean."
     },
     {
         name: "Coconut",
@@ -267,7 +272,8 @@ const fruit = [
         sellPrice: 42,
         energy: 500,
         location: "Dazzle Beach",
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2f/Coconut.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2f/Coconut.png",
+        imgAlt: "A cracked open coconut, showing the brown fibery husk as well as the white inside."
     },
     {
         name: "Coffee Bean",
@@ -276,7 +282,8 @@ const fruit = [
         sellPrice: 36,
         energy: 425,
         location: "Glade of Trust",
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/33/Coffee_Bean.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/33/Coffee_Bean.png",
+        imgAlt: "A small paper bag filled with brown coffee beans."
     },
     {
         name: "Dreamlight Fruit",
@@ -285,7 +292,8 @@ const fruit = [
         sellPrice: 40,
         energy: 500,
         location: "Sunlit Plateau, Glade of Trust, Frosted Heights, Forgotten Lands",
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Dreamlight_Fruit.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Dreamlight_Fruit.png",
+        imgAlt: "A dragonfruit-like pink fruit with blue tops."
     },
     {
         name: "Gooseberry",
@@ -294,7 +302,8 @@ const fruit = [
         sellPrice: 50,
         energy: 600,
         location: "Frosted Heights, Forgotten Lands",
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d2/Gooseberry.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d2/Gooseberry.png",
+        imgAlt: "A wooden box filled with pink gooseberries."
     },
     {
         name: "Lemon",
@@ -303,7 +312,8 @@ const fruit = [
         sellPrice: 33,
         energy: 400,
         location: "Forest of Valor, Glade of Trust",
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/35/Lemon.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/35/Lemon.png",
+        imgAlt: "A single shiny whole lemon."
     },
     {
         name: "Raspberry",
@@ -312,7 +322,8 @@ const fruit = [
         sellPrice: 21,
         energy: 250,
         location: "Plaza, Peaceful Meadow",
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1f/Raspberry.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1f/Raspberry.png",
+        imgAlt: "A wooden box filled with pink raspberries."
     }
 ]
 
