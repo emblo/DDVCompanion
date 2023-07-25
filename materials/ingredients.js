@@ -422,42 +422,48 @@ const remy = [
         sellPrice: 190,
         energy: 285,
         location: "Chez Remy",
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f1/Butter.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f1/Butter.png",
+        imgAlt: "A big rectangular piece of butter on a bright blue plate."
     },
     {
         name: "Cheese",
         sellPrice: 180,
         energy: 270,
         location: "Chez Remy",
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Cheese.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Cheese.png",
+        imgAlt: "A wedge of yellow cheese with holes in it."
     },
     {
         name: "Egg",
         sellPrice: 220,
         energy: 330,
         location: "Chez Remy",
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Egg.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Egg.png",
+        imgAlt: "A cardboard carton of ten eggs."
     },
     {
         name: "Milk",
         sellPrice: 230,
         energy: 345,
         location: "Chez Remy",
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Milk.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Milk.png",
+        imgAlt: "A white carton of milk with black cow-like spots on it and a cow symbol on the top."
     },
     {
         name: "Peanut",
         sellPrice: 200,
         energy: 300,
         location: "Chez Remy",
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Peanut.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Peanut.png",
+        imgAlt: "A brown paper bag filled with whole peanuts."
     },
     {
         name: "Slush Ice",
         sellPrice: 150,
         energy: 225,
         location: "Chez Remy",
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c0/Slush_Ice.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c0/Slush_Ice.png",
+        imgAlt: "Blue shaved ice in a gray paper cone."
     }
 ]
 
