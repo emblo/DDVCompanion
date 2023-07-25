@@ -8,7 +8,8 @@ const crops = [
         sellPrice: 133,
         energy: 42,
         seedLocation: "Frosted Heights",
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/45/Asparagus.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/45/Asparagus.png",
+        imgAlt: "A bunch of green asparagus being held together by a rubber band."
     },
     {
         name: "Bell Pepper",
@@ -17,7 +18,8 @@ const crops = [
         sellPrice: 33,
         energy: 79,
         seedLocation: "Forest of Valor",
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Bell_Pepper.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Bell_Pepper.png",
+        imgAlt: "A red bell pepper with a green top."
     },
     {
         name: "Carrot",
@@ -26,7 +28,8 @@ const crops = [
         sellPrice: 44,
         energy: 57,
         seedLocation: "Peaceful Meadow",
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c3/Carrot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c3/Carrot.png",
+        imgAlt: "A single carrot with a green top."
     },
     {
         name: "Chili Pepper",
@@ -35,7 +38,8 @@ const crops = [
         sellPrice: 78,
         energy: 140,
         seedLocation: "Sunlit Plateau",
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ab/Chili_Pepper.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ab/Chili_Pepper.png",
+        imgAlt: "A plate of several red chili peppers."
     },
     {
         name: "Cucumber",
@@ -44,7 +48,8 @@ const crops = [
         sellPrice: 159,
         energy: 145,
         seedLocation: "Frosted Heights",
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/59/Cucumber.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/59/Cucumber.png",
+        imgAlt: "A long green cucumber."
     },
     {
         name: "Eggplant",
@@ -53,7 +58,8 @@ const crops = [
         sellPrice: 308,
         energy: 451,
         seedLocation: "Frosted Heights",
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Eggplant.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Eggplant.png",
+        imgAlt: "A big purple eggplant with a green top."
     },
     {
         name: "Leek",
@@ -62,7 +68,8 @@ const crops = [
         sellPrice: 309,
         energy: 228,
         seedLocation: "Forgotten Lands",
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/57/Leek.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/57/Leek.png",
+        imgAlt: "A single leek with a white base and green end."
     },
     {
         name: "Lettuce",
@@ -71,7 +78,8 @@ const crops = [
         sellPrice: 8,
         energy: 56,
         seedLocation: "Peaceful Meadow",
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/da/Lettuce.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/da/Lettuce.png",
+        imgAlt: "A big head of green lettuce."
     },
     {
         name: "Okra",
@@ -80,7 +88,8 @@ const crops = [
         sellPrice: 114,
         energy: 31,
         seedLocation: "Glade of Trust",
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e7/Okra.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e7/Okra.png",
+        imgAlt: "A wooden box filled with green okra."
     },
     {
         name: "Onion",
@@ -89,7 +98,8 @@ const crops = [
         sellPrice: 170,
         energy: 146,
         seedLocation: "Forest of Valor",
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/51/Onion.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/51/Onion.png",
+        imgAlt: "A yellow onion with the skin still on."
     },
     {
         name: "Potato",
@@ -98,7 +108,8 @@ const crops = [
         sellPrice: 126,
         energy: 113,
         seedLocation: "Forgotten Lands",
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c2/Potato.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c2/Potato.png",
+        imgAlt: "An unpeeled big potato."
     },
     {
         name: "Pumpkin",
@@ -107,7 +118,8 @@ const crops = [
         sellPrice: 664,
         energy: 187,
         seedLocation: "Forgotten Lands",
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/64/Pumpkin.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/64/Pumpkin.png",
+        imgAlt: "An orange pumpkin without its leaves but the green stem still intact."
     },
     {
         name: "Spinach",
@@ -116,7 +128,8 @@ const crops = [
         sellPrice: 41,
         energy: 60,
         seedLocation: "Glade of Trust",
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/60/Spinach.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/60/Spinach.png",
+        imgAlt: "A bunch of spinach held together with a rubber band."
     },
     {
         name: "Tomato",
@@ -125,7 +138,8 @@ const crops = [
         sellPrice: 22,
         energy: 21,
         seedLocation: "Dazzle Beach",
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Tomato.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Tomato.png",
+        imgAlt: "A red tomato with the green top still attached."
     },
     {
         name: "Zucchini",
@@ -134,7 +148,8 @@ const crops = [
         sellPrice: 52,
         energy: 48,
         seedLocation: "Sunlit Plateau",
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Zucchini.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Zucchini.png",
+        imgAlt: "A light green zucchini with dark green vertical stripes."
     },
     {
         name: "Canola",
@@ -143,7 +158,8 @@ const crops = [
         sellPrice: 109,
         energy: 59,
         seedLocation: "Forest of Valor",
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/79/Canola.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/79/Canola.png",
+        imgAlt: "A single stem of canola with a bunch of yellow flowers attached to it."
     },
     {
         name: "Corn",
@@ -152,7 +168,8 @@ const crops = [
         sellPrice: 16,
         energy: 30,
         seedLocation: "Dazzle Beach",
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f8/Corn.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f8/Corn.png",
+        imgAlt: "An ear of corn with some of the green husk still attached."
     },
     {
         name: "Rice",
@@ -161,7 +178,8 @@ const crops = [
         sellPrice: 61,
         energy: 59,
         seedLocation: "Glade of Trust",
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/da/Rice.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/da/Rice.png",
+        imgAlt: "Two stems of white rice."
     },
     {
         name: "Soya",
@@ -170,7 +188,8 @@ const crops = [
         sellPrice: 69,
         energy: 58,
         seedLocation: "Sunlit Plateau",
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/00/Soya.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/00/Soya.png",
+        imgAlt: "A bunch of soya in a brown bowl."
     },
     {
         name: "Sugarcane",
@@ -179,7 +198,8 @@ const crops = [
         sellPrice: 19,
         energy: 46,
         seedLocation: "Dazzle Beach",
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/03/Sugarcane.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/03/Sugarcane.png",
+        imgAlt: "A bunch of sugarcane held together by twine."
     },
     {
         name: "Wheat",
@@ -188,7 +208,8 @@ const crops = [
         sellPrice: 2,
         energy: 19,
         seedLocation: "Peaceful Meadow",
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Wheat.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Wheat.png",
+        imgAlt: "Four pieces of wheat, still attached to their stems."
     }
 ]
 
