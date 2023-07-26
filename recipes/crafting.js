@@ -543,6 +543,19 @@ const paving = [
         imgAlt: "A square 2D image showcasing the texture for a brick road, which looks like light gray stone bricks of irregular sizes. There's a light darkers shade of gray as a border around it, with bricks of roughly equal size."
     },
     {
+        name: "Sugar Cookie Pavement",
+        materials: [
+            {
+                name: "Candy",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/0/05/Sugar_Cookie_Pavement.png/150px-Sugar_Cookie_Pavement.png",
+        imgAlt: "A square 2D image showcasing the texture for a candy road. It has a checkered pattern square in the middle with two white squares and two pink ones with multi-colored sprinkles."
+
+    },
+    {
         name: "Deluxe Sugar Cookie Pavement",
         materials: [
             {
@@ -841,19 +854,6 @@ const paving = [
         sellPrice: 0,
         imgSrc: "https://dreamlightvalleywiki.com/images/thumb/8/84/Snowy_Brick_Road_with_Border.png/150px-Snowy_Brick_Road_with_Border.png",
         imgAlt: "A square 2D image showcasing the texture for a gray irregular brick road on top of snow. The border looks like light uniform bricks partially covered by snow."
-    },
-    {
-        name: "Sugar Cookie Pavement",
-        materials: [
-            {
-                name: "Candy",
-                amount: 2
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/0/05/Sugar_Cookie_Pavement.png/150px-Sugar_Cookie_Pavement.png",
-        imgAlt: "A square 2D image showcasing the texture for a candy road. It has a checkered pattern square in the middle with two white squares and two pink ones with multi-colored sprinkles."
-
     },
     {
         name: "Sun-Baked Earthen Road",
