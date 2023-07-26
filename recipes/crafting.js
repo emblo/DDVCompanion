@@ -174,7 +174,8 @@ const enchantments = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/5e/Dreamlight_large.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5e/Dreamlight_large.png",
+        imgAlt: "Six white sparkles in varying sizes on a round purple sparkly background."
     },
     {
         name: "Digging Training Manual",
@@ -197,7 +198,8 @@ const enchantments = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/58/Digging_Training_Manual.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/58/Digging_Training_Manual.png",
+        imgAlt: "A blue book with gold details and a big golden shovel on the front."
     },
     {
         name: "Fishing Training Manual",
@@ -221,7 +223,8 @@ const enchantments = [
 
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ea/Fishing_Training_Manual.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ea/Fishing_Training_Manual.png",
+        imgAlt: "A blue book with gold details and a fishing line with an attached hook on the front."
     },
     {
         name: "Foraging Training Manual",
@@ -244,7 +247,8 @@ const enchantments = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/87/Foraging_Training_Manual.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/87/Foraging_Training_Manual.png",
+        imgAlt: "A blue book with gold details and a golden basket on the front."
     },
     {
         name: "Gardening Training Manual",
@@ -267,7 +271,8 @@ const enchantments = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Gardening_Training_Manual.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Gardening_Training_Manual.png",
+        imgAlt: "A blue book with gold details and a piece of soil with a little stem and two leaves on the front."
     },
     {
         name: "Mining Training Manual",
@@ -290,7 +295,8 @@ const enchantments = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Mining_Training_Manual.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Mining_Training_Manual.png",
+        imgAlt: "A blue book with gold details and a big golden pickaxe on the front."
     },
     {
         name: "Miracle Fishing Bait",
@@ -309,7 +315,8 @@ const enchantments = [
             }
         ],
         sellPrice: 1400,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Miracle_Fishing_Bait.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Miracle_Fishing_Bait.png",
+        imgAlt: "A black vial with brown details and a blue cap, with a red liquid inside."
     },
     {
         name: "Miracle Growth Elixir",
@@ -328,7 +335,8 @@ const enchantments = [
             }
         ],
         sellPrice: 500,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/28/Miracle_Growth_Elixir.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/28/Miracle_Growth_Elixir.png",
+        imgAlt: "A black vial with brown details and a blue cap, with a light blue liquid inside."
     },
     {
         name: "Miracle Pickaxe Polish",
@@ -347,7 +355,8 @@ const enchantments = [
             }
         ],
         sellPrice: 2300,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Miracle_Pickaxe_Polish.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Miracle_Pickaxe_Polish.png",
+        imgAlt: "A black vial with brown details and a blue cap, with a purple liquid inside."
     },
     {
         name: "Miracle Shovel Varnish",
@@ -366,7 +375,8 @@ const enchantments = [
             }
         ],
         sellPrice: 1300,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6f/Miracle_Shovel_Varnish.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6f/Miracle_Shovel_Varnish.png",
+        imgAlt: "A black vial with brown details and a blue cap, with a yellow liquid inside."
     },
     {
         name: "Even More Miraculous Fishing Bait",
@@ -385,7 +395,8 @@ const enchantments = [
             }
         ],
         sellPrice: 3500,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Even_More_Miraculous_Fishing_Bait.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Even_More_Miraculous_Fishing_Bait.png",
+        imgAlt: "A black bulbuous vial and flared base with brown details and a blue cap, with a red liquid inside. Around the base of the vial's neck is a yellow tag."
     },
     {
         name: "Even More Miraculous Growth Elixir",
@@ -404,7 +415,8 @@ const enchantments = [
             }
         ],
         sellPrice: 1300,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/90/Even_More_Miraculous_Growth_Elixir.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/90/Even_More_Miraculous_Growth_Elixir.png",
+        imgAlt: "A black bulbuous vial and flared base with brown details and a blue cap, with a light blue liquid inside. Around the base of the vial's neck is a yellow tag."
     },
     {
         name: "Even More Miraculous Pickaxe Polish",
@@ -423,7 +435,8 @@ const enchantments = [
             }
         ],
         sellPrice: 5700,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Even_More_Miraculous_Pickaxe_Polish.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Even_More_Miraculous_Pickaxe_Polish.png",
+        imgAlt: "A black bulbuous vial and flared base with brown details and a blue cap, with a purple liquid inside. Around the base of the vial's neck is a yellow tag."
     },
     {
         name: "Even More Miraculous Shovel Varnish",
@@ -442,7 +455,8 @@ const enchantments = [
             }
         ],
         sellPrice: 2900,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1f/Even_More_Miraculous_Shovel_Varnish.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1f/Even_More_Miraculous_Shovel_Varnish.png",
+        imgAlt: "A black bulbuous vial and flared base with brown details and a blue cap, with a yellow liquid inside. Around the base of the vial's neck is a yellow tag."
     },
     {
         name: "Purified Night Shard",
@@ -457,7 +471,8 @@ const enchantments = [
             }
         ],
         sellPrice: 70,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e5/Purified_Night_Shard.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e5/Purified_Night_Shard.png",
+        imgAlt: "A crystal like very light blue shard."
     }
 ]
 
