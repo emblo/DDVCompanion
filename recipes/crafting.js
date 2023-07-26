@@ -892,6 +892,18 @@ const paving = [
 //Fences
 const fences = [
     {
+        name: "Wire Mesh Fence -- Base",
+        materials: [
+            {
+                name: "Iron Ingot",
+                amount: 2
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c0/Wire_Mesh_Fence.png",
+        imgAlt: "A wire mesh fence with light metal. Two poles in the fence are visible with a horizontal pole going through them both."
+    },
+    {
         name: "Dark Wire Mesh Fence -- Base",
         materials: [
             {
@@ -900,7 +912,8 @@ const fences = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/5a/Dark_Wire_Mesh_Fence.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5a/Dark_Wire_Mesh_Fence.png",
+        imgAlt: "A wire mesh fence with dark metal. Two poles in the fence are visible with a horizontal pole going through them both."
     },
     {
         name: "Dark Wood Fence -- Base",
@@ -911,7 +924,8 @@ const fences = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/ba/Dark_Wood_Fence.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/ba/Dark_Wood_Fence.png",
+        imgAlt: "An interwoven dark wooden fence with two poles visible."
     },
     {
         name: "Green Bamboo Fence -- Base",
@@ -926,7 +940,8 @@ const fences = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Green_Bamboo_Fence.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Green_Bamboo_Fence.png",
+        imgAlt: "A green bamboo fence with horizontal pieces of bamboo stacked on top of each other with two vertical poles visible. There are several pieces of fiber thread visible around some of the pieces."
     },
     {
         name: "Iron Spike and Brick Fence -- Base",
@@ -941,7 +956,8 @@ const fences = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Iron_Spike_and_Brick_Fence.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Iron_Spike_and_Brick_Fence.png",
+        imgAlt: "A fence with a red brick base and uniform metal iron spikes that appear both vertically and horizontally."
     },
     {
         name: "Metal Spike Fence -- Base",
@@ -956,7 +972,8 @@ const fences = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e7/Metal_Spike_Fence.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e7/Metal_Spike_Fence.png",
+        imgAlt: "A fence with a thick black metal base and uneven metal vertical spikes with two horisontal poles towards the top and bottom."
     },
     {
         name: "White Bamboo Fence -- Base",
@@ -967,7 +984,8 @@ const fences = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b4/White_Bamboo_Fence.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b4/White_Bamboo_Fence.png",
+        imgAlt: "White vertical bamboo pieces with two vertical wooden poles. On the top of the fence there is a square pattern made up from thinner wooden pieces."
     },
     {
         name: "White Picket Fence -- Base",
@@ -978,18 +996,8 @@ const fences = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/White_Picket_Fence_-_Base.png"
-    },
-    {
-        name: "Wire Mesh Fence -- Base",
-        materials: [
-            {
-                name: "Iron Ingot",
-                amount: 2
-            }
-        ],
-        sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c0/Wire_Mesh_Fence.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/White_Picket_Fence_-_Base.png",
+        imgAlt: "A small wooden white picket fence with visible nails where the fence pieces meet the boards that hold them together."
     }
 ]
 
