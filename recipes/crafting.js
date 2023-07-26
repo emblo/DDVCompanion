@@ -14,7 +14,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 130,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/58/Brick.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/58/Brick.png",
+        imgAlt: "Two red bricks, placed on top of each other. 6 holes can be seen on the topside of the upper brick."
     },
     {
         name: "Empty Vial",
@@ -25,7 +26,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 180,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/74/Empty_Vial.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/74/Empty_Vial.png",
+        imgAlt: "A brown glass vial, with a golden label and cap."
     },
     {
         name: "Fabric",
@@ -36,7 +38,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 220,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Fabric.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Fabric.png",
+        imgAlt: "A roll of bright blue fabric. The inner piece that the fabric is rolled onto looks like white plastic."
     },
     {
         name: "Fiber",
@@ -47,7 +50,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 6,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/45/Fiber.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/45/Fiber.png",
+        imgAlt: "A rolled up ball of brown fiber thread."
     },
     {
         name: "Glass",
@@ -62,7 +66,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 50,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/15/Glass.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/15/Glass.png",
+        imgAlt: "Three round pieces of glass, laid out in a formation that resembles the classic Disney Mickey Mouse symbol, a round face and two round ears."
     },
     {
         name: "Gold Ingot",
@@ -77,7 +82,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 130,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Gold_Ingot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Gold_Ingot.png",
+        imgAlt: "A rectangular metal bar of gold."
     },
     {
         name: "Iron Ingot",
@@ -92,7 +98,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 70,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/0a/Iron_Ingot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0a/Iron_Ingot.png",
+        imgAlt: "A rectangular metal bar of gray iron."
     },
     {
         name: "Night Shard",
@@ -103,7 +110,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ef/Night_Shard.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ef/Night_Shard.png",
+        imgAlt: "A crystal like black shard."
     },
     {
         name: "Rope",
@@ -114,7 +122,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 60,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b4/Rope.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b4/Rope.png",
+        imgAlt: "A coil of brown fiber rope."
     },
     {
         name: "Seaweed",
@@ -125,7 +134,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 20,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/13/Seaweed.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/13/Seaweed.png",
+        imgAlt: "Seaweed in various shades of green."
     },
     {
         name: "Soil",
@@ -136,7 +146,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 3,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/42/Soil.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/42/Soil.png",
+        imgAlt: "A few pieces of rectangular soil with tufty grass on top."
     },
     {
         name: "Tinkering parts",
@@ -147,7 +158,8 @@ const refinedMaterials = [
             }
         ],
         sellPrice: 170,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fe/Tinkering_Parts.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fe/Tinkering_Parts.png",
+        imgAlt: "Six metal parts in the shape of screws and cogs placed in a pile. The color of them is a reddish-brown."
     }
 ]
 
