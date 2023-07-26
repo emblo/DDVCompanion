@@ -1017,7 +1017,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/02/Small_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/02/Small_Chest.png",
+        imgAlt: "A small orange looking wooden chest with two metal clasps and a metal handle visible."
     },
     {
         name: "Small Blue Chest",
@@ -1036,7 +1037,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Small_Blue_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Small_Blue_Chest.png",
+        imgAlt: "A small blue looking wooden chest with two metal clasps and a metal handle visible."
     },
     {
         name: "Small Green Chest",
@@ -1055,7 +1057,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/74/Small_Green_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/74/Small_Green_Chest.png",
+        imgAlt: "A small green looking wooden chest with two metal clasps and a metal handle visible."
     },
     {
         name: "Small Red Chest",
@@ -1074,7 +1077,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Small_Red_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Small_Red_Chest.png",
+        imgAlt: "A small red looking wooden chest with two metal clasps and a metal handle visible."
     },
     {
         name: "Small White Chest",
@@ -1093,7 +1097,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c2/Small_White_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c2/Small_White_Chest.png",
+        imgAlt: "A small white looking wooden chest with two metal clasps and a metal handle visible."
     },
     {
         name: "Small Yellow Chest",
@@ -1112,7 +1117,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d2/Small_Yellow_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d2/Small_Yellow_Chest.png",
+        imgAlt: "A small yellow looking wooden chest with two metal clasps and a metal handle visible."
     },
     //Medium Chests
     {
@@ -1132,7 +1138,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d4/Medium_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d4/Medium_Chest.png",
+        imgAlt: "A medium sized orange looking wooden chest with two metal clasps and a metal handle visible. The edges of the different parts are a wide dark metal."
     },
     {
         name: "Medium Blue Chest",
@@ -1155,7 +1162,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fa/Medium_Blue_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fa/Medium_Blue_Chest.png",
+        imgAlt: "A medium sized blue looking wooden chest with two metal clasps and a metal handle visible. The edges of the different parts are a wide dark metal."
     },
     {
         name: "Medium Green Chest",
@@ -1178,7 +1186,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6d/Medium_Green_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6d/Medium_Green_Chest.png",
+        imgAlt: "A medium sized green looking wooden chest with two metal clasps and a metal handle visible. The edges of the different parts are a wide dark metal."
     },
     {
         name: "Medium Red Chest",
@@ -1201,7 +1210,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/14/Medium_Red_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/14/Medium_Red_Chest.png",
+        imgAlt: "A medium sized red looking wooden chest with two metal clasps and a metal handle visible. The edges of the different parts are a wide dark metal."
     },
     {
         name: "Medium White Chest",
@@ -1224,7 +1234,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/cc/Medium_White_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cc/Medium_White_Chest.png",
+        imgAlt: "A medium sized white looking wooden chest with two metal clasps and a metal handle visible. The edges of the different parts are a wide dark metal."
     },
     {
         name: "Medium Yellow Chest",
@@ -1247,7 +1258,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f2/Medium_Yellow_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f2/Medium_Yellow_Chest.png",
+        imgAlt: "A medium sized yellow looking wooden chest with two metal clasps and a metal handle visible. The edges of the different parts are a wide dark metal."
     },
     //Large Chests
     {
@@ -1267,7 +1279,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/62/Large_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/62/Large_Chest.png",
+        imgAlt: "A large sized orange looking wooden chest with two golden clasps and a golden handle visible. The edges of the different parts are golden, and the middle clasp is a purple ornate gemstone."
     },
     {
         name: "Large Blue Chest",
@@ -1290,7 +1303,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/08/Large_Blue_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/08/Large_Blue_Chest.png",
+        imgAlt: "A large sized blue looking wooden chest with two golden clasps and a golden handle visible. The edges of the different parts are golden, and the middle clasp is a purple ornate gemstone."
     },
     {
         name: "Large Green Chest",
@@ -1313,7 +1327,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/51/Large_Green_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/51/Large_Green_Chest.png",
+        imgAlt: "A large sized green looking wooden chest with two golden clasps and a golden handle visible. The edges of the different parts are golden, and the middle clasp is a purple ornate gemstone."
     },
     {
         name: "Large Red Chest",
@@ -1336,7 +1351,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ea/Large_Red_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ea/Large_Red_Chest.png",
+        imgAlt: "A large sized red looking wooden chest with two golden clasps and a golden handle visible. The edges of the different parts are golden, and the middle clasp is a purple ornate gemstone."
     },
     {
         name: "Large White Chest",
@@ -1359,7 +1375,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/65/Large_White_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/65/Large_White_Chest.png",
+        imgAlt: "A large sized white looking wooden chest with two golden clasps and a golden handle visible. The edges of the different parts are golden, and the middle clasp is a purple ornate gemstone."
     },
     {
         name: "Large Yellow Chest",
@@ -1382,7 +1399,8 @@ const chests = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Large_Yellow_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Large_Yellow_Chest.png",
+        imgAlt: "A large sized yellow looking wooden chest with two golden clasps and a golden handle visible. The edges of the different parts are golden, and the middle clasp is a purple ornate gemstone."
     }
 ]
 
