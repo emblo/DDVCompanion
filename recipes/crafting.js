@@ -495,7 +495,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/d/d7/Asphalt.png/150px-Asphalt.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/d/d7/Asphalt.png/150px-Asphalt.png",
+        imgAlt: "A square 2D image showcasing the texture for asphalt, which looks like dark gray gravel."
     },
     {
         name: "Asphalt with Border",
@@ -514,7 +515,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/47/Asphalt_with_Border.png/150px-Asphalt_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/47/Asphalt_with_Border.png/150px-Asphalt_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for asphalt, which looks like dark gray gravel. There is a light gray stone like border around it."
     },
     {
         name: "Brick Road",
@@ -525,7 +527,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/9/92/Brick_Road.png/150px-Brick_Road.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/9/92/Brick_Road.png/150px-Brick_Road.png",
+        imgAlt: "A square 2D image showcasing the texture for a brick road, which looks like light gray stone bricks of irregular sizes."
     },
     {
         name: "Brick Road with Border",
@@ -536,7 +539,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/3/3d/Brick_Road_with_Border.png/150px-Brick_Road_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/3/3d/Brick_Road_with_Border.png/150px-Brick_Road_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for a brick road, which looks like light gray stone bricks of irregular sizes. There's a light darkers shade of gray as a border around it, with bricks of roughly equal size."
     },
     {
         name: "Deluxe Sugar Cookie Pavement",
@@ -547,7 +551,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/4b/Deluxe_Sugar_Cookie_Pavement.png/150px-Deluxe_Sugar_Cookie_Pavement.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/4b/Deluxe_Sugar_Cookie_Pavement.png/150px-Deluxe_Sugar_Cookie_Pavement.png",
+        imgAlt: "A square 2D image showcasing the texture for a candy road. It has a checkered pattern square in the middle with two white squares and two pink ones with multi-colored sprinkles. The boarder of the image has swirly candies in different colors and little chocolate pieces placed in the middle of each side."
     },
     {
         name: "Gem & Opal Road",
@@ -566,7 +571,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/d/d5/Gem_%26_Opal_Road.png/150px-Gem_%26_Opal_Road.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/d/d5/Gem_%26_Opal_Road.png/150px-Gem_%26_Opal_Road.png",
+        imgAlt: "A square 2D image showcasing the texture for a white road with a square pink gemstone placed diagonally. From each edge on the gem, a thick golden line goes to the edge of the image."
     },
     {
         name: "Gem & Opal Road with Border",
@@ -585,7 +591,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/4e/Gem_%26_Opal_Road_with_Border.png/150px-Gem_%26_Opal_Road_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/4e/Gem_%26_Opal_Road_with_Border.png/150px-Gem_%26_Opal_Road_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for a white road with a square pink gemstone placed diagonally. From each edge on the gem, a thick golden line goes to the edge of the image. The border is a slightly patterned deep gold."
     },
     {
         name: "Gold & Opal Road",
@@ -600,7 +607,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/45/Gold_%26_Opal_Road.png/150px-Gold_%26_Opal_Road.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/45/Gold_%26_Opal_Road.png/150px-Gold_%26_Opal_Road.png",
+        imgAlt: "A square 2D image showcasing the texture for a white road with a golden cross forming in the center reaching out to each edge."
     },
     {
         name: "Gold & Opal Road with Border",
@@ -615,7 +623,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/c/ce/Gold_%26_Opal_Road_with_Border.png/150px-Gold_%26_Opal_Road_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/c/ce/Gold_%26_Opal_Road_with_Border.png/150px-Gold_%26_Opal_Road_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for a white road with a golden cross forming in the center reaching out to each edge. The border is a slightly patterned deep gold."
     },
     {
         name: "Golden Brick Road",
@@ -626,7 +635,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/21/Golden_Brick_Road.png/150px-Golden_Brick_Road.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/21/Golden_Brick_Road.png/150px-Golden_Brick_Road.png",
+        imgAlt: "A square 2D image showcasing the texture for a brick road, which looks like uniform gold rectangles."
     },
     {
         name: "Golden Brick Road with Border",
@@ -637,7 +647,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/f/f4/Golden_Brick_Road_with_Border.png/150px-Golden_Brick_Road_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/f/f4/Golden_Brick_Road_with_Border.png/150px-Golden_Brick_Road_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for a brick road, which looks like uniform gold rectangles. The border is a slightly patterned deep gold."
     },
     {
         name: "Leaf-Strewn Path",
@@ -652,7 +663,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/f/f2/Leaf-Strewn_Path.png/150px-Leaf-Strewn_Path.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/f/f2/Leaf-Strewn_Path.png/150px-Leaf-Strewn_Path.png",
+        imgAlt: "A square 2D image showcasing the texture for a natural looking path that looks like its made from dried leaves and bark."
     },
     {
         name: "Leaf-Strewn Path with Border",
@@ -667,7 +679,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/2b/Leaf-Strewn_Path_with_Border.png/150px-Leaf-Strewn_Path_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/2b/Leaf-Strewn_Path_with_Border.png/150px-Leaf-Strewn_Path_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for a natural looking path that looks like its made from dried leaves and bark. The border looks like four thin but long wooden planks on each side of the image."
     },
     {
         name: "Loose Gravel Path",
@@ -682,7 +695,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/d/d4/Loose_Gravel_Path.png/150px-Loose_Gravel_Path.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/d/d4/Loose_Gravel_Path.png/150px-Loose_Gravel_Path.png",
+        imgAlt: "A square 2D image showcasing the texture for a light gray gravel path."
     },
     {
         name: "Loose Gravel Path with Border",
@@ -697,7 +711,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/8/82/Loose_Gravel_Path_with_Border.png/150px-Loose_Gravel_Path_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/8/82/Loose_Gravel_Path_with_Border.png/150px-Loose_Gravel_Path_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for a light gray gravel path. The border looks like dark irregular cobblestones."
     },
     {
         name: "Muddy Path",
@@ -712,7 +727,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/e/e6/Muddy_Path.png/150px-Muddy_Path.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/e/e6/Muddy_Path.png/150px-Muddy_Path.png",
+        imgAlt: "A square 2D image showcasing the texture for a brown mud path with tiny clumps of mud in it."
     },
     {
         name: "Muddy Path with Border",
@@ -727,7 +743,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/45/Muddy_Path_with_Border.png/150px-Muddy_Path_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/4/45/Muddy_Path_with_Border.png/150px-Muddy_Path_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for a brown mud path with tiny clumps of mud in it. The border looks like dark irregular cobblestones."
     },
     {
         name: "Natural Rock Path",
@@ -742,7 +759,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/28/Natural_Rock_Path.png/150px-Natural_Rock_Path.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/28/Natural_Rock_Path.png/150px-Natural_Rock_Path.png",
+        imgAlt: "A square 2D image showcasing the texture for a light gray stone path with flat irregular rocks placed on a dark gray foundation."
     },
     {
         name: "Natural Rock Path with Border",
@@ -757,7 +775,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/2e/Natural_Rock_Path_with_Border.png/150px-Natural_Rock_Path_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/2/2e/Natural_Rock_Path_with_Border.png/150px-Natural_Rock_Path_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for a light gray stone path with flat irregular rocks placed on a dark gray foundation. The border looks like several uniform mosaic pieces in varying shades of grade."
     },
     {
         name: "Sinister Brick Road",
@@ -772,7 +791,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/1/19/Sinister_Brick_Road.png/150px-Sinister_Brick_Road.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/1/19/Sinister_Brick_Road.png/150px-Sinister_Brick_Road.png",
+        imgAlt: "A square 2D image showcasing the texture for a dark irregular stone bricks on top of dark purple grass."
     },
     {
         name: "Sinister Brick Road with Border",
@@ -787,7 +807,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/b/b4/Sinister_Brick_Road_with_Border.png/150px-Sinister_Brick_Road_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/b/b4/Sinister_Brick_Road_with_Border.png/150px-Sinister_Brick_Road_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for a dark irregular stone bricks on top of dark purple grass. The border looks like dark uniform stone bricks."
     },
     {
         name: "Snowy Brick Road",
@@ -802,7 +823,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/9/96/Snowy_Brick_Road.png/150px-Snowy_Brick_Road.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/9/96/Snowy_Brick_Road.png/150px-Snowy_Brick_Road.png",
+        imgAlt: "A square 2D image showcasing the texture for a gray irregular brick road on top of snow."
     },
     {
         name: "Snowy Brick Road with Border",
@@ -817,7 +839,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/8/84/Snowy_Brick_Road_with_Border.png/150px-Snowy_Brick_Road_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/8/84/Snowy_Brick_Road_with_Border.png/150px-Snowy_Brick_Road_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for a gray irregular brick road on top of snow. The border looks like light uniform bricks partially covered by snow."
     },
     {
         name: "Sugar Cookie Pavement",
@@ -828,7 +851,9 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/0/05/Sugar_Cookie_Pavement.png/150px-Sugar_Cookie_Pavement.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/0/05/Sugar_Cookie_Pavement.png/150px-Sugar_Cookie_Pavement.png",
+        imgAlt: "A square 2D image showcasing the texture for a candy road. It has a checkered pattern square in the middle with two white squares and two pink ones with multi-colored sprinkles."
+
     },
     {
         name: "Sun-Baked Earthen Road",
@@ -843,7 +868,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/c/c1/Sun-Baked_Earthen_Road.png/150px-Sun-Baked_Earthen_Road.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/c/c1/Sun-Baked_Earthen_Road.png/150px-Sun-Baked_Earthen_Road.png",
+        imgAlt: "A square 2D image showcasing the texture for an orange dirt road."
     },
     {
         name: "Sun-Baked Earthen Road with Border",
@@ -858,7 +884,8 @@ const paving = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/0/0f/Sun-Baked_Earthen_Road_with_Border.png/150px-Sun-Baked_Earthen_Road_with_Border.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/thumb/0/0f/Sun-Baked_Earthen_Road_with_Border.png/150px-Sun-Baked_Earthen_Road_with_Border.png",
+        imgAlt: "A square 2D image showcasing the texture for an orange dirt road. The border is made up of dark brown irregular bricks."
     }
 ]
 
