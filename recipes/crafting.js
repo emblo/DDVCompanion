@@ -1959,7 +1959,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Barrel_Part.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Barrel_Part.png",
+        imgAlt: "A broken wooden barrel. Five irregular shaped planks can be seen attached to a rusted metal ring."
     },
     {
         name: "Half-Barrel",
@@ -1974,7 +1975,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Half-Barrel.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Half-Barrel.png",
+        imgAlt: "A broken wooden barrel. A few pieces of it are missing, and holding the vertical planks together are two rusted looking metal rings."
     },
     {
         name: "Old Barrel",
@@ -1989,7 +1991,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ed/Old_Barrel.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ed/Old_Barrel.png",
+        imgAlt: "A wodden barrel made up from vertical wooden planks held together by two rusted looking metal rings."
     },
     {
         name: "Basket",
@@ -2004,7 +2007,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e4/Basket.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e4/Basket.png",
+        imgAlt: "A green woven basked with a light yellow rim and two white flowers."
     },
     {
         name: "Bench",
@@ -2019,7 +2023,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f7/Bench.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f7/Bench.png",
+        imgAlt: "A wooden bench with metal details."
     },
     {
         name: "Broken Carved Pillar Base",
@@ -2038,7 +2043,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Broken_Carved_Pillar_Base.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Broken_Carved_Pillar_Base.png",
+        imgAlt: "A cylinder shaped patterned stone pillar that is thinner on the bottom and partially covered in moss."
     },
     {
         name: "Broken Pillar Base",
@@ -2057,7 +2063,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Broken_Pillar_Base.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Broken_Pillar_Base.png",
+        imgAlt: "A small and stumpy stone pillar that looks like it's been broken off on the top. Partially covered in moss."
     },
     {
         name: "Mossy Base",
@@ -2076,7 +2083,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Mossy_Base.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Mossy_Base.png",
+        imgAlt: "A rectangular piece of stone covered in moss."
     },
     {
         name: "Mossy Circle-Carving Stone",
@@ -2095,7 +2103,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Mossy_Circle-Carving_Stone.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Mossy_Circle-Carving_Stone.png",
+        imgAlt: "An oval shaped patterned stone, partially covered in moss."
     },
     {
         name: "Mossy Eye-Carving Stone",
@@ -2114,7 +2123,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8c/Mossy_Eye-Carving_Stone.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8c/Mossy_Eye-Carving_Stone.png",
+        imgAlt: "An oval stone, partially covered in rock with a pattern that resembles an open eye with ridges beaming out from it."
     },
     {
         name: "Low Sculpted Pillar",
@@ -2133,7 +2143,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/19/Low_Sculpted_Pillar.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/19/Low_Sculpted_Pillar.png",
+        imgAlt: "A rectangular piece of patterned stone that's thinner at the base and has two round shapes stacked on top of each other on the top. Partially covered in moss."
     },
     {
         name: "Bunny Cutout",
@@ -2156,7 +2167,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/73/Bunny_Cutout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/73/Bunny_Cutout.png",
+        imgAlt: "A piece of cardboard with a drawn bunny in what looks like crayons."
     },
     {
         name: "Fox Cutout",
@@ -2171,7 +2183,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fd/Fox_Cutout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fd/Fox_Cutout.png",
+        imgAlt: "A piece of cardboard with a drawn fox in what looks like crayons."
     },
     {
         name: "Log Cutout",
@@ -2190,7 +2203,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/19/Log_Cutout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/19/Log_Cutout.png",
+        imgAlt: "A piece of cardboard with a drawn log, rocks and a sun, in what looks like crayons."
     },
     {
         name: "Moss-Covered Rock Cutout",
@@ -2209,7 +2223,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f1/Moss-Covered_Rock_Cutout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f1/Moss-Covered_Rock_Cutout.png",
+        imgAlt: "A piece of cardboard with three drawn rocks covered partially in moss, in what looks like crayons."
     },
     {
         name: "Oak Tree Cutout",
@@ -2228,7 +2243,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/52/Oak_Tree_Cutout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/52/Oak_Tree_Cutout.png",
+        imgAlt: "A piece of cardboard with a drawn oak tree in what looks like crayons."
     },
     {
         name: "Pine Tree Cutout",
@@ -2247,7 +2263,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a0/Pine_Tree_Cutout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a0/Pine_Tree_Cutout.png",
+        imgAlt: "A piece of cardboard with a drawn pine tree in what looks like crayons."
     },
     {
         name: "Poplar Tree Cutout",
@@ -2266,7 +2283,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b5/Poplar_Tree_Cutout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b5/Poplar_Tree_Cutout.png",
+        imgAlt: "A piece of cardboard with a drawn poplar tree in what looks like crayons."
     },
     {
         name: "Raccoon Cutout",
@@ -2281,7 +2299,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a9/Raccoon_Cutout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a9/Raccoon_Cutout.png",
+        imgAlt: "A piece of cardboard with a drawn raccoon in what looks like crayons."
     },
     {
         name: "Rock and Ferns Cutout",
@@ -2300,7 +2319,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/4c/Rock_and_Ferns_Cutout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4c/Rock_and_Ferns_Cutout.png",
+        imgAlt: "A piece of cardboard with several drawn rocks covered partially in moss with fern, in what looks like crayons."
     },
     {
         name: "Rock Cutout",
@@ -2315,7 +2335,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f0/Rock_Cutout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f0/Rock_Cutout.png",
+        imgAlt: "A piece of cardboard with several drawn rocks covered in what looks like snow, in what looks like crayons."
     },
     {
         name: "Squirrel Cutout",
@@ -2330,7 +2351,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Squirrel_Cutout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Squirrel_Cutout.png",
+        imgAlt: "A piece of cardboard with a drawn squirrel in what looks like crayons."
     },
     {
         name: "Burlap Bags",
@@ -2345,7 +2367,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c4/Burlap_Bags.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c4/Burlap_Bags.png",
+        imgAlt: "Two burlap bags posed on top of each other. A print is showing on one of them, a little bit of brown soil with a plant growing out of it."
     },
     {
         name: "Cart",
@@ -2360,7 +2383,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Cart.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Cart.png",
+        imgAlt: "A small wooden cart with metal details."
     },
     {
         name: "Crate",
@@ -2371,7 +2395,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Crate.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Crate.png",
+        imgAlt: "A square wooden crate with visible nails where the boards meet the edge ends diagonally."
     },
     {
         name: "Elegant Gazebo",
@@ -2394,7 +2419,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/85/Elegant_Gazebo.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/85/Elegant_Gazebo.png",
+        imgAlt: "A white gazebo with a glass roof and gold details. Hanging lights cover the end of the roof of it, and greenery is wrapped around each pillar and in places on the roof."
     },
     {
         name: "Elegant Town Square Clock",
@@ -2417,7 +2443,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/95/Elegant_Town_Square_Clock.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/95/Elegant_Town_Square_Clock.png",
+        imgAlt: "A white, blue and gold clock tower. The blue shingled roof holds a golden orb with blue details on the top."
     },
     {
         name: "Rustic Clock Tower",
@@ -2440,7 +2467,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d7/Rustic_Clock_Tower.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d7/Rustic_Clock_Tower.png",
+        imgAlt: "A wooden clock tower with golden and white details. The base is made out of dark stone with some greenery on it."
     },
     {
         name: "Festive Pennants",
@@ -2459,7 +2487,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Festive_Pennants.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Festive_Pennants.png",
+        imgAlt: "Two vertical metal bars with gold details at the top. Inbetween them purple and pink triangular pieces of fabric are arranged."
     },
     {
         name: "Wrought Iron Arch",
@@ -2474,7 +2503,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Wrought_Iron_Arch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Wrought_Iron_Arch.png",
+        imgAlt: "Two metal bars with brown details. On the top a filigree arch with the iconic Disney Mickey emblem can be seen, two round ears on top of a round face."
     },
     {
         name: "Fishing Trap",
@@ -2485,7 +2515,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/64/Fishing_Trap.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/64/Fishing_Trap.png",
+        imgAlt: "Four cylinder shaped wooden fish traps held together by fiber thread. It tapers off towards the end."
     },
     {
         name: "Fountain",
@@ -2504,7 +2535,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/89/Fountain.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/89/Fountain.png",
+        imgAlt: "A big round fountain on top of a patterned base. In the middle of the fountain a golden Fantasia Mickey can be seen at the end of a golden swirl."
     },
     {
         name: "Compass Ottoman",
@@ -2531,7 +2563,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9b/Compass_Ottoman.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9b/Compass_Ottoman.png",
+        imgAlt: "A square blue ottoman with wooden details and a rope handle on the side. On the top a compass pattern can be seen."
     },
     {
         name: "Nautical-Themed-Couch",
@@ -2558,7 +2591,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/62/Nautical-Themed_Couch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/62/Nautical-Themed_Couch.png",
+        imgAlt: "A long rectangular blue couch with wooden details and a rope handle. In the middle of the seating area a compass pattern can be seen. Three red and black pillows are placed on the couch."
     },
     {
         name: "Ship Coffee Table",
@@ -2577,7 +2611,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Ship_Coffee_Table.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Ship_Coffee_Table.png",
+        imgAlt: "A coffee table shaped like a ship with a blue top and black details. Books and various clutter items can be seen on top of the table."
     },
     {
         name: "Charter Rug",
@@ -2588,7 +2623,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c3/Charter_Rug.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c3/Charter_Rug.png",
+        imgAlt: "A blue rug with white silhouettes of continets with light colored details and lines."
     },
     {
         name: "Helm Bookshelf",
@@ -2603,7 +2639,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f3/Helm_Bookshelf.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f3/Helm_Bookshelf.png",
+        imgAlt: "A wooden bookshelf with books and various clutter items that's arched on top. Wooden pegs stick out of the top which makes it resemble the wheel of a ship."
     },
     {
         name: "Pirate Map on the Wall",
@@ -2622,7 +2659,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Pirate_Map_on_the_Wall.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Pirate_Map_on_the_Wall.png",
+        imgAlt: "A vertical metal rod with round endings and golden details. Hanging from the rod is a weathered brown map."
     },
     {
         name: "Refreshment Chest",
@@ -2641,7 +2679,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/55/Refreshment_Chest.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/55/Refreshment_Chest.png",
+        imgAlt: "An open wooden chest with dark wooden legs and golden details. The inside of the chest is blue ice."
     },
     {
         name: "Wide Arched Window",
@@ -2660,7 +2699,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/12/Wide_Arched_Window.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/12/Wide_Arched_Window.png",
+        imgAlt: "A half-moon shaped brown window with gold filigree details and a frosted gray window."
     },
     {
         name: "Classic Snowman",
@@ -2683,7 +2723,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/87/Classic_Snowman.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/87/Classic_Snowman.png",
+        imgAlt: "A snowman made up of three stacked snowballs with a blue scarf, a blue hat with white and red details, and two sticks for arms, two black eyes and a carrot for a nose."
     },
     {
         name: "Haughty Snowman",
@@ -2706,7 +2747,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/3c/Haughty_Snowman.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3c/Haughty_Snowman.png",
+        imgAlt: "A snowman made up of three stacked snowballs with a blue scarf, golden buttons, two gem eyes, a monocle, and a black tophat with a red ribbon."
     },
     {
         name: "Snow Kid",
@@ -2729,7 +2771,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/58/Snow_Kid.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/58/Snow_Kid.png",
+        imgAlt: "A small snowman consisting of two snowballs stacked on top of each other. He has rock eyes and buttons, two sticks for arms and a carrot for a nose. He has a beige cap and scarf."
     },
     {
         name: "Snow Lady",
@@ -2752,7 +2795,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Snow_Lady.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Snow_Lady.png",
+        imgAlt: "A snowlady consisting of three snowballs stacked on top of each other. She has rock eyes and buttons, two sticks for arms, a carrot for a nose and a pink scarf and hairbow."
     },
     {
         name: "DJ Booth Rig",
@@ -2775,7 +2819,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/55/DJ_Booth_Rig.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/55/DJ_Booth_Rig.png",
+        imgAlt: "A big black DJ booth with white details, turntables, a metal rack with multicolored lights on top."
     },
     {
         name: "Stellar Blue DJ Booth",
@@ -2794,7 +2839,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/24/Stellar_Blue_DJ_Booth.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/24/Stellar_Blue_DJ_Booth.png",
+        imgAlt: "A blue and white DJ booth with turntables and white stars and sparkles."
     },
     {
         name: "Stellar Pink DJ Booth",
@@ -2813,7 +2859,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fb/Stellar_Pink_DJ_Booth.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fb/Stellar_Pink_DJ_Booth.png",
+        imgAlt: "A purple and white DJ booth with turntables and white stars and sparkles."
     },
     {
         name: "Granite Fire Bowl",
@@ -2836,7 +2883,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Granite_Fire_Bowl.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Granite_Fire_Bowl.png",
+        imgAlt: "A light brown round granite bowl on top of brown bricks. There's a red pattern on the bowl and fired up embers inside of it."
     },
     {
         name: "Hay Bale",
@@ -2851,7 +2899,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Hay_Bale.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Hay_Bale.png",
+        imgAlt: "A haybale on its side held together with three fiber ropes."
     },
     {
         name: "Hay Bales",
@@ -2866,7 +2915,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/77/Hay_Bales.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/77/Hay_Bales.png",
+        imgAlt: "Three haybales, with two of them on their side, held together with three fiber ropes."
     },
     {
         name: "Heavy Wooden Table",
@@ -2877,7 +2927,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Heavy_Wooden_Table.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Heavy_Wooden_Table.png",
+        imgAlt: "A rectangular wooden table with metal details."
     },
     {
         name: "Wooden Table",
@@ -2892,7 +2943,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f4/Wooden_Table.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f4/Wooden_Table.png",
+        imgAlt: "A rectangular wooden table with metal details and a striped blue tablecloth."
     },
     {
         name: "Painted Wood Table",
@@ -2907,7 +2959,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9b/Painted_Wood_Table.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9b/Painted_Wood_Table.png",
+        imgAlt: "A painted blue wooden two tiered table."
     },
     {
         name: "Sturdy Chair",
@@ -2918,7 +2971,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/41/Sturdy_Chair.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/41/Sturdy_Chair.png",
+        imgAlt: "A wooden chair with metal details."
     },
     {
         name: "Mickey Mouse Water Tower",
@@ -2937,7 +2991,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/23/Mickey_Mouse_Water_Tower.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/23/Mickey_Mouse_Water_Tower.png",
+        imgAlt: "A large water tower with a white top and two black Mickey Mouse ears. The legs of the tower are intertwined pieces of metal."
     },
     {
         name: "Outhouse",
@@ -2960,7 +3015,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f1/Outhouse.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f1/Outhouse.png",
+        imgAlt: "A red wooden outhouse with white trim, metal details and a black Mickey Mouse icon on the door."
     },
     {
         name: "Photo Backdrop",
@@ -2983,7 +3039,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/07/Photo_Backdrop.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/07/Photo_Backdrop.png",
+        imgAlt: "A large greenscreen with lights placed on it, and it has a black trim."
     },
     {
         name: "Rustic Wooden Case",
@@ -2994,7 +3051,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Rustic_Wooden_Case.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Rustic_Wooden_Case.png",
+        imgAlt: "A rectangular wooden open box without a lid made up from smaller planks."
     },
     {
         name: "Sack",
@@ -3009,7 +3067,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/61/Sack.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/61/Sack.png",
+        imgAlt: "A burlap bag tied together with a piece of rope."
     },
     {
         name: "Tall Birdhouse",
@@ -3028,7 +3087,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/7b/Tall_Birdhouse.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7b/Tall_Birdhouse.png",
+        imgAlt: "A blue birdhouse with dark blue details and an orange roof. Around the base of the tree a vine with flowers is wrapped."
     },
     {
         name: "Short Birdhouse",
@@ -3047,7 +3107,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fc/Short_Birdhouse.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fc/Short_Birdhouse.png",
+        imgAlt: "A yellow birdhouse with dark blue details and an orange roof. Around the base of the tree a vine with flowers is wrapped."
     },
     {
         name: "Stack of Firewood",
@@ -3058,7 +3119,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Stack_of_Firewood.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Stack_of_Firewood.png",
+        imgAlt: "A stack of firewood with purple-ish bark and light logs, stacked on top of each other."
     },
     {
         name: "Stall",
@@ -3077,7 +3139,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Stall.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Stall.png",
+        imgAlt: "A wooden stall with a little sign, and two striped pieces of blue fabric on top."
     },
     {
         name: "Stone Well",
@@ -3096,7 +3159,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/86/Stone_Well.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/86/Stone_Well.png",
+        imgAlt: "A stone well partially covered by moss, with wooden details, a winch, and shingles in various shades of blue."
     },
     {
         name: "Stitch's Television",
@@ -3115,7 +3179,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Stitch%27s_Television.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Stitch%27s_Television.png",
+        imgAlt: "An older looking rectangular TV with two buttons, and two antennas. The colors are various shades of brown and black."
     },
     {
         name: "Swimming Pool",
@@ -3134,7 +3199,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Swimming_Pool.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Swimming_Pool.png",
+        imgAlt: "A rectangular swimming pool made of white stone bricks, deep blue water and a ladder and trampoline."
     },
     {
         name: "Tool Rack",
@@ -3153,7 +3219,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e6/Tool_Rack.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e6/Tool_Rack.png",
+        imgAlt: "A wooden rack filled with tools such as rake, shovels, and hoe."
     },
     {
         name: "Trellis",
@@ -3172,7 +3239,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e1/Trellis.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e1/Trellis.png",
+        imgAlt: "A wooden trellis wall with lattice, green vines, and pink flowers."
     },
     {
         name: "Trellis Arch",
@@ -3191,7 +3259,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Trellis_Arch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Trellis_Arch.png",
+        imgAlt: "A wooden trellis entrance with lattice, green vines, and pink flowers."
     },
     {
         name: "Wooden Bucket",
@@ -3206,7 +3275,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c1/Wooden_Bucket.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c1/Wooden_Bucket.png",
+        imgAlt: "A wooden bucket with black metal details, a black handle, and filled with blue water."
     },
     {
         name: "Zen Garden",
@@ -3225,7 +3295,8 @@ const furniture = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/21/Zen_Garden.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/21/Zen_Garden.png",
+        imgAlt: "A rocky zen garden made from multi-colored pebbles, whtie sand, a lantern, moss covered rocks and bamboo."
     }
 ]
 
