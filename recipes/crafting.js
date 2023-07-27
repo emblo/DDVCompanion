@@ -4811,7 +4811,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/3f/Black_Wrought_Iron_Streetlamp.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3f/Black_Wrought_Iron_Streetlamp.png",
+        imgAlt: "A black intricate iron metal lamp with white light."
     },
     {
         name: "Blue Wrought Iron Streetlamp",
@@ -4830,7 +4831,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Blue_Wrought_Iron_Streetlamp.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Blue_Wrought_Iron_Streetlamp.png",
+        imgAlt: "A black intricate iron metal lamp with blue light."
     },
     {
         name: "Green Wrought Iron Streetlamp",
@@ -4849,7 +4851,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9f/Green_Wrought_Iron_Streetlamp.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9f/Green_Wrought_Iron_Streetlamp.png",
+        imgAlt: "A black intricate iron metal lamp with green light."
     },
     {
         name: "Purple Wrought Iron Streetlamp",
@@ -4868,7 +4871,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/87/Purple_Wrought_Iron_Streetlamp.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/87/Purple_Wrought_Iron_Streetlamp.png",
+        imgAlt: "A black intricate iron metal lamp with purple light."
     },
     {
         name: "Wooden Lamppost with Yellow Light",
@@ -4891,7 +4895,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/72/Wooden_Lamppost_with_Yellow_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/72/Wooden_Lamppost_with_Yellow_Light.png",
+        imgAlt: "A wooden lamppost with a metal base, metal details and a hanging lantern with yellow light."
     },
     {
         name: "Wooden Lamppost with Blue Light",
@@ -4914,7 +4919,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d1/Wooden_Lamppost_with_Blue_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d1/Wooden_Lamppost_with_Blue_Light.png",
+        imgAlt: "A wooden lamppost with a metal base, metal details and a hanging lantern with blue light."
     },
     {
         name: "Wooden Lamppost with Green Light",
@@ -4937,7 +4943,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fd/Wooden_Lamppost_with_Green_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fd/Wooden_Lamppost_with_Green_Light.png",
+        imgAlt: "A wooden lamppost with a metal base, metal details and a hanging lantern with green light."
     },
     {
         name: "Wooden Lamppost with Pink Light",
@@ -4960,7 +4967,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e4/Wooden_Lamppost_with_Pink_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e4/Wooden_Lamppost_with_Pink_Light.png",
+        imgAlt: "A wooden lamppost with a metal base, metal details and a hanging lantern with pink light."
     },
     {
         name: "Yellow Light High Beach Torch",
@@ -4983,7 +4991,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/79/Yellow_Light_High_Beach_Torch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/79/Yellow_Light_High_Beach_Torch.png",
+        imgAlt: "A wooden tiki torch with orange and white details and yellow light."
     },
     {
         name: "Blue Light High Beach Torch",
@@ -5006,7 +5015,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Blue_Light_High_Beach_Torch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Blue_Light_High_Beach_Torch.png",
+        imgAlt: "A wooden tiki torch with orange and white details and blue light."
     },
     {
         name: "Green Light High Beach Torch",
@@ -5029,7 +5039,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e7/Green_Light_High_Beach_Torch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e7/Green_Light_High_Beach_Torch.png",
+        imgAlt: "A wooden tiki torch with orange and white details and green light."
     },
     {
         name: "Red Light High Beach Torch",
@@ -5052,7 +5063,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Red_Light_High_Beach_Torch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Red_Light_High_Beach_Torch.png",
+        imgAlt: "A wooden tiki torch with orange and white details and red light."
     },
     {
         name: "Yellow Light Low Beach Torch",
@@ -5075,7 +5087,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/de/Yellow_Light_Low_Beach_Torch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/de/Yellow_Light_Low_Beach_Torch.png",
+        imgAlt: "A short wooden tiki torch with orange and white details and yellow light."
     },
     {
         name: "Blue Light Low Beach Torch",
@@ -5098,7 +5111,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Blue_Light_Low_Beach_Torch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Blue_Light_Low_Beach_Torch.png",
+        imgAlt: "A short wooden tiki torch with orange and white details and blue light."
     },
     {
         name: "Green Light Low Beach Torch",
@@ -5121,7 +5135,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/3e/Green_Light_Low_Beach_Torch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3e/Green_Light_Low_Beach_Torch.png",
+        imgAlt: "A short wooden tiki torch with orange and white details and green light."
     },
     {
         name: "Red Light Low Beach Torch",
@@ -5144,7 +5159,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Red_Light_Low_Beach_Torch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Red_Light_Low_Beach_Torch.png",
+        imgAlt: "A short wooden tiki torch with orange and white details and red light."
     },
     {
         name: "Lamppost with Yellow Light",
@@ -5163,7 +5179,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/db/Lamppost_with_Yellow_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/db/Lamppost_with_Yellow_Light.png",
+        imgAlt: "A dark metal lamppost with yellow light."
     },
     {
         name: "Lamppost with Blue Light",
@@ -5182,7 +5199,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/13/Lamppost_with_Blue_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/13/Lamppost_with_Blue_Light.png",
+        imgAlt: "A dark metal lamppost with blue light."
     },
     {
         name: "Lamppost with Green Light",
@@ -5201,7 +5219,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/96/Lamppost_with_Green_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/96/Lamppost_with_Green_Light.png",
+        imgAlt: "A dark metal lamppost with green light."
     },
     {
         name: "Lamppost with Red Light",
@@ -5220,7 +5239,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/01/Lamppost_with_Red_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/01/Lamppost_with_Red_Light.png",
+        imgAlt: "A dark metal lamppost with red light."
     },
     {
         name: "Round Lamppost with White Light",
@@ -5239,7 +5259,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Round_Lamppost_with_White_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Round_Lamppost_with_White_Light.png",
+        imgAlt: "A light gray lamppost with a round white light."
     },
     {
         name: "Round Lamppost with Blue Light",
@@ -5258,7 +5279,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e0/Round_Lamppost_with_Blue_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e0/Round_Lamppost_with_Blue_Light.png",
+        imgAlt: "A light gray lamppost with a round blue light."
     },
     {
         name: "Round Lamppost with Orange Light",
@@ -5277,7 +5299,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8b/Round_Lamppost_with_Orange_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8b/Round_Lamppost_with_Orange_Light.png",
+        imgAlt: "A light gray lamppost with a round orange light."
     },
     {
         name: "Round Lamppost with Pink Light",
@@ -5296,7 +5319,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/99/Round_Lamppost_with_Pink_Light.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/99/Round_Lamppost_with_Pink_Light.png",
+        imgAlt: "A light gray lamppost with a round pink light."
     },
     {
         name: "Round White Three-Pronged Lamppost",
@@ -5315,7 +5339,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/3c/Round_White_Three-Pronged_Lamppost.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3c/Round_White_Three-Pronged_Lamppost.png",
+        imgAlt: "A light gray lamppost with three round white lights."
     },
     {
         name: "Round Blue Three-Pronged Lamppost",
@@ -5334,7 +5359,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e1/Round_Blue_Three-Pronged_Lamppost.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e1/Round_Blue_Three-Pronged_Lamppost.png",
+        imgAlt: "A light gray lamppost with three round blue lights."
     },
     {
         name: "Round Orange Three-Pronged Lamppost",
@@ -5353,7 +5379,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/30/Round_Orange_Three-Pronged_Lamppost.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/30/Round_Orange_Three-Pronged_Lamppost.png",
+        imgAlt: "A light gray lamppost with three round orange lights."
     },
     {
         name: "Round Pink Three-Pronged Lamppost",
@@ -5372,7 +5399,8 @@ const lamps = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ee/Round_Pink_Three-Pronged_Lamppost.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ee/Round_Pink_Three-Pronged_Lamppost.png",
+        imgAlt: "A light gray lamppost with three round pink lights."
     }
 ]
 
