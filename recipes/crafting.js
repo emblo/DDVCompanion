@@ -1423,7 +1423,8 @@ const stoves = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Black_Flat-Top_Stove.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Black_Flat-Top_Stove.png",
+        imgAlt: "A black flat-top stove. The details on the stove look light purple and the oven door is dark glass."
     },
     {
         name: "Black Gas Stove",
@@ -1438,7 +1439,8 @@ const stoves = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a6/Black_Gas_Stove.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a6/Black_Gas_Stove.png",
+        imgAlt: "A black gas stove. The details on the stove look light purple and black, and the oven door is dark glass."
     },
     {
         name: "Gray Flat-Top Stove",
@@ -1453,7 +1455,8 @@ const stoves = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Gray_Flat-Top_Stove.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Gray_Flat-Top_Stove.png",
+        imgAlt: "A dark gray flat-top stove. The details on the stove look light purple and the oven door is dark glass."
     },
     {
         name: "Gray Gas Stove",
@@ -1468,7 +1471,8 @@ const stoves = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1c/Gray_Gas_Stove.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1c/Gray_Gas_Stove.png",
+        imgAlt: "A gray gas stove. The details on the stove look light purple and black, and the oven door is dark glass."
     },
     {
         name: "Pale Gray Flat-Top Stove",
@@ -1483,7 +1487,8 @@ const stoves = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1e/Pale_Gray_Flat-Top_Stove.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1e/Pale_Gray_Flat-Top_Stove.png",
+        imgAlt: "A light gray flat-top stove. The details on the stove look white, and the oven door is dark glass."
     },
     {
         name: "Pale Gray Gas Stove",
@@ -1498,7 +1503,8 @@ const stoves = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Pale_Gray_Gas_Stove.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Pale_Gray_Gas_Stove.png",
+        imgAlt: "A light gray gas stove. The details on the stove look white and black, and the oven door is dark glass."
     },
     {
         name: "Pink Flat-Top Stove",
@@ -1517,7 +1523,8 @@ const stoves = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/cf/Pink_Flat-Top_Stove.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cf/Pink_Flat-Top_Stove.png",
+        imgAlt: "A pink flat-top stove. The details on the stove look dark and light purple, and the oven door is dark glass."
     },
     {
         name: "Pink Gas Stove",
@@ -1536,7 +1543,8 @@ const stoves = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Pink_Gas_Stove.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Pink_Gas_Stove.png",
+        imgAlt: "A pink gas stove. The details on the stove look dark and light purple, and the oven door is dark glass."
     },
     {
         name: "White Flat-Top Stove",
@@ -1551,7 +1559,8 @@ const stoves = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/04/White_Flat-Top_Stove.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/04/White_Flat-Top_Stove.png",
+        imgAlt: "A white flat-top stove. The details on the stove look dark and light purple, and the oven door is dark glass."
     },
     {
         name: "White Gas Stove",
@@ -1570,7 +1579,8 @@ const stoves = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f4/White_Gas_Stove.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f4/White_Gas_Stove.png",
+        imgAlt: "A white gas stove. The details on the stove look dark and light purple, and the oven door is dark glass."
     }
 ]
 
