@@ -1707,7 +1707,8 @@ const companions = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/93/Cozy_Companion_Home.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/93/Cozy_Companion_Home.png",
+        imgAlt: "A dog house looking home with red shingles on the roof, white trims and yellow horizontal planks, fit for the companions of Dreamlight Valley."
     },
     {
         name: "Flying Companion Feeder",
@@ -1730,7 +1731,8 @@ const companions = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ab/Flying_Companion_Feeder.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ab/Flying_Companion_Feeder.png",
+        imgAlt: "An elevated pet food bowl filled with light brown kibble. Attached to the pole that's elevating it is a slightly bent piece of metal with a piece of perching wood for the birds of Dreamlight Valley."
     },
     {
         name: "Fuzzy Friend Companion Dish",
@@ -1749,7 +1751,8 @@ const companions = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d9/Fuzzy_Friend_Companion_Dish.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d9/Fuzzy_Friend_Companion_Dish.png",
+        imgAlt: "A round red pet food bowl, filled with dark brown kibble."
     },
     {
         name: "Pixar Companion Ball",
@@ -1768,7 +1771,8 @@ const companions = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6b/Pixar_Companion_Ball.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6b/Pixar_Companion_Ball.png",
+        imgAlt: "A round yellow ball with a wide blue line going around the center of it. On either side is a solid red star."
     },
     {
         name: "Playful Companion Pinwheel",
@@ -1787,7 +1791,8 @@ const companions = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/bc/Playful_Companion_Pinwheel.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bc/Playful_Companion_Pinwheel.png",
+        imgAlt: "A pink pinwheel with a light wooden stick, stuck into some dark brown soil."
     }
 ]
 
