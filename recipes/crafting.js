@@ -3559,7 +3559,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c6/Basic_Armchair.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c6/Basic_Armchair.png",
+        imgAlt: "A white armchair with black feet."
     },
     {
         name: "Basic Beach Chair",
@@ -3578,7 +3579,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/0a/Basic_Beach_Chair.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0a/Basic_Beach_Chair.png",
+        imgAlt: "A white beach chair."
     },
     {
         name: "Basic Chair",
@@ -3589,7 +3591,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/Basic_Chair.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/Basic_Chair.png",
+        imgAlt: "A white chair with a padded seating area."
     },
     {
         name: "Basic Couch",
@@ -3604,7 +3607,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Basic_Couch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Basic_Couch.png",
+        imgAlt: "A white couch with black feet."
     },
     {
         name: "Basic Desk",
@@ -3615,7 +3619,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2f/Basic_Desk.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2f/Basic_Desk.png",
+        imgAlt: "A white desk with three drawers."
     },
     {
         name: "Basic Double Bed",
@@ -3630,7 +3635,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1e/Basic_Double_Bed.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1e/Basic_Double_Bed.png",
+        imgAlt: "A white double bed with four pillows, a cover and a folded blanket over the bed."
     },
     {
         name: "Basic Dresser",
@@ -3641,7 +3647,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Basic_Dresser_%282%29.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Basic_Dresser_%282%29.png",
+        imgAlt: "A white dresser with six drawers."
     },
     {
         name: "Basic Fridge",
@@ -3656,7 +3663,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/76/Basic_Fridge.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/76/Basic_Fridge.png",
+        imgAlt: "A white fridge with a smaller top compartment and bigger bottom compartment."
     },
     {
         name: "Basic Lamp",
@@ -3675,7 +3683,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Basic_Lamp.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Basic_Lamp.png",
+        imgAlt: "A three-legged with lamp."
     },
     {
         name: "Basic Large Table",
@@ -3686,7 +3695,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Basic_Large_Table.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Basic_Large_Table.png",
+        imgAlt: "A big white rectangular table."
     },
     {
         name: "Basic Parasol and Towel",
@@ -3701,7 +3711,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/dc/Basic_Parasol_and_Towel.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dc/Basic_Parasol_and_Towel.png",
+        imgAlt: "A white beach towel and parasol with black details. At the bottom of the parasol, a little bit of sand is visible with a bottle of sunscreen."
     },
     {
         name: "Basic Picnic Table",
@@ -3716,7 +3727,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Basic_Picnic_Table.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Basic_Picnic_Table.png",
+        imgAlt: "A white picnic table with black details and two benches."
     },
     {
         name: "Basic Rug",
@@ -3727,7 +3739,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/68/Basic_Rug.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/68/Basic_Rug.png",
+        imgAlt: "A rectangular white rug."
     },
     {
         name: "Basic Side Table",
@@ -3738,7 +3751,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ae/Basic_Side_Table.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ae/Basic_Side_Table.png",
+        imgAlt: "A small square white sidetable."
     },
     {
         name: "Basic Wardrobe",
@@ -3749,7 +3763,8 @@ const touchOfMagic = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Basic_Wardrobe.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Basic_Wardrobe.png",
+        imgAlt: "A basic wardrobe with two doors and two drawers."
     }
 ]
 
