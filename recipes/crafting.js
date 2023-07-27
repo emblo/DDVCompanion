@@ -1599,7 +1599,8 @@ const mannequins = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Thoughtful_Black_Mannequin.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Thoughtful_Black_Mannequin.png",
+        imgAlt: "A black female mannequin with a white t-shirt and blue jeans. The right hip is slightly pushed out, and the arms are folded in a way that conveys thinking."
     },
     {
         name: "Relaxed Black Mannequin",
@@ -1614,7 +1615,8 @@ const mannequins = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ed/Relaxed_Black_Mannequin.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ed/Relaxed_Black_Mannequin.png",
+        imgAlt: "A black male mannequin with a white t-shirt and blue jeans. The stance is confident with the arms by its side, conveying a relaxed state of mind."
     },
     {
         name: "Hand on Hip Black Mannequin",
@@ -1629,7 +1631,8 @@ const mannequins = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ea/Hand_on_Hip_Black_Mannequin.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ea/Hand_on_Hip_Black_Mannequin.png",
+        imgAlt: "A black female mannequin with a white t-shirt and blue jeans. The left hand is on its hip and the other hand is relaxed on its side."
     },
     {
         name: "Hesitant White Mannequin",
@@ -1644,7 +1647,8 @@ const mannequins = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/09/Hesitant_White_Mannequin.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/09/Hesitant_White_Mannequin.png",
+        imgAlt: "A white male mannequin with a gray t-shirt and dark blue jeans. The legs are spread somewhat wide, and the hands are nervously touching each other, conveying a hesitant feeling."
     },
     {
         name: "Relaxed White Mannequin",
@@ -1659,7 +1663,8 @@ const mannequins = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/4c/Relaxed_White_Mannequin.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4c/Relaxed_White_Mannequin.png",
+        imgAlt: "A white female mannequin with a gray t-shirt and dark blue jeans. The stance is confident with the arms by its side, conveying a relaxed state of mind."
     },
     {
         name: "Chin Up White Mannequin",
@@ -1674,7 +1679,8 @@ const mannequins = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fa/Chin_Up_White_Mannequin.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fa/Chin_Up_White_Mannequin.png",
+        imgAlt: "A white male mannequin with a gray t-shirt and dark blue jeans. The legs are close together and the arms are held together behind its back, the chin angled slightly upward."
     }
 ]
 
