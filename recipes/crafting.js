@@ -3791,7 +3791,8 @@ const fallEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Playful_Pumpkin_Scarecrow.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Playful_Pumpkin_Scarecrow.png",
+        imgAlt: "A scarecrow with its arms out, a brown pointy hat, a green checkered shirt, and a blue scarf. Its head is a pumpkin."
     },
     {
         name: "Pampas Grass Jug",
@@ -3806,7 +3807,8 @@ const fallEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/76/Pampas_Grass_Jug.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/76/Pampas_Grass_Jug.png",
+        imgAlt: "A light blue and orange jug with pampas grass."
     },
     {
         name: "Bountiful Marigold Basket",
@@ -3825,7 +3827,8 @@ const fallEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/31/Bountiful_Marigold_Basket.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/31/Bountiful_Marigold_Basket.png",
+        imgAlt: "A wooden basket with metal details and two handles. Inside the basket are a bunch of marigolds."
     },
     {
         name: "Autumn Wreath",
@@ -3844,7 +3847,8 @@ const fallEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Autumn_Wreath.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Autumn_Wreath.png",
+        imgAlt: "A wreathe made up from orange, red and yellow leaves. There are two sunflowers at the base."
     },
     {
         name: "Autumn Harvest Pennants",
@@ -3867,7 +3871,8 @@ const fallEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ee/Autumn_Harvest_Pennants.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ee/Autumn_Harvest_Pennants.png",
+        imgAlt: "Two wooden sticks with green, orange, and yellow pennants inbetween them. On the orange pennants a dark orange silhouette of a pumpkin can be seen. At the base of each stick are two small orange pumkins and wrapped around the two sticks are dried corn."
     }
 ]
 
