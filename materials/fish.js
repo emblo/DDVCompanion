@@ -5,7 +5,7 @@ const fish = [
         ripple: "Gold",
         sellPrice: 1500,
         energy: 2000,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/6/64/Anglerfish.png/revision/latest?cb=20220908042921",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/7/7c/Fish-AnglerFish.png?width=325",
         imgAlt: "A big round purple anglerfish, blue fins and a light rod sticking out of its forehead."
     },
     {
@@ -14,7 +14,7 @@ const fish = [
         ripple: "Red/green, holiday only",
         sellPrice: 0,
         energy: 2000,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/0/06/Festive_Anglerfish.png/revision/latest?cb=20221206223553",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/f/f1/Festive_AnglerFish.png?width=325",
         imgAlt: "A big round purple anglerfish, blue fins and green and red holly sticking out of its forehead."
     },
     {
@@ -23,7 +23,7 @@ const fish = [
         ripple: "None",
         sellPrice: 25,
         energy: 150,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/b/bd/Bass.png/revision/latest?cb=20220908153521",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/6/6d/Fish-Bass.png?width=325",
         imgAlt: "A green and brown bass."
     },
     {
@@ -32,7 +32,7 @@ const fish = [
         ripple: "Red/green, holiday only",
         sellPrice: 0,
         energy: 150,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/c/cc/Festive_Bass.png/revision/latest?cb=20221206223621",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/c/cc/Festive_Bass.png?width=325",
         imgAlt: "A green and brown bass with a santa hat on its forehead."
     },
     {
@@ -41,7 +41,7 @@ const fish = [
         ripple: "Blue",
         sellPrice: 280,
         energy: 700,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/8/82/Bream.png/revision/latest?cb=20220908153644",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/4/46/Fish-Bream.png?width=325",
         imgAlt: "A blue and white bream with pinkish cheeks."
     },
     {
@@ -50,7 +50,7 @@ const fish = [
         ripple: "Blue",
         sellPrice: 400,
         energy: 800,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/a/a8/Carp.png/revision/latest?cb=20220908153557",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/0/04/Fish-Carp.png?width=325",
         imgAlt: "An orange carp with dark fins."
     },
     {
@@ -59,7 +59,7 @@ const fish = [
         ripple: "Gold",
         sellPrice: 550,
         energy: 1200,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/9/99/Catfish.png/revision/latest?cb=20220908153536",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/e/ee/Fish-Catfish.png?width=325",
         imgAlt: "A light blue catfish with light gray details."
     },
     {
@@ -68,7 +68,7 @@ const fish = [
         ripple: "None",
         sellPrice: 35,
         energy: 150,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/4/41/Cod.png/revision/latest?cb=20220908153612",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/5/5f/Fish-Cod.png?width=325",
         imgAlt: "A brown cod with dark brown details."
     },
     {
@@ -77,7 +77,7 @@ const fish = [
         ripple: "Blue",
         sellPrice: 600,
         energy: 1200,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/6/63/Crab.png/revision/latest?cb=20220908153625",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/c/c5/Fish-Crab.png?width=325",
         imgAlt: "A red crab with eight smaller legs and two bigger legs with claws at the end."
     },
     {
@@ -86,7 +86,7 @@ const fish = [
         ripple: "Gold",
         sellPrice: 900,
         energy: 1700,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/e/e7/Fugu.png/revision/latest?cb=20220908153912",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/4/46/Fish-Fugu.png?width=325",
         imgAlt: "A yellow, green, and white pufferfish called Fugu."
     },
     {
@@ -113,7 +113,7 @@ const fish = [
         ripple: "White",
         sellPrice: 65,
         energy: 250,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/f/f1/Herring.png/revision/latest?cb=20220908153934",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/0/06/Fish-Herring.png?width=325",
         imgAlt: "A blue and yellow herring."
     },
     {
@@ -122,7 +122,7 @@ const fish = [
         ripple: "Blue",
         sellPrice: 450,
         energy: 800,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/f/fb/Kingfish.png/revision/latest?cb=20220917042243",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/5/5a/KingFish.png?width=325",
         imgAlt: "A light and dark blue striped Kingfish."
     },
     {
@@ -131,7 +131,7 @@ const fish = [
         ripple: "Blue",
         sellPrice: 650,
         energy: 1300,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/f/f1/Lancetfish.png/revision/latest?cb=20220917042205",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/c/cc/LancetFish.png?width=325",
         imgAlt: "A light and dark blue Lancetfish with a big top fin."
     },
     {
@@ -140,7 +140,7 @@ const fish = [
         ripple: "Gold",
         sellPrice: 950,
         energy: 1600,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/9/9f/Lobster.png/revision/latest?cb=20220917042156",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/c/c6/Fish-Lobster.png?width=325",
         imgAlt: "A red lobster with six smaller legs and two big claws."
     },
     {
@@ -149,7 +149,7 @@ const fish = [
         ripple: "White",
         sellPrice: 80,
         energy: 400,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/4/43/Perch.png/revision/latest?cb=20220917042147",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/1/18/Fish-Perch.png?width=325",
         imgAlt: "A light and dark green perch with orange markings on some of its fins."
     },
     {
@@ -158,7 +158,7 @@ const fish = [
         ripple: "Gold",
         sellPrice: 800,
         energy: 1500,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/3/31/Pike.png/revision/latest?cb=20220917042137",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/a/a7/Fish-Pike.png?width=325",
         imgAlt: "A long pike that's light green with white spots and orange markings on its fins."
     },
     {
@@ -167,7 +167,7 @@ const fish = [
         ripple: "White",
         sellPrice: 50,
         energy: 300,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/1/14/Rainbow_Trout.png/revision/latest?cb=20220917042126",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/5/57/RainbowTrout.png?width=325",
         imgAlt: "A purple rainbow trout with orange markings on its fins and dark purple spots."
     },
     {
@@ -176,7 +176,7 @@ const fish = [
         ripple: "White",
         sellPrice: 150,
         energy: 500,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/e/e0/Salmon.png/revision/latest?cb=20220917042103",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/0/01/Fish-Salmon.png?width=325",
         imgAlt: "A big red salmon with a white belly and brown markings on its fins, body, and face."
     },
     {
@@ -185,7 +185,7 @@ const fish = [
         ripple: "Red/green, holiday only",
         sellPrice: 0,
         energy: 500,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/5/5c/Festive_Salmon.png/revision/latest?cb=20221206223753",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/5/5c/Festive_Salmon.png?width=325",
         imgAlt: "A big red salmon with a white belly and brown markings on its fins, body, and face, and a tiny santa hat on its forehead."
     },
     {
@@ -194,7 +194,7 @@ const fish = [
         ripple: "Blue",
         sellPrice: 300,
         energy: 750,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/9/91/Shrimp.png/revision/latest?cb=20220914091942",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/0/0b/Fish-Shrimp.png?width=325",
         imgAlt: "A small shrimp with eight small legs."
     },
     {
@@ -203,7 +203,7 @@ const fish = [
         ripple: "White",
         sellPrice: 200,
         energy: 500,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/4/47/Sole.png/revision/latest?cb=20220917042039",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/8/85/Fish-Sole.png?width=325",
         imgAlt: "An orange sole, a completely flat fish with yellow fins and two eyes on one side of its head."
     },
     {
@@ -212,7 +212,7 @@ const fish = [
         ripple: "Blue",
         sellPrice: 500,
         energy: 1000,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/8/81/Squid.png/revision/latest?cb=20220917042030",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/5/5f/Fish-Squid.png?width=325",
         imgAlt: "A long squid with multiple legs. The top of it is purple, and its a gradient color shift lightening the colors down on its legs. Two black eyes are on either side of its head."
     },
     {
@@ -221,7 +221,7 @@ const fish = [
         ripple: "Red/green, holiday only",
         sellPrice: 0,
         energy: 1000,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/f/fa/Festive_Squid.png/revision/latest?cb=20221206231309",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/f/fa/Festive_Squid.png?width=325",
         imgAlt: "A long squid with multiple legs. The top of it is purple, and its a gradient color shift lightening the colors down on its legs. Two black eyes are on either side of its head. It has a big santa hat on its head."
     },
     {
@@ -230,7 +230,7 @@ const fish = [
         ripple: "Gold",
         sellPrice: 700,
         energy: 1500,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/f/f7/Swordfish.png/revision/latest?cb=20220917042022",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/a/ab/Fish-Swordfish.png?width=325",
         imgAlt: "A big green and yellow swordfish with a protruding, sword-like nose."
     },
     {
@@ -239,7 +239,7 @@ const fish = [
         ripple: "Blue",
         sellPrice: 600,
         energy: 1150,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/7/73/Tilapia.png/revision/latest?cb=20220917042012",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/0/00/Fish-Tilapia.png?width=325",
         imgAlt: "A blue fish with white spots, white face and belly, and pink fins."
     },
     {
@@ -248,7 +248,7 @@ const fish = [
         ripple: "White",
         sellPrice: 95,
         energy: 350,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/c/c5/Tuna.png/revision/latest?cb=20220917041958",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/1/1d/Fish-Tuna.png?width=325",
         imgAlt: "A big fish with a white belly, blue top side and yellow fins."
     },
     {
@@ -257,7 +257,7 @@ const fish = [
         ripple: "Gold",
         sellPrice: 1100,
         energy: 1700,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/0/05/Walleye.png/revision/latest?cb=20220917041948",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/2/28/Fish-Walleye.png?width=325",
         imgAlt: "A yellow fish with orange spots and markings."
     },
     {
@@ -266,7 +266,7 @@ const fish = [
         ripple: "Gold",
         sellPrice: 1200,
         energy: 1800,
-        imgSrc: "https://static.wikia.nocookie.net/disneydreamlightvalley/images/9/9e/White_Sturgeon.png/revision/latest?cb=20220917041939",
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/e/e8/Fish-WhiteSturgeon.png?width=325",
         imgAlt: "A long gray fish with orange markings on its fins."
     }
 ]
