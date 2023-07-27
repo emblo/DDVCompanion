@@ -3323,7 +3323,8 @@ const balloons = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ac/Blue_and_Silver_Balloon_Cluster.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ac/Blue_and_Silver_Balloon_Cluster.png",
+        imgAlt: "Small balloons in silver and different shades of blue, tied together by strings."
     },
     {
         name: "Blue and Silver Balloon Arch",
@@ -3346,7 +3347,8 @@ const balloons = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/27/Blue_and_Silver_Balloon_Arch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/27/Blue_and_Silver_Balloon_Arch.png",
+        imgAlt: "An arch of balloons in silver and different shades of blue, tied together by strings."
     },
     {
         name: "Blue, Yellow and Pink Balloon Cluster",
@@ -3369,7 +3371,8 @@ const balloons = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Blue%2C_Yellow_and_Pink_Balloon_Cluster.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Blue%2C_Yellow_and_Pink_Balloon_Cluster.png",
+        imgAlt: "Small balloons in blue, yellow, and pink, tied together by strings."
     },
     {
         name: "Blue, Yellow and Pink Balloon Arch",
@@ -3392,7 +3395,8 @@ const balloons = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c8/Blue%2C_Yellow_and_Pink_Balloon_Arch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c8/Blue%2C_Yellow_and_Pink_Balloon_Arch.png",
+        imgAlt: "An arch of balloons in blue, yellow, and pink, tied together by strings."
     },
     {
         name: "Green, Yellow and White Balloon Cluster",
@@ -3415,7 +3419,8 @@ const balloons = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Green%2C_Yellow_and_White_Balloon_Cluster.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Green%2C_Yellow_and_White_Balloon_Cluster.png",
+        imgAlt: "Small balloons in teal, gold and off-white, tied together by strings."
     },
     {
         name: "Green, Yellow and White Balloon Arch",
@@ -3438,7 +3443,8 @@ const balloons = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/5e/Green%2C_Yellow_and_White_Balloon_Arch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5e/Green%2C_Yellow_and_White_Balloon_Arch.png",
+        imgAlt: "An arch of balloons in teal, gold and off-white, tied together by strings."
     },
     {
         name: "Red, Black and Yellow Balloon Cluster",
@@ -3461,7 +3467,8 @@ const balloons = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/43/Red%2C_Black%2C_and_Yellow_Balloon_Cluster.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/43/Red%2C_Black%2C_and_Yellow_Balloon_Cluster.png",
+        imgAlt: "Small balloons in red, black and yellow, tied together by strings."
     },
     {
         name: "Yellow, Red and Black Balloon Arch",
@@ -3484,7 +3491,8 @@ const balloons = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/98/Yellow%2C_Red_and_Black_Balloon_Arch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/98/Yellow%2C_Red_and_Black_Balloon_Arch.png",
+        imgAlt: "An arch of balloons in red, black and yellow, tied together by strings."
     },
     {
         name: "White, Yellow and Black Balloon Cluster",
@@ -3507,7 +3515,8 @@ const balloons = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/White%2C_Yellow_and_Black_Balloon_Cluster.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/White%2C_Yellow_and_Black_Balloon_Cluster.png",
+        imgAlt: "Small balloons in black, white, and gold, tied together by strings."
     },
     {
         name: "White, Yellow and Black Balloon Arch",
@@ -3530,7 +3539,8 @@ const balloons = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/90/White%2C_Yellow_and_Black_Balloon_Arch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/90/White%2C_Yellow_and_Black_Balloon_Arch.png",
+        imgAlt: "A balloon arch in silver and different shades of blue, tied together by strings."
     }
 ]
 
