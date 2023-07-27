@@ -5415,7 +5415,8 @@ const signs = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c6/Custom_Signpost.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c6/Custom_Signpost.png",
+        imgAlt: "A white square sign with nail details on a wooden stick."
     },
     {
         name: "Left Signpost",
@@ -5430,7 +5431,8 @@ const signs = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/93/Left_Signpost.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/93/Left_Signpost.png",
+        imgAlt: "A brown wooden sign with a black base, and black nails into a left pointing wooden arrow."
     },
     {
         name: "Right Signpost",
@@ -5445,7 +5447,8 @@ const signs = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/31/Right_Signpost.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/31/Right_Signpost.png",
+        imgAlt: "A white wooden sign with a right pointing wooden arrowshape."
     }
 ]
 
