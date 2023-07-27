@@ -5471,7 +5471,8 @@ const mailboxes = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/65/Gray_Mailbox.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/65/Gray_Mailbox.png",
+        imgAlt: "A gray arch shaped mailbox with gold details on a brown pole."
     },
     {
         name: "Red Mailbox",
@@ -5490,7 +5491,8 @@ const mailboxes = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f5/Red_Mailbox.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f5/Red_Mailbox.png",
+        imgAlt: "A red arch shaped mailbox with gold and red details on a brown pole."
     },
     {
         name: "Mailbox",
@@ -5509,7 +5511,8 @@ const mailboxes = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Mailbox.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/88/Mailbox.png",
+        imgAlt: "A gray arch shaped mailbox that's slightly open, with black details on a wooden pole with a gray and black base."
     }
 ]
 
