@@ -3891,7 +3891,8 @@ const winterEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/44/Holiday_Feast_Chair.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/44/Holiday_Feast_Chair.png",
+        imgAlt: "A brown wooden chair with a red and white plait pad. On the back of it a green wreathe is tied to the chair with a red bow."
     },
     {
         name: "Holiday Feast Plate and Cutlery",
@@ -3910,7 +3911,8 @@ const winterEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Holiday_Feast_Plate_and_Cutlery.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Holiday_Feast_Plate_and_Cutlery.png",
+        imgAlt: "A small white plate with a green pattern placed on top of a bigger red plate with a golden border. On each side of the plate golden cutlery can be seen."
     },
     {
         name: "Kinara",
@@ -3925,7 +3927,8 @@ const winterEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Kinara.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Kinara.png",
+        imgAlt: "A wooden kinara with seven candles. The three on the left are red, the ones on the right are green, and the middle one is black."
     },
     {
         name: "Menorah",
@@ -3940,7 +3943,8 @@ const winterEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/80/Menorah.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/80/Menorah.png",
+        imgAlt: "A wooden menorah with nine candles. The one in the middle is slightly raised up."
     },
     {
         name: "Tree of Holiday Cheer",
@@ -3963,7 +3967,8 @@ const winterEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Tree_of_Holiday_Cheer.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Tree_of_Holiday_Cheer.png",
+        imgAlt: "A big and lush green christmas tree with baubles in different colors, red bows, candy canes, and a lit up star at the top."
     },
     {
         name: "Yule Goat",
@@ -3978,7 +3983,8 @@ const winterEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/3b/Yule_Goat.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3b/Yule_Goat.png",
+        imgAlt: "A goat made out of hay and red ribbon."
     },
     {
         name: "Snow Hut",
@@ -3989,7 +3995,8 @@ const winterEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c4/Snow_Hut.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c4/Snow_Hut.png",
+        imgAlt: "An igloo made of blue icy, partially covered in snow."
     },
     {
         name: "Shiny Gift",
@@ -4008,7 +4015,8 @@ const winterEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Shiny_Gift.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Shiny_Gift.png",
+        imgAlt: "A green square gift box with red ribbon with a red bow on top."
     },
     {
         name: "Naughty Gift",
@@ -4023,7 +4031,8 @@ const winterEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/aa/Naughty_Gift.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/aa/Naughty_Gift.png",
+        imgAlt: "A red bag tied together with green ribbon and a green bow."
     },
     {
         name: "Handcrafted Gift",
@@ -4038,7 +4047,8 @@ const winterEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Handcrafted_Gift.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Handcrafted_Gift.png",
+        imgAlt: "A round blue gift bag with a lighter blue ribbon and bow."
     },
     {
         name: "Delicious Gift",
@@ -4057,7 +4067,8 @@ const winterEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Delicious_Gift.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/ce/Delicious_Gift.png",
+        imgAlt: "A square white box with red ribbon and an elaborate red bow on top."
     }
 ]
 
