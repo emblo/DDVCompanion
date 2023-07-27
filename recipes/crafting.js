@@ -1823,7 +1823,8 @@ const functionalItems = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Ariel%27s_Crafting_Station.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Ariel%27s_Crafting_Station.png",
+        imgAlt: "A blue work station with wooden details, tools, sea life on it and a blue sea shell like lamp that's glowing."
     },
     {
         name: "Iron Crafting Station",
@@ -1842,7 +1843,8 @@ const functionalItems = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a0/Iron_Crafting_Station.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a0/Iron_Crafting_Station.png",
+        imgAlt: "A gray work station with black metal details, tools, and an industrial looking metal light."
     },
     {
         name: "Wooden Crafting Station",
@@ -1865,7 +1867,8 @@ const functionalItems = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Wooden_Crafting_Station.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Wooden_Crafting_Station.png",
+        imgAlt: "A red work station with black and gray metal details, tools, and an industrial looking metal light."
     },
     {
         name: "Black Retro Portable Radio",
@@ -1880,7 +1883,8 @@ const functionalItems = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6e/Black_Retro_Portable_Radio.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6e/Black_Retro_Portable_Radio.png",
+        imgAlt: "An old looking dark brown radio with white details and a black antenna. It is placed on a very small wooden table with long legs."
     },
     {
         name: "Blue Retro Portable Radio",
@@ -1899,7 +1903,8 @@ const functionalItems = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Blue_Retro_Portable_Radio.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6a/Blue_Retro_Portable_Radio.png",
+        imgAlt: "An old looking light blue radio with white details and a black antenna. It is placed on a very small wooden table with long legs."
     },
     {
         name: "Brown Retro Portable Radio",
@@ -1914,7 +1919,8 @@ const functionalItems = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d7/Brown_Retro_Portable_Radio.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d7/Brown_Retro_Portable_Radio.png",
+        imgAlt: "An old looking reddish-brown radio with white details and a black antenna. It is placed on a very small wooden table with long legs."
     },
     {
         name: "Campfire",
@@ -1933,7 +1939,8 @@ const functionalItems = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/01/Campfire.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/01/Campfire.png",
+        imgAlt: "A black metal construction with a grill on the top. on the bottom four halved wooden logs can be seen."
     }
 ]
 
