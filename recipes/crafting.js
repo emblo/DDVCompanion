@@ -4207,7 +4207,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/25/Jubilant_Topiary.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/25/Jubilant_Topiary.png",
+        imgAlt: "A green bush with pink flowers and a brown base."
     },
     {
         name: "Flower Boxes",
@@ -4230,7 +4231,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/02/Flower_Boxes.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/02/Flower_Boxes.png",
+        imgAlt: "Three wooden cases, with one of the cases stacked on top of the two other ones. Yellow and pink flowers are in them."
     },
     {
         name: "Flower Pots",
@@ -4245,7 +4247,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fd/Flower_Pots.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fd/Flower_Pots.png",
+        imgAlt: "Two orange flower pots, one is on its side with some soil spilling out, and one is placed upside down."
     },
     {
         name: "Sunflower and Daisy Pot",
@@ -4264,7 +4267,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/39/Sunflower_and_Daisy_Pot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/39/Sunflower_and_Daisy_Pot.png",
+        imgAlt: "An orange flower pot with a few daisies and a sunflower."
     },
     {
         name: "Star Lily and Falling Penstemon Pot",
@@ -4283,7 +4287,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Star_Lily_and_Falling_Penstemon_Pot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Star_Lily_and_Falling_Penstemon_Pot.png",
+        imgAlt: "An orange flower pot with star lilies and falling penstemon."
     },
     {
         name: "Red and Black Passion Lily Pot",
@@ -4302,7 +4307,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/5b/Red_and_Black_Passion_Lily_Pot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5b/Red_and_Black_Passion_Lily_Pot.png",
+        imgAlt: "An orange flower pot with red and black passion lilies."
     },
     {
         name: "Passion Lily and Houseleek Pot",
@@ -4321,7 +4327,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c5/Passion_Lily_and_Houseleek_Pot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c5/Passion_Lily_and_Houseleek_Pot.png",
+        imgAlt: "An orange flower pot with passion lilies and a houseleek."
     },
     {
         name: "Nasturtium and Marsh Milkweed Pot",
@@ -4340,7 +4347,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Nasturtium_and_Marsh_Milkweed_Pot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Nasturtium_and_Marsh_Milkweed_Pot.png",
+        imgAlt: "An orange flower pot with nasturtium and a marsh milkweed."
     },
     {
         name: "Impatiens and Bromeliad Pot",
@@ -4359,7 +4367,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/3a/Impatiens_and_Bromeliad_Pot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3a/Impatiens_and_Bromeliad_Pot.png",
+        imgAlt: "An orange flower pot with impatiens and bromeliads."
     },
     {
         name: "Hydrangea and Bell Flower Pot",
@@ -4378,7 +4387,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9f/Hydrangea_and_Bell_Flower_Pot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9f/Hydrangea_and_Bell_Flower_Pot.png",
+        imgAlt: "An orange flower pot with hydrangeas and bell flowers."
     },
     {
         name: "Falling Penstemon and Bell Flower Pot",
@@ -4397,7 +4407,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Falling_Penstemon_and_Bell_Flower_Pot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bf/Falling_Penstemon_and_Bell_Flower_Pot.png",
+        imgAlt: "An orange flower pot with falling penstemon and bell flowers."
     },
     {
         name: "Dandelion and Rising Penstemon Pot",
@@ -4416,7 +4427,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Dandelion_and_Rising_Penstemon_Pot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Dandelion_and_Rising_Penstemon_Pot.png",
+        imgAlt: "An orange flower pot with dandelions and rising penstemon."
     },
     {
         name: "Daisy and Marsh Milkweed Pot",
@@ -4435,7 +4447,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Daisy_and_Marsh_Milkweed_Pot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Daisy_and_Marsh_Milkweed_Pot.png",
+        imgAlt: "An orange flower pot with daisies and marsh milkweed."
     },
     {
         name: "Bromeliad and Marsh Milkweed Pot",
@@ -4454,7 +4467,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Bromeliad_and_Marsh_Milkweed_Pot.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Bromeliad_and_Marsh_Milkweed_Pot.png",
+        imgAlt: "An orange flower pot with bromeliads and marsh milkweed."
     },
     {
         name: "Round Soil Area",
@@ -4469,7 +4483,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/3f/Round_Soil_Area.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3f/Round_Soil_Area.png",
+        imgAlt: "A round area with soil, light stone bricks around it."
     },
     {
         name: "Pink and Blue Flower Disk",
@@ -4492,7 +4507,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Pink_and_Blue_Flower_Disk.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Pink_and_Blue_Flower_Disk.png",
+        imgAlt: "A round area with soil, light stone bricks around it. Inside it purple impatiens, blue star lilies, and pink bromeliads can be seen with green foliage."
     },
     {
         name: "Pink, Yellow and Black Flower Disk",
@@ -4515,7 +4531,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Pink%2C_Yellow_and_Black_Flower_Disk.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Pink%2C_Yellow_and_Black_Flower_Disk.png",
+        imgAlt: "A round area with soil, light stone bricks around it. Planted inside are pink houseleeks, orange star lilies, and red nasturtium with foliage."
     },
     {
         name: "Purple, Pink and Yellow Flower Disk",
@@ -4538,7 +4555,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/73/Purple%2C_Pink_and_Yellow_Flower_Disk.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/73/Purple%2C_Pink_and_Yellow_Flower_Disk.png",
+        imgAlt: "A round area with soil, light stone bricks around it. Planted inside are pink hydrangeas, purple bell flowers, and yellow daisies with foliage."
     },
     {
         name: "Red and Yellow Flower Disk",
@@ -4561,7 +4579,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e8/Red_and_Yellow_Flower_Disk.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e8/Red_and_Yellow_Flower_Disk.png",
+        imgAlt: "A round area with soil, light stone bricks around it. Planted inside are dandelions, white daisies, and red falling penstemon and foliage."
     },
     {
         name: "White, Red and Purple Flower Disk",
@@ -4584,7 +4603,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c5/White%2C_Red_and_Purple_Flower_Disk.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c5/White%2C_Red_and_Purple_Flower_Disk.png",
+        imgAlt: "A round area with soil, light stone bricks around it. Planted inside are white impatiens, purple rising penstemon, and orange & red marsh milkweed and foliage."
     },
     {
         name: "Yellow, Red and Blue Flower Disk",
@@ -4607,7 +4627,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e8/Yellow%2C_Red_and_Blue_Flower_Disk.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e8/Yellow%2C_Red_and_Blue_Flower_Disk.png",
+        imgAlt: "A round area with soil, light stone bricks around it. Planted inside are blue passion lilies, red bell flowers, and sunflowers."
     },
     {
         name: "Rectangular Soil Area",
@@ -4622,7 +4643,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c8/Rectangular_Soil_Area.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c8/Rectangular_Soil_Area.png",
+        imgAlt: "A rectangular area with soil, light stone bricks around it."
     },
     {
         name: "Pink, Blue and Purple Flower Rectangle",
@@ -4645,7 +4667,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/81/Pink%2C_Blue_and_Purple_Flower_Rectangle.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/81/Pink%2C_Blue_and_Purple_Flower_Rectangle.png",
+        imgAlt: "A rectangular area with soil, light stone bricks around it. Planted inside are pink houseleeks, blue marsh milkweed, and purple impatiens with foliage."
     },
     {
         name: "Pink, Red and Purple Flower Rectangle",
@@ -4668,7 +4691,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2c/Pink%2C_Red_and_Purple_Flower_Rectangle.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2c/Pink%2C_Red_and_Purple_Flower_Rectangle.png",
+        imgAlt: "A rectangular area with soil, light stone bricks around it. Planted inside are purple hydrangeas, orange marsh milkweed, and red bell flower with foliage."
     },
     {
         name: "Red, Blue and Green Flower Rectangle",
@@ -4691,7 +4715,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Red%2C_Blue_and_Green_Flower_Rectangle.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Red%2C_Blue_and_Green_Flower_Rectangle.png",
+        imgAlt: "A rectangular area with soil, light stone bricks around it. Planted inside are green passion lilies, blue falling penstemon, and orange nasturtium with foliage."
     },
     {
         name: "Red, White and Purple Flower Rectangle",
@@ -4714,7 +4739,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Red%2C_White_and_Purple_Flower_Rectangle.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Red%2C_White_and_Purple_Flower_Rectangle.png",
+        imgAlt: "A rectangular area with soil, light stone bricks around it. Planted inside are red bromeliads, white impatiens, and purple rising penstemon with foliage."
     },
     {
         name: "Yellow and White Flower Rectangle",
@@ -4737,7 +4763,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Yellow_and_White_Flower_Rectangle.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Yellow_and_White_Flower_Rectangle.png",
+        imgAlt: "A rectangular area with soil, light stone bricks around it. Planted inside are white daisies, yellow bromeliads, and orange star lilies with foliage."
     },
     {
         name: "Yellow, Green and Purple Flower Rectangle",
@@ -4760,7 +4787,8 @@ const floral = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fb/Yellow%2C_Green_and_Purple_Flower_Rectangle.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fb/Yellow%2C_Green_and_Purple_Flower_Rectangle.png",
+        imgAlt: "A rectangular area with soil, light stone bricks around it. Planted inside are purple falling penstemon, dandelions, and green rising penstemon."
     }
 ]
 
