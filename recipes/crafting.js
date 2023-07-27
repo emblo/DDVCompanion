@@ -4095,7 +4095,8 @@ const springEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/bd/%22Don%27t_Put_%27Em_All_in_One_Basket%22_Basket.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bd/%22Don%27t_Put_%27Em_All_in_One_Basket%22_Basket.png",
+        imgAlt: "A wooden basket with two handles and it is full of pink eggs."
     },
     {
         name: "Over Easy Chair",
@@ -4110,7 +4111,8 @@ const springEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/5c/Over_Easy_Chair.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5c/Over_Easy_Chair.png",
+        imgAlt: "A big orange egg with three smaller pink eggs on the side."
     },
     {
         name: "Spring Egg Bounty",
@@ -4133,7 +4135,8 @@ const springEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/49/Spring_Egg_Bounty.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/49/Spring_Egg_Bounty.png",
+        imgAlt: "A vertically striped big egg in the collors yellow, pink, and blue. On the stripes white sparkles are seen. On the base of the eggs, smaller pink eggs in various sizes can be seen."
     },
     {
         name: "Spring Stall",
@@ -4156,7 +4159,8 @@ const springEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/7b/Spring_Stall.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7b/Spring_Stall.png",
+        imgAlt: "A wooden stall with a multi-colored table cloth, a white vase with three tulips in those same colors. On the wooden bars above the stall blue, pink, and yellow penants are hanging."
     },
     {
         name: "Sunny Side Up Arch",
@@ -4179,7 +4183,8 @@ const springEvent = [
             }
         ],
         sellPrice: 0,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Sunny_Side_Up_Arch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Sunny_Side_Up_Arch.png",
+        imgAlt: "An arch made up of pink eggs."
     }
 ]
 
