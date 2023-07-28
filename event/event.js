@@ -319,6 +319,7 @@ wonderOfPixar.forEach(reward => {
     const pageText = document.createElement("p");
     pageText.className = "objectText";
     const img = document.createElement("img")
+    img.alt = reward.imgAlt;
     img.src = reward.imgSrc;
     const lineBreak = document.createElement("br");
 
