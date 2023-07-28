@@ -32,7 +32,8 @@ const appetizers = [
         stars: 5,
         sellPrice: 556,
         energy: 2102,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c5/Arendellian_Pickled_Herring.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c5/Arendellian_Pickled_Herring.png",
+        imgAlt: "A glass jar filled with fish pieces. The lid is made of cork and a light blue bow is tied around the top of the jar. The Arendellian green and yellow emblem is on the front of the jar."
     },
     {
         name: "Bell Pepper Puffs",
@@ -50,7 +51,8 @@ const appetizers = [
         stars: 3,
         sellPrice: 606,
         energy: 1272,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/ff/Bell_Pepper_Puffs.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/ff/Bell_Pepper_Puffs.png",
+        imgAlt: "A bunch of bell pepper puffs on a white plate. The puffs look like little pastry tubes filled with mashed up red bell pepper."
     },
     {
         name: "Buñuelos",
@@ -71,7 +73,8 @@ const appetizers = [
         stars: 4,
         sellPrice: 948,
         energy: 1881,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/66/Bu%C3%B1uelos.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/66/Bu%C3%B1uelos.png",
+        imgAlt: "A blue plate with white parchment paper. On top of the paper are a bunch of fried golden dough balls."
     },
     {
         name: "Cheese Platter",
@@ -83,7 +86,8 @@ const appetizers = [
         stars: 1,
         sellPrice: 216,
         energy: 482,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Cheese_Platter.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Cheese_Platter.png",
+        imgAlt: "A wooden cutting board with various types of cheese, grapes, crackers and charcuterie board accompaniments."
     },
     {
         name: "Chili Pepper Puffs",
@@ -101,7 +105,8 @@ const appetizers = [
         stars: 3,
         sellPrice: 669,
         energy: 1382,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b5/Chili_Pepper_Puffs.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b5/Chili_Pepper_Puffs.png",
+        imgAlt: "A white plate with chili pepper puffs. The puffs look like little pastry tubes with mashed up chili peppers inside."
     },
     {
         name: "Coffee",
@@ -113,7 +118,8 @@ const appetizers = [
         stars: 1,
         sellPrice: 43,
         energy: 730,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Coffee.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Coffee.png",
+        imgAlt: "A gray see-through coffe cup filled with black coffee with foam on top. The cup is on a little white plate with a small spoon placed under the coffee cup's handle."
     },
     {
         name: "Crackers",
@@ -125,7 +131,8 @@ const appetizers = [
         stars: 1,
         sellPrice: 2,
         energy: 80,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d4/Crackers.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d4/Crackers.png",
+        imgAlt: "Three crackers placed in a spread out pile.They are yellow and white in color with little holes in them."
     },
     {
         name: "Creamy Soup",
@@ -146,7 +153,8 @@ const appetizers = [
         stars: 4,
         sellPrice: 576,
         energy: 1138,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/51/Creamy_Soup.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/51/Creamy_Soup.png",
+        imgAlt: "A gray bowl filled with yellow soup, a white swirl and some green garnish can be seen."
     },
     {
         name: "Crudités",
@@ -158,7 +166,8 @@ const appetizers = [
         stars: 1,
         sellPrice: 26,
         energy: 83,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Crudit%C3%A9s.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/26/Crudit%C3%A9s.png",
+        imgAlt: "A black plate with cut up yellow and green fruit with a little container with white sauce and green garnish."
     },
     {
         name: "Dream Fizz",
@@ -179,7 +188,8 @@ const appetizers = [
         stars: 4,
         sellPrice: 316,
         energy: 1550,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Dream_Fizz.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Dream_Fizz.png",
+        imgAlt: "A tall glass with a pink drink and blue shaved ice on top."
     },
     {
         name: "Eggplant Puffs",
@@ -197,7 +207,8 @@ const appetizers = [
         stars: 3,
         sellPrice: 991,
         energy: 1941,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c1/Eggplant_Puffs.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c1/Eggplant_Puffs.png",
+        imgAlt: "A white plate with eggplant puffs. The puffs look like little pastry tubes with mashed up eggplant inside."
     },
     {
         name: "French Fries",
@@ -212,7 +223,8 @@ const appetizers = [
         stars: 2,
         sellPrice: 304,
         energy: 342,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8e/French_Fries.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8e/French_Fries.png",
+        imgAlt: "A metal cone with cone shaped parchment paper inside. Inside it are thin fries. On the left, a white container with ketchup can be seen. Both items are placed on a half-moon shaped wooden board."
     },
     {
         name: "Gazpacho",
@@ -233,7 +245,8 @@ const appetizers = [
         stars: 4,
         sellPrice: 556,
         energy: 821,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/0f/Gazpacho.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0f/Gazpacho.png",
+        imgAlt: "A white bowl filled with an orange soup. Pieces of vegetables can be seen in the middle of the bowl."
     },
     {
         name: "Green Salad",
@@ -248,7 +261,8 @@ const appetizers = [
         stars: 2,
         sellPrice: 20,
         energy: 180,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Green_Salad.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Green_Salad.png",
+        imgAlt: "A white square plate holding mixed types of lettuce with cut up cucumbers."
     },
     {
         name: "Grilled Vegetables",
@@ -260,7 +274,8 @@ const appetizers = [
         stars: 1,
         sellPrice: 9,
         energy: 83,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/cc/Grilled_Vegetables.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cc/Grilled_Vegetables.png",
+        imgAlt: "A black plate with cut up and grilled pieces of zucchini."
     },
     {
         name: "Grilled Veggie Platter",
@@ -278,7 +293,8 @@ const appetizers = [
         stars: 3,
         sellPrice: 33,
         energy: 161,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Grilled_Veggie_Platter.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Grilled_Veggie_Platter.png",
+        imgAlt: "A black plate with four different kinds of grilled vegetables."
     },
     {
         name: "Hard-Boiled Eggs",
@@ -290,7 +306,8 @@ const appetizers = [
         stars: 1,
         sellPrice: 264,
         energy: 578,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Hard-Boiled_Eggs.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Hard-Boiled_Eggs.png",
+        imgAlt: "A white plate with a cut up hard-boiled egg. "
     },
     {
         name: "Large Seafood Platter",
@@ -314,7 +331,8 @@ const appetizers = [
         stars: 5,
         sellPrice: 56,
         energy: 1810,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Large_Seafood_Platter.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8f/Large_Seafood_Platter.png",
+        imgAlt: "A three tiered platter of plated seafood. Shrimp, oysters, clams and pieces of lemons can be seen. Holding the plates together is a golden construction."
     },
     {
         name: "Latte",
@@ -329,7 +347,8 @@ const appetizers = [
         stars: 2,
         sellPrice: 345,
         energy: 1358,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2c/Latte.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2c/Latte.png",
+        imgAlt: "A tall see-through gray glass with a latte with foam on the top. Leaning on the glass is a tall black little spoon."
     },
     {
         name: "Marinated Herring",
@@ -344,7 +363,8 @@ const appetizers = [
         stars: 2,
         sellPrice: 305,
         energy: 723,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/67/Marinated_Herring.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/67/Marinated_Herring.png",
+        imgAlt: "A glass jar with pieces of fish. The lid is golden."
     },
     {
         name: "Mocha",
@@ -362,7 +382,8 @@ const appetizers = [
         stars: 3,
         sellPrice: 425,
         energy: 2246,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/48/Mocha.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/48/Mocha.png",
+        imgAlt: "A small cup of mocha with golden foam on top. The cup is placed on a little white plate with a tiny black spoon beside it."
     },
     {
         name: "Okra Soup",
@@ -374,7 +395,8 @@ const appetizers = [
         stars: 1,
         sellPrice: 136,
         energy: 99,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8b/Okra_Soup.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8b/Okra_Soup.png",
+        imgAlt: "A gray bowl with green soup. A white swirl is on top and some green garnish."
     }, 
     {
         name: "Onion Puffs",
@@ -392,7 +414,8 @@ const appetizers = [
         stars: 3,
         sellPrice: 798,
         energy: 1392,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/66/Onion_Puffs.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/66/Onion_Puffs.png",
+        imgAlt: "A white plate with onion puffs. The puffs look like little pastry tubes with mashed up onion inside."
     },
     {
         name: "Oyster Platter",
@@ -407,7 +430,8 @@ const appetizers = [
         stars: 2,
         sellPrice: 367,
         energy: 1155,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e1/Oyster_Platter.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e1/Oyster_Platter.png",
+        imgAlt: "A white plate with several opened oysters and a few slices of lemon."
     },
     {
         name: "Peppermint Tea",
@@ -422,7 +446,8 @@ const appetizers = [
         stars: 2,
         sellPrice: 146,
         energy: 993,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/38/Peppermint_Tea.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/38/Peppermint_Tea.png",
+        imgAlt: "A white cup of yellow tea with mint leaves and a lemon wedged to the side of it. The cup is placed on a small white plate and has a tiny spoon on it."
     },
     {
         name: "Pickled Herring",
@@ -443,7 +468,8 @@ const appetizers = [
         stars: 4,
         sellPrice: 431,
         energy: 1742,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Pickled_Herring.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Pickled_Herring.png",
+        imgAlt: "A clear glass jar with pieces of fish in it. The lid is a deep gold metallic color."
     },
     {
         name: "Potato Leek Soup",
@@ -467,7 +493,8 @@ const appetizers = [
         stars: 5,
         sellPrice: 1431,
         energy: 1984,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fe/Potato_Leek_Soup.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fe/Potato_Leek_Soup.png",
+        imgAlt: "A beige bowl filled with a cream colored soup. In it pieces of vegetables and green garnish can be seen."
     },
     {
         name: "Potato Puffs",
@@ -485,7 +512,8 @@ const appetizers = [
         stars: 3,
         sellPrice: 736,
         energy: 1333,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/33/Potato_Puffs.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/33/Potato_Puffs.png",
+        imgAlt: "A white plate with potato puffs. The puffs look like little pastry tubes with mashed up potato inside."
     },
     {
         name: "Pottage",
@@ -503,7 +531,8 @@ const appetizers = [
         stars: 3,
         sellPrice: 215,
         energy: 461,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/65/Pottage.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/65/Pottage.png",
+        imgAlt: "A beige bowl filled with a cream colored soup. In it pieces of vegetables and green garnish can be seen."
     },
     {
         name: "Pumpkin Puffs",
@@ -521,7 +550,8 @@ const appetizers = [
         stars: 3,
         sellPrice: 1489,
         energy: 1466,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/0e/Pumpkin_Puffs.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0e/Pumpkin_Puffs.png",
+        imgAlt: "A white plate with pumpkin puffs. The puffs look like little pastry tubes with mashed up pumpkin inside."
     },
     {
         name: "Pumpkin Soup",
@@ -542,7 +572,8 @@ const appetizers = [
         stars: 4,
         sellPrice: 1498,
         energy: 1431,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/59/Pumpkin_Soup.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/59/Pumpkin_Soup.png",
+        imgAlt: "A gray bowl filled with bright orange soup. In it a white swirl and green garnish can be seen."
     },
     {
         name: "Purée",
@@ -554,7 +585,8 @@ const appetizers = [
         stars: 1,
         sellPrice: 151,
         energy: 230,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/de/Pur%C3%A9e.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/de/Pur%C3%A9e.png",
+        imgAlt: "A black bowl filled with potato purée. On top of it a little green garnish can be seen."
     },
     {
         name: "Roasted Asparagus",
@@ -569,7 +601,8 @@ const appetizers = [
         stars: 2,
         sellPrice: 313,
         energy: 221,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/17/Roasted_Asparagus.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/17/Roasted_Asparagus.png",
+        imgAlt: "A rectangular white plate with grilled pieces of green asparagus."
     },
     {
         name: "Salad",
@@ -581,7 +614,8 @@ const appetizers = [
         stars: 1,
         sellPrice: 9,
         energy: 139,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/7e/Salad.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7e/Salad.png",
+        imgAlt: "A white square bowl with pieces of mixed lettuce in it."
     },
     {
         name: "Sautéed Mushrooms",
@@ -596,7 +630,8 @@ const appetizers = [
         stars: 2,
         sellPrice: 286,
         energy: 712,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ab/Saut%C3%A9ed_Mushrooms.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ab/Saut%C3%A9ed_Mushrooms.png",
+        imgAlt: "A round black plate with pieces of cut up and sautéed mushrooms."
     },
     {
         name: "Seafood Appetizer",
@@ -608,7 +643,8 @@ const appetizers = [
         stars: 1,
         sellPrice: 54,
         energy: 242,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f0/Seafood_Appetizer.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f0/Seafood_Appetizer.png",
+        imgAlt: "A white plate with peeled shrimp placed in a ring around it. In the middle of it lemon and a container of white sauce can be seen."
     },
     {
         name: "Seafood Platter",
@@ -623,7 +659,8 @@ const appetizers = [
         stars: 2,
         sellPrice: 116,
         energy: 458,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/48/Seafood_Platter.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/48/Seafood_Platter.png",
+        imgAlt: "A white plate with various pieces of seafood and some pieces of lemon."
     },
     {
         name: "Soufflé",
@@ -644,7 +681,8 @@ const appetizers = [
         stars: 4,
         sellPrice: 1230,
         energy: 2386,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e0/Souffl%C3%A9.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e0/Souffl%C3%A9.png",
+        imgAlt: "A white ramekin with a browned golden soufflé in it, puffing out like a cloud."
     },
     {
         name: "Tomato Soup",
@@ -656,7 +694,8 @@ const appetizers = [
         stars: 1,
         sellPrice: 26,
         energy: 83,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/dc/Tomato_Soup.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dc/Tomato_Soup.png",
+        imgAlt: "A gray round bowl with bright red soup. In the middle a white swirl and some green garnish can be seen."
     },
     {
         name: "Vegetable Soup",
@@ -671,7 +710,8 @@ const appetizers = [
         stars: 2,
         sellPrice: 20,
         energy: 120,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/cd/Vegetable_Soup.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cd/Vegetable_Soup.png",
+        imgAlt: "A gray round bowl with bright orange soup. In the middle a white swirl and some green garnish can be seen, along with some orange vegetable pieces."
     },
     {
         name: "Zucchini Puffs",
@@ -689,7 +729,8 @@ const appetizers = [
         stars: 3,
         sellPrice: 632,
         energy: 1216,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/61/Zucchini_Puffs.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/61/Zucchini_Puffs.png",
+        imgAlt: "A white plate with zucchini puffs. The puffs look like little pastry tubes with mashed up zucchini inside."
     }
 ]
 
