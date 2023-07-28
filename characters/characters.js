@@ -238,6 +238,7 @@ characters.forEach(char => {
     const quote = document.createElement("p");
     quote.className = quote;
     img.src = char.imgSrc;
+    img.alt = char.imgAlt;
     const lineBreak = document.createElement("br");
 
     name.innerText = char.name;
