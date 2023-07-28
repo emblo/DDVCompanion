@@ -16,6 +16,7 @@ function printFoodIngredient(category) {
         const growTime = document.createElement("p");
         const cropsYield = document.createElement("p");
         const img = document.createElement("img")
+        img.alt = ingredient.imgAlt;
         img.src = ingredient.imgSrc;
 
         name.innerText = ingredient.name;
