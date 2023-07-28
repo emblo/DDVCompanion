@@ -1024,6 +1024,7 @@ function critterSchedule(day) {
         const time = document.createElement("p");
         const location = document.createElement("p");
         const img = document.createElement("img")
+        img.alt = critter.imgAlt;
         img.src = critter.imgSrc;
 
         title.innerText = critter.name;
