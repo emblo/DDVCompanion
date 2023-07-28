@@ -752,7 +752,8 @@ const entrees = [
         stars: 3,
         sellPrice: 271,
         energy: 1572,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/3b/Apple-Cider-Glazed_Salmon.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3b/Apple-Cider-Glazed_Salmon.png",
+        imgAlt: "A blue oval plate with four salmon fillets, lemon slices and green garnish."
     },
     {
         name: "Baked Carp",
@@ -767,7 +768,8 @@ const entrees = [
         stars: 2,
         sellPrice: 767,
         energy: 1894,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/34/Baked_Carp.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/34/Baked_Carp.png",
+        imgAlt: "A round white plate with a blue trim. Small potatoes, a whole carp, lemon slices, and some herb garnish."
     },
     {
         name: "Basil Omelet",
@@ -788,7 +790,8 @@ const entrees = [
         stars: 4,
         sellPrice: 982,
         energy: 2035,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/09/Basil_Omelet.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/09/Basil_Omelet.png",
+        imgAlt: "A yellow omelet filled with green herbs, as well as green garnish."
     },
     {
         name: "Bouillabaisse",
@@ -812,7 +815,8 @@ const entrees = [
         stars: 5,
         sellPrice: 529,
         energy: 2114,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Bouillabaisse.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9d/Bouillabaisse.png",
+        imgAlt: "A gray bowl of orange soup with pieces of seafood and shrimp visible."
     },
     {
         name: "Carp Salad",
@@ -830,7 +834,8 @@ const entrees = [
         stars: 3,
         sellPrice: 617,
         energy: 2310,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a1/Carp_Salad.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a1/Carp_Salad.png",
+        imgAlt: "A square white bowl of mixed lettuce, a piece of fish, and cut up pieces of cherry tomatoes."
     },
     {
         name: "Cheesy Crispy Baked Cod",
@@ -848,7 +853,8 @@ const entrees = [
         stars: 3,
         sellPrice: 303,
         energy: 840,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/63/Cheesy_Crispy_Baked_Cod.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/63/Cheesy_Crispy_Baked_Cod.png",
+        imgAlt: "A white round plate with a square piece of crispy baked cod, two lemon wedges, and a few pieces of green asparagus."
     },
     {
         name: "Chowder",
@@ -869,7 +875,8 @@ const entrees = [
         stars: 4,
         sellPrice: 547,
         energy: 1186,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/95/Chowder.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/95/Chowder.png",
+        imgAlt: "A gray bowl of orange soup with pieces of seafood and shrimp visible."
     },
     {
         name: "Creamy Garlic Scallops",
@@ -890,7 +897,8 @@ const entrees = [
         stars: 4,
         sellPrice: 499,
         energy: 1844,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/16/Creamy_Garlic_Scallops.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/16/Creamy_Garlic_Scallops.png",
+        imgAlt: "A white shallow bowl with scallops, a white sauced base, and two lime wedges."
     },
     {
         name: "Crispy Baked Cod",
@@ -905,7 +913,8 @@ const entrees = [
         stars: 2,
         sellPrice: 47,
         energy: 337,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Crispy_Baked_Cod.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Crispy_Baked_Cod.png",
+        imgAlt: "A round blue plate with french fries, a big piece of fried fish, two sauce containers, and a few wedges of lemon."
     },
     {
         name: "Fish Creole",
@@ -929,7 +938,8 @@ const entrees = [
         stars: 5,
         sellPrice: 241,
         energy: 822,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/cc/Fish_Creole.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/cc/Fish_Creole.png",
+        imgAlt: "A round blue bowl with bright red soup. In it pieces of fish, seafood and vegetables can be seen."
     },
     {
         name: "Fish 'n' Chips",
@@ -950,7 +960,8 @@ const entrees = [
         stars: 4,
         sellPrice: 356,
         energy: 697,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Fish_%27n%27_Chips.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Fish_%27n%27_Chips.png",
+        imgAlt: "A round blue plate with french fries, a big piece of fried fish, two sauce containers, and a few wedges of lemon."
     },
     {
         name: "Fish Pasta",
@@ -971,7 +982,8 @@ const entrees = [
         stars: 4,
         sellPrice: 439,
         energy: 1282,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/08/Fish_Pasta.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/08/Fish_Pasta.png",
+        imgAlt: "A round white bowl of thin spaghetti in a red sauce. Pieces of fish and vegetables are visible."
     },
     {
         name: "Fish Pie",
@@ -989,7 +1001,8 @@ const entrees = [
         stars: 3,
         sellPrice: 269,
         energy: 867,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Fish_Pie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Fish_Pie.png",
+        imgAlt: "A round dark gray oven dish with two handles on either side. On top a pie lid that looks like mashed potatoes can be seen with green garnish on top."
     },
     {
         name: "Fish Risotto",
@@ -1007,7 +1020,8 @@ const entrees = [
         stars: 3,
         sellPrice: 352,
         energy: 939,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Fish_Risotto.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2b/Fish_Risotto.png",
+        imgAlt: "A square bowl with rounded edges filled with creamy risotto. On top a grilled piece of fish with green garnish can be seen."
     },
     {
         name: "Fish Salad",
@@ -1025,7 +1039,8 @@ const entrees = [
         stars: 3,
         sellPrice: 58,
         energy: 1140,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8e/Fish_Salad.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8e/Fish_Salad.png",
+        imgAlt: "A square bowl with mixed lettuce, cut up pieces of cherry tomatoes, cheese, corn and a piece of grilled fish."
     },
     {
         name: "Fish Sandwiches",
@@ -1040,7 +1055,8 @@ const entrees = [
         stars: 2,
         sellPrice: 3,
         energy: 337,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/53/Fish_Sandwiches.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/53/Fish_Sandwiches.png",
+        imgAlt: "A round white plate with a burger bun. Inside is a piece of fish, tomato, and lettuce."
     },
     {
         name: "Fish Soup",
@@ -1058,7 +1074,8 @@ const entrees = [
         stars: 3,
         sellPrice: 334,
         energy: 978,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/be/Fish_Soup.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/be/Fish_Soup.png",
+        imgAlt: "A round white bowl with orange soup. In it pieces of fish and vegetables can be seen."
     },
     {
         name: "Fish Steak",
@@ -1076,7 +1093,8 @@ const entrees = [
         stars: 3,
         sellPrice: 66,
         energy: 537,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a1/Fish_Steak.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a1/Fish_Steak.png",
+        imgAlt: "A round white plate with a piece of grilled fish. Around it are pieces of grilled vegetables, and some herb garnish."
     },
     {
         name: "Fish Tacos",
@@ -1097,7 +1115,8 @@ const entrees = [
         stars: 4,
         sellPrice: 412,
         energy: 1171,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/af/Fish_Tacos.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/af/Fish_Tacos.png",
+        imgAlt: "A black round plate with some with specs. On it an open taco in a wheat tortilla can be seen. Inside the taco there is shredded vegetables, a fried piece of fish and a white sauce drizzled over. On the side is a lime wedge."
     },
     {
         name: "Fugu Sushi",
@@ -1115,7 +1134,8 @@ const entrees = [
         stars: 3,
         sellPrice: 1373,
         energy: 3261,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/0e/Fugu_Sushi.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0e/Fugu_Sushi.png",
+        imgAlt: "Three pieces of nigiri sushi, rice with white pieces of fish on top, on a wooden raised up board. On each piece of sushi is some green garnish."
     },
     {
         name: "Ghostly Fish Steak",
@@ -1139,7 +1159,8 @@ const entrees = [
         stars: 5,
         sellPrice: 3548,
         energy: 3282,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c8/Ghostly_Fish_Steak.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c8/Ghostly_Fish_Steak.png",
+        imgAlt: "A round light blue plate with vegetables, lemon wedges, and a big piece of pink fish. On top is some green garnish."
     },
     {
         name: "Greek Pizza",
@@ -1163,7 +1184,8 @@ const entrees = [
         stars: 5,
         sellPrice: 630,
         energy: 1152,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/38/Greek_Pizza.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/38/Greek_Pizza.png",
+        imgAlt: "A round pizza with pieces of vegetables on it."
     },
     {
         name: "Grilled Fish",
@@ -1175,7 +1197,8 @@ const entrees = [
         stars: 1,
         sellPrice: 1,
         energy: 290,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Grilled_Fish.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Grilled_Fish.png",
+        imgAlt: "An oval plate with a whole grilled fish, lettuce, and lemon slices."
     },
     {
         name: "Grilled Fish Entree",
@@ -1190,7 +1213,8 @@ const entrees = [
         stars: 2,
         sellPrice: 11,
         energy: 340,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Grilled_Fish_Entree.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a5/Grilled_Fish_Entree.png",
+        imgAlt: "An oval plate with a whole grilled fish, lettuce, tomatoes, and lemon slices."
     },
     {
         name: "Gumbo",
@@ -1214,7 +1238,8 @@ const entrees = [
         stars: 5,
         sellPrice: 1093,
         energy: 2226,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Gumbo.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Gumbo.png",
+        imgAlt: "A round dark bowl of red soup with pieces of seafood, meat, and vegetables visible."
     },
     {
         name: "Hearty Salad",
@@ -1232,7 +1257,8 @@ const entrees = [
         stars: 3,
         sellPrice: 33,
         energy: 224,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Hearty_Salad.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Hearty_Salad.png",
+        imgAlt: "A square bowl of mixed lettuce, corn, and sliced cucumbers."
     },
     {
         name: "Hors d'Oeuvres",
@@ -1244,7 +1270,8 @@ const entrees = [
         stars: 1,
         sellPrice: 24,
         energy: 202,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Hors_d%27Oeuvres.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/92/Hors_d%27Oeuvres.png",
+        imgAlt: "A single square cracker with a jagged edge. The cracker has tiny holes in it and some herb garnish."
     },
     {
         name: "Kappa Maki",
@@ -1262,7 +1289,8 @@ const entrees = [
         stars: 3,
         sellPrice: 335,
         energy: 462,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/29/Kappa_Maki.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/29/Kappa_Maki.png",
+        imgAlt: "Four pieces of maki sushi on a raised up wooden board. Rice with a piece of cucumber in the middle is wrapped in seaweed."
     },
     {
         name: "Kronk's Spinach Puffs",
@@ -1280,7 +1308,8 @@ const entrees = [
         stars: 3,
         sellPrice: 461,
         energy: 750,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e6/Kronk%27s_Spinach_Puffs.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e6/Kronk%27s_Spinach_Puffs.png",
+        imgAlt: "A round white plate of spinach puffs. The puffs look like pastry tubes with mashed up spinach inside."
     },
     {
         name: "Lancetfish Paella",
@@ -1304,7 +1333,8 @@ const entrees = [
         stars: 5,
         sellPrice: 1653,
         energy: 4550,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/80/Lancetfish_Paella.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/80/Lancetfish_Paella.png",
+        imgAlt: "A round brown bowl with rice, and various types of seafood. Two lemon wedges are visible in the bowl."
     },
     {
         name: "Leek Soup",
@@ -1316,7 +1346,8 @@ const entrees = [
         stars: 1,
         sellPrice: 370,
         energy: 414,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/39/Leek_Soup.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/39/Leek_Soup.png",
+        imgAlt: "A round white bowl of bright green soup. Inside is a white swirl and some green garnish."
     },
     {
         name: "Lemon Garlic Swordfish",
@@ -1334,7 +1365,8 @@ const entrees = [
         stars: 3,
         sellPrice: 1110,
         energy: 3713,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/33/Lemon_Garlic_Swordfish.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/33/Lemon_Garlic_Swordfish.png",
+        imgAlt: "A round patterned blue plate with piececs of fish, lemon slices and wedges, and green garnish."
     },
     {
         name: "Lioness Feast",
@@ -1355,7 +1387,8 @@ const entrees = [
         stars: 4,
         sellPrice: 3108,
         energy: 2368,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/79/Lioness_Feast.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/79/Lioness_Feast.png",
+        imgAlt: "A round white bowl with a pink soup. Inside pieces of vegetables and fish are visible."
     },
     {
         name: "Lobster Roll",
@@ -1379,7 +1412,8 @@ const entrees = [
         stars: 5,
         sellPrice: 1975,
         energy: 4928,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/63/Lobster_Roll.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/63/Lobster_Roll.png",
+        imgAlt: "A round white plate with three lime wedges and a hot dog bun filled with lobster meat and some herb garnish."
     },
     {
         name: "Maguro Sushi",
@@ -1400,7 +1434,8 @@ const entrees = [
         stars: 4,
         sellPrice: 413,
         energy: 1206,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2f/Maguro_Sushi.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2f/Maguro_Sushi.png",
+        imgAlt: "Three pieces of nigiri sushi on a raised up rectangular wooden cutting board. On each piece of sushi is a red piece of fish."
     },
     {
         name: "Maki",
@@ -1418,7 +1453,8 @@ const entrees = [
         stars: 3,
         sellPrice: 114,
         energy: 471,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/21/Maki.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/21/Maki.png",
+        imgAlt: "Four pieces of maki sushi on a rectangular wooden board. Rice with a piece of cucumber in the middle is wrapped in seaweed."
     },
     {
         name: "Margherita Pizza",
@@ -1439,7 +1475,8 @@ const entrees = [
         stars: 4,
         sellPrice: 336,
         energy: 818,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Margherita_Pizza.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1b/Margherita_Pizza.png",
+        imgAlt: "A round pizza with tomato sauce, cheese, and herbs."
     },
     {
         name: "Marvelous Jam",
@@ -1454,7 +1491,8 @@ const entrees = [
         stars: 2,
         sellPrice: 54,
         energy: 932,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/Marvelous_Jam.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/Marvelous_Jam.png",
+        imgAlt: "A round white plate holding a pink sandwich with a light blue jam inbetween."
     },
     {
         name: "Mediterranean Salad",
@@ -1478,7 +1516,8 @@ const entrees = [
         stars: 5,
         sellPrice: 605,
         energy: 976,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/73/Mediterranean_Salad.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/73/Mediterranean_Salad.png",
+        imgAlt: "A square bowl with mixed lettuce and various vegetables."
     },
     {
         name: "Mushroom Pizza",
@@ -1499,7 +1538,8 @@ const entrees = [
         stars: 4,
         sellPrice: 351,
         energy: 837,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Mushroom_Pizza.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e9/Mushroom_Pizza.png",
+        imgAlt: "A round pizza with tomato sauce, mushrooms, and cheese."
     },
     {
         name: "Mushu's Congee",
@@ -1523,7 +1563,8 @@ const entrees = [
         stars: 5,
         sellPrice: 753,
         energy: 1658,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/0d/Mushu%27s_Congee.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0d/Mushu%27s_Congee.png",
+        imgAlt: "A round bowl with congee, rice porridge, and two sunny side up eggs with a piece of bacon forming a smiling face."
     },
     {
         name: "Omelet",
@@ -1541,7 +1582,8 @@ const entrees = [
         stars: 3,
         sellPrice: 882,
         energy: 1751,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/12/Omelet.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/12/Omelet.png",
+        imgAlt: "An oval plate with an omelet topped with green garnish."
     },
     {
         name: "Pan-Fried Angler Fish",
@@ -1562,7 +1604,8 @@ const entrees = [
         stars: 4,
         sellPrice: 2550,
         energy: 4194,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2e/Pan-Fried_Angler_Fish.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2e/Pan-Fried_Angler_Fish.png",
+        imgAlt: "A round bowl holding a blue sauce, pieces of fish, and vegetables."
     },
     {
         name: "Pan-Seared Bass & Vegetables",
@@ -1580,7 +1623,8 @@ const entrees = [
         stars: 3,
         sellPrice: 57,
         energy: 394,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/dc/Pan-Seared_Bass_%26_Vegetables.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dc/Pan-Seared_Bass_%26_Vegetables.png",
+        imgAlt: "A round plate with a big piece of fish on top of a bed of mixed vegetables."
     },
     {
         name: "Pan-Seared Tilapia & Vegetables",
@@ -1598,7 +1642,8 @@ const entrees = [
         stars: 3,
         sellPrice: 862,
         energy: 2194,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a0/Pan-Seared_Tilapia_%26_Vegetables.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a0/Pan-Seared_Tilapia_%26_Vegetables.png",
+        imgAlt: "A round white plate with a piece of fish on top of a bed of mixed vegetables."
     },
     {
         name: "Pasta",
@@ -1613,7 +1658,8 @@ const entrees = [
         stars: 2,
         sellPrice: 30,
         energy: 117,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d8/Pasta.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d8/Pasta.png",
+        imgAlt: "A round bowl of pasta in a white sauce with some green garnish."
     },
     {
         name: "Peanut Butter Sandwich",
@@ -1628,7 +1674,8 @@ const entrees = [
         stars: 2,
         sellPrice: 262,
         energy: 592,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/af/Peanut_Butter_Sandwich.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/af/Peanut_Butter_Sandwich.png",
+        imgAlt: "A round beige plate with a sandwich on it. Inbetween both pieces of bread is peanut butter."
     },
     {
         name: "Pizza",
@@ -1646,7 +1693,8 @@ const entrees = [
         stars: 3,
         sellPrice: 284,
         energy: 607,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f4/Pizza.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f4/Pizza.png",
+        imgAlt: "A round pizza with tomato sauce and cheese."
     },
     {
         name: "Poached Basil-Butter Sturgeon",
@@ -1667,7 +1715,8 @@ const entrees = [
         stars: 4,
         sellPrice: 2246,
         energy: 4961,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/43/Poached_Basil-Butter_Sturgeon.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/43/Poached_Basil-Butter_Sturgeon.png",
+        imgAlt: "A square shallow bowl with rounded corners. Inside is a yellow-ish purée and a piece of fish with a black garnish."
     },
     {
         name: "Porridge",
@@ -1682,7 +1731,8 @@ const entrees = [
         stars: 2,
         sellPrice: 301,
         energy: 668,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/5d/Porridge.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5d/Porridge.png",
+        imgAlt: "A round brown bowl of white porridge."
     },
     {
         name: "Porridge with Fruits",
@@ -1700,7 +1750,8 @@ const entrees = [
         stars: 3,
         sellPrice: 353,
         energy: 1155,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Porridge_with_Fruits.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Porridge_with_Fruits.png",
+        imgAlt: "A round brown bowl of white porridge with mixed fruits in the center."
     },
     {
         name: "Ranch Salad",
@@ -1724,7 +1775,8 @@ const entrees = [
         stars: 5,
         sellPrice: 396,
         energy: 714,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6c/Ranch_Salad.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6c/Ranch_Salad.png",
+        imgAlt: "A square bowl of mixed lettuce and a various mix of vegetables."
     },
     {
         name: "Ratatouille",
@@ -1748,7 +1800,8 @@ const entrees = [
         stars: 5,
         sellPrice: 914,
         energy: 572,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b0/Ratatouille.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b0/Ratatouille.png",
+        imgAlt: "A round white plate with a golden trim. In the middle is some ratatouille, baked eggplant, tomato, onion, and zucchini, with a swirl of light orange sauce around it, and some green garnish."
     },
     {
         name: "Sake Maki",
@@ -1766,7 +1819,8 @@ const entrees = [
         stars: 3,
         sellPrice: 323,
         energy: 1101,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Sake_Maki.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Sake_Maki.png",
+        imgAlt: "Four pieces of maki sushi on a raised up wooden board. Rice with a piece of salmon in the middle wrapped in seaweed."
     },
     {
         name: "Sake Sushi",
@@ -1781,7 +1835,8 @@ const entrees = [
         stars: 2,
         sellPrice: 274,
         energy: 1000,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f0/Sake_Sushi.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f0/Sake_Sushi.png",
+        imgAlt: "Three pieces of nigiri sushi on a raised up wooden board. Pieces of rice with a piece of raw salmon on top."
     },
     {
         name: "Savory Fish",
@@ -1796,7 +1851,8 @@ const entrees = [
         stars: 2,
         sellPrice: 43,
         energy: 985,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/0e/Savory_Fish.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0e/Savory_Fish.png",
+        imgAlt: "An oval plate with a piece of whole grilled fish on top of lettuce and lemon slices."
     },
     {
         name: "Scrambled Egg",
@@ -1811,7 +1867,8 @@ const entrees = [
         stars: 2,
         sellPrice: 520,
         energy: 1070,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8b/Scrambled_Egg.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8b/Scrambled_Egg.png",
+        imgAlt: "A round white plate with scrambled eggs, herbs, and green garnish."
     },
     {
         name: "Seafood Pasta",
@@ -1829,7 +1886,8 @@ const entrees = [
         stars: 3,
         sellPrice: 325,
         energy: 921,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Seafood_Pasta.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1a/Seafood_Pasta.png",
+        imgAlt: "A round bowl of spaghetti with shrimp and a green garnish."
     },
     {
         name: "Seafood Pie",
@@ -1847,7 +1905,8 @@ const entrees = [
         stars: 3,
         sellPrice: 269,
         energy: 813,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/98/Seafood_Pie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/98/Seafood_Pie.png",
+        imgAlt: "A round black oven dish with two handles on either side. A crimped pie lid with four pieces of shrimp in the middle is on top."
     },
     {
         name: "Seafood Salad",
@@ -1862,7 +1921,8 @@ const entrees = [
         stars: 2,
         sellPrice: 68,
         energy: 349,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/69/Seafood_Salad.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/69/Seafood_Salad.png",
+        imgAlt: "A square white bowl with mixed lettuce, seafood, and various pieces of vegetables."
     },
     {
         name: "Seafood Soup",
@@ -1880,7 +1940,8 @@ const entrees = [
         stars: 3,
         sellPrice: 85,
         energy: 340,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Seafood_Soup.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Seafood_Soup.png",
+        imgAlt: "A round gray bowl with orange soup and pieces of vegetables and seafood."
     },
     {
         name: "Seared Rainbow Trout",
@@ -1898,7 +1959,8 @@ const entrees = [
         stars: 3,
         sellPrice: 338,
         energy: 889,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/20/Seared_Rainbow_Trout.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/20/Seared_Rainbow_Trout.png",
+        imgAlt: "A round blue plate with two pieces of fish on top of three slices of lemon, with cut up tomatoes and herbs."
     },
     {
         name: "Simple Fried Perch",
@@ -1916,7 +1978,8 @@ const entrees = [
         stars: 3,
         sellPrice: 380,
         energy: 1317,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Simple_Fried_Perch.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b3/Simple_Fried_Perch.png",
+        imgAlt: "An oval red plastic fast food container with a red and white checkered piece of parchment paper. Inside are pieces of battered fried fish with two lemon slices and a container with white sauce."
     },
     {
         name: "Smoked Peanuts and Anglerfish",
@@ -1931,7 +1994,8 @@ const entrees = [
         stars: 2,
         sellPrice: 2210,
         energy: 3960,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Smoked_Peanuts_and_Anglerfish.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e2/Smoked_Peanuts_and_Anglerfish.png",
+        imgAlt: "An oval white plate with a whole grilled fish on top of lettuce and slices of lemons."
     },
     {
         name: "Sole Meunière",
@@ -1940,7 +2004,7 @@ const entrees = [
                 name: "Sole"
             },
             {
-                name: "WHeat"
+                name: "Wheat"
             },
             {
                 name: "Butter"
@@ -1952,7 +2016,8 @@ const entrees = [
         stars: 4,
         sellPrice: 637,
         energy: 2337,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2e/Sole_Meuni%C3%A8re.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2e/Sole_Meuni%C3%A8re.png",
+        imgAlt: "A round blue plate with various vegetables, a slice of lemon, potatoes and a piece of fish with a green garnish."
     },
     {
         name: "Spaghetti Arrabbiata",
@@ -1970,7 +2035,8 @@ const entrees = [
         stars: 3,
         sellPrice: 141,
         energy: 373,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/4d/Spaghetti_Arrabbiata.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4d/Spaghetti_Arrabbiata.png",
+        imgAlt: "A round white bowl with spaghetti in a red sauce with meatballs and a green garnish."
     },
     {
         name: "Spicy Baked Bream",
@@ -1988,7 +2054,8 @@ const entrees = [
         stars: 3,
         sellPrice: 767,
         energy: 2075,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Spicy_Baked_Bream.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f6/Spicy_Baked_Bream.png",
+        imgAlt: "A round gray plate with a piece of fish, tomatoes, cut up vegetables, butter, and green herbs."
     },
     {
         name: "Steamed Fugu",
@@ -2006,7 +2073,8 @@ const entrees = [
         stars: 3,
         sellPrice: 1484,
         energy: 3668,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/bb/Steamed_Fugu.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bb/Steamed_Fugu.png",
+        imgAlt: "A round blue plate with an orange and pink pattern in the middle. On top is a piece of white fish with scattered herbs and some sliced ginger."
     },
     {
         name: "Sushi",
@@ -2021,7 +2089,8 @@ const entrees = [
         stars: 2,
         sellPrice: 80,
         energy: 405,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6d/Sushi.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6d/Sushi.png",
+        imgAlt: "Three pieces of nigiri sushi on a wooden board. Three pieces of rice with a piece of white fish on top."
     },
     {
         name: "Sweet & Sour Kingfish Steak",
@@ -2039,7 +2108,8 @@ const entrees = [
         stars: 3,
         sellPrice: 702,
         energy: 2292,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/bb/Sweet_%26_Sour_Kingfish_Steak.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bb/Sweet_%26_Sour_Kingfish_Steak.png",
+        imgAlt: "A round white plate with a big fish steak in orange sauce on top of vegetables and herbs with two lemon wedges on the side."
     },
     {
         name: "Sweet Udon",
@@ -2060,7 +2130,8 @@ const entrees = [
         stars: 4,
         sellPrice: 180,
         energy: 1427,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a6/Sweet_Udon.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a6/Sweet_Udon.png",
+        imgAlt: "A round gray bowl with a bright pink soup with a blue swirl. Over the bowl on its side are two dark wooden chopsticks."
     },
     {
         name: "Tamagoyaki",
@@ -2075,7 +2146,8 @@ const entrees = [
         stars: 2,
         sellPrice: 310,
         energy: 689,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Tamagoyaki.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/22/Tamagoyaki.png",
+        imgAlt: "Three pieces of nigiri sushi a raised up wooden board. The three pieces of rice each have a rectangular piece of egg on it that's held in place with a thin piece of seaweed."
     },
     {
         name: "Tasty Salad",
@@ -2096,7 +2168,8 @@ const entrees = [
         stars: 4,
         sellPrice: 292,
         energy: 650,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Tasty_Salad.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/84/Tasty_Salad.png",
+        imgAlt: "A square white bowl with mixed lettuce and various vegetables."
     },
     {
         name: "Tasty Veggies",
@@ -2111,7 +2184,8 @@ const entrees = [
         stars: 2,
         sellPrice: 36,
         energy: 246,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/87/Tasty_Veggies.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/87/Tasty_Veggies.png",
+        imgAlt: "A round black plate with grilled slices of zucchini and some spinach."
     },
     {
         name: "Tekka Maki",
@@ -2132,7 +2206,8 @@ const entrees = [
         stars: 4,
         sellPrice: 366,
         energy: 984,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e6/Tekka_Maki.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e6/Tekka_Maki.png",
+        imgAlt: "Four pieces of maki sushi on a raised up wooden board. Rice with a piece of tuna in the middle wrapped in seaweed."
     },
     {
         name: "Teriyaki Salmon",
@@ -2156,7 +2231,8 @@ const entrees = [
         stars: 5,
         sellPrice: 637,
         energy: 1726,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/61/Teriyaki_Salmon.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/61/Teriyaki_Salmon.png",
+        imgAlt: "A rectangular white plate with a piece of salmon on top of a green purée. On the side are some mixed vegetables in a little pile."
     },
     {
         name: "Tuna Burger",
@@ -2180,7 +2256,8 @@ const entrees = [
         stars: 5,
         sellPrice: 491,
         energy: 1922,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/00/Tuna_Burger.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/00/Tuna_Burger.png",
+        imgAlt: "A round white plate with a burger bun. Inside the bun is vegetables, and a fish burger patty."
     },
     {
         name: "Vegetarian Pizza",
@@ -2204,7 +2281,8 @@ const entrees = [
         stars: 5,
         sellPrice: 350,
         energy: 754,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Vegetarian_Pizza.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/83/Vegetarian_Pizza.png",
+        imgAlt: "A round pizza with tomato sauce, cheese, and various vegetables."
     },
     {
         name: "Vegetarian Stew",
@@ -2222,7 +2300,8 @@ const entrees = [
         stars: 3,
         sellPrice: 475,
         energy: 617,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/36/Vegetarian_Stew.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/36/Vegetarian_Stew.png",
+        imgAlt: "A round black dish with two handles on either side. Inside in an orange liquid pieces of potato, carrot, and peas can be seen."
     },
     {
         name: "Vegetarian Taco",
@@ -2243,7 +2322,8 @@ const entrees = [
         stars: 4,
         sellPrice: 423,
         energy: 925,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/90/Vegetarian_Taco.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/90/Vegetarian_Taco.png",
+        imgAlt: "A round black plate with white specs. On top is an open wheat tortilla with vegetables and a drizzle of a red sauce. On the edge of it is a lime wedge."
     },
     {
         name: "Veggie Casserole",
@@ -2264,7 +2344,8 @@ const entrees = [
         stars: 4,
         sellPrice: 324,
         energy: 821,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Veggie_Casserole.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ad/Veggie_Casserole.png",
+        imgAlt: "A white rectangular oven dish with two handles. In it is a veggie casserole with visible pieces of vegetables."
     },
     {
         name: "Veggie Pasta",
@@ -2282,7 +2363,8 @@ const entrees = [
         stars: 3,
         sellPrice: 43,
         energy: 158,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/4c/Veggie_Pasta.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4c/Veggie_Pasta.png",
+        imgAlt: "A round white bowl with spaghetti in a red sauce. Pieces of vegetables and a green garnish is visible."
     },
     {
         name: "Veggie Pie",
@@ -2300,7 +2382,8 @@ const entrees = [
         stars: 3,
         sellPrice: 279,
         energy: 634,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/48/Veggie_Pie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/48/Veggie_Pie.png",
+        imgAlt: "A round gray oven dish with two handles on either side. On top is a crimped pie lid with a green garnish."
     },
     {
         name: "Veggie Skewers",
@@ -2321,7 +2404,8 @@ const entrees = [
         stars: 4,
         sellPrice: 427,
         energy: 767,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/db/Veggie_Skewers.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/db/Veggie_Skewers.png",
+        imgAlt: "A rectangular plate with three metal skewers. On each skewer is various vegetables."
     },
     {
         name: "Walleye en Papillote",
@@ -2342,7 +2426,8 @@ const entrees = [
         stars: 4,
         sellPrice: 1729,
         energy: 3689,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2a/Walleye_en_Papillote.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2a/Walleye_en_Papillote.png",
+        imgAlt: "A round white plate with a piece of fish in parchment paper, with pieces of tomato, lemon slices and wedges, and herbs."
     }
 ]
 
