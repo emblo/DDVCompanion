@@ -22,6 +22,7 @@ function printCraftingMaterial(category) {
         const location = document.createElement("p");
         const sellPrice = document.createElement("p");
         const img = document.createElement("img")
+        img.alt = material.imgAlt;
         img.src = material.imgSrc;
 
         name.innerText = material.name;
