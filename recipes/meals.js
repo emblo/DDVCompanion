@@ -2449,7 +2449,8 @@ const desserts = [
         stars: 3,
         sellPrice: 294,
         energy: 679,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/05/%22My_Hero%22_Cookie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/05/%22My_Hero%22_Cookie.png",
+        imgAlt: "A heart shaped cookie with blue icing and pink writing, sprinkles on the edges. Attached to the cookie is a purple ribbon."
     },
     {
         name: "Apple Pie",
@@ -2467,7 +2468,8 @@ const desserts = [
         stars: 3,
         sellPrice: 303,
         energy: 1137,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fb/Apple_Pie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fb/Apple_Pie.png",
+        imgAlt: "A round golden brown pie with a lattice pie print as a lid."
     },
     {
         name: "Apple Sorbet",
@@ -2485,7 +2487,8 @@ const desserts = [
         stars: 3,
         sellPrice: 271,
         energy: 1077,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/5b/Apple_Sorbet.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5b/Apple_Sorbet.png",
+        imgAlt: "A dessert glass with a mint green sorbet and sliced apples. A small spoon is sticking out of the sorbet."
     },
     {
         name: "Aurora's Cake",
@@ -2509,7 +2512,8 @@ const desserts = [
         stars: 5,
         sellPrice: 786,
         energy: 2030,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f5/Aurora%27s_Cake.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f5/Aurora%27s_Cake.png",
+        imgAlt: "A round blue plate with a tall white topsy turvy cake with blue frosting. On the top of the cake are twelve pink candles."
     },
     {
         name: "Banana Ice Cream",
@@ -2530,7 +2534,8 @@ const desserts = [
         stars: 4,
         sellPrice: 641,
         energy: 1884,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/79/Banana_Ice_Cream.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/79/Banana_Ice_Cream.png",
+        imgAlt: "A small ice cream cone with yellow soft serve ice cream and pieces of banana."
     },
     {
         name: "Banana Pie",
@@ -2548,7 +2553,8 @@ const desserts = [
         stars: 3,
         sellPrice: 308,
         energy: 1227,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/75/Banana_Pie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/75/Banana_Pie.png",
+        imgAlt: "A round white plate with a small pie. On top is a yellow custard wth white icing sugar around it. On the side of the pie are three slices of banana. On the plate is a fork with a brown handle."
     },
     {
         name: "Banana Split",
@@ -2572,7 +2578,8 @@ const desserts = [
         stars: 5,
         sellPrice: 714,
         energy: 2074,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/bd/Banana_Split.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bd/Banana_Split.png",
+        imgAlt: "An oval bowl with two handles on the top and bottom. Inside are two pink scoops of ice cream with chocolate sauces and half a sliced banana on either side of it. On top is a big piece of wipped cream, topped with a bright red cherry."
     },
     {
         name: "Beignets",
@@ -2593,7 +2600,8 @@ const desserts = [
         stars: 4,
         sellPrice: 524,
         energy: 912,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Beignets.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4f/Beignets.png",
+        imgAlt: "A round white plate with square beignets topped with powdered sugar."
     },
     {
         name: "Berry Salad",
@@ -2611,7 +2619,8 @@ const desserts = [
         stars: 3,
         sellPrice: 139,
         energy: 2210,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8d/Berry_Salad.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8d/Berry_Salad.png",
+        imgAlt: "A dessert glass filled with blueberries, raspberries and square berries."
     },
     {
         name: "Birthday Cake",
@@ -2635,7 +2644,8 @@ const desserts = [
         stars: 5,
         sellPrice: 749,
         energy: 2310,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e3/Birthday_Cake.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e3/Birthday_Cake.png",
+        imgAlt: "A square white plate with a square cake. The cake has pink magenta, and purple frosting with star sprinkles and seven red and white striped candles."
     },
     {
         name: "Biscuits",
@@ -2653,7 +2663,8 @@ const desserts = [
         stars: 3,
         sellPrice: 294,
         energy: 679,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/f5/Biscuits.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/f5/Biscuits.png",
+        imgAlt: "A round teal plate with bulbous biscuits topped with white icing and a red dot."
     },
     {
         name: "Blueberry Pie",
@@ -2671,7 +2682,8 @@ const desserts = [
         stars: 3,
         sellPrice: 308,
         energy: 1227,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/32/Blueberry_Pie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/32/Blueberry_Pie.png",
+        imgAlt: "A round white plate with a round pie with blueberries in the middle surrounded by powdered sugar. On the sied of it are some blueberries and a fork with a brown handle."
     },
     {
         name: "Boba Tea",
@@ -2686,7 +2698,8 @@ const desserts = [
         stars: 2,
         sellPrice: 323,
         energy: 714,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/0a/Boba_Tea.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0a/Boba_Tea.png",
+        imgAlt: "A tall plastic cup of boba. The tapioca pearls are black and the lid is white with a purple center that has white sparkles on it. A pink straw is inserted into the lid and cup."
     },
     {
         name: "Candy",
@@ -2698,7 +2711,8 @@ const desserts = [
         stars: 1,
         sellPrice: 22,
         energy: 123,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1c/Candy.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1c/Candy.png",
+        imgAlt: "Several pieces of wrapped candy. The wrappers are in purple, blue, and red."
     },
     {
         name: "Caramel Apples",
@@ -2713,7 +2727,8 @@ const desserts = [
         stars: 2,
         sellPrice: 56,
         energy: 638,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c6/Caramel_Apples.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c6/Caramel_Apples.png",
+        imgAlt: "A rectangular plate with three candied apples. Each apple is covered in caramel with a plastic stick sticking out of them."
     },
     {
         name: "Carrot Cake",
@@ -2734,7 +2749,8 @@ const desserts = [
         stars: 4,
         sellPrice: 427,
         energy: 908,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Carrot_Cake.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Carrot_Cake.png",
+        imgAlt: "A round white plate with a slice of carrot cake. The cake has white frosting and a small carrot on the top of it."
     },
     {
         name: "Cheesecake",
@@ -2755,7 +2771,8 @@ const desserts = [
         stars: 4,
         sellPrice: 332,
         energy: 1161,
-        imgSrc: "https://dreamlightvalleywiki.com/images/2/2d/Cheesecake.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/2d/Cheesecake.png",
+        imgAlt: "A round blue plate with a gold trim. On it is a slice of cheesecake with a pink sauce."
     },
     {
         name: "Cherry Pie",
@@ -2773,7 +2790,8 @@ const desserts = [
         stars: 3,
         sellPrice: 326,
         energy: 1497,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/70/Cherry_Pie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/70/Cherry_Pie.png",
+        imgAlt: "A round white plate with a round pie. In the middle of it are cherries surrounded by powdered sugar. On the side are some cherries and a fork with a brown handle."
     },
     {
         name: "Chocolate Chip Cookies",
@@ -2794,7 +2812,8 @@ const desserts = [
         stars: 4,
         sellPrice: 373,
         energy: 1569,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6f/Chocolate_Chip_Cookies.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6f/Chocolate_Chip_Cookies.png",
+        imgAlt: "A round yellow plate with four chocolate chip cookies."
     },
     {
         name: "Chocolate Ice Cream",
@@ -2815,7 +2834,8 @@ const desserts = [
         stars: 4,
         sellPrice: 655,
         energy: 2074,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/41/Chocolate_Ice_Cream.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/41/Chocolate_Ice_Cream.png",
+        imgAlt: "A small ice cream cone with brown soft serve ice cream. In it are bits of chocolate."
     },
     {
         name: "Chocolate Waffles",
@@ -2836,7 +2856,8 @@ const desserts = [
         stars: 4,
         sellPrice: 735,
         energy: 2223,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/4d/Chocolate_Waffles.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/4d/Chocolate_Waffles.png",
+        imgAlt: "A round white plate with a red trim. On it is a Mickey Mouse shaped waffle with a happy face, and some chocolate sauce."
     },
     {
         name: "Coconut Boba Tea",
@@ -2854,7 +2875,8 @@ const desserts = [
         stars: 3,
         sellPrice: 406,
         energy: 1653,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/Coconut_Boba_Tea.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/50/Coconut_Boba_Tea.png",
+        imgAlt: "A tall plastic cup of purple boba. The tapioca pearls are black and the lid is white with a purple center that has white sparkles on it. A purple straw is inserted into the lid and cup."
     },
     {
         name: "Coconut Cake",
@@ -2875,7 +2897,8 @@ const desserts = [
         stars: 4,
         sellPrice: 424,
         energy: 1750,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/5c/Coconut_Cake.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5c/Coconut_Cake.png",
+        imgAlt: "A slice of toasted coconut cake with white frosting on a round white plate."
     },
     {
         name: "Coconut Ice Cream",
@@ -2896,7 +2919,8 @@ const desserts = [
         stars: 4,
         sellPrice: 661,
         energy: 2169,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d9/Coconut_Ice_Cream.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d9/Coconut_Ice_Cream.png",
+        imgAlt: "A halved coconut with white ice cream inside, a brown spoon sticking out of it."
     },
     {
         name: "Crepe",
@@ -2917,7 +2941,8 @@ const desserts = [
         stars: 4,
         sellPrice: 768,
         energy: 1624,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/62/Crepe.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/62/Crepe.png",
+        imgAlt: "A round white plate with two folded crepes covered in chocolate sauce."
     },
     {
         name: "Dream Ice Cream",
@@ -2935,7 +2960,8 @@ const desserts = [
         stars: 3,
         sellPrice: 588,
         energy: 1976,
-        imgSrc: "https://dreamlightvalleywiki.com/images/c/c9/Dream_Ice_Cream.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/c/c9/Dream_Ice_Cream.png",
+        imgAlt: "A small ice cream cone with pink and white soft serve ice cream. The ice cream cone is placed on top of a few purple napkins with glowing sparkles."
     },
     {
         name: "Fruit Salad",
@@ -2947,7 +2973,8 @@ const desserts = [
         stars: 1,
         sellPrice: 25,
         energy: 450,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Fruit_Salad.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9e/Fruit_Salad.png",
+        imgAlt: "A dessert glass with cut up pieces of fruit."
     },
     {
         name: "Fruit Sorbet",
@@ -2962,7 +2989,8 @@ const desserts = [
         stars: 2,
         sellPrice: 222,
         energy: 857,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Fruit_Sorbet.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/b9/Fruit_Sorbet.png",
+        imgAlt: "A white cup filled with a yellow fruit sorbet, two slices of citrus fruits sticking out of it. The cup is placed on top of purple napkins."
     },
     {
         name: "Fruitcake",
@@ -2983,7 +3011,8 @@ const desserts = [
         stars: 4,
         sellPrice: 96,
         energy: 1511,
-        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Fruitcake.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/91/Fruitcake.png",
+        imgAlt: "A rectangular white plate with a whole fruit cake. On top of it are some multi-colored pieces of fruit."
     },
     {
         name: "Gingerbread House",
@@ -3007,7 +3036,8 @@ const desserts = [
         stars: 5,
         sellPrice: 641,
         energy: 1460,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Gingerbread_House.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/1d/Gingerbread_House.png",
+        imgAlt: "A round white plate with a gingerbread house. The house has two windows, a door, and a chimney. On it are various pieces of candy, and the roof is covered in white icing."
     },
     {
         name: "Gooseberry Boba Tea",
@@ -3025,7 +3055,8 @@ const desserts = [
         stars: 3,
         sellPrice: 418,
         energy: 1833,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/df/Gooseberry_Boba_Tea.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/df/Gooseberry_Boba_Tea.png",
+        imgAlt: "A tall plastic cup of pink boba. The tapioca pearls are black and the lid is white with a purple center that has white sparkles on it. A purple straw is inserted into the lid and cup."
     },
     {
         name: "Gray Stuff",
@@ -3043,7 +3074,8 @@ const desserts = [
         stars: 3,
         sellPrice: 114,
         energy: 1046,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/17/Gray_Stuff.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/17/Gray_Stuff.png",
+        imgAlt: "Three pieces of gray stuff on paper plates. The gray stuff is a chocolate-looking swirl. The top left one is a cupcake with a brown wrapper."
     },
     {
         name: "Hot Cocoa",
@@ -3061,7 +3093,8 @@ const desserts = [
         stars: 3,
         sellPrice: 401,
         energy: 1563,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/7c/Hot_Cocoa.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7c/Hot_Cocoa.png",
+        imgAlt: "A brown wooden mug with a handle. In the middle of the bug and at the base the wood is lighter. The contents in the mug are a chocolate liquid and three pieces of floating marshmallows."
     },
     {
         name: "Ice Cream",
@@ -3079,7 +3112,8 @@ const desserts = [
         stars: 3,
         sellPrice: 558,
         energy: 1158,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/5d/Ice_Cream.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/5d/Ice_Cream.png",
+        imgAlt: "A small ice cream cone with white vanilla soft serve ice cream."
     },
     {
         name: "Jam Waffles",
@@ -3100,7 +3134,8 @@ const desserts = [
         stars: 4,
         sellPrice: 709,
         energy: 1843,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/53/Jam_Waffles.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/53/Jam_Waffles.png",
+        imgAlt: "A round white plate with a red trim. On the plate is a Mickey Mouse shaped waffle with a red sauce drizzled over."
     },
     {
         name: "Lemon Sorbet",
@@ -3115,7 +3150,8 @@ const desserts = [
         stars: 2,
         sellPrice: 237,
         energy: 1112,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/d8/Lemon_Sorbet.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/d8/Lemon_Sorbet.png",
+        imgAlt: "A green popsicle on a gray popsicle stick."
     },
     {
         name: "Meringue Pie",
@@ -3136,7 +3172,8 @@ const desserts = [
         stars: 4,
         sellPrice: 667,
         energy: 2014,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Meringue_Pie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/54/Meringue_Pie.png",
+        imgAlt: "A round pie with torched meringue on top."
     },
     {
         name: "Minnie's Gingerbread Cookies",
@@ -3151,7 +3188,8 @@ const desserts = [
         stars: 2,
         sellPrice: 132,
         energy: 379,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/ac/Minnie%27s_Gingerbread_Cookies.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/ac/Minnie%27s_Gingerbread_Cookies.png",
+        imgAlt: "A round white plate with Mickey Mouse shaped gingerbread cookies with icing. Some of it make up a smiling face on each cookie."
     },
     {
         name: "Mint Boba Tea",
@@ -3169,7 +3207,8 @@ const desserts = [
         stars: 3,
         sellPrice: 460,
         energy: 1032,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Mint_Boba_Tea.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Mint_Boba_Tea.png",
+        imgAlt: "A tall cup of green boba with black tapioca pearls. The lid is white with a purple circle. On top are white sparkles, and a purple straw is going through the lid into the cup."
     },
     {
         name: "Mint Candy",
@@ -3184,7 +3223,8 @@ const desserts = [
         stars: 2,
         sellPrice: 128,
         energy: 391,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Mint_Candy.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/7a/Mint_Candy.png",
+        imgAlt: "Three pieces of round white and red candy with a red dot in the center."
     },
     {
         name: "Mint Chocolate",
@@ -3205,7 +3245,8 @@ const desserts = [
         stars: 4,
         sellPrice: 490,
         energy: 1827,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/3f/Mint_Chocolate.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3f/Mint_Chocolate.png",
+        imgAlt: "A rectangular piece of chocolate with a turqouise wrapped with some visible foil. On it is a heart, and a mint sprig."
     },
     {
         name: "Mint Sorbet",
@@ -3220,7 +3261,8 @@ const desserts = [
         stars: 2,
         sellPrice: 299,
         energy: 695,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/0b/Mint_Sorbet.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/0b/Mint_Sorbet.png",
+        imgAlt: "A dessert glass with green sorbet and two mint leaves. A small spoon is sticking out of the sorbet."
     },
     {
         name: "Pastry Cream and Fruits",
@@ -3244,7 +3286,8 @@ const desserts = [
         stars: 5,
         sellPrice: 497,
         energy: 2332,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ef/Pastry_Cream_and_Fruits.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ef/Pastry_Cream_and_Fruits.png",
+        imgAlt: "A white dessert glass with mixed berries and a dollop of pastry cream, topped with a red cherry."
     },
     {
         name: "Pawpsicle",
@@ -3262,7 +3305,8 @@ const desserts = [
         stars: 3,
         sellPrice: 265,
         energy: 987,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/de/Pawpsicle.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/de/Pawpsicle.png",
+        imgAlt: "A blue cooler with ice, black wheels, and a white inside on the lid. In the ice, three paw print shaped pink popssicles stick out."
     },
     {
         name: "Peanut Butter Waffles",
@@ -3283,7 +3327,8 @@ const desserts = [
         stars: 4,
         sellPrice: 978,
         energy: 1938,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/ba/Peanut_Butter_Waffles.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/ba/Peanut_Butter_Waffles.png",
+        imgAlt: "A round white plate with a red trim. A Mickey Mouse shaped waffle with a smiling face is on it, drizzled in peanut butter."
     },
     {
         name: "Plain Snow Cones",
@@ -3295,7 +3340,8 @@ const desserts = [
         stars: 1,
         sellPrice: 180,
         energy: 410,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/16/Plain_Snow_Cones.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/16/Plain_Snow_Cones.png",
+        imgAlt: "A black stand with six white cones, filled with yellow shaved ice."
     },
     {
         name: "Raspberry Boba Tea",
@@ -3313,7 +3359,8 @@ const desserts = [
         stars: 3,
         sellPrice: 377,
         energy: 1203,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/bd/Raspberry_Boba_Tea.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/bd/Raspberry_Boba_Tea.png",
+        imgAlt: "A tall cup of pink boba with black tapioca pearls. The lid is white with a purple circle. On top are white sparkles, and a purple straw is going through the lid into the cup."
     },
     {
         name: "Red Fruit Pie",
@@ -3331,7 +3378,8 @@ const desserts = [
         stars: 3,
         sellPrice: 297,
         energy: 1047,
-        imgSrc: "https://dreamlightvalleywiki.com/images/f/fd/Red_Fruit_Pie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/f/fd/Red_Fruit_Pie.png",
+        imgAlt: "A round pie with a lattice pie top. Puréed red fruit is seen through the lattice."
     },
     {
         name: "Red Fruit Sorbet",
@@ -3352,7 +3400,8 @@ const desserts = [
         stars: 4,
         sellPrice: 359,
         energy: 2179,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/07/Red_Fruit_Sorbet.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/07/Red_Fruit_Sorbet.png",
+        imgAlt: "A dessert glass filled with pink sorbet. Three pieces of berries are on the edge of the glass with a spoon sticking out of it."
     },
     {
         name: "Root Beer",
@@ -3370,7 +3419,8 @@ const desserts = [
         stars: 3,
         sellPrice: 250,
         energy: 690,
-        imgSrc: "https://dreamlightvalleywiki.com/images/0/01/Root_Beer.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/01/Root_Beer.png",
+        imgAlt: "A tall brown glass mug with a handle, inside is a brown liquid and a thick layer of foam. Sticking out of it is a red and white striped straw."
     },
     {
         name: "Shake",
@@ -3382,7 +3432,8 @@ const desserts = [
         stars: 1,
         sellPrice: 30,
         energy: 142,
-        imgSrc: "https://dreamlightvalleywiki.com/images/7/71/Shake.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/7/71/Shake.png",
+        imgAlt: "A magenta shaker with a purple lid with gray details. On the front of it is white sparkles on a purple circular background."
     },
     {
         name: "Snow White's Gooseberry Pie",
@@ -3400,7 +3451,8 @@ const desserts = [
         stars: 3,
         sellPrice: 338,
         energy: 1677,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Snow_White%27s_Gooseberry_Pie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Snow_White%27s_Gooseberry_Pie.png",
+        imgAlt: "A red oven dish with handles on either side of it. Inside is a crimped pie lid with a cut out pattern in the center, slightly resembling a sun."
     },
     {
         name: "Sour Snow Cones",
@@ -3418,7 +3470,8 @@ const desserts = [
         stars: 3,
         sellPrice: 282,
         energy: 1257,
-        imgSrc: "https://dreamlightvalleywiki.com/images/b/be/Sour_Snow_Cones.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/b/be/Sour_Snow_Cones.png",
+        imgAlt: "A black stand with six white cones filled with yellow shaved ice."
     },
     {
         name: "Spring Chocolate",
@@ -3436,7 +3489,8 @@ const desserts = [
         stars: 3,
         sellPrice: 254,
         energy: 1392,
-        imgSrc: "https://dreamlightvalleywiki.com/images/5/56/Spring_Chocolate.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/5/56/Spring_Chocolate.png",
+        imgAlt: "A big chocolate egg with smaller pink eggs around it. It sits on top of some magenta napkins."
     },
     {
         name: "Spring Egg Bowl",
@@ -3460,7 +3514,8 @@ const desserts = [
         stars: 5,
         sellPrice: 370,
         energy: 1942,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/8a/Spring_Egg_Bowl.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/8a/Spring_Egg_Bowl.png",
+        imgAlt: "A white bowl filled with pink eggs."
     },
     {
         name: "Spring Mimosa Eggs",
@@ -3481,7 +3536,8 @@ const desserts = [
         stars: 4,
         sellPrice: 298,
         energy: 1095,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Spring_Mimosa_Eggs.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ec/Spring_Mimosa_Eggs.png",
+        imgAlt: "A rectangular plate with multi-colored egg halves in the colors yellow, pink and blue."
     },
     {
         name: "Sweet Slush",
@@ -3496,7 +3552,8 @@ const desserts = [
         stars: 2,
         sellPrice: 219,
         energy: 510,
-        imgSrc: "https://dreamlightvalleywiki.com/images/a/a4/Sweet_Slush.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/a/a4/Sweet_Slush.png",
+        imgAlt: "A white cup filled with blue shaved ice. "
     },
     {
         name: "Tropical Pop",
@@ -3517,7 +3574,8 @@ const desserts = [
         stars: 4,
         sellPrice: 347,
         energy: 1989,
-        imgSrc: "https://dreamlightvalleywiki.com/images/8/85/Tropical_Pop.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/85/Tropical_Pop.png",
+        imgAlt: "An orange popsicle with a brown popsicle stick sticking into it."
     },
     {
         name: "Vanilla Ice Cream",
@@ -3538,7 +3596,8 @@ const desserts = [
         stars: 4,
         sellPrice: 688,
         energy: 1475,
-        imgSrc: "https://dreamlightvalleywiki.com/images/1/15/Vanilla_Ice_Cream.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/15/Vanilla_Ice_Cream.png",
+        imgAlt: "A small ice cream cone with white vanilla soft serve."
     },
     {
         name: "Waffles",
@@ -3559,7 +3618,8 @@ const desserts = [
         stars: 4,
         sellPrice: 706,
         energy: 1455,
-        imgSrc: "https://dreamlightvalleywiki.com/images/e/e8/Waffles.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/e8/Waffles.png",
+        imgAlt: "A round white plate with a red trim. On it is a Mickey Mouse shaped waffle with a smiling face."
     },
     {
         name: "Wedding Cake",
@@ -3583,7 +3643,8 @@ const desserts = [
         stars: 5,
         sellPrice: 785,
         energy: 1680,
-        imgSrc: "https://dreamlightvalleywiki.com/images/6/6f/Wedding_Cake.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/6/6f/Wedding_Cake.png",
+        imgAlt: "A multi-tiered white wedding cake with pink frosting and a pink heart topper."
     },
     {
         name: "Whimsical Pie",
@@ -3601,7 +3662,8 @@ const desserts = [
         stars: 3,
         sellPrice: 324,
         energy: 1497,
-        imgSrc: "https://dreamlightvalleywiki.com/images/4/46/Whimsical_Pie.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/4/46/Whimsical_Pie.png",
+        imgAlt: "A round pie with a lattice pie lid. Inside is a glowing pink filling."
     },
     {
         name: "Wonderland Cookies",
@@ -3622,7 +3684,8 @@ const desserts = [
         stars: 4,
         sellPrice: 406,
         energy: 970,
-        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Wonderland_Cookies.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/37/Wonderland_Cookies.png",
+        imgAlt: "A glass cup of cookies in various shapes. On them are multi-colored icing with different messages."
     },
     {
         name: "Yule Log",
@@ -3643,7 +3706,8 @@ const desserts = [
         stars: 4,
         sellPrice: 213,
         energy: 2147,
-        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Yule_Log.png"
+        imgSrc: "https://dreamlightvalleywiki.com/images/d/dd/Yule_Log.png",
+        imgAlt: "A cylinder shaped chocolate dessert that looks like a log when cut into, showing its white frsoting. On it are some red berries as decoration."
     }
 ]
 
