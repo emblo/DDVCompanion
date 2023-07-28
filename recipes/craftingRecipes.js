@@ -21,7 +21,7 @@ function printCraftingRecipe(category) {
         img.src = object.imgSrc;
 
         name.innerText = object.name;
-        img.alt = object.name;
+        img.alt = object.imgAlt;
         
         // Append the name and image of the current object to its container
         objectBox.append(name, img);
