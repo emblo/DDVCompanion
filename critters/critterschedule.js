@@ -1014,11 +1014,11 @@ function critterSchedule(day) {
     }
 
     //Print objects of current active day
-    const schedule = document.querySelector(".schedule");
+    const schedule = document.querySelector(".objectContainer");
 
     active.forEach(critter => {
-        const critterBox = document.createElement("div");
-        critterBox.className = "critterBox";
+        const objectBox = document.createElement("div");
+        objectBox.className = "objectBox";
         
         const title = document.createElement("h3");
         const time = document.createElement("p");
@@ -1031,9 +1031,9 @@ function critterSchedule(day) {
         time.innerText = critter.time;
         location.innerText = critter.location;
         img.innerText = critter.img;
-        critterBox.append(title,time,location,img);
+        objectBox.append(title,time,location,img);
 
-        schedule.appendChild(critterBox);
+        schedule.appendChild(objectBox);
     })
 }
 
