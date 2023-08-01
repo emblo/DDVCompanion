@@ -108,7 +108,7 @@ tr {
     padding: 0px 5px 0px 5px;
 }
 
-.objectContainer, .gallery, .appetizers, .entrees, .desserts {
+.objectContainer {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 20px 10px 10px 10px;
@@ -121,7 +121,7 @@ tr {
     grid-template-columns: auto auto auto auto;
 }
 
-.objectBox, .galleryItem, .recipeBox {
+.objectBox {
     padding: 20px 5px 0px 5px;
     text-align: center;
     color: $fontColor;

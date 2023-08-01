@@ -14,7 +14,7 @@ function printMealRecipe(category) {
 
         // Create a container for the current object's details
         const objectBox = document.createElement("div");
-        objectBox.className = "recipeBox";
+        objectBox.className = "objectBox";
 
         const name = document.createElement("h3");
         const img = document.createElement("img");
@@ -49,11 +49,11 @@ function printMealRecipe(category) {
         // Find the specified category container
         let specifiedCategory;
         if (category == appetizers) {
-            specifiedCategory = document.querySelector(".appetizers");
+            specifiedCategory = document.querySelector("#appetizers");
         } else if (category == entrees) {
-            specifiedCategory = document.querySelector(".entrees");
+            specifiedCategory = document.querySelector("#entrees");
         } else {
-            specifiedCategory = document.querySelector(".desserts");
+            specifiedCategory = document.querySelector("#desserts");
         }
 
         // Append the object container to the specified category container
