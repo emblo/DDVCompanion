@@ -219,11 +219,11 @@ const characters = [
 ]
 
 //Print characters
-const character = document.querySelector(".characters");
+const character = document.querySelector(".objectContainer");
 
 characters.forEach(char => {
-    const characterBox = document.createElement("div");
-    characterBox.className = "characterBox";
+    const objectBox = document.createElement("div");
+    objectBox.className = "objectBox";
         
     const name = document.createElement("h3");
     const movie = document.createElement("p");
@@ -249,7 +249,7 @@ characters.forEach(char => {
     quote.innerText = char.quote;
     img.innerText = char.img;
 
-    characterBox.append(name,movieText,movie,about,img,lineBreak,quote);
+    objectBox.append(name,movieText,movie,about,img,lineBreak,quote);
 
-    character.appendChild(characterBox);
+    character.appendChild(objectBox);
 })
