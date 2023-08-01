@@ -14,7 +14,7 @@ function printCraftingRecipe(category) {
 
         // Create a container for the current object's details
         const objectBox = document.createElement("div");
-        objectBox.className = "recipeBox";
+        objectBox.className = "objectBox";
 
         const name = document.createElement("h3");
         const img = document.createElement("img");
@@ -50,61 +50,61 @@ function printCraftingRecipe(category) {
         let specifiedCategory;
         switch(category) {
             case refinedMaterials: 
-                specifiedCategory = document.querySelector(".refinedMaterials");
+                specifiedCategory = document.querySelector("#refinedMaterials");
                 break;
             case enchantments: 
-                specifiedCategory = document.querySelector(".enchantments");
+                specifiedCategory = document.querySelector("#enchantments");
                 break;
             case paving: 
-                specifiedCategory = document.querySelector(".paving");
+                specifiedCategory = document.querySelector("#paving");
                 break;
             case fences: 
-                specifiedCategory = document.querySelector(".fences");
+                specifiedCategory = document.querySelector("#fences");
                 break;
             case chests: 
-                specifiedCategory = document.querySelector(".chests");
+                specifiedCategory = document.querySelector("#chests");
                 break;
             case stoves: 
-                specifiedCategory = document.querySelector(".stoves");
+                specifiedCategory = document.querySelector("#stoves");
                 break;
             case mannequins: 
-                specifiedCategory = document.querySelector(".mannequins");
+                specifiedCategory = document.querySelector("#mannequins");
                 break;
             case companions: 
-                specifiedCategory = document.querySelector(".companions");
+                specifiedCategory = document.querySelector("#companions");
                 break;
             case functionalItems: 
-                specifiedCategory = document.querySelector(".functionalItems");
+                specifiedCategory = document.querySelector("#functionalItems");
                 break;
             case furniture: 
-                specifiedCategory = document.querySelector(".furniture");
+                specifiedCategory = document.querySelector("#furniture");
                 break;
             case balloons: 
-                specifiedCategory = document.querySelector(".balloons");
+                specifiedCategory = document.querySelector("#balloons");
                 break;
             case touchOfMagic: 
-                specifiedCategory = document.querySelector(".touchOfMagic");
+                specifiedCategory = document.querySelector("#touchOfMagic");
                 break;
             case fallEvent: 
-                specifiedCategory = document.querySelector(".fallEvent");
+                specifiedCategory = document.querySelector("#fallEvent");
                 break;
             case winterEvent: 
-                specifiedCategory = document.querySelector(".winterEvent");
+                specifiedCategory = document.querySelector("#winterEvent");
                 break;
             case springEvent: 
-                specifiedCategory = document.querySelector(".springEvent");
+                specifiedCategory = document.querySelector("#springEvent");
                 break;
             case floral: 
-                specifiedCategory = document.querySelector(".floral");
+                specifiedCategory = document.querySelector("#floral");
                 break;
             case lamps: 
-                specifiedCategory = document.querySelector(".lamps");
+                specifiedCategory = document.querySelector("#lamps");
                 break;
             case signs: 
-                specifiedCategory = document.querySelector(".signs");
+                specifiedCategory = document.querySelector("#signs");
                 break;
             case mailboxes: 
-                specifiedCategory = document.querySelector(".mailboxes");
+                specifiedCategory = document.querySelector("#mailboxes");
                 break;
         }
 
