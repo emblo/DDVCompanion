@@ -108,7 +108,7 @@ tr {
     padding: 0px 5px 0px 5px;
 }
 
-.objectContainer, .gallery, .craftingMaterial, .gems, .flowers, .refinedMaterials, .enchantments, .paving, .fences, .chests, .stoves, .mannequins, .companions, .functionalItems, .furniture, .balloons, .touchOfMagic, .fallEvent, .winterEvent, .springEvent, .floral, .lamps, .signs, .mailboxes, .appetizers, .entrees, .desserts {
+.objectContainer, .gallery, .refinedMaterials, .enchantments, .paving, .fences, .chests, .stoves, .mannequins, .companions, .functionalItems, .furniture, .balloons, .touchOfMagic, .fallEvent, .winterEvent, .springEvent, .floral, .lamps, .signs, .mailboxes, .appetizers, .entrees, .desserts {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 20px 10px 10px 10px;
@@ -121,7 +121,7 @@ tr {
     grid-template-columns: auto auto auto auto;
 }
 
-.objectBox, .galleryItem, .craftingBox, .gemBox, .flowerBox, .recipeBox {
+.objectBox, .galleryItem, .recipeBox {
     padding: 20px 5px 0px 5px;
     text-align: center;
     color: $fontColor;

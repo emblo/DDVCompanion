@@ -5,18 +5,15 @@ import { flowers } from "./flowers.js";
 function printCraftingMaterial(category) {
     //Print objects of specified category
     category.forEach(material => {
-        const materialBox = document.createElement("div");
-        let specifiedCategory = document.querySelector(".flowers");
+        const objectBox = document.createElement("div");
+        objectBox.className = "objectBox";
+        let specifiedCategory = document.querySelector("#flowers");
         
         if (category == craftingmaterials) {
-            materialBox.className = "craftingBox";
-            specifiedCategory = document.querySelector(".craftingMaterial");
+            specifiedCategory = document.querySelector("#craftingMaterial");
         } else if (category == gems) {
-            materialBox.className = "gemBox";
-            specifiedCategory = document.querySelector(".gems");
-        } else {
-            materialBox.className = "flowerBox";
-        }
+            specifiedCategory = document.querySelector("#gems");
+        } 
         
         const name = document.createElement("h3");
         const location = document.createElement("p");
@@ -29,9 +26,9 @@ function printCraftingMaterial(category) {
         location.innerText = material.location;
         sellPrice.innerText = material.sellPrice;
         img.innerText = material.img;
-        materialBox.append(name,location,sellPrice,img);
+        objectBox.append(name,location,sellPrice,img);
 
-        specifiedCategory.appendChild(materialBox)
+        specifiedCategory.appendChild(objectBox)
     })
 }
 
