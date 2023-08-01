@@ -4,8 +4,9 @@ import { fish } from "./fish.js";
 function printFoodIngredient(category) {
     //Print objects of specified category
     category.forEach(ingredient => {
-        const ingredientBox = document.createElement("div");
-        let specifiedCategory = document.querySelector(".crops");
+        const objectBox = document.createElement("div");
+        objectBox.className = "objectBox";
+        let specifiedCategory = document.querySelector("#crops");
         
         const name = document.createElement("h3");
         const location = document.createElement("p");
@@ -32,41 +33,34 @@ function printFoodIngredient(category) {
         //Determine category and assign appropriate class name
         switch(category) {
             case crops:
-                ingredientBox.className = "cropsBox"
-                specifiedCategory = document.querySelector(".crops");
-                console.log(specifiedCategory);
-                ingredientBox.append(name,growTime,cropsYield,sellPrice,energy,seedLocation,img);
-                specifiedCategory.appendChild(ingredientBox)
+                specifiedCategory = document.querySelector("#crops");
+                objectBox.append(name,growTime,cropsYield,sellPrice,energy,seedLocation,img);
+                specifiedCategory.appendChild(objectBox)
                 break;
             case fruit:
-                ingredientBox.className = "fruitBox"
-                specifiedCategory = document.querySelector(".fruit");
-                ingredientBox.append(name,location,sellPrice,energy,img);
-                specifiedCategory.appendChild(ingredientBox)
+                specifiedCategory = document.querySelector("#fruit");
+                objectBox.append(name,location,sellPrice,energy,img);
+                specifiedCategory.appendChild(objectBox)
                 break;
             case spicesAndHerbs:
-                ingredientBox.className = "spicesBox"
-                specifiedCategory = document.querySelector(".spices");
-                ingredientBox.append(name,location,sellPrice,energy,img);
-                specifiedCategory.appendChild(ingredientBox)
+                specifiedCategory = document.querySelector("#spices");
+                objectBox.append(name,location,sellPrice,energy,img);
+                specifiedCategory.appendChild(objectBox)
                 break;
             case seafood:
-                ingredientBox.className = "seafoodBox"
-                specifiedCategory = document.querySelector(".seafood");
-                ingredientBox.append(name,location,sellPrice,energy,img);
-                specifiedCategory.appendChild(ingredientBox)
+                specifiedCategory = document.querySelector("#seafood");
+                objectBox.append(name,location,sellPrice,energy,img);
+                specifiedCategory.appendChild(objectBox)
                 break;
             case fish:
-                ingredientBox.className = "fishBox"
-                specifiedCategory = document.querySelector(".fish");
-                ingredientBox.append(name,location,ripple,sellPrice,energy,img);
-                specifiedCategory.appendChild(ingredientBox)
+                specifiedCategory = document.querySelector("#fish");
+                objectBox.append(name,location,ripple,sellPrice,energy,img);
+                specifiedCategory.appendChild(objectBox)
                 break;
             case remy:
-                ingredientBox.className = "remyBox"
-                specifiedCategory = document.querySelector(".remy");
-                ingredientBox.append(name,location,sellPrice,energy,img);
-                specifiedCategory.appendChild(ingredientBox)
+                specifiedCategory = document.querySelector("#remy");
+                objectBox.append(name,location,sellPrice,energy,img);
+                specifiedCategory.appendChild(objectBox)
                 break;
         }
     })
