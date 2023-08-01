@@ -303,11 +303,11 @@ const wonderOfPixar = [
 ]
 
 //Print event rewards
-const rewards = document.querySelector(".eventRewards");
+const rewards = document.querySelector(".objectContainer");
 
 wonderOfPixar.forEach(reward => {
-    const rewardBox = document.createElement("div");
-    rewardBox.className = "rewardBox";
+    const objectBox = document.createElement("div");
+    objectBox.className = "objectBox";
         
     const name = document.createElement("h3");
     const cost = document.createElement("p");
@@ -330,7 +330,7 @@ wonderOfPixar.forEach(reward => {
     pageText.innerText = "Page:";
     img.innerText = reward.img;
 
-    rewardBox.append(name,lineBreak,costText,cost,lineBreak,pageText,page,img);
+    objectBox.append(name,lineBreak,costText,cost,lineBreak,pageText,page,img);
 
-    rewards.appendChild(rewardBox);
+    rewards.appendChild(objectBox);
 })
