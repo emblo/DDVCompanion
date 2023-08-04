@@ -3297,6 +3297,138 @@ const furniture = [
         sellPrice: 0,
         imgSrc: "https://dreamlightvalleywiki.com/images/2/21/Zen_Garden.png",
         imgAlt: "A rocky zen garden made from multi-colored pebbles, whtie sand, a lantern, moss covered rocks and bamboo."
+    },
+    {
+        name: "Cardboard Cyclops Monster Panel",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 15
+            },
+            {
+                name: "Blue Passion Lily",
+                amount: 5
+            },
+            {
+                name: "White Passion Lily",
+                amount: 1
+            },
+            {
+                name: "Purple Hydrangea",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/e/ee/Cardboard_Cyclops_Monster_Panel.png",
+        imgAlt: "A long oval shaped piece of cardboard with a purple monster on it."
+    },
+    {
+        name: "Cardboard Door Panel",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 25
+            },
+            {
+                name: "Coal Ore",
+                amount: 3
+            },
+            {
+                name: "White Passion Lily",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/1/10/Cardboard_Door_Panel.png",
+        imgAlt: "A rectangular piece of cardboard that looks like a brickwall with a door on it."
+    },
+    {
+        name: "Cardboard Dragon Panel",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 25
+            },
+            {
+                name: "Green Passion Lily",
+                amount: 5
+            },
+            {
+                name: "White Bell Flower",
+                amount: 1
+            },
+            {
+                name: "Sunflower",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/3/3e/Cardboard_Dragon_Panel.png",
+        imgAlt: "A rectangular piece of cardboard with a green dragon on it."
+    },
+    {
+        name: "Cardboard Fire Monster Panel",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 15
+            },
+            {
+                name: "Orange & Red Marsh Milkweed",
+                amount: 4
+            },
+            {
+                name: "Yellow Bromeliad",
+                amount: 3
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/0/09/Cardboard_Fire_Monster_Panel.png",
+        imgAlt: "A long oval shaped piece of cardboard with a red fire monster on it."
+    },
+    {
+        name: "Cardboard Ogre Panel",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 15
+            },
+            {
+                name: "Coal Ore",
+                amount: 3
+            },
+            {
+                name: "Green Rising Penstemon",
+                amount: 5
+            },
+            {
+                name: "White Bell Flower",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/2/20/Cardboard_Ogre_Panel.png",
+        imgAlt: "A long oval shaped piece of cardboard with a green ogre on it."
+    },
+    {
+        name: "Cardboard Scary Monster Panel",
+        materials: [
+            {
+                name: "Softwood",
+                amount: 15
+            },
+            {
+                name: "Coal Ore",
+                amount: 4
+            },
+            {
+                name: "White Bell Flower",
+                amount: 1
+            }
+        ],
+        sellPrice: 0,
+        imgSrc: "https://dreamlightvalleywiki.com/images/9/9f/Cardboard_Scary_Monster_Panel.png",
+        imgAlt: "A long oval shaped piece of cardboard with a white monster on it."
     }
 ]
 
