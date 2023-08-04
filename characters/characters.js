@@ -209,6 +209,14 @@ const characters = [
         imgAlt: "A woman with short and dark curly hair, she has big round glasses on and purple earrings. She has a multi-colored frilly top on."
     },
     {
+        name: "Vanellope",
+        movie: "Wreck-It Ralph",
+        info: "Vanellope is a very energetic and extremely talkative person with a passion for racing. She is funny, witty, and quick thinking. She can be found in her home, Vanellope's Hideout, or running around the valley.",
+        imgSrc: "https://dreamlightvalleywiki.com/images/8/85/Vanellope.png",
+        quote: "'Now, rise my royal chump! I've got a date with destiny!'",
+        imgAlt: "A little girl with a green hoodie, brown eyes, and black hair. She's smirking slightly."
+    },
+    {
         name: "The Forgotten",
         movie: "Disney Dreamlight Valley",
         info: "The Forgotten were responsible for the Forgetting but also helps the Player end the Forgetting. They offer no quests or friendship rewards, but can be found wandering the valley or in their home, the Dark Castle.",
