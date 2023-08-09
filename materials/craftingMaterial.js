@@ -23,8 +23,8 @@ function printCraftingMaterial(category) {
         img.src = material.imgSrc;
 
         name.innerText = material.name;
-        location.innerText = material.location;
-        sellPrice.innerText = material.sellPrice;
+        location.innerText = `Location: ${material.location}`;
+        sellPrice.innerText = `Sell Price: ${material.sellPrice}`;
         img.innerText = material.img;
         objectBox.append(name,location,sellPrice,img);
 
