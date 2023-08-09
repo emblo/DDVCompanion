@@ -98,6 +98,10 @@ tr {
   margin-bottom: 20px;
 }
 
+#eventRewards {
+  row-gap: 2em;
+}
+
 #characters {
   grid-template-columns: auto auto auto auto;
 }
@@ -109,24 +113,23 @@ tr {
   font-family: "Josefin Sans", sans-serif;
   outline: 3px solid #FFF;
   background-color: #BD66A0;
+  width: 200px;
+  height: 300px;
 }
 .objectBox img {
   max-width: 50%;
   max-height: 50%;
-  padding-top: 10px;
+  padding-top: 50px;
   display: block;
   width: 50%;
   margin: 0 auto;
 }
-.objectBox h3, .objectBox p {
+.objectBox h3 {
+  height: 10%;
   padding-bottom: 5px;
 }
 .objectBox .quote {
   font-style: italic;
-}
-
-.objectText {
-  display: inline-block;
 }
 
 footer {

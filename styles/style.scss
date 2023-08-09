@@ -117,6 +117,10 @@ tr {
     margin-bottom: 20px;
 }
 
+#eventRewards {
+    row-gap: 2em;
+}
+
 #characters {
     grid-template-columns: auto auto auto auto;
 }
@@ -128,24 +132,23 @@ tr {
     font-family: $fontStack;
     outline: 3px solid #FFF;
     background-color: $lightBackground;
+    width: 200px;
+    height: 300px;
     img {
         max-width: 50%;
         max-height: 50%;
-        padding-top: 10px;
+        padding-top: 50px;
         display: block;
         width: 50%;
         margin: 0 auto;
     }
-    h3, p {
+    h3 {
+        height: 10%;
         padding-bottom: 5px;
     }
     .quote {
         font-style: italic;
     }
-}
-
-.objectText {
-    display:inline-block;
 }
 
 footer {
