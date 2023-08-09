@@ -21,13 +21,13 @@ function printFoodIngredient(category) {
         img.src = ingredient.imgSrc;
 
         name.innerText = ingredient.name;
-        location.innerText = ingredient.location;
-        seedLocation.innerText = ingredient.seedLocation;
-        ripple.innerText = ingredient.ripple;
-        sellPrice.innerText = ingredient.sellPrice;
-        energy.innerText = ingredient.energy;
-        growTime.innerText = ingredient.growTime;
-        cropsYield.innerText = ingredient.yield;
+        location.innerText = `Location: ${ingredient.location}`;
+        seedLocation.innerText = `Seed location: ${ingredient.seedLocation}`;
+        ripple.innerText = `Ripple type: ${ingredient.ripple}`;
+        sellPrice.innerText = `Sell Price: ${ingredient.sellPrice}`;
+        energy.innerText = `Energy: ${ingredient.energy}`;
+        growTime.innerText = `Grow time: ${ingredient.growTime}`;
+        cropsYield.innerText = `Yield: ${ingredient.yield}`;
         img.innerText = ingredient.img;
 
         //Determine category and assign appropriate class name
