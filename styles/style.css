@@ -78,6 +78,24 @@ header h1 {
   max-height: 50%;
 }
 
+.navButtons {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.navButtons button {
+  width: 150px;
+  height: 75px;
+  border-radius: 15px;
+  border: 3px solid #FFE598;
+  background-color: #3F48AC;
+  color: #DFDFF8;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+}
+.navButtons button:hover {
+  background-color: #36258A;
+}
+
 #indexImg {
   text-align: center;
   padding: 30px 0px 30px 0px;
