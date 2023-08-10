@@ -72,6 +72,17 @@ header h1 {
   max-height: 50%;
 }
 
+#indexImg {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+}
+#indexImg img {
+  max-width: 60%;
+  max-height: 60%;
+  text-align: center;
+  border: 3px solid #FFE598;
+}
+
 ul {
   list-style-type: none;
   padding: 0px 2px 0px 2px;
