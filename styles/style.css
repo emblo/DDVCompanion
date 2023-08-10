@@ -129,7 +129,7 @@ tr {
 .objectBox img {
   max-width: 50%;
   max-height: 50%;
-  padding-top: 50px;
+  padding: 20px 0px 10px 0px;
   display: block;
   width: 50%;
   margin: 0 auto;
@@ -137,9 +137,6 @@ tr {
 .objectBox h3 {
   height: 10%;
   padding-bottom: 5px;
-}
-.objectBox .quote {
-  font-style: italic;
 }
 
 #characters {
@@ -162,6 +159,9 @@ tr {
   max-width: 132px;
   max-height: 132px;
   display: block;
+}
+#characters .quote {
+  font-style: italic;
 }
 
 footer {
