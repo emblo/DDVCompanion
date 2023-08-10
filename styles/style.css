@@ -138,7 +138,7 @@ tr {
 }
 #characters .objectBox {
   width: 250px;
-  height: auto;
+  height: 400px;
 }
 #characters h3 {
   height: 5%;
@@ -147,7 +147,7 @@ tr {
   padding-bottom: 5px;
 }
 #characters img {
-  padding-top: 0px;
+  padding: 0px 0px 15px 0px;
   max-width: 132px;
   max-height: 132px;
   display: block;
