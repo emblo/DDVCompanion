@@ -4,20 +4,22 @@
 $imgPath: "/styles/images";
 //Font 
 $fontStack: 'Josefin Sans', sans-serif;
-$fontColor: #FFF;
+$fontColor: #3B486D;
 $h2Size: 38px;
 $h3Size: 28px;
 $pSize: 28px;
-$hoverColor: #9A3C7A;
-$footerColor: #E990D2;
+$hoverColor: #FFE598;
+$headerText: #FFF;
+$footerColor: #3F48AC;
+$footerText: #DFDFF8;
 //Icons
-$iconColor: #9A3C7A;
-$iconHover: #CC6EAC;
+$iconColor: #DFDFF8;
+$iconHover: #FFE598;
 $iconSize: 28px;
 //Content
-$primaryColor: #9A3C7A;
-$border: 2px solid white;
-$lightBackground: #BD66A0;
+$primaryColor: #C3C4F9;
+$border: 3px solid #FFE598;
+$lightBackground: #DFDFF8;
 
 * {
     margin: 0;
@@ -36,14 +38,14 @@ body {
 }
 
 header {
-    background-image: url(#{$imgPath}/header.png);
+    background-image: url(#{$imgPath}/header_img.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
     border-bottom: $border;
     margin-bottom: 50px;
     h1 {
-        color: $fontColor;
+        color: $headerText;
         font-family: $fontStack;
     }
 }
@@ -129,7 +131,7 @@ tr {
     text-align: center;
     color: $fontColor;
     font-family: $fontStack;
-    outline: 3px solid #FFF;
+    outline: 3px solid #FFE598;
     background-color: $lightBackground;
     width: 200px;
     height: 300px;
@@ -179,14 +181,14 @@ footer {
     left: 0;
     background-color: $footerColor;
     text-align: center;
-    color: $fontColor;
+    color: $footerText;
     font-family: $fontStack;
     padding: 10px;
     font-size: 20px;
     border-top: $border;
     a {
         text-decoration: none;
-        color: $fontColor;
+        color: $footerText;
 
         &:hover {
             color: $hoverColor;
