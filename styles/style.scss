@@ -55,6 +55,20 @@ header {
         color: $headerText;
         font-family: $fontStack;
     }
+    .socialMediaIcon {
+        color: $iconColor;
+        font-size: $iconSize;
+        &:hover {
+            color: $iconHover;
+        }
+        position: absolute;
+        right: 0;
+        padding-right: 50px;
+    }
+}
+
+#navMenu {
+    display: none;
 }
 
 .container {

@@ -27,6 +27,20 @@ header h1 {
   color: #FFF;
   font-family: "Josefin Sans", sans-serif;
 }
+header .socialMediaIcon {
+  color: #DFDFF8;
+  font-size: 28px;
+  position: absolute;
+  right: 0;
+  padding-right: 50px;
+}
+header .socialMediaIcon:hover {
+  color: #FFE598;
+}
+
+#navMenu {
+  display: none;
+}
 
 .container {
   padding-bottom: 10rem;
