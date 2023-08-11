@@ -247,6 +247,11 @@ table td {
   color: #FFE598;
 }
 
+button a {
+  text-decoration: none;
+  color: #DFDFF8;
+}
+
 footer {
   position: absolute;
   right: 0;
