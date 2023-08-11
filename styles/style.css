@@ -275,4 +275,36 @@ footer .socialMediaIcon {
 }
 footer .socialMediaIcon:hover {
   color: #FFE598;
+}
+
+@media only screen and (max-width: 400px) {
+  * {
+    box-sizing: border-box;
+  }
+  h2 span {
+    display: none;
+  }
+  .centeredH2 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  h3 {
+    text-align: center;
+  }
+  #indexImg, #eventImg {
+    padding: 0px, 0px 50px 0px;
+  }
+  #indexImg img, #eventImg img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  .objectContainer {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+  }
+  .objectBox {
+    margin: 0 auto;
+    width: 99%;
+  }
 }/*# sourceMappingURL=style.css.map */
