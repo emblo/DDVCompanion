@@ -156,6 +156,15 @@ ul {
     li {
         padding: 3px 0px 3px 0px;
     }
+    a {
+        color: $headerText;
+        font-family: $fontStack;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $hoverColor;
+    }
 }
 
 table {
