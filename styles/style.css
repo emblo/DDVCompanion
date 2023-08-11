@@ -35,7 +35,7 @@ nav {
 }
 
 .navButton {
-  color: #DFDFF8;
+  color: #FFF;
   font-size: 28px;
   position: absolute;
   right: 0;
@@ -245,6 +245,11 @@ table td {
 }
 #topBtn:hover {
   color: #FFE598;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #FFF;
 }
 
 button a {
