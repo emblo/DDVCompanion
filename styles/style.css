@@ -233,6 +233,19 @@ table td {
   font-style: italic;
 }
 
+#topBtn {
+  color: #3F48AC;
+  font-size: 28px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px;
+  display: none;
+}
+#topBtn:hover {
+  color: #FFE598;
+}
+
 footer {
   position: absolute;
   right: 0;

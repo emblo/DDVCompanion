@@ -262,6 +262,19 @@ table {
     }
 }
 
+#topBtn {
+    color: $footerColor;
+    font-size: $iconSize;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px;
+    display: none;
+    &:hover {
+        color: $iconHover;
+    }
+}
+
 footer {
     position: absolute;
     right: 0;
