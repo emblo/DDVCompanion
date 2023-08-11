@@ -55,20 +55,53 @@ header {
         color: $headerText;
         font-family: $fontStack;
     }
-    .socialMediaIcon {
-        color: $iconColor;
-        font-size: $iconSize;
-        &:hover {
-            color: $iconHover;
-        }
-        position: absolute;
-        right: 0;
-        padding-right: 50px;
+}
+
+nav {
+    text-align: center;
+}
+
+.navButton {
+    color: $iconColor;
+    font-size: $iconSize;
+    &:hover {
+        color: $iconHover;
     }
+    position: absolute;
+    right: 0;
+    padding-right: 50px;
 }
 
 #navMenu {
     display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+#navMenu.show {
+    display: flex;
+    line-height: 200%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 50px 2px 0px 2px;
+    li {
+        padding: 3px 0px 3px 0px;
+    }
+    a {
+        color: $headerText;
+        font-family: $fontStack;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $hoverColor;
+    }
+}
+
+ol {
+    list-style-type: none;
 }
 
 .container {
@@ -147,23 +180,6 @@ header {
         max-height: 60%;
         text-align: center;
         border: $border;
-    }
-}
-
-ul {
-    list-style-type: none;
-    padding: 0px 2px 0px 2px;
-    li {
-        padding: 3px 0px 3px 0px;
-    }
-    a {
-        color: $headerText;
-        font-family: $fontStack;
-        font-size: 20px;
-        text-decoration: none;
-    }
-    a:hover {
-        color: $hoverColor;
     }
 }
 

@@ -27,19 +27,52 @@ header h1 {
   color: #FFF;
   font-family: "Josefin Sans", sans-serif;
 }
-header .socialMediaIcon {
+
+nav {
+  text-align: center;
+}
+
+.navButton {
   color: #DFDFF8;
   font-size: 28px;
   position: absolute;
   right: 0;
   padding-right: 50px;
 }
-header .socialMediaIcon:hover {
+.navButton:hover {
   color: #FFE598;
 }
 
 #navMenu {
   display: none;
+  flex-direction: column;
+  width: 100%;
+}
+
+#navMenu.show {
+  display: flex;
+  line-height: 200%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 50px 2px 0px 2px;
+}
+ul li {
+  padding: 3px 0px 3px 0px;
+}
+ul a {
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+ul a:hover {
+  color: #FFE598;
+}
+
+ol {
+  list-style-type: none;
 }
 
 .container {
@@ -119,23 +152,6 @@ header .socialMediaIcon:hover {
   max-height: 60%;
   text-align: center;
   border: 3px solid #FFE598;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0px 2px 0px 2px;
-}
-ul li {
-  padding: 3px 0px 3px 0px;
-}
-ul a {
-  color: #FFF;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 20px;
-  text-decoration: none;
-}
-ul a:hover {
-  color: #FFE598;
 }
 
 table {
