@@ -214,35 +214,36 @@ const flowers = [
         name: "Black Passion Lily",
         location: "Frosted Heights",
         sellPrice: 79,
-        imgSrc: "A big black passion lily with a long green stem and six leaves."  
+        imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/9/91/PassionLilyBlack.png",
+        imgAlt: "A big black passion lily with a long green stem and six leaves."  
      },
      {
         name: "Blue Passion Lily",
         location: "Frosted Heights",
         sellPrice: 56,
         imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/disney-dreamlight-valley/f/f2/PassionLilyBlue.png",
-        imgSrc: "A big blue passion lily with a long green stem and six leaves."   
+        imgAlt: "A big blue passion lily with a long green stem and six leaves."   
      },
      {
         name: "Green Passion Lily",
         location: "Frosted Heights",
         sellPrice: 28,
         imgSrc: "https://dreamlightvalleywiki.com/images/c/ca/Green_Passion_Lily.png",
-        imgSrc: "A big green passion lily with a long green stem and six leaves."   
+        imgAlt: "A big green passion lily with a long green stem and six leaves."   
      },
      {
         name: "Red Passion Lily",
         location: "Frosted Heights",
         sellPrice: 38,
         imgSrc: "https://dreamlightvalleywiki.com/images/e/e5/Red_Passion_Lily.png",
-        imgSrc: "A big red passion lily with a long green stem and six leaves."   
+        imgAlt: "A big red passion lily with a long green stem and six leaves."   
      },
      {
         name: "White Passion Lily",
         location: "Frosted Heights",
         sellPrice: 38,
         imgSrc: "https://dreamlightvalleywiki.com/images/7/70/White_Passion_Lily.png",
-        imgSrc: "A big white passion lily with a long green stem and six leaves."   
+        imgAlt: "A big white passion lily with a long green stem and six leaves."   
      },
      {
         name: "Orange Nasturtium",
