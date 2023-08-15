@@ -34,8 +34,8 @@ const characters = [
     },
     {
         name: "Moana",
-        movie: "Moana has an unlimited amount of love for the ocean and voyaging and can often be found dancing on Dazzle Beach. She lives in Moana's Fale and will eventually have an upgradeable boat that passively gathers fish that the Player can collect.",
-        info: "Moana is ",
+        movie: "Moana",
+        info: "Moana has an unlimited amount of love for the ocean and voyaging and can often be found dancing on Dazzle Beach. She lives in Moana's Fale and will eventually have an upgradeable boat that passively gathers fish that the Player can collect.",
         imgSrc: "https://dreamlightvalleywiki.com/images/f/f5/Moana.png",
         quote: "'There comes a day when you're gonna look around and realize happiness is where you are.'",
         imgAlt: "A girl with big brown eyes, and long brown curly hair. She has a necklace around her neck."
